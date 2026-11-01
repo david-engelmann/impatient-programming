@@ -18,7 +18,16 @@ SwarmOps is the operations discipline of this philosophy. Impatient Programming 
 
 ## Status
 
-Seeded on 2026-10-29. The concept is claimed and the build has not started.
+Seeded in October 2026. Standard setup only, then frozen by owner
+ruling until the naming question is decided. Nothing past setup ships
+until the freeze lifts in writing.
+
+## Programme status
+
+- Closed perfection rounds, 0 of 100.
+- Contract, stub in place, not yet met.
+- Local gate, python3 scripts/codepoint_scan.py. CI runs the same
+  command.
 
 ## Licence
 
