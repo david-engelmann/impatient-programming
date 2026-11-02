@@ -57,3 +57,31 @@ bar bars the dash, colon, and semicolon characters in any
 encoding, not only in their ASCII and standard forms.
 IP-6, a tool's one line job is stated in the words of its
 own repo, checked line by line against that repo's README.
+
+## Round 2. The practice (IP-7 to IP-10)
+
+- IP-7. PRACTICE.md states how each of the ten principles
+  from IP-4 is actually worked, one section per principle
+  under a heading that carries the principle's exact name,
+  in the same order as the README list. A section is
+  practice, not restatement: it names the concrete moves,
+  the artifacts, and the checks a reader could watch
+  happening. No principle is added, renamed, or dropped.
+  Test, tests/test_practice.py.
+- IP-8. Every claim PRACTICE.md makes about the line's own
+  programme is checkable against the public record it
+  names: a round count it states matches the README of
+  the repo it names at the time of writing, a mechanism
+  it describes exists in the repo it is attributed to.
+  The document states its own as-of date, and no claim in
+  it presents a plan as a finished fact. Test,
+  tests/test_practice.py, which pins the as-of date's
+  presence and the absence of the line's known inflated
+  phrasings.
+- IP-9. The copy bar of IP-2 covers PRACTICE.md in full,
+  every encoding, and the tests are extended to scan it.
+  Test, tests/test_practice.py.
+- IP-10. Round 2 is still prose and its guardrails: no
+  product code, and nothing in PRACTICE.md instructs a
+  reader to run a command that does not exist in the repo
+  it is attributed to. Test, tests/test_practice.py.
