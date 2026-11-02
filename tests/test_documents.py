@@ -105,10 +105,13 @@ def test_the_tools_lines_carry_each_repos_own_job():
         assert phrase in bullets[tool], tool
     # Each state sits on its own tool's line, so two states
     # cannot be swapped without a test failing.
-    assert "Eight of one hundred rounds closed" in bullets[
+    assert "Nine of one hundred rounds closed" in bullets[
         "flighttape"]
+    assert "One of one hundred rounds closed" in bullets[
+        "retroforge"]
     for tool in TOOLS:
-        if tool in ("flighttape", "impatient-programming"):
+        if tool in ("flighttape", "retroforge",
+                    "impatient-programming"):
             continue
         assert "At setup, rounds not yet started" in bullets[tool], tool
     assert "of one hundred rounds closed" in bullets[
@@ -139,5 +142,5 @@ def test_the_wider_portfolio_sentence_is_present():
 # refreshed by hand whenever a sibling closes a round and
 # checked against those repos by the round reviews.
 def test_the_tool_states_are_pinned_to_the_repos_reports():
-    assert "Eight of one hundred rounds closed" in README
-    assert README.count("At setup, rounds not yet started") == 8
+    assert "Nine of one hundred rounds closed" in README
+    assert README.count("At setup, rounds not yet started") == 7

@@ -29,8 +29,8 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 
 The state under each name is the rounds that repo has closed under the counting rule above, exactly as its own README reports them.
 
-- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, and rolled up into a set level record. Eight of one hundred rounds closed.
-- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. At setup, rounds not yet started.
+- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, and rolled up into a set level record. Nine of one hundred rounds closed.
+- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. One of one hundred rounds closed.
 - **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. At setup, rounds not yet started.
 - **unheard** scores every instruction by observed obedience across the fleet's runs and names the ones agents systematically ignore, with the rewording, relocation, or removal the evidence suggests. At setup, rounds not yet started.
 - **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. At setup, rounds not yet started.
@@ -38,7 +38,7 @@ The state under each name is the rounds that repo has closed under the counting 
 - **secondbill** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix forward commits, and bills it to the instruction, prompt, or agent that caused it, as an itemized monthly statement. At setup, rounds not yet started.
 - **secondtake** compares tapes from before and after a setup change on cost, time, rework, and rescue rate, and ends in a keep, tune, or revert proposal with the numbers attached. At setup, rounds not yet started.
 - **verdictloop** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public keep or kill verdict. At setup, rounds not yet started.
-- **impatient-programming** is this repo, the statement of the practice the other nine embody. One of one hundred rounds closed.
+- **impatient-programming** is this repo, the statement of the practice the other nine embody. Two of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.
 
@@ -48,8 +48,8 @@ The name stays. This repo is one practitioner's take, and the work is under way.
 
 ## Programme status
 
-- Closed perfection rounds, 1 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-6, written in Round 1 and met in the same round.
+- Closed perfection rounds, 2 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
+- Contract, IP-1 to IP-10. The first six were written in Round 1 and met in the same round. IP-7 to IP-10 were written in Round 2 ahead of PRACTICE.md and met in the same round.
 - Local gate, python3 scripts/codepoint_scan.py and python3 -m pytest tests -q. CI runs the same commands.
 
 ## Licence
