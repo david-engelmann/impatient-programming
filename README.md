@@ -29,8 +29,8 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 
 The state under each name is the rounds that repo has closed under the counting rule above, exactly as its own README reports them.
 
-- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, and rolled up into a set level record. Eight of one hundred rounds closed.
-- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. At setup, rounds not yet started.
+- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, and rolled up into a set level record. Nine of one hundred rounds closed.
+- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. One of one hundred rounds closed.
 - **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. At setup, rounds not yet started.
 - **unheard** scores every instruction by observed obedience across the fleet's runs and names the ones agents systematically ignore, with the rewording, relocation, or removal the evidence suggests. At setup, rounds not yet started.
 - **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. At setup, rounds not yet started.
