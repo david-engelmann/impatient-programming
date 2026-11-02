@@ -94,11 +94,13 @@ def test_the_document_states_its_as_of_date_and_claims_no_counts():
 
 def test_no_command_is_named_that_does_not_exist():
     for span in re.findall(r"`([^`]+)`", PRACTICE):
-        first = span.split()[0] if span.split() else ""
-        reads_as_command = (
-            first in REAL_COMMANDS or "/" in span
-            or " --" in span or span.endswith(".py"))
-        assert not reads_as_command, span
+        words = span.split()
+        if words and words[0] in REAL_COMMANDS:
+            assert len(words) >= 2 and words[1] in \
+                REAL_COMMANDS[words[0]], span
+        else:
+            assert "/" not in span and " --" not in span \
+                and not span.endswith(".py"), span
     for tool, real in REAL_COMMANDS.items():
         for match in re.findall(rf"\b{tool} ([a-z][a-z-]+)\b",
                                 PRACTICE):
