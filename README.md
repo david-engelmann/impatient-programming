@@ -38,7 +38,7 @@ The state under each name is the rounds that repo has closed under the counting 
 - **secondbill** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix forward commits, and bills it to the instruction, prompt, or agent that caused it, as an itemized monthly statement. At setup, rounds not yet started.
 - **secondtake** compares tapes from before and after a setup change on cost, time, rework, and rescue rate, and ends in a keep, tune, or revert proposal with the numbers attached. At setup, rounds not yet started.
 - **verdictloop** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public keep or kill verdict. At setup, rounds not yet started.
-- **impatient-programming** is this repo, the statement of the practice the other nine embody. Zero of one hundred rounds closed.
+- **impatient-programming** is this repo, the statement of the practice the other nine embody. One of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.
 
@@ -48,8 +48,8 @@ The name stays. This repo is one practitioner's take, and the work is under way.
 
 ## Programme status
 
-- Closed perfection rounds, 0 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-6, written in Round 1 and being met in the same round.
+- Closed perfection rounds, 1 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
+- Contract, IP-1 to IP-6, written in Round 1 and met in the same round.
 - Local gate, python3 scripts/codepoint_scan.py and python3 -m pytest tests -q. CI runs the same commands.
 
 ## Licence
