@@ -25,7 +25,7 @@ TOOLS = [
 ]
 
 FORBIDDEN = [":", ";", "\u2014", "\u2013", "\u2015", "\uff1a",
-             "\uff1b"]
+             "\uff1b", "\ufe58", "\ufe54"]
 
 
 # One distinctive phrase per tool, taken from that tool's own
@@ -46,10 +46,16 @@ TOOL_PHRASES = {
 
 
 def test_the_copy_bar_holds_in_both_documents():
+    import unicodedata
     for name, text in (("README.md", README),
                        ("MANIFESTO.md", MANIFESTO)):
+        # Compatibility forms fold to the barred characters
+        # under NFKC, so the check runs on the folded text as
+        # well as the raw text.
+        folded = unicodedata.normalize("NFKC", text)
         for char in FORBIDDEN:
             assert char not in text, f"{name} contains {char!r}"
+            assert char not in folded, f"{name} folds to {char!r}"
 
 
 def test_the_readme_states_whose_take_this_is():
@@ -97,13 +103,30 @@ def test_the_tools_lines_carry_each_repos_own_job():
     assert set(bullets) == set(TOOLS)
     for tool, phrase in TOOL_PHRASES.items():
         assert phrase in bullets[tool], tool
+    # Each state sits on its own tool's line, so two states
+    # cannot be swapped without a test failing.
+    assert "Eight of one hundred rounds closed" in bullets[
+        "flighttape"]
+    for tool in TOOLS:
+        if tool in ("flighttape", "impatient-programming"):
+            continue
+        assert "At setup, rounds not yet started" in bullets[tool], tool
+    assert "of one hundred rounds closed" in bullets[
+        "impatient-programming"]
+
+
+CODE_SUFFIXES = {".py", ".js", ".mjs", ".jsx", ".ts", ".tsx",
+                 ".go", ".rs", ".rb", ".sh", ".java", ".c",
+                 ".cc", ".cpp", ".swift", ".php"}
+SKIPPED_PARTS = {".git", "scripts", "tests", "venv", ".venv",
+                 "env", "node_modules", "__pycache__"}
 
 
 def test_no_product_code_lives_in_the_repo():
-    code = [path for path in ROOT.rglob("*.py")
-            if ".git" not in path.parts
-            and "scripts" not in path.parts
-            and "tests" not in path.parts]
+    code = [path for path in ROOT.rglob("*")
+            if path.is_file()
+            and path.suffix in CODE_SUFFIXES
+            and not SKIPPED_PARTS.intersection(path.parts)]
     assert code == []
 
 
@@ -118,7 +141,3 @@ def test_the_wider_portfolio_sentence_is_present():
 def test_the_tool_states_are_pinned_to_the_repos_reports():
     assert "Eight of one hundred rounds closed" in README
     assert README.count("At setup, rounds not yet started") == 8
-    section = README.split("## The tools", 1)[1].split("## ", 1)[0]
-    own = next(line for line in section.splitlines()
-               if line.startswith("- **impatient-programming**"))
-    assert "of one hundred rounds closed" in own
