@@ -51,3 +51,9 @@ take embodied)
   across the rest of the portfolio. No sentence claims a
   tool does more than its own repo claims. Test,
   tests/test_documents.py.
+
+Amendments recorded in the Round 1 repair. IP-2, the copy
+bar bars the dash, colon, and semicolon characters in any
+encoding, not only in their ASCII and standard forms.
+IP-6, a tool's one line job is stated in the words of its
+own repo, checked line by line against that repo's README.

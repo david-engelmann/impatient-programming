@@ -24,7 +24,25 @@ TOOLS = [
     "verdictloop", "impatient-programming",
 ]
 
-FORBIDDEN = [":", ";", "\u2014", "\u2013"]
+FORBIDDEN = [":", ";", "\u2014", "\u2013", "\u2015", "\uff1a",
+             "\uff1b"]
+
+
+# One distinctive phrase per tool, taken from that tool's own
+# README, so two tools' lines cannot be swapped or blurred
+# without a test failing.
+TOOL_PHRASES = {
+    "flighttape": "rolled up",
+    "retroforge": "pull request",
+    "bluepencil": "diff for a human",
+    "unheard": "obedience",
+    "onrecord": "receipts",
+    "wallofwrong": "grades the sentence",
+    "secondbill": "itemized monthly statement",
+    "secondtake": "keep, tune, or revert",
+    "verdictloop": "experiment registry",
+    "impatient-programming": "statement of the practice",
+}
 
 
 def test_the_copy_bar_holds_in_both_documents():
@@ -38,16 +56,29 @@ def test_the_readme_states_whose_take_this_is():
     assert "David Engelmann's own take" in README
     assert "impatientprogramming.org" in README
     assert "This repo is not that method" in README
+    # The only mention of that method is the disambiguation
+    # itself. A sentence claiming the mantle breaks this.
+    assert README.count("that method") == 1
 
 
 def test_every_principle_is_named_in_the_readme():
+    assert "## Principles" in README
     for principle in PRINCIPLES:
         assert f"**{principle}.**" in README, principle
+        bullet = next(line for line in README.splitlines()
+                      if f"**{principle}.**" in line)
+        # A name with no statement after it is not a principle.
+        assert len(bullet) > 120, principle
 
 
 def test_every_principle_has_a_manifesto_section():
+    sections = MANIFESTO.split("\n## ")
     for principle in PRINCIPLES:
         assert f"## {principle}" in MANIFESTO, principle
+        body = next(part for part in sections
+                    if part.startswith(principle))
+        # A heading over a gutted paragraph is not an argument.
+        assert len(body) > 400, principle
 
 
 def test_the_tools_section_names_all_ten_repos():
@@ -56,6 +87,38 @@ def test_the_tools_section_names_all_ten_repos():
         assert f"**{tool}**" in section, tool
 
 
-def test_the_tool_states_are_the_ones_the_repos_report():
-    assert "Eight rounds closed of one hundred" in README
+def test_the_tools_lines_carry_each_repos_own_job():
+    section = README.split("## The tools", 1)[1].split("## ", 1)[0]
+    bullets = {}
+    for line in section.splitlines():
+        for tool in TOOLS:
+            if line.startswith(f"- **{tool}**"):
+                bullets[tool] = line
+    assert set(bullets) == set(TOOLS)
+    for tool, phrase in TOOL_PHRASES.items():
+        assert phrase in bullets[tool], tool
+
+
+def test_no_product_code_lives_in_the_repo():
+    code = [path for path in ROOT.rglob("*.py")
+            if ".git" not in path.parts
+            and "scripts" not in path.parts
+            and "tests" not in path.parts]
+    assert code == []
+
+
+def test_the_wider_portfolio_sentence_is_present():
+    assert ("The same method runs across the rest of the "
+            "portfolio") in README
+
+
+# The states below are pins on what the sibling repos report,
+# refreshed by hand whenever a sibling closes a round and
+# checked against those repos by the round reviews.
+def test_the_tool_states_are_pinned_to_the_repos_reports():
+    assert "Eight of one hundred rounds closed" in README
     assert README.count("At setup, rounds not yet started") == 8
+    section = README.split("## The tools", 1)[1].split("## ", 1)[0]
+    own = next(line for line in section.splitlines()
+               if line.startswith("- **impatient-programming**"))
+    assert "of one hundred rounds closed" in own
