@@ -85,3 +85,54 @@ own repo, checked line by line against that repo's README.
   product code, and nothing in PRACTICE.md instructs a
   reader to run a command that does not exist in the repo
   it is attributed to. Test, tests/test_practice.py.
+
+## Round 3. The guard suite in Rust (IP-11 to IP-16)
+
+Round 3 re-expresses the guard suite as cargo tests.
+This repo is the line's argued misfit under the Rust
+ruling: the product is prose, there is no Python
+source to port, and a library API would be an
+invention. The port is therefore the thinnest in
+the line: the same checks, in Rust, over the same
+documents, which do not change. The Python suite at
+e031741 is the behavioral spec.
+
+- IP-11. Exact reproduction of the guard semantics:
+  every one of the 15 Python tests becomes a cargo
+  test that can fail for the same real reason, with
+  the same literals, thresholds, and counts. Tests,
+  tests/test_documents.rs and tests/test_practice.rs.
+- IP-12. The crate is a library whose only item is
+  the checker the tests share (reading the
+  documents, the folded copy bar scan, the tree
+  walk), plus the two integration test files. No
+  binary, and no public API beyond the checker.
+  Tests, the whole suite.
+- IP-13. IP-1 amended for the port: the guard's own
+  home is src, tests, and scripts, and target is
+  its build output; the tree walk bars product code
+  anywhere else in the repo, with those skipped
+  parts named in the test. The documents remain
+  the product. Test, tests/test_documents.rs.
+- IP-14. The folded check runs Unicode NFKC through
+  the unicode-normalization crate. Its coverage is
+  verified against the interpreter's unicodedata
+  over the whole codepoint space for folds landing
+  in the barred set, and any difference is a named
+  deviation with the codepoints enumerated, never
+  a silent narrowing of IP-2. Test,
+  tests/test_documents.rs, and the round dossier.
+- IP-15. The barred set stands defined independently
+  in each test file, as in the Python, and the
+  same-bar test compares the two definitions as
+  sets so a drift in either fails. The Python's
+  small regular expressions become hand matchers
+  with the same match semantics. Test,
+  tests/test_practice.rs.
+- IP-16. The prose does not change in this round
+  except the closure count in the README's own
+  status. scripts/codepoint_scan.py stays as the
+  typography instrument. The port report stands in
+  the round dossier, restating the misfit argument,
+  the line share, and the remainder register (the
+  three documents and the scan, by design).
