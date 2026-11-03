@@ -136,3 +136,11 @@ e031741 is the behavioral spec.
   the round dossier, restating the misfit argument,
   the line share, and the remainder register (the
   three documents and the scan, by design).
+- IP-16a (amendment, recorded at the round's PR).
+  The README Status section's local gate line names
+  the commands the guard actually runs. Keeping
+  that one line true as the suite's runner changes
+  is apparatus maintenance, not a prose change, and
+  IP-16 does not bar it. The line was corrected in
+  this round from the retired pytest command to the
+  cargo gate CI runs.

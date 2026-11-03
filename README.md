@@ -50,7 +50,7 @@ The name stays. This repo is one practitioner's take, and the work is under way.
 
 - Closed perfection rounds, 3 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
 - Contract, IP-1 to IP-10. The first six were written in Round 1 and met in the same round. IP-7 to IP-10 were written in Round 2 ahead of PRACTICE.md and met in the same round.
-- Local gate, python3 scripts/codepoint_scan.py and python3 -m pytest tests -q. CI runs the same commands.
+- Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 
 ## Licence
 
