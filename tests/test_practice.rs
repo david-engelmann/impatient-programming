@@ -5,7 +5,7 @@
 
 use std::collections::BTreeSet;
 
-use impatient_programming::{folded, read_document};
+use impatient_programming::{folded, is_word_char, read_document};
 
 const FORBIDDEN: [char; 9] = [
     ':', ';', '\u{2014}', '\u{2013}', '\u{2015}', '\u{ff1a}', '\u{ff1b}', '\u{fe58}', '\u{fe54}',
@@ -80,12 +80,6 @@ fn py_strip(text: &str) -> &str {
     text.trim_matches(py_is_space)
 }
 
-/// A word character for the interpreter's \b and \w: an
-/// alphanumeric or an underscore.
-fn is_word_char(char: char) -> bool {
-    char.is_alphanumeric() || char == '_'
-}
-
 /// The Principles section of the README.
 fn principles_section(readme: &str) -> &str {
     let after = readme
@@ -115,13 +109,18 @@ fn readme_principles() -> Vec<String> {
     let mut names = Vec::new();
     let mut cursor = 0;
     while let Some(rel) = section[cursor..].find("- **") {
-        let start = cursor + rel + 4;
+        let candidate = cursor + rel;
+        let start = candidate + 4;
         match bold_name_at(section, start) {
             Some((name, next)) => {
                 names.push(name);
                 cursor = next;
             }
-            None => cursor = start,
+            // A failed candidate resumes the scan one
+            // character past its opening, as re.findall
+            // advances one character past a failed match
+            // attempt; a match resumes at its end.
+            None => cursor = candidate + 1,
         }
     }
     names
@@ -136,18 +135,27 @@ fn readme_bullets() -> Vec<String> {
     let mut bullets = Vec::new();
     let mut cursor = 0;
     while let Some(rel) = section[cursor..].find("- **") {
-        let start = cursor + rel + 4;
-        match bold_name_at(section, start) {
-            Some((_, next)) => {
-                cursor = next;
-                if section[next..].starts_with(' ') {
-                    let line = section[next + 1..].split('\n').next().unwrap_or("");
-                    if !line.is_empty() {
-                        bullets.push(line.to_string());
-                    }
-                }
+        let candidate = cursor + rel;
+        let start = candidate + 4;
+        let Some((_, next)) = bold_name_at(section, start) else {
+            cursor = candidate + 1;
+            continue;
+        };
+        // The pattern continues with a space and the rest
+        // of the line; a candidate without them is no
+        // match, and the scan resumes one character past
+        // its opening. A matched bullet is consumed to
+        // the end of its line, the match's end, as
+        // findall resumes there.
+        let line = section[next..]
+            .strip_prefix(' ')
+            .map(|tail| tail.split('\n').next().unwrap_or(""));
+        match line {
+            Some(line) if !line.is_empty() => {
+                bullets.push(line.to_string());
+                cursor = next + 1 + line.len();
             }
-            None => cursor = start,
+            _ => cursor = candidate + 1,
         }
     }
     bullets
@@ -371,12 +379,16 @@ fn backtick_spans(text: &str) -> Vec<&str> {
 /// the tool named at a word boundary, a space, then a
 /// run of lowercase letters and dashes whose cut, found
 /// by the regex's backtracking, ends at a word boundary.
+/// The scan follows findall's advancement: a match
+/// resumes at the match's end, a failed attempt advances
+/// one character.
 fn tool_mentions(text: &str, tool: &str) -> Vec<String> {
     let chars: Vec<char> = text.chars().collect();
     let tool_chars: Vec<char> = tool.chars().collect();
     let mut found = Vec::new();
     let mut index = 0;
     while index + tool_chars.len() <= chars.len() {
+        let mut matched_end = None;
         if chars[index..index + tool_chars.len()] == tool_chars[..]
             && (index == 0 || !is_word_char(chars[index - 1]))
         {
@@ -400,15 +412,41 @@ fn tool_mentions(text: &str, tool: &str) -> Vec<String> {
                         };
                         if is_word_char(last) != next.is_some_and(is_word_char) {
                             found.push(run[..cut].iter().collect());
+                            matched_end = Some(start + cut);
                             break;
                         }
                     }
                 }
             }
         }
-        index += 1;
+        index = matched_end.unwrap_or(index + 1);
     }
     found
+}
+
+/// The word character set the matchers above judge
+/// boundaries with: a sweep of the whole codepoint
+/// space must accept exactly the interpreter's 137,936
+/// word characters, refusing the combining marks the
+/// crate's alphanumeric test alone accepts.
+#[test]
+fn test_the_word_character_set_matches_the_interpreter() {
+    let mut accepted = 0;
+    for cp in 0..=0x10FFFFu32 {
+        let Some(char) = char::from_u32(cp) else {
+            continue;
+        };
+        if is_word_char(char) {
+            accepted += 1;
+        }
+    }
+    assert_eq!(accepted, 137_936);
+    for refused in ['\u{345}', '\u{363}', '\u{5b0}'] {
+        assert!(!is_word_char(refused), "{refused:?}");
+    }
+    assert!(is_word_char('_'));
+    assert!(is_word_char('7'));
+    assert!(is_word_char('\u{323af}'));
 }
 
 #[test]

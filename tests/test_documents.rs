@@ -3,9 +3,9 @@
 //! IP-14 fold set test the port owes.
 
 use std::collections::BTreeSet;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 
-use impatient_programming::{folded, read_document, root};
+use impatient_programming::{folded, read_document, root, splitlines, suffix_of, walk};
 use unicode_normalization::UnicodeNormalization;
 
 const PRINCIPLES: [&str; 10] = [
@@ -117,8 +117,8 @@ fn test_every_principle_is_named_in_the_readme() {
     for principle in PRINCIPLES {
         let bold = format!("**{principle}.**");
         assert!(readme.contains(&bold), "{principle}");
-        let bullet = readme
-            .lines()
+        let bullet = splitlines(&readme)
+            .into_iter()
             .find(|line| line.contains(&bold))
             .expect("a principle bullet line");
         // A name with no statement after it is not a principle.
@@ -158,7 +158,7 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     let readme = readme();
     let section = tools_section(&readme);
     let mut bullets: Vec<(&str, &str)> = Vec::new();
-    for line in section.lines() {
+    for line in splitlines(section) {
         for tool in TOOLS {
             if line.starts_with(&format!("- **{tool}**")) {
                 bullets.push((tool, line));
@@ -168,9 +168,13 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     let named: BTreeSet<&str> = bullets.iter().map(|(tool, _)| *tool).collect();
     let all: BTreeSet<&str> = TOOLS.iter().copied().collect();
     assert_eq!(named, all);
+    // The Python collects the bullets in a dict, so a
+    // duplicated tool bullet is judged by its last line;
+    // the lookup takes the last match for the same reason.
     let bullet_of = |tool: &str| -> &str {
         bullets
             .iter()
+            .rev()
             .find(|(name, _)| *name == tool)
             .map(|(_, line)| *line)
             .expect("a tool bullet")
@@ -211,39 +215,6 @@ const SKIPPED_PARTS: [&str; 10] = [
     "node_modules",
     "__pycache__",
 ];
-
-/// The suffix of a file name in pathlib's sense: the text
-/// from the last dot, where a dot that opens the name names
-/// no suffix.
-fn suffix_of(path: &Path) -> String {
-    let name = match path.file_name().and_then(|name| name.to_str()) {
-        Some(name) => name,
-        None => return String::new(),
-    };
-    match name.rfind('.') {
-        Some(index) if index > 0 => name[index..].to_string(),
-        _ => String::new(),
-    }
-}
-
-fn walk(dir: &Path, out: &mut Vec<PathBuf>) {
-    let entries = match std::fs::read_dir(dir) {
-        Ok(entries) => entries,
-        Err(_) => return,
-    };
-    for entry in entries.flatten() {
-        let path = entry.path();
-        let file_type = match entry.file_type() {
-            Ok(kind) => kind,
-            Err(_) => continue,
-        };
-        if file_type.is_dir() {
-            walk(&path, out);
-        } else if path.is_file() {
-            out.push(path);
-        }
-    }
-}
 
 #[test]
 fn test_no_product_code_lives_in_the_repo() {

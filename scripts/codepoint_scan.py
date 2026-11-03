@@ -7,7 +7,7 @@ counts = {"U+2014": 0, "U+2013": 0}
 for p in sorted(root.rglob("*")):
     if ".git" in p.parts or not p.is_file():
         continue
-    if p.suffix not in {".md", ".txt", ".rs", ".toml", ".yml"}:
+    if p.suffix not in {".md", ".txt", ".rs", ".toml", ".yml", ".py", ".lock"}:
         continue
     text = p.read_text(encoding="utf-8", errors="replace")
     counts["U+2014"] += text.count("\u2014")
