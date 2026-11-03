@@ -427,8 +427,8 @@ fn tool_mentions(text: &str, tool: &str) -> Vec<String> {
 /// The word character set the matchers above judge
 /// boundaries with: a sweep of the whole codepoint
 /// space must accept exactly the interpreter's 137,936
-/// word characters, refusing the combining marks the
-/// crate's alphanumeric test alone accepts.
+/// word characters, refusing the combining marks a
+/// bare alphanumeric classification would accept.
 #[test]
 fn test_the_word_character_set_matches_the_interpreter() {
     let mut accepted = 0;
