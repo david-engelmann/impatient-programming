@@ -24,16 +24,23 @@ const REAL_COMMANDS: [(&str, &[&str]); 9] = [
             "compare",
             "rollup",
             "slice",
+            "screen",
         ],
     ),
     ("retroforge", &["propose"]),
-    ("bluepencil", &[]),
-    ("unheard", &[]),
-    ("onrecord", &[]),
-    ("wallofwrong", &[]),
-    ("secondbill", &[]),
-    ("secondtake", &[]),
-    ("verdictloop", &[]),
+    ("bluepencil", &["propose", "diff"]),
+    ("unheard", &["score"]),
+    ("onrecord", &["add", "get", "subject", "due", "check"]),
+    (
+        "wallofwrong",
+        &["confess", "grade", "ledger", "wall", "tally"],
+    ),
+    ("secondbill", &["statement"]),
+    ("secondtake", &["compare"]),
+    (
+        "verdictloop",
+        &["open", "result", "close", "list", "show", "check"],
+    ),
 ];
 
 fn practice() -> String {

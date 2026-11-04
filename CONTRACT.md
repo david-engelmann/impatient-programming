@@ -144,3 +144,44 @@ e031741 is the behavioral spec.
   IP-16 does not bar it. The line was corrected in
   this round from the retired pytest command to the
   cargo gate CI runs.
+- IP-17. Round 4 refreshes the portfolio record
+  against the siblings as they stand at refresh
+  time. Each sibling's state is read from its
+  own landed README and each tool's command
+  list from its shipped CLI, never from this
+  repo's memory of them; the README tools
+  section and the test pins (states, phrases,
+  REAL_COMMANDS) move to the measured truth in
+  one pass.
+- IP-18. The refresh changes record prose and
+  pins only. The guard's rule set does not
+  change, the ten principles do not change, and
+  the practice document's bars (no round counts
+  claimed there, no commands named that do not
+  exist) bind the refreshed text exactly as
+  they bound the original.
+- IP-19. The round's verification is the full
+  local gate plus mutation parity in the real
+  worktree: planted defects in the refreshed
+  states and command lists fail the Rust guard
+  and the Python oracle's suite alike.
+- IP-19a. Amendments, from the Round 4 reviews.
+  The TOOL_PHRASES standard is the pin's own:
+  each phrase is taken verbatim from that
+  tool's own current README, and a phrase the
+  sibling's wording has left behind is stale
+  even when its meaning still fits. The
+  aggregate state pin counts the sibling
+  bullets only; this repo's own state line
+  never enters it, so a closure that moves
+  this repo's own count cannot trip the pin
+  that watches the siblings.
+- IP-19b. Clarification, from the Round 4
+  standards review: the parity suite of IP-19
+  is the oracle's tests with the same pin
+  refresh applied to staged copies. The frozen
+  oracle keeps the prior round's pins as the
+  historical record and is never edited; run
+  against a refreshed tree it fails exactly
+  the refreshed pins, which is the stale-side
+  evidence, not parity.

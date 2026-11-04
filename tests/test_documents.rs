@@ -43,14 +43,14 @@ const FORBIDDEN: [char; 9] = [
 /// blurred without a test failing.
 fn tool_phrase(tool: &str) -> &'static str {
     match tool {
-        "flighttape" => "rolled up",
+        "flighttape" => "the directory rollup",
         "retroforge" => "pull request",
         "bluepencil" => "diff for a human",
         "unheard" => "obedience",
         "onrecord" => "receipts",
         "wallofwrong" => "grades the sentence",
         "secondbill" => "itemized monthly statement",
-        "secondtake" => "keep, tune, or revert",
+        "secondtake" => "keep, tune, revert, or an honest abstain",
         "verdictloop" => "experiment registry",
         "impatient-programming" => "statement of the practice",
         _ => unreachable!("unknown tool {tool}"),
@@ -153,11 +153,10 @@ fn test_the_tools_section_names_all_ten_repos() {
     }
 }
 
-#[test]
-fn test_the_tools_lines_carry_each_repos_own_job() {
-    let readme = readme();
-    let section = tools_section(&readme);
-    let mut bullets: Vec<(&str, &str)> = Vec::new();
+/// The tools section's bullet lines, in document order,
+/// one entry per line that opens a tool bullet.
+fn tool_bullets(section: &str) -> Vec<(&str, &str)> {
+    let mut bullets = Vec::new();
     for line in splitlines(section) {
         for tool in TOOLS {
             if line.starts_with(&format!("- **{tool}**")) {
@@ -165,37 +164,55 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
             }
         }
     }
+    bullets
+}
+
+/// One tool's bullet line. The Python collects the bullets
+/// in a dict, so a duplicated tool bullet is judged by its
+/// last line; the lookup takes the last match for the same
+/// reason.
+fn bullet_of<'a>(bullets: &[(&'a str, &'a str)], tool: &str) -> &'a str {
+    bullets
+        .iter()
+        .rev()
+        .find(|(name, _)| *name == tool)
+        .map(|(_, line)| *line)
+        .expect("a tool bullet")
+}
+
+#[test]
+fn test_the_tools_lines_carry_each_repos_own_job() {
+    let readme = readme();
+    let section = tools_section(&readme);
+    let bullets = tool_bullets(section);
     let named: BTreeSet<&str> = bullets.iter().map(|(tool, _)| *tool).collect();
     let all: BTreeSet<&str> = TOOLS.iter().copied().collect();
     assert_eq!(named, all);
-    // The Python collects the bullets in a dict, so a
-    // duplicated tool bullet is judged by its last line;
-    // the lookup takes the last match for the same reason.
-    let bullet_of = |tool: &str| -> &str {
-        bullets
-            .iter()
-            .rev()
-            .find(|(name, _)| *name == tool)
-            .map(|(_, line)| *line)
-            .expect("a tool bullet")
-    };
     for tool in TOOLS {
-        assert!(bullet_of(tool).contains(tool_phrase(tool)), "{tool}");
-    }
-    // Each state sits on its own tool's line, so two states
-    // cannot be swapped without a test failing.
-    assert!(bullet_of("flighttape").contains("Nine of one hundred rounds closed"));
-    assert!(bullet_of("retroforge").contains("One of one hundred rounds closed"));
-    for tool in TOOLS {
-        if ["flighttape", "retroforge", "impatient-programming"].contains(&tool) {
-            continue;
-        }
         assert!(
-            bullet_of(tool).contains("At setup, rounds not yet started"),
+            bullet_of(&bullets, tool).contains(tool_phrase(tool)),
             "{tool}"
         );
     }
-    assert!(bullet_of("impatient-programming").contains("of one hundred rounds closed"));
+    // Each state sits on its own tool's line, so two states
+    // cannot be swapped without a test failing.
+    assert!(bullet_of(&bullets, "flighttape").contains("Twelve of one hundred rounds closed"));
+    for tool in [
+        "retroforge",
+        "bluepencil",
+        "unheard",
+        "onrecord",
+        "wallofwrong",
+        "secondbill",
+        "secondtake",
+    ] {
+        assert!(
+            bullet_of(&bullets, tool).contains("Four of one hundred rounds closed"),
+            "{tool}"
+        );
+    }
+    assert!(bullet_of(&bullets, "verdictloop").contains("Three of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "impatient-programming").contains("of one hundred rounds closed"));
 }
 
 const CODE_SUFFIXES: [&str; 16] = [
@@ -241,17 +258,30 @@ fn test_the_wider_portfolio_sentence_is_present() {
     assert!(readme().contains("The same method runs across the rest of the portfolio"));
 }
 
-// The states below are pins on what the sibling repos report,
-// refreshed by hand whenever a sibling closes a round and
-// checked against those repos by the round reviews.
+// The states below are pins on what the sibling repos report.
+// They are refreshed by hand in batched refresh rounds like
+// Round 4, not each time a sibling closes a round, so the
+// record can sit stale between refreshes; the round reviews
+// check the pins against those repos. The aggregate count
+// runs over the nine sibling bullets only, so this repo's
+// own state never enters it and a closure here cannot trip
+// the pin that watches the siblings.
 #[test]
 fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
-    assert!(readme.contains("Nine of one hundred rounds closed"));
-    assert_eq!(
-        readme.matches("At setup, rounds not yet started").count(),
-        7
-    );
+    let section = tools_section(&readme);
+    let bullets = tool_bullets(section);
+    assert!(bullet_of(&bullets, "flighttape").contains("Twelve of one hundred rounds closed"));
+    let fours: usize = TOOLS
+        .iter()
+        .filter(|tool| **tool != "impatient-programming")
+        .map(|tool| {
+            bullet_of(&bullets, tool)
+                .matches("Four of one hundred rounds closed")
+                .count()
+        })
+        .sum();
+    assert_eq!(fours, 7);
 }
 
 /// IP-14. The interpreter's fold set: every codepoint whose
