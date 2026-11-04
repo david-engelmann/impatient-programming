@@ -184,17 +184,22 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     }
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
-    assert!(bullet_of("flighttape").contains("Nine of one hundred rounds closed"));
-    assert!(bullet_of("retroforge").contains("One of one hundred rounds closed"));
-    for tool in TOOLS {
-        if ["flighttape", "retroforge", "impatient-programming"].contains(&tool) {
-            continue;
-        }
+    assert!(bullet_of("flighttape").contains("Twelve of one hundred rounds closed"));
+    for tool in [
+        "retroforge",
+        "bluepencil",
+        "unheard",
+        "onrecord",
+        "wallofwrong",
+        "secondbill",
+        "secondtake",
+    ] {
         assert!(
-            bullet_of(tool).contains("At setup, rounds not yet started"),
+            bullet_of(tool).contains("Four of one hundred rounds closed"),
             "{tool}"
         );
     }
+    assert!(bullet_of("verdictloop").contains("Three of one hundred rounds closed"));
     assert!(bullet_of("impatient-programming").contains("of one hundred rounds closed"));
 }
 
@@ -247,9 +252,9 @@ fn test_the_wider_portfolio_sentence_is_present() {
 #[test]
 fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
-    assert!(readme.contains("Nine of one hundred rounds closed"));
+    assert!(readme.contains("Twelve of one hundred rounds closed"));
     assert_eq!(
-        readme.matches("At setup, rounds not yet started").count(),
+        readme.matches("Four of one hundred rounds closed").count(),
         7
     );
 }
