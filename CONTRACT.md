@@ -144,3 +144,24 @@ e031741 is the behavioral spec.
   IP-16 does not bar it. The line was corrected in
   this round from the retired pytest command to the
   cargo gate CI runs.
+- IP-17. Round 4 refreshes the portfolio record
+  against the siblings as they stand at refresh
+  time. Each sibling's state is read from its
+  own landed README and each tool's command
+  list from its shipped CLI, never from this
+  repo's memory of them; the README tools
+  section and the test pins (states, phrases,
+  REAL_COMMANDS) move to the measured truth in
+  one pass.
+- IP-18. The refresh changes record prose and
+  pins only. The guard's rule set does not
+  change, the ten principles do not change, and
+  the practice document's bars (no round counts
+  claimed there, no commands named that do not
+  exist) bind the refreshed text exactly as
+  they bound the original.
+- IP-19. The round's verification is the full
+  local gate plus mutation parity in the real
+  worktree: planted defects in the refreshed
+  states and command lists fail the Rust guard
+  and the Python oracle's suite alike.
