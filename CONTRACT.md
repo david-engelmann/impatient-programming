@@ -165,3 +165,14 @@ e031741 is the behavioral spec.
   worktree: planted defects in the refreshed
   states and command lists fail the Rust guard
   and the Python oracle's suite alike.
+- IP-19a. Amendments, from the Round 4 reviews.
+  The TOOL_PHRASES standard is the pin's own:
+  each phrase is taken verbatim from that
+  tool's own current README, and a phrase the
+  sibling's wording has left behind is stale
+  even when its meaning still fits. The
+  aggregate state pin counts the sibling
+  bullets only; this repo's own state line
+  never enters it, so a closure that moves
+  this repo's own count cannot trip the pin
+  that watches the siblings.
