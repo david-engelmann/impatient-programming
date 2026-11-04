@@ -38,7 +38,7 @@ The state under each name is the rounds that repo has closed under the counting 
 - **secondbill** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized monthly statement. Four of one hundred rounds closed.
 - **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, and ends in one outcome, keep, tune, revert, or an honest abstain when the evidence cannot carry a proposal, with the numbers attached. Four of one hundred rounds closed.
 - **verdictloop** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Three of one hundred rounds closed.
-- **impatient-programming** is this repo, the statement of the practice the other nine embody. Three of one hundred rounds closed.
+- **impatient-programming** is this repo, the statement of the practice the other nine embody. Four of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.
 
@@ -48,7 +48,7 @@ The name stays. This repo is one practitioner's take, and the work is under way.
 
 ## Programme status
 
-- Closed perfection rounds, 3 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
+- Closed perfection rounds, 4 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
 - Contract, IP-1 to IP-10. The first six were written in Round 1 and met in the same round. IP-7 to IP-10 were written in Round 2 ahead of PRACTICE.md and met in the same round.
 - Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 

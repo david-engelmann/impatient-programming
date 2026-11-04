@@ -176,3 +176,12 @@ e031741 is the behavioral spec.
   never enters it, so a closure that moves
   this repo's own count cannot trip the pin
   that watches the siblings.
+- IP-19b. Clarification, from the Round 4
+  standards review: the parity suite of IP-19
+  is the oracle's tests with the same pin
+  refresh applied to staged copies. The frozen
+  oracle keeps the prior round's pins as the
+  historical record and is never edited; run
+  against a refreshed tree it fails exactly
+  the refreshed pins, which is the stale-side
+  evidence, not parity.
