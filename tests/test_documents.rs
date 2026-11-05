@@ -100,14 +100,22 @@ fn test_the_copy_bar_holds_in_both_documents() {
 }
 
 #[test]
-fn test_the_readme_states_whose_take_this_is() {
+fn test_the_readme_tells_no_name_story() {
+    // David's ruling of 2026-11-05: a README states what
+    // the software is, what it does, and how it is used.
+    // It never narrates a name, a namesake, or an origin,
+    // and it carries no practitioner framing.
     let readme = readme();
-    assert!(readme.contains("David Engelmann's own take"));
-    assert!(readme.contains("impatientprogramming.org"));
-    assert!(readme.contains("This repo is not that method"));
-    // The only mention of that method is the disambiguation
-    // itself. A sentence claiming the mantle breaks this.
-    assert_eq!(readme.matches("that method").count(), 1);
+    assert!(!readme.contains("impatientprogramming.org"));
+    assert!(!readme.contains("own take"));
+    assert!(!readme.contains("A note on the name"));
+    assert!(!readme.contains("practitioner"));
+    assert!(!readme.contains("The name stays"));
+    assert!(!readme.contains("not that method"));
+    assert!(!readme.contains("namesake"));
+    assert!(!readme.contains("Obie"));
+    assert!(!readme.contains("Fernandez"));
+    assert!(!readme.contains("named after"));
 }
 
 #[test]

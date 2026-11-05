@@ -1,12 +1,10 @@
 # impatient-programming
 
-Impatient Programming as one practitioner runs it. This repo is David Engelmann's own take on the method, and the tools that embody it are under construction beside it.
-
-A note on the name. Another method travels under the same name at impatientprogramming.org, written by Obie Fernandez. This repo is not that method and does not speak for it. The overlap is the name. Everything else here is a separate practice, stated on its own terms.
+Impatient Programming is a working method for one human directing a fleet of agents. It reworks the values and practices of Extreme Programming for work where agents write the code at machine speed and the human directs, reads, and checks it.
 
 ## What this is
 
-Extreme Programming answered a question for its time. What changes when the code is written by people in a room together, all day, at human speed? The room has changed. It now holds one human and a fleet of agents, the code arrives at machine speed, and the bottleneck moved with it. The bottleneck is no longer typing. It is waiting, and it is human attention, and it is knowing whether the work is actually good.
+Extreme Programming answered a question for its time. What changes when the code is written by people in a room together, all day, at human speed? The room has changed. It now holds one human and a fleet of agents, and the code arrives at machine speed. The work is no longer limited by how fast code can be typed. It is limited by how much of it one human can direct and verify.
 
 This repo holds the statement of the practice. The practice itself runs across a portfolio of small tools, each one being built around a single job. The principles below state the rules, and the tools are those rules at work.
 
@@ -44,7 +42,7 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 
 ## Status
 
-The name stays. This repo is one practitioner's take, and the work is under way.
+The method is stated in full in this README and in MANIFESTO.md and PRACTICE.md. The tools that embody it are under construction across the portfolio.
 
 ## Programme status
 
