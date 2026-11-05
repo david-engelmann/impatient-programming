@@ -153,18 +153,78 @@ fn test_the_tools_section_names_all_ten_repos() {
     }
 }
 
-/// The tools section's bullet lines, in document order,
-/// one entry per line that opens a tool bullet.
-fn tool_bullets(section: &str) -> Vec<(&str, &str)> {
+/// Whitespace in the interpreter's sense: the Unicode
+/// White_Space property, plus the four separator controls
+/// U+001C to U+001F that CPython also counts.
+fn py_is_space(char: char) -> bool {
+    char.is_whitespace() || ('\u{1c}'..='\u{1f}').contains(&char)
+}
+
+/// Whitespace collapsed to single spaces, as
+/// " ".join(text.split()) collapses.
+fn collapsed(text: &str) -> String {
+    text.split(py_is_space)
+        .filter(|word| !word.is_empty())
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
+/// The tools section's bullets, in document order, one
+/// entry per bullet the section opens. IP-27. A bullet is
+/// its whole block: the opening line plus the lines
+/// indented under it, and the text the checks read is
+/// the block whitespace-joined, so a state frame split
+/// across the block's lines, or standing on a
+/// continuation line, is read whole. A line indented is
+/// a line opening with a space or a tab.
+fn tool_bullets(section: &str) -> Vec<(&str, String)> {
+    let lines = splitlines(section);
     let mut bullets = Vec::new();
-    for line in splitlines(section) {
-        for tool in TOOLS {
-            if line.starts_with(&format!("- **{tool}**")) {
-                bullets.push((tool, line));
-            }
+    let mut index = 0;
+    while index < lines.len() {
+        let opener = TOOLS
+            .iter()
+            .copied()
+            .find(|tool| lines[index].starts_with(&format!("- **{tool}**")));
+        let Some(tool) = opener else {
+            index += 1;
+            continue;
+        };
+        let mut block = vec![lines[index]];
+        let mut next = index + 1;
+        while next < lines.len() && (lines[next].starts_with(' ') || lines[next].starts_with('\t'))
+        {
+            block.push(lines[next]);
+            next += 1;
         }
+        bullets.push((tool, collapsed(&block.join("\n"))));
+        index = next;
     }
     bullets
+}
+
+/// IP-32. Every bullet name the tools section
+/// carries, in document order: the text between
+/// a line's opening "- **" and its closing
+/// "**", normalized by lowercasing and
+/// stripping one trailing period. A line whose
+/// bold never closes names the rest of the
+/// line, which no pin matches.
+fn section_bullet_names(section: &str) -> Vec<String> {
+    let mut names = Vec::new();
+    for line in splitlines(section) {
+        let Some(rest) = line.strip_prefix("- **") else {
+            continue;
+        };
+        let name = match rest.split_once("**") {
+            Some((name, _)) => name,
+            None => rest,
+        };
+        let lowered = name.to_lowercase();
+        let normalized = lowered.strip_suffix('.').unwrap_or(&lowered);
+        names.push(normalized.to_string());
+    }
+    names
 }
 
 /// The state frames a bullet carries: every match of
@@ -233,16 +293,18 @@ fn state_value(token: &str) -> usize {
     }
 }
 
-/// One tool's bullet line. The Python collects the bullets
-/// in a dict, so a duplicated tool bullet is judged by its
-/// last line; the lookup takes the last match for the same
-/// reason.
-fn bullet_of<'a>(bullets: &[(&'a str, &'a str)], tool: &str) -> &'a str {
+/// One tool's bullet text. The Python collects the
+/// bullets in a dict, so a duplicated tool bullet is
+/// judged by its last block; the lookup takes the last
+/// match for the same reason. IP-30 forbids the
+/// duplicate itself in this inventory, so this lookup's
+/// last-wins reading now only ever sees the one bullet.
+fn bullet_of<'a>(bullets: &'a [(&'a str, String)], tool: &str) -> &'a str {
     bullets
         .iter()
         .rev()
         .find(|(name, _)| *name == tool)
-        .map(|(_, line)| *line)
+        .map(|(_, text)| text.as_str())
         .expect("a tool bullet")
 }
 
@@ -262,23 +324,53 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     }
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
-    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
-    for tool in [
-        "retroforge",
-        "bluepencil",
-        "unheard",
-        "onrecord",
-        "wallofwrong",
-        "secondtake",
-    ] {
+    assert!(bullet_of(&bullets, "flighttape").contains("Fourteen of one hundred rounds closed"));
+    for tool in ["retroforge", "bluepencil", "unheard", "wallofwrong"] {
+        assert!(
+            bullet_of(&bullets, tool).contains("Six of one hundred rounds closed"),
+            "{tool}"
+        );
+    }
+    for tool in ["onrecord", "secondbill", "secondtake", "verdictloop"] {
         assert!(
             bullet_of(&bullets, tool).contains("Five of one hundred rounds closed"),
             "{tool}"
         );
     }
-    assert!(bullet_of(&bullets, "secondbill").contains("Four of one hundred rounds closed"));
-    assert!(bullet_of(&bullets, "verdictloop").contains("Four of one hundred rounds closed"));
     assert!(bullet_of(&bullets, "impatient-programming").contains("of one hundred rounds closed"));
+}
+
+/// IP-30. The tools inventory carries exactly one
+/// bullet per tool. A duplicated bullet fails here,
+/// whatever its lines say: the record does not carry
+/// two bullets for one tool. This supersedes the
+/// last-line-wins reading IP-11's dict semantics gave
+/// a duplicate for this inventory.
+#[test]
+fn test_the_tools_inventory_carries_one_bullet_per_tool() {
+    let readme = readme();
+    let section = tools_section(&readme);
+    let bullets = tool_bullets(section);
+    assert_eq!(bullets.len(), TOOLS.len());
+    for tool in TOOLS {
+        assert_eq!(
+            bullets.iter().filter(|(name, _)| *name == tool).count(),
+            1,
+            "{tool}"
+        );
+    }
+    // IP-32. The inventory is exact: the multiset
+    // of bullet names the section carries,
+    // normalized, is the pinned names each once,
+    // so a lookalike duplicate, a case variant,
+    // or an extra bullet for an unpinned name
+    // fails here even though no content pin
+    // reads it.
+    let mut carried = section_bullet_names(section);
+    carried.sort();
+    let mut pinned: Vec<String> = TOOLS.iter().map(|tool| tool.to_string()).collect();
+    pinned.sort();
+    assert_eq!(carried, pinned);
 }
 
 const CODE_SUFFIXES: [&str; 16] = [
@@ -326,7 +418,7 @@ fn test_the_wider_portfolio_sentence_is_present() {
 
 // The states below are pins on what the sibling repos report.
 // They are refreshed by hand in batched refresh rounds like
-// Rounds 4 and 5, not each time a sibling closes a round, so the
+// Rounds 4 to 6, not each time a sibling closes a round, so the
 // record can sit stale between refreshes; the round reviews
 // check the pins against those repos. The aggregate count
 // runs over the nine sibling bullets only, so this repo's
@@ -337,7 +429,7 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
     let section = tools_section(&readme);
     let bullets = tool_bullets(section);
-    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "flighttape").contains("Fourteen of one hundred rounds closed"));
     let count_state = |state: &str| -> usize {
         TOOLS
             .iter()
@@ -345,27 +437,40 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
             .map(|tool| bullet_of(&bullets, tool).matches(state).count())
             .sum()
     };
-    assert_eq!(count_state("Five of one hundred rounds closed"), 6);
-    assert_eq!(count_state("Four of one hundred rounds closed"), 2);
+    assert_eq!(count_state("Six of one hundred rounds closed"), 4);
+    assert_eq!(count_state("Five of one hundred rounds closed"), 4);
     // IP-23. A bullet states its state exactly once: the
     // frame's matches on each sibling bullet number
     // exactly one, and that match is the pinned state, so
     // a second state sentence cannot stand beside the
     // pinned one unseen.
     let pins: [(&str, &str); 9] = [
-        ("flighttape", "Thirteen of one hundred rounds closed"),
-        ("retroforge", "Five of one hundred rounds closed"),
-        ("bluepencil", "Five of one hundred rounds closed"),
-        ("unheard", "Five of one hundred rounds closed"),
+        ("flighttape", "Fourteen of one hundred rounds closed"),
+        ("retroforge", "Six of one hundred rounds closed"),
+        ("bluepencil", "Six of one hundred rounds closed"),
+        ("unheard", "Six of one hundred rounds closed"),
         ("onrecord", "Five of one hundred rounds closed"),
-        ("wallofwrong", "Five of one hundred rounds closed"),
-        ("secondbill", "Four of one hundred rounds closed"),
+        ("wallofwrong", "Six of one hundred rounds closed"),
+        ("secondbill", "Five of one hundred rounds closed"),
         ("secondtake", "Five of one hundred rounds closed"),
-        ("verdictloop", "Four of one hundred rounds closed"),
+        ("verdictloop", "Five of one hundred rounds closed"),
     ];
     for (tool, state) in pins {
         assert_eq!(state_frames(bullet_of(&bullets, tool)), [state], "{tool}");
     }
+}
+
+/// IP-29. The state watch extends to the MANIFESTO:
+/// the frame matcher finds no state frame there. The
+/// manifesto states no per-tool counts by design, and
+/// a bare frame standing in it contradicts that design
+/// whether or not it names a sibling. IP-33. The watch
+/// reads the whitespace-joined text, the collapse of
+/// IP-27, so a frame split across a newline is seen
+/// whole.
+#[test]
+fn test_the_manifesto_carries_no_state_frame() {
+    assert!(state_frames(&collapsed(&manifesto())).is_empty());
 }
 
 /// IP-25. The README states this repo's own state twice,

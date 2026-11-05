@@ -312,8 +312,15 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
     ] {
         assert!(!lowered.contains(phrase), "{phrase}");
     }
-    // IP-24. The barred words are every number word a
-    // count can be spelled with, not only one to ten.
+    // IP-24, extended by IP-28 and IP-35. The barred
+    // words are every number word a count can be
+    // spelled with, not only one to ten: the
+    // twenty-nine of IP-24, dozen and the scale words
+    // of IP-28, and the plural scale forms of IP-35,
+    // forty in all. The matcher bars a set word
+    // standing within the two tokens before the word
+    // rounds, and the claim is exactly this
+    // construction and no more.
     let numbers = [
         "zero",
         "one",
@@ -344,6 +351,17 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
         "eighty",
         "ninety",
         "hundred",
+        "dozen",
+        "thousand",
+        "million",
+        "billion",
+        "trillion",
+        "dozens",
+        "hundreds",
+        "thousands",
+        "millions",
+        "billions",
+        "trillions",
     ];
     for word in counted_rounds_words(&lowered) {
         assert!(
@@ -353,35 +371,44 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
     }
 }
 
-/// The words the regex \b[a-z0-9]+ rounds\b matches over
-/// the lowered text: a run of ASCII letters and digits,
-/// beginning at a word boundary, followed by " rounds"
-/// and a word boundary.
-fn counted_rounds_words(lowered: &str) -> Vec<String> {
-    let chars: Vec<char> = lowered.chars().collect();
-    let mut words = Vec::new();
-    let mut index = 0;
-    while index < chars.len() {
-        if chars[index].is_ascii_lowercase() || chars[index].is_ascii_digit() {
-            let boundary = index == 0 || !is_word_char(chars[index - 1]);
-            let mut end = index;
-            while end < chars.len()
-                && (chars[end].is_ascii_lowercase() || chars[end].is_ascii_digit())
-            {
-                end += 1;
-            }
-            if boundary {
-                let tail: String = chars[end..].iter().take(7).collect();
-                if tail == " rounds" && (end + 7 >= chars.len() || !is_word_char(chars[end + 7])) {
-                    words.push(chars[index..end].iter().collect());
-                }
-            }
-            index = end;
-        } else {
-            index += 1;
+/// The tokens of the lowered text: the maximal
+/// runs of ASCII letters and digits, in order.
+fn tokens(lowered: &str) -> Vec<String> {
+    let mut found = Vec::new();
+    let mut current = String::new();
+    for char in lowered.chars() {
+        if char.is_ascii_lowercase() || char.is_ascii_digit() {
+            current.push(char);
+        } else if !current.is_empty() {
+            found.push(std::mem::take(&mut current));
         }
     }
-    words
+    if !current.is_empty() {
+        found.push(current);
+    }
+    found
+}
+
+/// The words standing within the two tokens
+/// before each "rounds" token of the lowered
+/// text (IP-35), in document order: the claims
+/// matcher reads this window, so a count word
+/// set back from rounds by one innocent token
+/// is still seen.
+fn counted_rounds_words(lowered: &str) -> Vec<String> {
+    let words = tokens(lowered);
+    let mut window = Vec::new();
+    for (index, word) in words.iter().enumerate() {
+        if word != "rounds" {
+            continue;
+        }
+        for back in 1..=2usize {
+            if index >= back {
+                window.push(words[index - back].clone());
+            }
+        }
+    }
+    window
 }
 
 /// The spans the regex `([^`]+)` finds: text between
