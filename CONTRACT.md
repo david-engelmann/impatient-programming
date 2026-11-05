@@ -310,3 +310,43 @@ e031741 is the behavioral spec.
   6 of 100 only in the closure commit
   written after this round's three reviews,
   fixes, and owner verification.
+- IP-32. Amendment, from the Round 6 red team
+  (Minor 1). The tools inventory is exact:
+  the multiset of tool bullet names the
+  section carries, each name normalized by
+  lowercasing and stripping one trailing
+  period, equals the ten pinned tool names,
+  each exactly once. A lookalike duplicate,
+  a case variant, or an extra bullet for a
+  name no pin knows all fail the suite. The
+  content pins keep their exact literal
+  openers; this clause governs the section's
+  inventory only.
+- IP-33. Amendment, from the Round 6 red team
+  (Minor 2). The IP-29 watch reads the
+  MANIFESTO's whitespace-joined text, the
+  same collapse the bullet watch uses under
+  IP-27, so a state frame split across a
+  newline in the MANIFESTO is seen whole.
+- IP-34. Amendment, from the Round 6 red team
+  (Minor 3), a disposition and no code. The
+  frame and claims matchers follow the
+  interpreter's whitespace definition
+  exactly. Zero-width characters are outside
+  the matchers' alphabet, and a state
+  sentence glued by a zero-width character
+  is not a frame in the source semantics or
+  in the record. This stands as the boundary
+  of text matching for both suites.
+- IP-35. Amendment, from the Round 6 red team
+  (Minor 4). The practice claims matcher bars
+  a set word appearing within the two tokens
+  preceding the word rounds, and the set
+  gains the plural scale forms dozens,
+  hundreds, thousands, millions, billions,
+  and trillions, forty words in all. The
+  clause and the test comment claim exactly
+  this construction and no more. A
+  hyphenated singular adjective use, as in
+  twenty-one-round cycles, stands outside
+  it by construction.
