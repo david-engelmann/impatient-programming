@@ -167,6 +167,72 @@ fn tool_bullets(section: &str) -> Vec<(&str, &str)> {
     bullets
 }
 
+/// The state frames a bullet carries: every match of
+/// the frame a state is stated in, a number word or a
+/// digit run followed by "of one hundred rounds
+/// closed", the match running from the number's first
+/// character to the frame's end. Matches never
+/// overlap; the scan resumes at a match's end.
+fn state_frames(bullet: &str) -> Vec<&str> {
+    const TAIL: &str = " of one hundred rounds closed";
+    let bytes = bullet.as_bytes();
+    let mut frames = Vec::new();
+    let mut cursor = 0;
+    while let Some(rel) = bullet[cursor..].find(TAIL) {
+        let tail_start = cursor + rel;
+        let mut start = tail_start;
+        while start > 0 && bytes[start - 1].is_ascii_alphanumeric() {
+            start -= 1;
+        }
+        if start < tail_start {
+            frames.push(&bullet[start..tail_start + TAIL.len()]);
+        }
+        cursor = tail_start + TAIL.len();
+    }
+    frames
+}
+
+/// The number a state token names: a digit run reads as
+/// itself, a number word over the words a count in this
+/// record can be spelled with (IP-24's set).
+fn state_value(token: &str) -> usize {
+    if !token.is_empty() && token.bytes().all(|byte| byte.is_ascii_digit()) {
+        return token.parse().expect("a digit state token");
+    }
+    match token.to_lowercase().as_str() {
+        "zero" => 0,
+        "one" => 1,
+        "two" => 2,
+        "three" => 3,
+        "four" => 4,
+        "five" => 5,
+        "six" => 6,
+        "seven" => 7,
+        "eight" => 8,
+        "nine" => 9,
+        "ten" => 10,
+        "eleven" => 11,
+        "twelve" => 12,
+        "thirteen" => 13,
+        "fourteen" => 14,
+        "fifteen" => 15,
+        "sixteen" => 16,
+        "seventeen" => 17,
+        "eighteen" => 18,
+        "nineteen" => 19,
+        "twenty" => 20,
+        "thirty" => 30,
+        "forty" => 40,
+        "fifty" => 50,
+        "sixty" => 60,
+        "seventy" => 70,
+        "eighty" => 80,
+        "ninety" => 90,
+        "hundred" => 100,
+        _ => panic!("no state value for {token:?}"),
+    }
+}
+
 /// One tool's bullet line. The Python collects the bullets
 /// in a dict, so a duplicated tool bullet is judged by its
 /// last line; the lookup takes the last match for the same
@@ -196,22 +262,22 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     }
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
-    assert!(bullet_of(&bullets, "flighttape").contains("Twelve of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
     for tool in [
         "retroforge",
         "bluepencil",
         "unheard",
         "onrecord",
         "wallofwrong",
-        "secondbill",
         "secondtake",
     ] {
         assert!(
-            bullet_of(&bullets, tool).contains("Four of one hundred rounds closed"),
+            bullet_of(&bullets, tool).contains("Five of one hundred rounds closed"),
             "{tool}"
         );
     }
-    assert!(bullet_of(&bullets, "verdictloop").contains("Three of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "secondbill").contains("Four of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "verdictloop").contains("Four of one hundred rounds closed"));
     assert!(bullet_of(&bullets, "impatient-programming").contains("of one hundred rounds closed"));
 }
 
@@ -260,7 +326,7 @@ fn test_the_wider_portfolio_sentence_is_present() {
 
 // The states below are pins on what the sibling repos report.
 // They are refreshed by hand in batched refresh rounds like
-// Round 4, not each time a sibling closes a round, so the
+// Rounds 4 and 5, not each time a sibling closes a round, so the
 // record can sit stale between refreshes; the round reviews
 // check the pins against those repos. The aggregate count
 // runs over the nine sibling bullets only, so this repo's
@@ -271,17 +337,62 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
     let section = tools_section(&readme);
     let bullets = tool_bullets(section);
-    assert!(bullet_of(&bullets, "flighttape").contains("Twelve of one hundred rounds closed"));
-    let fours: usize = TOOLS
-        .iter()
-        .filter(|tool| **tool != "impatient-programming")
-        .map(|tool| {
-            bullet_of(&bullets, tool)
-                .matches("Four of one hundred rounds closed")
-                .count()
-        })
-        .sum();
-    assert_eq!(fours, 7);
+    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
+    let count_state = |state: &str| -> usize {
+        TOOLS
+            .iter()
+            .filter(|tool| **tool != "impatient-programming")
+            .map(|tool| bullet_of(&bullets, tool).matches(state).count())
+            .sum()
+    };
+    assert_eq!(count_state("Five of one hundred rounds closed"), 6);
+    assert_eq!(count_state("Four of one hundred rounds closed"), 2);
+    // IP-23. A bullet states its state exactly once: the
+    // frame's matches on each sibling bullet number
+    // exactly one, and that match is the pinned state, so
+    // a second state sentence cannot stand beside the
+    // pinned one unseen.
+    let pins: [(&str, &str); 9] = [
+        ("flighttape", "Thirteen of one hundred rounds closed"),
+        ("retroforge", "Five of one hundred rounds closed"),
+        ("bluepencil", "Five of one hundred rounds closed"),
+        ("unheard", "Five of one hundred rounds closed"),
+        ("onrecord", "Five of one hundred rounds closed"),
+        ("wallofwrong", "Five of one hundred rounds closed"),
+        ("secondbill", "Four of one hundred rounds closed"),
+        ("secondtake", "Five of one hundred rounds closed"),
+        ("verdictloop", "Four of one hundred rounds closed"),
+    ];
+    for (tool, state) in pins {
+        assert_eq!(state_frames(bullet_of(&bullets, tool)), [state], "{tool}");
+    }
+}
+
+/// IP-25. The README states this repo's own state twice,
+/// in the own bullet's state word and in the Programme
+/// status line's digits, and the two must agree. The
+/// check compares the numbers, not a literal, so it
+/// holds at whatever value a closure sets in both
+/// places.
+#[test]
+fn test_the_readmes_own_state_statements_agree() {
+    let readme = readme();
+    let section = tools_section(&readme);
+    let bullets = tool_bullets(section);
+    let own = bullet_of(&bullets, "impatient-programming");
+    let frames = state_frames(own);
+    assert_eq!(frames.len(), 1, "the own bullet states its state once");
+    let word = frames[0].split(' ').next().expect("a state word");
+    let status_tail = readme
+        .split_once("Closed perfection rounds, ")
+        .map(|(_, tail)| tail)
+        .expect("the README carries a programme status line");
+    let digits: String = status_tail
+        .chars()
+        .take_while(|char| char.is_ascii_digit())
+        .collect();
+    let status: usize = digits.parse().expect("a digit status count");
+    assert_eq!(state_value(word), status);
 }
 
 /// IP-14. The interpreter's fold set: every codepoint whose

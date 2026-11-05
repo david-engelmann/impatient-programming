@@ -312,8 +312,38 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
     ] {
         assert!(!lowered.contains(phrase), "{phrase}");
     }
+    // IP-24. The barred words are every number word a
+    // count can be spelled with, not only one to ten.
     let numbers = [
-        "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+        "zero",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen",
+        "eighteen",
+        "nineteen",
+        "twenty",
+        "thirty",
+        "forty",
+        "fifty",
+        "sixty",
+        "seventy",
+        "eighty",
+        "ninety",
+        "hundred",
     ];
     for word in counted_rounds_words(&lowered) {
         assert!(

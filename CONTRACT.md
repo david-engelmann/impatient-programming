@@ -185,3 +185,66 @@ e031741 is the behavioral spec.
   against a refreshed tree it fails exactly
   the refreshed pins, which is the stale-side
   evidence, not parity.
+- IP-20. Round 5 refreshes the portfolio record
+  again, under the Round 4 discipline (IP-17 to
+  IP-19 as amended). Five sibling states moved
+  since the Round 4 refresh landed: retroforge,
+  wallofwrong, and bluepencil closed their fifth
+  rounds, and onrecord, secondtake, and unheard
+  already stood at five when Round 4's own pins
+  were written against an earlier read. Every
+  sibling state, command list, and tool phrase
+  is re-measured from the siblings' own landed
+  READMEs (API read-back) and shipped CLIs at
+  this round's start; nothing is carried from
+  Round 4's measurements.
+- IP-21. The refresh obeys IP-19a and IP-19b as
+  they stand: tool phrases verbatim from the
+  siblings' current README text, the aggregate
+  count pin scoped to the nine sibling bullets,
+  and REAL_COMMANDS re-derived from each
+  sibling's current --help surface.
+- IP-22. Mutation parity is re-run on the
+  refreshed tree (planted defects in the real
+  worktree, restored from snapshots, never from
+  git checkout), and README records 5 of 100
+  only in the closure commit written after this
+  round's three reviews, fixes, and owner
+  verification.
+- IP-23. Amendment, from the Round 5 red team
+  (F1, Major). The state pins gain exclusivity.
+  A sibling bullet states its state exactly
+  once: for each of the nine sibling bullets,
+  the matches of the state frame (a number word
+  or a digit run, then "of one hundred rounds
+  closed") number exactly one, and that one
+  match equals the pinned state. A second state
+  sentence on a pinned bullet fails the suite
+  even when the pinned sentence still stands
+  beside it. The mutation set gains the
+  dual-state plant, the report's own shape, a
+  second sentence claiming Six on secondbill's
+  bullet beside its pinned Four, and parity
+  proves both suites kill it.
+- IP-24. Amendment, from the Round 5 red team
+  (F2, Minor). The practice document's
+  no-counts scan enforces its stated rule over
+  the full set of number words a count can be
+  spelled with: zero through twenty, the tens
+  words thirty to ninety, and hundred, beside
+  the digit forms already barred. A count
+  spelled "eleven rounds" fails the claims no
+  counts test as a digit count does. The
+  mutation set gains the eleven rounds plant.
+- IP-25. Amendment, from the Round 5 red team
+  (F3, Minor). The README's two statements of
+  this repo's own state must agree. One test
+  reads the Programme status line's digit count
+  and the own bullet's state word and compares
+  them as the same number, so the record cannot
+  contradict itself about its own state with
+  the suite green. This is an agreement
+  obligation, not a second literal pin: it
+  holds at whatever value a closure sets in
+  both places, and the parity set's closure
+  simulation still passes both suites under it.
