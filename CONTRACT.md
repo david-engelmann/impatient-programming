@@ -248,3 +248,65 @@ e031741 is the behavioral spec.
   holds at whatever value a closure sets in
   both places, and the parity set's closure
   simulation still passes both suites under it.
+- IP-26. Round 6 refreshes the portfolio
+  record to the measured truth, as Rounds 4
+  and 5 did: every sibling state re-measured
+  from the sibling's own landed README by API
+  read-back, every distinctive phrase
+  verbatim against the current README, and
+  REAL_COMMANDS re-derived from the landed
+  sources through the contents API, never
+  from the local clones. The measured states
+  at this round's opening are: flighttape 14;
+  retroforge, wallofwrong, bluepencil, and
+  unheard 6; onrecord, secondtake, secondbill,
+  and verdictloop 5. The aggregate pin over
+  the nine sibling bullets is four sixes and
+  four fives beside flighttape's fourteen.
+- IP-27. A bullet is its whole block: the
+  opening line plus its indented continuation
+  lines. State frames are counted over the
+  block's whitespace-joined text, so a second
+  frame standing on a continuation line, or
+  a frame split across continuation lines, is
+  seen and held to the exactly-one rule of
+  IP-23. This decides the question filed at
+  Round 5 (its R1) for block semantics,
+  because the guard exists so the record
+  cannot contradict itself anywhere in the
+  bullet, not only on its first line.
+- IP-28. The practice no-counts word set is
+  extended by enumeration: dozen, thousand,
+  million, billion, and trillion join the
+  twenty-nine words of IP-24, thirty-four in
+  all, and the clause claims exactly its
+  enumeration and no more. This decides the
+  question filed at Round 5 (its R2) for
+  extension over narrowing.
+- IP-29. The state watch extends to
+  MANIFESTO: the state frame matcher finds
+  no frame there. MANIFESTO states no
+  per-tool counts by design, and a bare frame
+  appended to it is a contradiction of that
+  design whether or not it names a sibling.
+  This decides the scope question filed at
+  Round 5 (its R3) for extension.
+- IP-30. The tools inventory requires
+  exactly one bullet per tool: a duplicated
+  tool bullet fails the suite. This
+  supersedes, for this inventory, the
+  last-line-wins reading the Python's dict
+  semantics gave it under IP-11, and decides
+  the standing question filed at Round 5
+  (its F4) with open eyes: the record does
+  not carry two bullets for one tool.
+- IP-31. The CodeRabbit disposition owed
+  from Round 5 discharges here on evidence:
+  the Round 5 pull request carries zero
+  inline findings on read-back (checked
+  2026-11-04 in the rotation-wide late
+  sweep), so there is nothing to fix and the
+  absence is the disposition. README records
+  6 of 100 only in the closure commit
+  written after this round's three reviews,
+  fixes, and owner verification.
