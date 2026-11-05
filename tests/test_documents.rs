@@ -111,6 +111,11 @@ fn test_the_readme_tells_no_name_story() {
     assert!(!readme.contains("A note on the name"));
     assert!(!readme.contains("practitioner"));
     assert!(!readme.contains("The name stays"));
+    assert!(!readme.contains("not that method"));
+    assert!(!readme.contains("namesake"));
+    assert!(!readme.contains("Obie"));
+    assert!(!readme.contains("Fernandez"));
+    assert!(!readme.contains("named after"));
 }
 
 #[test]
