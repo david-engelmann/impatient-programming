@@ -29,15 +29,15 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 
 The state under each name is the rounds that repo has closed under the counting rule above, exactly as its own README reports them.
 
-- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Thirteen of one hundred rounds closed.
-- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Five of one hundred rounds closed.
-- **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. Five of one hundred rounds closed.
-- **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Five of one hundred rounds closed.
+- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Fourteen of one hundred rounds closed.
+- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Six of one hundred rounds closed.
+- **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. Six of one hundred rounds closed.
+- **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Six of one hundred rounds closed.
 - **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Five of one hundred rounds closed.
-- **wallofwrong** takes a plain sentence confession of what is about to happen before anything irreversible runs, then watches what actually happens and grades the sentence against it. Five of one hundred rounds closed.
-- **secondbill** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized monthly statement. Four of one hundred rounds closed.
+- **wallofwrong** takes a plain sentence confession of what is about to happen before anything irreversible runs, then watches what actually happens and grades the sentence against it. Six of one hundred rounds closed.
+- **secondbill** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized monthly statement. Five of one hundred rounds closed.
 - **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, and ends in one outcome, keep, tune, revert, or an honest abstain when the evidence cannot carry a proposal, with the numbers attached. Five of one hundred rounds closed.
-- **verdictloop** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Four of one hundred rounds closed.
+- **verdictloop** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Five of one hundred rounds closed.
 - **impatient-programming** is this repo, the statement of the practice the other nine embody. Five of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.

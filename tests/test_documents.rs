@@ -262,22 +262,19 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     }
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
-    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
-    for tool in [
-        "retroforge",
-        "bluepencil",
-        "unheard",
-        "onrecord",
-        "wallofwrong",
-        "secondtake",
-    ] {
+    assert!(bullet_of(&bullets, "flighttape").contains("Fourteen of one hundred rounds closed"));
+    for tool in ["retroforge", "bluepencil", "unheard", "wallofwrong"] {
+        assert!(
+            bullet_of(&bullets, tool).contains("Six of one hundred rounds closed"),
+            "{tool}"
+        );
+    }
+    for tool in ["onrecord", "secondbill", "secondtake", "verdictloop"] {
         assert!(
             bullet_of(&bullets, tool).contains("Five of one hundred rounds closed"),
             "{tool}"
         );
     }
-    assert!(bullet_of(&bullets, "secondbill").contains("Four of one hundred rounds closed"));
-    assert!(bullet_of(&bullets, "verdictloop").contains("Four of one hundred rounds closed"));
     assert!(bullet_of(&bullets, "impatient-programming").contains("of one hundred rounds closed"));
 }
 
@@ -337,7 +334,7 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
     let section = tools_section(&readme);
     let bullets = tool_bullets(section);
-    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "flighttape").contains("Fourteen of one hundred rounds closed"));
     let count_state = |state: &str| -> usize {
         TOOLS
             .iter()
@@ -345,23 +342,23 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
             .map(|tool| bullet_of(&bullets, tool).matches(state).count())
             .sum()
     };
-    assert_eq!(count_state("Five of one hundred rounds closed"), 6);
-    assert_eq!(count_state("Four of one hundred rounds closed"), 2);
+    assert_eq!(count_state("Six of one hundred rounds closed"), 4);
+    assert_eq!(count_state("Five of one hundred rounds closed"), 4);
     // IP-23. A bullet states its state exactly once: the
     // frame's matches on each sibling bullet number
     // exactly one, and that match is the pinned state, so
     // a second state sentence cannot stand beside the
     // pinned one unseen.
     let pins: [(&str, &str); 9] = [
-        ("flighttape", "Thirteen of one hundred rounds closed"),
-        ("retroforge", "Five of one hundred rounds closed"),
-        ("bluepencil", "Five of one hundred rounds closed"),
-        ("unheard", "Five of one hundred rounds closed"),
+        ("flighttape", "Fourteen of one hundred rounds closed"),
+        ("retroforge", "Six of one hundred rounds closed"),
+        ("bluepencil", "Six of one hundred rounds closed"),
+        ("unheard", "Six of one hundred rounds closed"),
         ("onrecord", "Five of one hundred rounds closed"),
-        ("wallofwrong", "Five of one hundred rounds closed"),
-        ("secondbill", "Four of one hundred rounds closed"),
+        ("wallofwrong", "Six of one hundred rounds closed"),
+        ("secondbill", "Five of one hundred rounds closed"),
         ("secondtake", "Five of one hundred rounds closed"),
-        ("verdictloop", "Four of one hundred rounds closed"),
+        ("verdictloop", "Five of one hundred rounds closed"),
     ];
     for (tool, state) in pins {
         assert_eq!(state_frames(bullet_of(&bullets, tool)), [state], "{tool}");
