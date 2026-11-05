@@ -203,6 +203,30 @@ fn tool_bullets(section: &str) -> Vec<(&str, String)> {
     bullets
 }
 
+/// IP-32. Every bullet name the tools section
+/// carries, in document order: the text between
+/// a line's opening "- **" and its closing
+/// "**", normalized by lowercasing and
+/// stripping one trailing period. A line whose
+/// bold never closes names the rest of the
+/// line, which no pin matches.
+fn section_bullet_names(section: &str) -> Vec<String> {
+    let mut names = Vec::new();
+    for line in splitlines(section) {
+        let Some(rest) = line.strip_prefix("- **") else {
+            continue;
+        };
+        let name = match rest.split_once("**") {
+            Some((name, _)) => name,
+            None => rest,
+        };
+        let lowered = name.to_lowercase();
+        let normalized = lowered.strip_suffix('.').unwrap_or(&lowered);
+        names.push(normalized.to_string());
+    }
+    names
+}
+
 /// The state frames a bullet carries: every match of
 /// the frame a state is stated in, a number word or a
 /// digit run followed by "of one hundred rounds
@@ -335,6 +359,18 @@ fn test_the_tools_inventory_carries_one_bullet_per_tool() {
             "{tool}"
         );
     }
+    // IP-32. The inventory is exact: the multiset
+    // of bullet names the section carries,
+    // normalized, is the pinned names each once,
+    // so a lookalike duplicate, a case variant,
+    // or an extra bullet for an unpinned name
+    // fails here even though no content pin
+    // reads it.
+    let mut carried = section_bullet_names(section);
+    carried.sort();
+    let mut pinned: Vec<String> = TOOLS.iter().map(|tool| tool.to_string()).collect();
+    pinned.sort();
+    assert_eq!(carried, pinned);
 }
 
 const CODE_SUFFIXES: [&str; 16] = [
@@ -428,10 +464,13 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
 /// the frame matcher finds no state frame there. The
 /// manifesto states no per-tool counts by design, and
 /// a bare frame standing in it contradicts that design
-/// whether or not it names a sibling.
+/// whether or not it names a sibling. IP-33. The watch
+/// reads the whitespace-joined text, the collapse of
+/// IP-27, so a frame split across a newline is seen
+/// whole.
 #[test]
 fn test_the_manifesto_carries_no_state_frame() {
-    assert!(state_frames(&manifesto()).is_empty());
+    assert!(state_frames(&collapsed(&manifesto())).is_empty());
 }
 
 /// IP-25. The README states this repo's own state twice,
