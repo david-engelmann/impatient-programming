@@ -196,22 +196,22 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     }
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
-    assert!(bullet_of(&bullets, "flighttape").contains("Twelve of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
     for tool in [
         "retroforge",
         "bluepencil",
         "unheard",
         "onrecord",
         "wallofwrong",
-        "secondbill",
         "secondtake",
     ] {
         assert!(
-            bullet_of(&bullets, tool).contains("Four of one hundred rounds closed"),
+            bullet_of(&bullets, tool).contains("Five of one hundred rounds closed"),
             "{tool}"
         );
     }
-    assert!(bullet_of(&bullets, "verdictloop").contains("Three of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "secondbill").contains("Four of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "verdictloop").contains("Four of one hundred rounds closed"));
     assert!(bullet_of(&bullets, "impatient-programming").contains("of one hundred rounds closed"));
 }
 
@@ -260,7 +260,7 @@ fn test_the_wider_portfolio_sentence_is_present() {
 
 // The states below are pins on what the sibling repos report.
 // They are refreshed by hand in batched refresh rounds like
-// Round 4, not each time a sibling closes a round, so the
+// Rounds 4 and 5, not each time a sibling closes a round, so the
 // record can sit stale between refreshes; the round reviews
 // check the pins against those repos. The aggregate count
 // runs over the nine sibling bullets only, so this repo's
@@ -271,17 +271,16 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
     let section = tools_section(&readme);
     let bullets = tool_bullets(section);
-    assert!(bullet_of(&bullets, "flighttape").contains("Twelve of one hundred rounds closed"));
-    let fours: usize = TOOLS
-        .iter()
-        .filter(|tool| **tool != "impatient-programming")
-        .map(|tool| {
-            bullet_of(&bullets, tool)
-                .matches("Four of one hundred rounds closed")
-                .count()
-        })
-        .sum();
-    assert_eq!(fours, 7);
+    assert!(bullet_of(&bullets, "flighttape").contains("Thirteen of one hundred rounds closed"));
+    let count_state = |state: &str| -> usize {
+        TOOLS
+            .iter()
+            .filter(|tool| **tool != "impatient-programming")
+            .map(|tool| bullet_of(&bullets, tool).matches(state).count())
+            .sum()
+    };
+    assert_eq!(count_state("Five of one hundred rounds closed"), 6);
+    assert_eq!(count_state("Four of one hundred rounds closed"), 2);
 }
 
 /// IP-14. The interpreter's fold set: every codepoint whose
