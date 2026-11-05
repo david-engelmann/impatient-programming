@@ -312,8 +312,12 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
     ] {
         assert!(!lowered.contains(phrase), "{phrase}");
     }
-    // IP-24. The barred words are every number word a
-    // count can be spelled with, not only one to ten.
+    // IP-24, extended by IP-28. The barred words are
+    // every number word a count can be spelled with,
+    // not only one to ten: the twenty-nine of IP-24
+    // plus dozen and the scale words thousand, million,
+    // billion, and trillion, thirty-four in all. The
+    // clause claims exactly this enumeration.
     let numbers = [
         "zero",
         "one",
@@ -344,6 +348,11 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
         "eighty",
         "ninety",
         "hundred",
+        "dozen",
+        "thousand",
+        "million",
+        "billion",
+        "trillion",
     ];
     for word in counted_rounds_words(&lowered) {
         assert!(
