@@ -185,3 +185,29 @@ e031741 is the behavioral spec.
   against a refreshed tree it fails exactly
   the refreshed pins, which is the stale-side
   evidence, not parity.
+- IP-20. Round 5 refreshes the portfolio record
+  again, under the Round 4 discipline (IP-17 to
+  IP-19 as amended). Five sibling states moved
+  since the Round 4 refresh landed: retroforge,
+  wallofwrong, and bluepencil closed their fifth
+  rounds, and onrecord, secondtake, and unheard
+  already stood at five when Round 4's own pins
+  were written against an earlier read. Every
+  sibling state, command list, and tool phrase
+  is re-measured from the siblings' own landed
+  READMEs (API read-back) and shipped CLIs at
+  this round's start; nothing is carried from
+  Round 4's measurements.
+- IP-21. The refresh obeys IP-19a and IP-19b as
+  they stand: tool phrases verbatim from the
+  siblings' current README text, the aggregate
+  count pin scoped to the nine sibling bullets,
+  and REAL_COMMANDS re-derived from each
+  sibling's current --help surface.
+- IP-22. Mutation parity is re-run on the
+  refreshed tree (planted defects in the real
+  worktree, restored from snapshots, never from
+  git checkout), and README records 5 of 100
+  only in the closure commit written after this
+  round's three reviews, fixes, and owner
+  verification.
