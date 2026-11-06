@@ -31,10 +31,7 @@ const REAL_COMMANDS: [(&str, &[&str]); 9] = [
     ("bluepencil", &["propose", "diff"]),
     ("unheard", &["score"]),
     ("onrecord", &["add", "get", "subject", "due", "check"]),
-    (
-        "wallofwrong",
-        &["confess", "grade", "ledger", "wall", "tally"],
-    ),
+    ("tetlock", &["confess", "grade", "ledger", "wall", "tally"]),
     ("secondbill", &["statement"]),
     ("secondtake", &["compare"]),
     (

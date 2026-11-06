@@ -27,7 +27,7 @@ const TOOLS: [&str; 10] = [
     "bluepencil",
     "unheard",
     "onrecord",
-    "wallofwrong",
+    "tetlock",
     "secondbill",
     "secondtake",
     "touchstone",
@@ -48,7 +48,7 @@ fn tool_phrase(tool: &str) -> &'static str {
         "bluepencil" => "diff for a human",
         "unheard" => "obedience",
         "onrecord" => "receipts",
-        "wallofwrong" => "grades the sentence",
+        "tetlock" => "grades the sentence",
         "secondbill" => "itemized monthly statement",
         "secondtake" => "keep, tune, revert, or an honest abstain",
         "touchstone" => "experiment registry",
@@ -333,7 +333,7 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
     assert!(bullet_of(&bullets, "flighttape").contains("Fourteen of one hundred rounds closed"));
-    for tool in ["retroforge", "bluepencil", "unheard", "wallofwrong"] {
+    for tool in ["retroforge", "bluepencil", "unheard", "tetlock"] {
         assert!(
             bullet_of(&bullets, tool).contains("Six of one hundred rounds closed"),
             "{tool}"
@@ -458,7 +458,7 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
         ("bluepencil", "Six of one hundred rounds closed"),
         ("unheard", "Six of one hundred rounds closed"),
         ("onrecord", "Five of one hundred rounds closed"),
-        ("wallofwrong", "Six of one hundred rounds closed"),
+        ("tetlock", "Six of one hundred rounds closed"),
         ("secondbill", "Five of one hundred rounds closed"),
         ("secondtake", "Five of one hundred rounds closed"),
         ("touchstone", "Five of one hundred rounds closed"),
