@@ -38,7 +38,7 @@ const REAL_COMMANDS: [(&str, &[&str]); 9] = [
     ("secondbill", &["statement"]),
     ("secondtake", &["compare"]),
     (
-        "verdictloop",
+        "touchstone",
         &["open", "result", "close", "list", "show", "check"],
     ),
 ];
