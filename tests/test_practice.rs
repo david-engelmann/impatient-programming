@@ -32,7 +32,7 @@ const REAL_COMMANDS: [(&str, &[&str]); 9] = [
     ("unheard", &["score"]),
     ("onrecord", &["add", "get", "subject", "due", "check"]),
     (
-        "wallofwrong",
+        "tetlock",
         &["confess", "grade", "ledger", "wall", "tally"],
     ),
     ("secondbill", &["statement"]),
