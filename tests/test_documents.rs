@@ -30,7 +30,7 @@ const TOOLS: [&str; 10] = [
     "wallofwrong",
     "secondbill",
     "secondtake",
-    "verdictloop",
+    "touchstone",
     "impatient-programming",
 ];
 
@@ -51,7 +51,7 @@ fn tool_phrase(tool: &str) -> &'static str {
         "wallofwrong" => "grades the sentence",
         "secondbill" => "itemized monthly statement",
         "secondtake" => "keep, tune, revert, or an honest abstain",
-        "verdictloop" => "experiment registry",
+        "touchstone" => "experiment registry",
         "impatient-programming" => "statement of the practice",
         _ => unreachable!("unknown tool {tool}"),
     }
@@ -339,7 +339,7 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
             "{tool}"
         );
     }
-    for tool in ["onrecord", "secondbill", "secondtake", "verdictloop"] {
+    for tool in ["onrecord", "secondbill", "secondtake", "touchstone"] {
         assert!(
             bullet_of(&bullets, tool).contains("Five of one hundred rounds closed"),
             "{tool}"
@@ -461,7 +461,7 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
         ("wallofwrong", "Six of one hundred rounds closed"),
         ("secondbill", "Five of one hundred rounds closed"),
         ("secondtake", "Five of one hundred rounds closed"),
-        ("verdictloop", "Five of one hundred rounds closed"),
+        ("touchstone", "Five of one hundred rounds closed"),
     ];
     for (tool, state) in pins {
         assert_eq!(state_frames(bullet_of(&bullets, tool)), [state], "{tool}");
