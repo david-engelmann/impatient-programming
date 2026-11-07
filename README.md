@@ -26,7 +26,7 @@ The smallest complete run is the guard suite itself, run from the repo root.
 cargo test
 ```
 
-Twenty tests pass on the current tree, thirteen over the documents and seven over the practice. The suite reads the documents as the interpreter reads them and fails on any claim that has drifted. The scan below runs over every prose, source, and workflow file in the repo and prints one line.
+Twenty tests pass on the current tree, thirteen over the documents and seven over the practice. The suite reads the documents as the interpreter reads them and fails on any pinned claim the documents no longer match. The pins live in this repo and nothing compares them with the sibling repos, so a sibling can change while the suite still passes, and that change surfaces only when a refresh reads the siblings back and re-pins their states. The scan below runs over every prose, source, and workflow file in the repo and prints one line.
 
 ```
 python3 scripts/codepoint_scan.py
@@ -59,7 +59,7 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 The state under each name is the rounds that repo has closed under this record's counting rule, exactly as its own README reports them.
 
 - **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Fifteen of one hundred rounds closed.
-- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Seven of one hundred rounds closed.
+- **retroforge** reads a period of flight tapes and writes one proposal file for the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Seven of one hundred rounds closed.
 - **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. Six of one hundred rounds closed.
 - **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Seven of one hundred rounds closed.
 - **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Seven of one hundred rounds closed.

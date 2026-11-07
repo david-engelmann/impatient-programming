@@ -563,3 +563,47 @@ e031741 is the behavioral spec.
   Six three times over the nine
   siblings. Every other state of
   IP-40 stands as read.
+- IP-49. Three CodeRabbit findings
+  on the Round 7 pull request,
+  posted before the merge and
+  each valid, repaired on the
+  branch before it lands. The
+  first is IP-45's own hole: the
+  ordered marker's rest was read
+  only after exactly one space,
+  while the markdown lets a list
+  marker stand one to four
+  spaces before its content, so
+  an ordered bullet spaced two
+  wide escaped the inventory the
+  repair had just built. The
+  helper in both suites takes
+  one to four spaces now, and
+  five or more still open no
+  bullet here, as they open a
+  code block in the markdown
+  itself. The second corrects
+  the retroforge bullet: it said
+  the tool opens one pull
+  request, and retroforge opens
+  nothing, it writes one
+  proposal file for a human to
+  review and apply or not. The
+  bullet and the phrase pin in
+  both suites say proposal file
+  now, the words retroforge's
+  own README uses for its
+  product. The third qualifies
+  the Quickstart's drift claim:
+  the suite was said to fail on
+  any claim that has drifted,
+  and what it checks is this
+  repo's own pins, which nothing
+  compares with the sibling
+  repos, so a sibling can change
+  while the suite still passes
+  and the change surfaces only
+  when a refresh reads the
+  siblings back and re-pins
+  their states. The sentence
+  says that now.

@@ -44,7 +44,7 @@ const FORBIDDEN: [char; 9] = [
 fn tool_phrase(tool: &str) -> &'static str {
     match tool {
         "flighttape" => "the directory rollup",
-        "retroforge" => "pull request",
+        "retroforge" => "proposal file",
         "bluepencil" => "diff for a human",
         "unheard" => "obedience",
         "onrecord" => "receipts",
@@ -236,8 +236,13 @@ fn tool_bullets(section: &str) -> Vec<(&str, String)> {
 
 /// The text after an ordered bullet's marker
 /// and its opening "**": one to nine digits, a
-/// period or a closing parenthesis, a space,
-/// and the bold open. A line that does not
+/// period or a closing parenthesis, one to
+/// four spaces, and the bold open. The spacing
+/// range is the one the markdown allows after
+/// a list marker; five or more spaces would
+/// open a code block instead of a bullet.
+/// IP-49 widens the single space first written
+/// here to that range. A line that does not
 /// open that way names no bullet here.
 fn ordered_bullet_rest(line: &str) -> Option<&str> {
     let digits = line
@@ -251,7 +256,11 @@ fn ordered_bullet_rest(line: &str) -> Option<&str> {
     let after = after
         .strip_prefix('.')
         .or_else(|| after.strip_prefix(')'))?;
-    after.strip_prefix(" **")
+    let spaces = after.bytes().take_while(|byte| *byte == b' ').count();
+    if spaces == 0 || spaces > 4 {
+        return None;
+    }
+    after[spaces..].strip_prefix("**")
 }
 
 /// IP-32. Every bullet name the tools section
@@ -268,7 +277,11 @@ fn ordered_bullet_rest(line: &str) -> Option<&str> {
 /// An ordered marker opens a bullet too, so
 /// an extra bullet in that form, digits and a
 /// period or a closing parenthesis, enters
-/// the inventory as well.
+/// the inventory as well. IP-49. The ordered
+/// marker's spacing runs one to four spaces,
+/// the range the markdown allows after a list
+/// marker, so a widely spaced ordered bullet
+/// enters the inventory too.
 fn section_bullet_names(section: &str) -> Vec<String> {
     let mut names = Vec::new();
     for line in splitlines(section) {
