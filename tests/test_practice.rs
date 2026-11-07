@@ -32,7 +32,7 @@ const REAL_COMMANDS: [(&str, &[&str]); 9] = [
     ("unheard", &["score"]),
     ("onrecord", &["add", "get", "subject", "due", "check"]),
     ("tetlock", &["confess", "grade", "ledger", "wall", "tally"]),
-    ("secondbill", &["statement"]),
+    ("muda", &["statement"]),
     ("secondtake", &["compare"]),
     (
         "touchstone",
@@ -370,10 +370,21 @@ fn test_the_document_states_its_as_of_date_and_claims_no_counts() {
 
 /// The tokens of the lowered text: the maximal
 /// runs of ASCII letters and digits, in order.
+/// IP-39. The zero-width characters are read as
+/// nothing, neither token content nor token
+/// separators, so a word one of them glues
+/// stays one token: U+200B, U+200C, U+200D,
+/// U+2060, and U+FEFF.
 fn tokens(lowered: &str) -> Vec<String> {
     let mut found = Vec::new();
     let mut current = String::new();
     for char in lowered.chars() {
+        if matches!(
+            char,
+            '\u{200b}' | '\u{200c}' | '\u{200d}' | '\u{2060}' | '\u{feff}'
+        ) {
+            continue;
+        }
         if char.is_ascii_lowercase() || char.is_ascii_digit() {
             current.push(char);
         } else if !current.is_empty() {
