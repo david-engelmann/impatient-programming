@@ -2,6 +2,7 @@
 name = "impatient-programming"
 version = "0.1.0"
 edition = "2021"
+description = "Impatient Programming for the agent era. The values and practices of Extreme Programming, reworked for one human directing a fleet of agents."
 
 [dependencies]
 unicode-normalization = "0.1"

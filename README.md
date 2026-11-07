@@ -1,12 +1,43 @@
 # impatient-programming
 
-Impatient Programming is a working method for one human directing a fleet of agents. It reworks the values and practices of Extreme Programming for work where agents write the code at machine speed and the human directs, reads, and checks it.
+Impatient Programming for the agent era. The values and practices of Extreme Programming, reworked for one human directing a fleet of agents.
 
-## What this is
+This repo is a method statement, not a tool. It holds three documents that state a working method for one human directing a fleet of agents, and a Rust test suite that guards the documents so their claims cannot drift from what the contract requires. The method is read here and worked across a portfolio of small tools, each built around a single job and listed below with the state its own README reports.
 
-Extreme Programming answered a question for its time. What changes when the code is written by people in a room together, all day, at human speed? The room has changed. It now holds one human and a fleet of agents, and the code arrives at machine speed. The work is no longer limited by how fast code can be typed. It is limited by how much of it one human can direct and verify.
+```
+python3 scripts/codepoint_scan.py
+codepoint scan U+2014=0 U+2013=0
+```
 
-This repo holds the statement of the practice. The practice itself runs across a portfolio of small tools, each one being built around a single job. The principles below state the rules, and the tools are those rules at work.
+## Install
+
+There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Taking a copy with the guard included takes one command, and running the guard takes a Rust toolchain.
+
+```
+gh repo clone david-engelmann/impatient-programming
+cd impatient-programming
+```
+
+## Quickstart
+
+The smallest complete run is the guard suite itself, run from the repo root.
+
+```
+cargo test
+```
+
+Twenty tests pass on the current tree, thirteen over the documents and seven over the practice. The suite reads the documents as the interpreter reads them and fails on any claim that has drifted. The scan below runs over every prose, source, and workflow file in the repo and prints one line.
+
+```
+python3 scripts/codepoint_scan.py
+codepoint scan U+2014=0 U+2013=0
+```
+
+## Usage
+
+Read MANIFESTO.md for the argument, principle by principle, in the order the principles bite during a working day. Read PRACTICE.md for the same method as mechanisms, what a lane actually does, stated as of the date on its first page. Read the principles and the tools record below for the short form, and for the state of the portfolio that works the method.
+
+Run the guard after any edit to the documents. The documents suite pins the copy bar, the principle names, the tool inventory, and every state the tools record carries. The practice suite pins the practice document's sections, the commands it names, and its claim that it counts nothing. An edit that moves a claim moves the pin with it in the same change, or the suite fails and the edit is not done.
 
 ## Principles
 
@@ -25,17 +56,17 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 
 ## The tools
 
-The state under each name is the rounds that repo has closed under the counting rule above, exactly as its own README reports them.
+The state under each name is the rounds that repo has closed under this record's counting rule, exactly as its own README reports them.
 
-- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Fourteen of one hundred rounds closed.
+- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Fifteen of one hundred rounds closed.
 - **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Six of one hundred rounds closed.
 - **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. Six of one hundred rounds closed.
-- **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Six of one hundred rounds closed.
-- **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Five of one hundred rounds closed.
-- **tetlock** takes a plain sentence confession of what is about to happen before anything irreversible runs, then watches what actually happens and grades the sentence against it. Six of one hundred rounds closed.
-- **secondbill** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized monthly statement. Five of one hundred rounds closed.
-- **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, and ends in one outcome, keep, tune, revert, or an honest abstain when the evidence cannot carry a proposal, with the numbers attached. Five of one hundred rounds closed.
-- **touchstone** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Five of one hundred rounds closed.
+- **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Seven of one hundred rounds closed.
+- **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Seven of one hundred rounds closed.
+- **tetlock** takes a plain sentence confession of what is about to happen before anything irreversible runs, then watches what actually happens and grades the sentence against it. Seven of one hundred rounds closed.
+- **muda** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized monthly statement. Six of one hundred rounds closed.
+- **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, and ends in one outcome, keep, tune, revert, or an honest abstain when the evidence cannot carry a proposal, with the numbers attached. Seven of one hundred rounds closed.
+- **touchstone** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Six of one hundred rounds closed.
 - **impatient-programming** is this repo, the statement of the practice the other nine embody. Six of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.
@@ -44,12 +75,10 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 
 The method is stated in full in this README and in MANIFESTO.md and PRACTICE.md. The tools that embody it are under construction across the portfolio.
 
-## Programme status
-
 - Closed perfection rounds, 6 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-10. The first six were written in Round 1 and met in the same round. IP-7 to IP-10 were written in Round 2 ahead of PRACTICE.md and met in the same round.
+- Contract, IP-1 to IP-44. The obligations the documents and the guard must meet, each with the test that judges it.
 - Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 
-## Licence
+## License
 
-MIT. See LICENSE.
+MIT. See [LICENSE](LICENSE).
