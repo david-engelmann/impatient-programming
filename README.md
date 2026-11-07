@@ -11,7 +11,7 @@ codepoint scan U+2014=0 U+2013=0
 
 ## Install
 
-There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Taking a copy with the guard included takes one command, and running the guard takes a Rust toolchain.
+There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Taking a copy with the guard included takes the GitHub CLI, and running the guard takes a Rust toolchain.
 
 ```
 gh repo clone david-engelmann/impatient-programming
@@ -59,7 +59,7 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 The state under each name is the rounds that repo has closed under this record's counting rule, exactly as its own README reports them.
 
 - **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Fifteen of one hundred rounds closed.
-- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Six of one hundred rounds closed.
+- **retroforge** reads a period of flight tapes and opens one pull request against the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Seven of one hundred rounds closed.
 - **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. Six of one hundred rounds closed.
 - **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Seven of one hundred rounds closed.
 - **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Seven of one hundred rounds closed.
@@ -76,7 +76,7 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 The method is stated in full in this README and in MANIFESTO.md and PRACTICE.md. The tools that embody it are under construction across the portfolio.
 
 - Closed perfection rounds, 6 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-44. The obligations the documents and the guard must meet, each with the test that judges it.
+- Contract, IP-1 to IP-48. The obligations the documents and the guard must meet, each with the test that judges it.
 - Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 
 ## License

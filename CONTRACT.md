@@ -491,3 +491,75 @@ e031741 is the behavioral spec.
   records 7 of 100 only in the closure
   commit written after this round's three
   reviews, fixes, and owner verification.
+- IP-45. Amendment, from the Round 7
+  red team (its Minor 1). The bullet
+  inventory reads the ordered list
+  markers too. A bullet can open with
+  one to nine digits and a period or
+  a closing parenthesis, and an extra
+  bullet in that form, carrying a
+  name no pin holds and a state
+  frame no block reads, escaped the
+  inventory of IP-32 and the frame
+  pins of IP-23 alike, IP-38's three
+  markers being only the unordered
+  forms. The inventory scan strips
+  the ordered marker before the bold
+  name, so the exact inventory runs
+  over every bullet form this
+  markdown can open. Both suites
+  carry the same scan, and the
+  record's own bullets keep the
+  dash.
+- IP-46. Amendment, from the Round 7
+  red team (its Minor 2). The
+  name-story test reads its markers
+  over the lowered text. The markers
+  stood in their recorded case, so a
+  marker at a sentence head, wearing
+  the capital the sentence gives
+  it, escaped the absence the test
+  pins, and a sentence head is the
+  place a writer would most
+  naturally put one. Both suites
+  lower the document and match the
+  markers in lowercase, the reading
+  the practice suite already gives
+  its claims. The recorded markers
+  fail as before, and their capital
+  forms fail with them.
+- IP-47. Amendment, from the Round 7
+  standards review (its Minor). The
+  README's Install prose names what
+  its copy command needs. The block
+  copies the repo with the GitHub
+  CLI, the one clone form the copy
+  bar lets the README print, and
+  the prose said only that a copy
+  takes one command, so a reader
+  holding git and a Rust toolchain,
+  the prerequisites the section
+  implies, met a command their
+  machine could not run. The prose
+  names the GitHub CLI beside the
+  Rust toolchain, and the one
+  command claim goes with the
+  wording that hid the dependency.
+- IP-48. The refresh of IP-40
+  completes against the landed
+  state. The read-backs behind
+  IP-40 were fetched before
+  retroforge's seventh round
+  merged on 2026-11-07, and
+  retroforge's README, read back
+  through the contents API after
+  that merge for this clause,
+  reports seven of one hundred
+  rounds closed. The retroforge
+  pin moves from Six to Seven in
+  the README and in both suites,
+  and the aggregate counts move
+  with it, Seven five times and
+  Six three times over the nine
+  siblings. Every other state of
+  IP-40 stands as read.

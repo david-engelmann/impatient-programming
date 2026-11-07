@@ -104,18 +104,21 @@ fn test_the_readme_tells_no_name_story() {
     // David's ruling of 2026-11-05: a README states what
     // the software is, what it does, and how it is used.
     // It never narrates a name, a namesake, or an origin,
-    // and it carries no practitioner framing.
-    let readme = readme();
-    assert!(!readme.contains("impatientprogramming.org"));
-    assert!(!readme.contains("own take"));
-    assert!(!readme.contains("A note on the name"));
-    assert!(!readme.contains("practitioner"));
-    assert!(!readme.contains("The name stays"));
-    assert!(!readme.contains("not that method"));
-    assert!(!readme.contains("namesake"));
-    assert!(!readme.contains("Obie"));
-    assert!(!readme.contains("Fernandez"));
-    assert!(!readme.contains("named after"));
+    // and it carries no practitioner framing. IP-46.
+    // The markers match over the lowered text, so a
+    // marker standing at a sentence head, in the capital
+    // the sentence gives it, is seen too.
+    let lowered = readme().to_lowercase();
+    assert!(!lowered.contains("impatientprogramming.org"));
+    assert!(!lowered.contains("own take"));
+    assert!(!lowered.contains("a note on the name"));
+    assert!(!lowered.contains("practitioner"));
+    assert!(!lowered.contains("the name stays"));
+    assert!(!lowered.contains("not that method"));
+    assert!(!lowered.contains("namesake"));
+    assert!(!lowered.contains("obie"));
+    assert!(!lowered.contains("fernandez"));
+    assert!(!lowered.contains("named after"));
 }
 
 #[test]
@@ -231,6 +234,26 @@ fn tool_bullets(section: &str) -> Vec<(&str, String)> {
     bullets
 }
 
+/// The text after an ordered bullet's marker
+/// and its opening "**": one to nine digits, a
+/// period or a closing parenthesis, a space,
+/// and the bold open. A line that does not
+/// open that way names no bullet here.
+fn ordered_bullet_rest(line: &str) -> Option<&str> {
+    let digits = line
+        .bytes()
+        .take_while(|byte| byte.is_ascii_digit())
+        .count();
+    if digits == 0 || digits > 9 {
+        return None;
+    }
+    let after = &line[digits..];
+    let after = after
+        .strip_prefix('.')
+        .or_else(|| after.strip_prefix(')'))?;
+    after.strip_prefix(" **")
+}
+
 /// IP-32. Every bullet name the tools section
 /// carries, in document order: the text between
 /// a line's opening marker and its closing
@@ -241,13 +264,18 @@ fn tool_bullets(section: &str) -> Vec<(&str, String)> {
 /// marker is any of the three this markdown
 /// can open a bullet with, dash, asterisk, or
 /// plus, so an extra bullet under an asterisk
-/// or a plus enters the inventory too.
+/// or a plus enters the inventory too. IP-45.
+/// An ordered marker opens a bullet too, so
+/// an extra bullet in that form, digits and a
+/// period or a closing parenthesis, enters
+/// the inventory as well.
 fn section_bullet_names(section: &str) -> Vec<String> {
     let mut names = Vec::new();
     for line in splitlines(section) {
         let Some(rest) = ["- **", "* **", "+ **"]
             .iter()
             .find_map(|marker| line.strip_prefix(marker))
+            .or_else(|| ordered_bullet_rest(line))
         else {
             continue;
         };
@@ -360,13 +388,13 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
     assert!(bullet_of(&bullets, "flighttape").contains("Fifteen of one hundred rounds closed"));
-    for tool in ["unheard", "onrecord", "tetlock", "secondtake"] {
+    for tool in ["retroforge", "unheard", "onrecord", "tetlock", "secondtake"] {
         assert!(
             bullet_of(&bullets, tool).contains("Seven of one hundred rounds closed"),
             "{tool}"
         );
     }
-    for tool in ["retroforge", "bluepencil", "muda", "touchstone"] {
+    for tool in ["bluepencil", "muda", "touchstone"] {
         assert!(
             bullet_of(&bullets, tool).contains("Six of one hundred rounds closed"),
             "{tool}"
@@ -472,8 +500,8 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
             .map(|tool| bullet_of(&bullets, tool).matches(state).count())
             .sum()
     };
-    assert_eq!(count_state("Seven of one hundred rounds closed"), 4);
-    assert_eq!(count_state("Six of one hundred rounds closed"), 4);
+    assert_eq!(count_state("Seven of one hundred rounds closed"), 5);
+    assert_eq!(count_state("Six of one hundred rounds closed"), 3);
     // IP-23. A bullet states its state exactly once: the
     // frame's matches on each sibling bullet number
     // exactly one, and that match is the pinned state, so
@@ -481,7 +509,7 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     // pinned one unseen.
     let pins: [(&str, &str); 9] = [
         ("flighttape", "Fifteen of one hundred rounds closed"),
-        ("retroforge", "Six of one hundred rounds closed"),
+        ("retroforge", "Seven of one hundred rounds closed"),
         ("bluepencil", "Six of one hundred rounds closed"),
         ("unheard", "Seven of one hundred rounds closed"),
         ("onrecord", "Seven of one hundred rounds closed"),
