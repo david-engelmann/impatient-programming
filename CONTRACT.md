@@ -350,3 +350,144 @@ e031741 is the behavioral spec.
   hyphenated singular adjective use, as in
   twenty-one-round cycles, stands outside
   it by construction.
+- IP-36. The CodeRabbit disposition owed
+  from Round 6 discharges here on evidence,
+  and the standing expectation was wrong.
+  Read back on 2026-11-07 through the list
+  endpoints, the Round 6 pull request
+  carries three inline findings, one review
+  (COMMENTED, submitted 2026-11-05T16:40:58Z,
+  reporting three actionable comments), and
+  a summary shell that completed with a
+  walkthrough. The pull request merged at
+  2026-11-05T16:41:15Z, seventeen seconds
+  after the review submitted, so the
+  findings stood unread at the merge, and
+  the bot's later reply records only that
+  the pull request is closed. All three
+  findings are Minor, all three sit in the
+  guard's semantics, and each is valid on
+  verification against the code. They
+  repair under IP-37, IP-38, and IP-39,
+  with the factual replies owed on the
+  thread at landing.
+- IP-37. Amendment, from the Round 6
+  standards review (its Note 1) and the
+  first of the IP-36 findings, one escape
+  seen by two reviews. A tool bullet's
+  block does not end at a blank line when
+  the next content line is indented. Blank
+  lines inside a bullet are skipped, and
+  the block continues at the indented
+  paragraph, so a state frame standing
+  there is read whole, like any frame on a
+  continuation line. A blank line followed
+  by a line that is not indented still
+  ends the block. This is the document's
+  own list semantics, and it retires the
+  reading under which a frame could stand
+  in a bullet unseen. Both suites carry
+  the same scan.
+- IP-38. Amendment, from the second of
+  the IP-36 findings. The tools inventory
+  reads every bullet the section carries,
+  under any of the three list markers this
+  markdown can open a bullet with, dash,
+  asterisk, or plus: the inventory scan
+  strips any of the three before the bold
+  name, so an extra bullet opened with an
+  asterisk or a plus no longer escapes the
+  exact inventory of IP-32. The record's
+  own bullets keep the dash, and a pinned
+  tool's bullet under another marker
+  already fails loudly at the content
+  pins, so this clause governs the
+  inventory scan only, as IP-32 governed
+  it.
+- IP-39. Amendment, from the third of the
+  IP-36 findings. The claims tokenizer
+  reads the zero-width characters as
+  nothing: U+200B, U+200C, U+200D, U+2060,
+  and U+FEFF are neither token content nor
+  token separators, so a word glued by one
+  of them stays one token and manufactures
+  no rounds token the text does not
+  carry. This makes good the boundary
+  IP-34 stated for both suites. Both
+  suites drop the same five characters in
+  the same place.
+- IP-40. The portfolio record refreshes
+  from the landed READMEs, read back
+  through the contents API on 2026-11-07:
+  flighttape 15; unheard, onrecord,
+  tetlock, and secondtake 7; retroforge,
+  bluepencil, muda, and touchstone 6. The
+  state pins and the aggregate counts move
+  to exactly these states, Fifteen once,
+  Seven four times, and Six four times
+  over the nine siblings.
+- IP-41. The record names the tools as
+  they are. The repo this record has
+  called secondbill is muda on GitHub,
+  renamed on 2026-11-06 with its id and
+  history intact, and the bullet, the name
+  pins, the phrase pin, and the practice
+  suite's command table take the name muda
+  in this round, on the precedent of the
+  tetlock rename scrub. Dated clauses that
+  name secondbill stand as written; they
+  record the states of their rounds.
+- IP-42. The README comes to the fleet
+  README standard, adapted where this
+  repo's own law binds harder. The first
+  screen carries the title, the lede, one
+  short paragraph, and one block of real
+  captured output, in that order. The lede
+  is the repo's GitHub description
+  verbatim, and the captured output is the
+  codepoint scan's one line, the only
+  output this repo produces that its copy
+  bar lets it quote. The README carries no
+  badge: the bar of IP-2 bars the colon in
+  these documents in any encoding, code
+  blocks included, and every badge address
+  carries one in its scheme, so the badge
+  set is empty by the repo's own founding
+  test and the captured output stands in
+  its place. Install, Quickstart, Usage,
+  Status, and License follow. Install and
+  Quickstart are the clone and the guard
+  run, stated plainly as what they are for
+  a repo of documents; no block quotes
+  cargo's output, whose result lines carry
+  colons, and the test count is stated in
+  prose and traces to this round's gate
+  log. Usage is the reading guide to the
+  three documents and the guard, the
+  status stands in one section, and the
+  license line links the LICENSE file.
+  The principles, the tools record, and
+  the wider portfolio sentence stand. The
+  copy repair rulings of 2026-11-05 stand
+  untouched, no name story and no
+  practitioner framing, and the test that
+  pins their absence keeps passing.
+- IP-43. The package metadata carries the
+  same one line. Cargo.toml gains the
+  description, verbatim the lede and the
+  GitHub description, so the one line
+  stands identical in all three homes at
+  once.
+- IP-44. This round's guard amendments
+  are proven by mutation parity: the
+  Python transcription of the suite,
+  amended identically clause by clause,
+  and the Rust suite agree on every
+  planted defect and every witness,
+  FAILURES 0, plants laid in place and
+  restored from snapshots, never from a
+  checkout. The gate is the standing four
+  commands on the final tree. README
+  records 7 of 100 only in the closure
+  commit written after this round's three
+  reviews, fixes, and owner verification.
