@@ -11,7 +11,7 @@ codepoint scan U+2014=0 U+2013=0
 
 ## Install
 
-There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Taking a copy with the guard included takes the GitHub CLI, and running the guard takes a Rust toolchain.
+There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Taking a copy with the guard included takes the GitHub CLI, and running the guard takes a Rust toolchain and Python 3 for the scan.
 
 ```
 gh repo clone david-engelmann/impatient-programming
@@ -58,16 +58,16 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 
 The state under each name is the rounds that repo has closed under this record's counting rule, exactly as its own README reports them.
 
-- **flighttape** records an agent session as a tape that can be validated, played back, digested, compared, sliced, screened, and rolled into a set level record by the directory rollup. Fifteen of one hundred rounds closed.
-- **retroforge** reads a period of flight tapes and writes one proposal file for the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Seven of one hundred rounds closed.
-- **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered as a diff for a human and never applied on its own. Six of one hundred rounds closed.
-- **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Seven of one hundred rounds closed.
-- **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Seven of one hundred rounds closed.
-- **tetlock** takes a plain sentence confession of what is about to happen before anything irreversible runs, then watches what actually happens and grades the sentence against it. Seven of one hundred rounds closed.
-- **muda** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized monthly statement. Six of one hundred rounds closed.
-- **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, and ends in one outcome, keep, tune, revert, or an honest abstain when the evidence cannot carry a proposal, with the numbers attached. Seven of one hundred rounds closed.
-- **touchstone** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Six of one hundred rounds closed.
-- **impatient-programming** is this repo, the statement of the practice the other nine embody. Seven of one hundred rounds closed.
+- **flighttape** records an agent session, and every run from every harness lands as one flight tape that can be validated, played back, digested, compared, sliced, screened, and rolled up over a whole directory into a set level record. Sixteen of one hundred rounds closed.
+- **retroforge** reads a period of flight tapes and writes one proposal file for the agent setup, proposing rules file edits, hook changes, and roster notes, every hunk annotated with the trace moments that justify it. Eight of one hundred rounds closed.
+- **bluepencil** edits the rules file itself, striking the rules no agent follows, rewriting the ones agents misread with the misreading quoted, and promoting the buried ones, delivered by its diff as a readable list of edits and never applied on its own. Eight of one hundred rounds closed.
+- **unheard** scores standing instructions by observed obedience across a corpus of runs and names the ones agents systematically ignore, with counts and never impressions, and writes the observations file bluepencil consumes. Nine of one hundred rounds closed.
+- **onrecord** keeps claims with their receipts across runs, so what was asserted can be retrieved, superseded, and challenged. Eight of one hundred rounds closed.
+- **tetlock** takes a plain sentence confession of what is about to happen before anything irreversible runs, then watches what actually happens and grades the sentence against it. Nine of one hundred rounds closed.
+- **muda** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized statement for one stated calendar month. Eight of one hundred rounds closed.
+- **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, ending in a keep, tune, or revert proposal with the numbers attached, and abstaining for insufficient evidence below its pair floor. Nine of one hundred rounds closed.
+- **touchstone** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Eight of one hundred rounds closed.
+- **impatient-programming** is this repo, the statement of the practice the other nine embody. Eight of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.
 
@@ -75,8 +75,8 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 
 The method is stated in full in this README and in MANIFESTO.md and PRACTICE.md. The tools that embody it are under construction across the portfolio.
 
-- Closed perfection rounds, 7 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-48. The obligations the documents and the guard must meet, each with the test that judges it.
+- Closed perfection rounds, 8 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
+- Contract, IP-1 to IP-55. The obligations the documents and the guard must meet, each with the test that judges it.
 - Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 
 ## License

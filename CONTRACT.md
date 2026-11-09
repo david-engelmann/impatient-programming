@@ -607,3 +607,159 @@ e031741 is the behavioral spec.
   siblings back and re-pins
   their states. The sentence
   says that now.
+- IP-50. The Round 7 pull request is
+  read back in full in this round.
+  Seven reviews, nine review
+  comments, and four issue
+  comments stand on it, and every
+  body is read to its end, the
+  follow-up shells and the bot's
+  acknowledgment replies included.
+  IP-49's three findings stand
+  disposed there and answered.
+  Two further items from the same
+  reviewer stand disposed nowhere,
+  and the landed comment on that
+  pull request counted only the
+  three. This round carries both,
+  in IP-51 and IP-52.
+- IP-51. The Docstring Coverage
+  check on that pull request is
+  dismissed, on the ground the
+  fleet's record states for this
+  same check wherever it fires.
+  It names no function. The repo
+  carries no docstring
+  configuration or threshold of
+  its own, and the check applies
+  the review tool's default
+  profile, whose threshold this
+  repo never adopted. The summary
+  shell's own detail counts seven
+  functions across two files and
+  names none of them, so no named
+  gap stands to repair, and both
+  suites carry the comments their
+  clauses need, as the reviews of
+  this record have judged them
+  round by round.
+- IP-52. The Install prose names
+  Python 3. A further comment in
+  the same review's body holds
+  that a reader of the Install
+  section is told the guard takes
+  a Rust toolchain and is never
+  told the scan takes Python 3,
+  though the gate this repo
+  stands on runs that scan under
+  python3. Read back against the
+  landed README, the word Python
+  stands nowhere in it while the
+  python3 command stands three
+  times. The comment is valid.
+  The Install prose names Python
+  3 beside the Rust toolchain, as
+  IP-47 named the GitHub CLI
+  beside it, for the same reason.
+- IP-53. The tools record is
+  re-pinned to the landed state,
+  measured in this round from
+  each sibling's own README read
+  back through the contents API,
+  never from a local clone and
+  never from memory. flighttape
+  stands at Sixteen of one
+  hundred rounds closed. unheard,
+  tetlock, and secondtake stand
+  at Nine. retroforge, bluepencil,
+  onrecord, muda, and touchstone
+  stand at Eight. The aggregate
+  counts over the nine siblings
+  move with them, Sixteen once,
+  Nine three times, and Eight
+  five times. Four phrase pins
+  move to words standing in the
+  siblings' current READMEs, the
+  old words having left those
+  pages. flighttape's phrase is
+  lands as one flight tape,
+  bluepencil's is a readable
+  list of edits, muda's is
+  itemized statement for one
+  stated calendar month, and
+  secondtake's is ending in a
+  keep, tune, or revert
+  proposal. The other five
+  phrases stand as pinned. The
+  command tables of the practice
+  suite are re-derived from each
+  sibling's landed help surface
+  and dispatch, and all nine
+  stand exactly as pinned, so no
+  command pin moves. The record
+  keeps its numbers rather than
+  dropping them, because every
+  sibling still states its count
+  in the same status form this
+  record's frame reads, and a
+  record that can stay honest in
+  its standing shape stays in it.
+- IP-54. The guard's surfaces are
+  measured fresh at the shipped
+  guard, on a scratch copy of the
+  landed tree. Each barred
+  character in raw form, and each
+  codepoint that folds to a
+  barred one under NFKC without
+  being barred itself, the Greek
+  question mark, the double
+  colon, and the presentation
+  and small forms of the set,
+  stands planted in each of the
+  three documents at the start,
+  in the middle, at the end, and
+  inside a word, and the copy-bar
+  test guarding the planted
+  document convicts all 192
+  plantings. The untouched tree
+  passes the whole suite, and
+  every file stands byte
+  identical after the run, the
+  guard reading and never
+  writing. The boundary stands
+  as measured. The cargo copy
+  bar reads the three documents
+  and nothing else. The
+  codepoint scan reads the whole
+  tree by its suffixes and bars
+  the two dashes only, convicting
+  a dash planted in CONTRACT.md,
+  in a plain text file, and in
+  the source, and passing a colon
+  planted in CONTRACT.md, which
+  the cargo suite passes too,
+  the contract standing inside
+  the scan's sweep and outside
+  the copy bar's three documents.
+  No conviction failed, so no
+  repair rides this round, and
+  the battery's numbers are this
+  round's evidence for the
+  reviews to re-run.
+- IP-55. This round's amendments
+  are proven by mutation parity:
+  the Python transcription of the
+  suite, amended identically
+  clause by clause, and the Rust
+  suite agree on every planted
+  defect and every witness,
+  FAILURES 0, plants laid in
+  place and restored from
+  snapshots, never from a
+  checkout. The gate is the
+  standing four commands on the
+  final tree. README records 8 of
+  100 only in the closure commit
+  written after this round's
+  three reviews, fixes, and owner
+  verification.
