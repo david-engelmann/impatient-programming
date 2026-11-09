@@ -43,14 +43,14 @@ const FORBIDDEN: [char; 9] = [
 /// blurred without a test failing.
 fn tool_phrase(tool: &str) -> &'static str {
     match tool {
-        "flighttape" => "the directory rollup",
+        "flighttape" => "lands as one flight tape",
         "retroforge" => "proposal file",
-        "bluepencil" => "diff for a human",
+        "bluepencil" => "a readable list of edits",
         "unheard" => "obedience",
         "onrecord" => "receipts",
         "tetlock" => "grades the sentence",
-        "muda" => "itemized monthly statement",
-        "secondtake" => "keep, tune, revert, or an honest abstain",
+        "muda" => "itemized statement for one stated calendar month",
+        "secondtake" => "ending in a keep, tune, or revert proposal",
         "touchstone" => "experiment registry",
         "impatient-programming" => "statement of the practice",
         _ => unreachable!("unknown tool {tool}"),
@@ -400,16 +400,16 @@ fn test_the_tools_lines_carry_each_repos_own_job() {
     }
     // Each state sits on its own tool's line, so two states
     // cannot be swapped without a test failing.
-    assert!(bullet_of(&bullets, "flighttape").contains("Fifteen of one hundred rounds closed"));
-    for tool in ["retroforge", "unheard", "onrecord", "tetlock", "secondtake"] {
+    assert!(bullet_of(&bullets, "flighttape").contains("Sixteen of one hundred rounds closed"));
+    for tool in ["unheard", "tetlock", "secondtake"] {
         assert!(
-            bullet_of(&bullets, tool).contains("Seven of one hundred rounds closed"),
+            bullet_of(&bullets, tool).contains("Nine of one hundred rounds closed"),
             "{tool}"
         );
     }
-    for tool in ["bluepencil", "muda", "touchstone"] {
+    for tool in ["retroforge", "bluepencil", "onrecord", "muda", "touchstone"] {
         assert!(
-            bullet_of(&bullets, tool).contains("Six of one hundred rounds closed"),
+            bullet_of(&bullets, tool).contains("Eight of one hundred rounds closed"),
             "{tool}"
         );
     }
@@ -505,7 +505,7 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
     let readme = readme();
     let section = tools_section(&readme);
     let bullets = tool_bullets(section);
-    assert!(bullet_of(&bullets, "flighttape").contains("Fifteen of one hundred rounds closed"));
+    assert!(bullet_of(&bullets, "flighttape").contains("Sixteen of one hundred rounds closed"));
     let count_state = |state: &str| -> usize {
         TOOLS
             .iter()
@@ -513,23 +513,23 @@ fn test_the_tool_states_are_pinned_to_the_repos_reports() {
             .map(|tool| bullet_of(&bullets, tool).matches(state).count())
             .sum()
     };
-    assert_eq!(count_state("Seven of one hundred rounds closed"), 5);
-    assert_eq!(count_state("Six of one hundred rounds closed"), 3);
+    assert_eq!(count_state("Nine of one hundred rounds closed"), 3);
+    assert_eq!(count_state("Eight of one hundred rounds closed"), 5);
     // IP-23. A bullet states its state exactly once: the
     // frame's matches on each sibling bullet number
     // exactly one, and that match is the pinned state, so
     // a second state sentence cannot stand beside the
     // pinned one unseen.
     let pins: [(&str, &str); 9] = [
-        ("flighttape", "Fifteen of one hundred rounds closed"),
-        ("retroforge", "Seven of one hundred rounds closed"),
-        ("bluepencil", "Six of one hundred rounds closed"),
-        ("unheard", "Seven of one hundred rounds closed"),
-        ("onrecord", "Seven of one hundred rounds closed"),
-        ("tetlock", "Seven of one hundred rounds closed"),
-        ("muda", "Six of one hundred rounds closed"),
-        ("secondtake", "Seven of one hundred rounds closed"),
-        ("touchstone", "Six of one hundred rounds closed"),
+        ("flighttape", "Sixteen of one hundred rounds closed"),
+        ("retroforge", "Eight of one hundred rounds closed"),
+        ("bluepencil", "Eight of one hundred rounds closed"),
+        ("unheard", "Nine of one hundred rounds closed"),
+        ("onrecord", "Eight of one hundred rounds closed"),
+        ("tetlock", "Nine of one hundred rounds closed"),
+        ("muda", "Eight of one hundred rounds closed"),
+        ("secondtake", "Nine of one hundred rounds closed"),
+        ("touchstone", "Eight of one hundred rounds closed"),
     ];
     for (tool, state) in pins {
         assert_eq!(state_frames(bullet_of(&bullets, tool)), [state], "{tool}");
