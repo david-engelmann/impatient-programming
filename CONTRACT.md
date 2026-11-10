@@ -984,8 +984,14 @@ e031741 is the behavioral spec.
   round, and the description
   question stands answered outright
   on this repo under IP-43. The
-  round's gate log, battery log, and
-  lane report stand in the round's
-  scratch record with its off-box
-  copies, as IP-44 records for
-  Round 7.
+  round's lane report was read
+  whole by this round's three
+  reviewers before a box restart
+  wiped the lane's scratch record.
+  The gate and battery figures
+  stand corroborated in this
+  round's review record; the gate
+  log, battery log, and derivation
+  script themselves were not
+  preserved, and no off-box copy
+  of them was made.
