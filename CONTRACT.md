@@ -985,9 +985,10 @@ e031741 is the behavioral spec.
   question stands answered outright
   on this repo under IP-43. The
   round's lane report was read
-  whole by this round's three
-  reviewers before a box restart
-  wiped the lane's scratch record.
+  whole by this round's spec and
+  standards reviewers before a
+  box restart wiped the lane's
+  scratch record.
   The gate and battery figures
   stand corroborated in this
   round's review record; the gate
