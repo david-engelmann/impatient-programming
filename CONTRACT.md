@@ -763,3 +763,202 @@ e031741 is the behavioral spec.
   written after this round's
   three reviews, fixes, and owner
   verification.
+- IP-56. The Round 8 pull request is
+  read back in full in this round.
+  One review, no review comments,
+  and five issue comments stand on
+  PR 13, and every body is read to
+  its end. The one review
+  (5827759324, the review bot,
+  COMMENTED, on the reviewed head
+  a3955a9d) carries no actionable
+  comments and no inline findings.
+  Its walkthrough shell (issue
+  comment 6743127158) reports Merge
+  Risk Minimal and pre-merge checks
+  at 4 passed, 1 failed. The one
+  failure is Docstring Coverage,
+  reported by the shell at 33.33%
+  against an 80.00% threshold, 3
+  functions across 1 file and 2
+  skipped as unsupported, naming no
+  function. The owner's disposition
+  stands at 6743350693, dismissing
+  that check on the IP-51 ground and
+  answering the shell's merge-risk
+  note on the IP-55 standing shape,
+  and the owner's landing comment
+  stands last at 6745285284,
+  recording the three reviews and
+  the merge at 6373a87a. Between the
+  trigger (6743128706) and the
+  disposition stands the bot's
+  auto-reply at 6743325585, action
+  not completed because the last
+  commit stood already reviewed, the
+  standing incremental
+  acknowledgment, which carries no
+  finding and owes no disposition.
+  Nothing stands after the landing
+  comment, no Round 8 disposition is
+  falsified by the record, and the
+  census closes with nothing
+  undisposed.
+- IP-57. The guard measured fresh at
+  the shipped tree, the Round 8
+  merge 6373a87a, every blob of it
+  verified against the remote tree
+  before a test ran. The full suite
+  passes end to end, 20 tests, 13
+  over the documents and 7 over the
+  practice, with clippy clean over
+  all targets under -D warnings and
+  fmt clean. The prose surfaces the
+  suite covers are scanned two ways.
+  The suite's own copy-bar tests
+  convict nothing on the clean tree,
+  and an independent scan with the
+  interpreter counts every barred
+  character at zero in each of
+  README.md, MANIFESTO.md, and
+  PRACTICE.md, raw and NFKC-folded,
+  all nine characters of the set in
+  each form. The fold set is
+  re-derived, not merely recounted.
+  The interpreter the pin names,
+  CPython 3.12.3 with unicodedata
+  15.0.0, folds the whole codepoint
+  space and returns exactly the
+  pinned sixteen, U+003A, U+003B,
+  U+037E, U+2013, U+2014, U+2015,
+  U+2A74, U+FE13, U+FE14, U+FE31,
+  U+FE32, U+FE54, U+FE55, U+FE58,
+  U+FF1A, and U+FF1B, seven of them
+  folding to a barred character
+  without being barred themselves,
+  and the guard's own fold-set test
+  derives the same sixteen through
+  the normalization crate and
+  passes. The repository codepoint
+  scan over the whole tree reports
+  U+2014=0 and U+2013=0 and exits 0.
+  No conviction failed anywhere in
+  the measurement, so no repair
+  rides this item.
+- IP-58. The Install block re-run as
+  printed. The block's commands take
+  a copy with the GitHub CLI and run
+  the guard in it, and the taking is
+  the one step this lane's
+  environment cannot perform as
+  printed, because the GitHub CLI on
+  this box holds no login and
+  refuses the clone, exiting 4 with
+  its instruction to log in. The
+  copy was therefore taken through
+  the API, and it is the same copy
+  the block fetches, all 14 blobs of
+  the remote tree at 6373a87a
+  verified one by one against the
+  tree listing. In that clean copy
+  the guard ran under exactly the
+  prerequisites the block names as
+  repaired by IP-52, a Rust
+  toolchain and Python 3 for the
+  scan. The scan ran under python3,
+  version 3.12.3, and printed the
+  summary line the README
+  reproduces, codepoint scan
+  U+2014=0 U+2013=0, exit 0, and
+  cargo test ran the full suite
+  there, 20 passed. The block as
+  printed needs nothing it does not
+  name, and the Python 3 naming
+  IP-52 repaired still holds as
+  printed.
+- IP-59. The practice exercised at
+  the volume its own text
+  contemplates, the line's
+  realistic-data rule kept with
+  synthetic content only. The
+  guard's checks are whole-document
+  checks over a book's companion
+  documents, so the documents were
+  carried to book scale with their
+  own text and the outcomes compared
+  exit for exit against the suite's
+  expectations on the true
+  documents. The practice document
+  repeated 10 times (82,920 bytes)
+  and 100 times (829,200 bytes), an
+  input shape its own section
+  semantics name, since a repeated
+  section keeps its first position
+  and takes the later body, passes
+  the full practice suite at both
+  sizes. On the 100-times document,
+  a count claim of the shape the
+  claims test bars, the words eleven
+  rounds of appended at the very
+  end, is convicted by it, and an em
+  dash as the document's final
+  character is convicted by the
+  practice copy-bar test. The three
+  documents padded past a million
+  bytes each with their own repeated
+  text, README.md at 1,002,327
+  bytes, MANIFESTO.md at 1,000,008
+  bytes, and PRACTICE.md at
+  1,003,332 bytes, pass both
+  copy-bar tests clean, and the full
+  practice suite passes on the
+  padded practice document. Each of
+  the sixteen fold-set codepoints
+  planted singly at character offset
+  900,000 in each padded document is
+  convicted by its guarding copy-bar
+  test, 48 of 48 plantings, and an
+  em dash appended to the padded
+  README is convicted by the
+  repository scan, which exits 1
+  reporting U+2014=1. Every
+  exercised tree stands
+  byte-identical after its runs, the
+  guard reading and never writing at
+  volume as on the true tree. No
+  conviction failed, so no repair
+  rides this item.
+- IP-60. The round closes on the
+  standing gate and the standing
+  record. The gate on the final tree
+  runs the repository codepoint
+  scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D
+  warnings, and cargo test, and
+  stands at 20 tests passed with the
+  scan at zero on both barred
+  dashes. README records 9 of 100
+  only in the closure commit, the
+  standing shape under IP-55 as
+  under IP-44, with this round's
+  three reviews the owner's step
+  after this branch and the landing
+  the owner's act alone, and the
+  Status line carries the contract
+  range to IP-60 in the same commit.
+  The storefront's third item is
+  reported from evidence at the
+  head, not from habit. The GitHub
+  description, the README lede, and
+  the Cargo.toml description are one
+  line in all three homes,
+  byte-identical at the base head
+  6373a87a and untouched by this
+  round, and the description
+  question stands answered outright
+  on this repo under IP-43. The
+  round's gate log, battery log, and
+  lane report stand in the round's
+  scratch record with its off-box
+  copies, as IP-44 records for
+  Round 7.
