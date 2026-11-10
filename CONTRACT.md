@@ -800,10 +800,26 @@ e031741 is the behavioral spec.
   acknowledgment, which carries no
   finding and owes no disposition.
   Nothing stands after the landing
-  comment, no Round 8 disposition is
-  falsified by the record, and the
-  census closes with nothing
-  undisposed.
+  comment, and the census closes
+  with nothing undisposed. One
+  discrepancy in the record stands
+  recorded rather than smoothed
+  over. IP-55 describes the Round 8
+  closure commit as written after
+  that round's three reviews, fixes,
+  and owner verification, while the
+  sequence the pull request records
+  is the closure commit riding the
+  branch first, the owner's three
+  reviews following it, and the
+  merge last, the same tension the
+  shell's merge-risk note raised and
+  the owner's disposition answered
+  on the standing shape. The two
+  dispositions themselves stand
+  unfalsified, and this round states
+  its own sequence as it runs, at
+  IP-60.
 - IP-57. The guard measured fresh at
   the shipped tree, the Round 8
   merge 6373a87a, every blob of it
@@ -873,9 +889,20 @@ e031741 is the behavioral spec.
   cargo test ran the full suite
   there, 20 passed. The block as
   printed needs nothing it does not
-  name, and the Python 3 naming
+  name for the guard, whose
+  prerequisites stand exactly as
+  named, and the Python 3 naming
   IP-52 repaired still holds as
-  printed.
+  printed. For the copy the block
+  carries one prerequisite it names
+  only as the tool. The clone
+  command presumes a GitHub CLI
+  holding a login, and a reader
+  whose CLI holds none is refused
+  exactly as this box was. That
+  unnamed prerequisite stands
+  recorded here for the round that
+  next amends the Install prose.
 - IP-59. The practice exercised at
   the volume its own text
   contemplates, the line's
