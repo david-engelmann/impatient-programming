@@ -67,7 +67,7 @@ The state under each name is the rounds that repo has closed under this record's
 - **muda** meters the tax a fleet pays in rework, reverted diffs, redone tasks, and fix-forward commits, and bills it to the commit that caused it, as an itemized statement for one stated calendar month. Eight of one hundred rounds closed.
 - **secondtake** compares tapes from before and after a setup change, matched by task, on cost, time, rework, and rescue rate, ending in a keep, tune, or revert proposal with the numbers attached, and abstaining for insufficient evidence below its pair floor. Nine of one hundred rounds closed.
 - **touchstone** is the experiment registry for the whole family, where a proposed setup change from any of these tools becomes a tracked experiment with a baseline, a result, and a public verdict of keep, kill, or rerun. Eight of one hundred rounds closed.
-- **impatient-programming** is this repo, the statement of the practice the other nine embody. Nine of one hundred rounds closed.
+- **impatient-programming** is this repo, the statement of the practice the other nine embody. Ten of one hundred rounds closed.
 
 The same method runs across the rest of the portfolio, every repo held to the same gates and the same counting.
 
@@ -75,8 +75,8 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 
 The method is stated in full in this README and in MANIFESTO.md and PRACTICE.md. The tools that embody it are under construction across the portfolio.
 
-- Closed perfection rounds, 9 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-60. The obligations the documents and the guard must meet, each with the test that judges it.
+- Closed perfection rounds, 10 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
+- Contract, IP-1 to IP-65. The obligations the documents and the guard must meet, each with the test that judges it.
 - Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 
 ## License
