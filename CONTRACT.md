@@ -996,3 +996,406 @@ e031741 is the behavioral spec.
   script themselves were not
   preserved, and no off-box copy
   of them was made.
+
+## Round 10. The record read back whole again, the
+guard at its joints, and the Install question carried
+open (IP-61 to IP-65)
+
+- IP-61. The Round 9 pull request is
+  read back in full in this round.
+  One review, three review comments,
+  and four issue comments stand on
+  PR 14, and every body is read to
+  its end. The one review
+  (5848588770, the review bot,
+  COMMENTED, on the slice head
+  a3b88ea4) posts three actionable
+  Minors, all on CONTRACT.md. The
+  first (4529926727) asks that the
+  closure-timing discrepancy stand
+  recorded in IP-56, and it is valid.
+  The step 0 amendment 4e958f4d
+  records it, and the comment itself
+  carries the bot's addressed note
+  naming that commit. The second
+  (4529926747) names the clone
+  authentication requirement. Its
+  first arm is valid and repaired in
+  the same amendment, which records
+  at IP-58 that the clone command
+  presumes a GitHub CLI holding a
+  login. Its second arm, amending
+  the Install prose itself or
+  offering a clone method that needs
+  no login, stands undischarged in
+  Round 9, disclosed in IP-58 and in
+  the pull request body and routed
+  to the round that next amends the
+  prose. This round takes it up at
+  IP-63. The third (4529926757) asks
+  that the closed count stay at
+  eight while the reviews run, and
+  it is dismissed on the settled
+  closure shape, the count riding
+  the branch and reaching main only
+  through the owner's merge after
+  the three reviews, the same note
+  the PR 13 record answered at
+  disposition 6743350693. The four
+  issue comments are the owner's
+  review trigger (6777769547), the
+  bot's auto-reply (6778103763,
+  action not completed because the
+  last commit stood already
+  reviewed, the standing incremental
+  acknowledgment, which carries no
+  finding and owes no disposition),
+  the walkthrough shell (6777764065),
+  and the owner's landing comment
+  (6779281270), which stands last.
+  The shell stands in a later form
+  than the Round 9 record read. The
+  Round 9 lane read a form of 11,169
+  characters, and the shell as it
+  stands at this round's read is
+  11,632 characters, edited after
+  the final repair head landed. In
+  its final form the walkthrough
+  covers the final head dab35e06,
+  the recent review (run
+  718e477b-48bb-493c-89b2-db9ae4049870,
+  over the range a3b88ea4 to
+  dab35e06, one file selected and
+  one file skipped as similar)
+  reports no actionable comments,
+  Merge Risk stands Low up to dab35
+  with its note naming the login
+  follow-up and the count wording,
+  and the pre-merge checks counter
+  stands at 4 passed, the rows
+  Description Check, Title check,
+  Linked Issues check, and Out of
+  Scope Changes check, all passed,
+  with no Docstring row standing in
+  the form and the word itself
+  nowhere in it. In its first form
+  (the review 5848588770, run
+  6154f0fd-36fb-419c-9443-213245034416,
+  over the base 6373a87a to a3b88ea4,
+  two files selected) the review
+  carried the three actionable
+  Minors above; the walkthrough
+  shell is a separate comment and
+  carried none of them. The Round 9
+  statements about the shell were
+  true of the form that lane read,
+  and no disposition turns on the
+  difference. Five commits stand on
+  the pull request, the slice
+  32ebacd7, the closure a3b88ea4,
+  the step 0 amendment 4e958f4d, and
+  the two repairs eb760d80 and
+  dab35e06, and the merge de696837
+  carries tree f4fe9c70, equal to
+  the final head's tree. Nothing
+  stands after the landing comment.
+  The census closes with the one
+  routed arm standing open by name
+  at IP-63, and no Round 9
+  disposition is falsified by the
+  record.
+- IP-62. The guard measured fresh at
+  the shipped tree, the Round 9
+  merge de696837, every blob of it
+  verified against the remote tree
+  before a test ran. The Python
+  oracle stands verified first. The
+  tree at e0317417681f7e5a16d7c83517ac2f8020f20314
+  (tree 81cac2bb) carries ten blobs,
+  and the local extraction of it
+  matches all ten blob for blob.
+  The full suite passes end to end,
+  20 tests, 13 over the documents
+  and 7 over the practice, with
+  clippy clean over all targets
+  under -D warnings and fmt clean.
+  An independent scan with the
+  interpreter counts every barred
+  character at zero in each of
+  README.md, MANIFESTO.md, and
+  PRACTICE.md, raw and NFKC-folded,
+  all nine characters of the set in
+  each form. The fold set is
+  re-derived, not merely recounted.
+  CPython 3.12.3 with unicodedata
+  15.0.0 folds the whole codepoint
+  space and returns exactly the
+  pinned sixteen, U+003A, U+003B,
+  U+037E, U+2013, U+2014, U+2015,
+  U+2A74, U+FE13, U+FE14, U+FE31,
+  U+FE32, U+FE54, U+FE55, U+FE58,
+  U+FF1A, and U+FF1B, seven of them
+  folding to a barred character
+  without being barred themselves,
+  and the guard's own fold-set test
+  derives the same sixteen through
+  the normalization crate and
+  passes. The repository codepoint
+  scan over the whole tree reports
+  U+2014=0 and U+2013=0 and exits 0.
+  The joints are probed singly.
+  Each of the sixteen codepoints
+  stands planted inside a word past
+  the middle of each of the three
+  documents, 48 cells, and the
+  copy-bar test guarding the planted
+  document convicts every cell, and
+  the interpreter's own recomputation
+  of the bar from the oracle's
+  definition convicts every cell,
+  with no disagreement between the
+  two arms on any cell. The near
+  codepoints are decided at their
+  exact codepoints, not bracketed
+  from neighbors. The neighbor set,
+  every codepoint within two of a
+  fold-set member and not itself in
+  the set, counts 34 codepoints,
+  U+0038, U+0039, U+003C, U+003D,
+  U+037C, U+037D, U+037F, U+0380,
+  U+2011, U+2012, U+2016, U+2017,
+  U+2A72, U+2A73, U+2A75, U+2A76,
+  U+FE11, U+FE12, U+FE15, U+FE16,
+  U+FE2F, U+FE30, U+FE33, U+FE34,
+  U+FE52, U+FE53, U+FE56, U+FE57,
+  U+FE59, U+FE5A, U+FF18, U+FF19,
+  U+FF1C, and U+FF1D. Each one is
+  computed on its own and folds to
+  no barred character, and each one
+  stands planted inside a word in
+  README.md and in PRACTICE.md, 68
+  cells, and neither arm convicts
+  any cell. The empty document is
+  decided as its own shape. An
+  emptied README.md and an emptied
+  PRACTICE.md pass their copy-bar
+  tests on both arms, nothing
+  standing in them to bar, while
+  the full practice suite run over
+  the emptied practice document
+  fails, three of its seven tests
+  failing, the section-order test,
+  the section-substance test, and
+  the as-of-date and claims test,
+  while its copy-bar test passes. No
+  conviction failed anywhere in the
+  measurement, so no repair rides
+  this item.
+- IP-63. The routed Install question
+  is read back whole and carried
+  open. The question stands in
+  three places in the Round 9
+  record. IP-58 closes by recording
+  that the clone command presumes a
+  GitHub CLI holding a login, for
+  the round that next amends the
+  Install prose. The finding that
+  raised it (4529926747) offers two
+  arms, that the prose document the
+  authentication or that it offer a
+  clone method needing no login.
+  The Round 9 standards review
+  records the second arm as not
+  discharged and routed onward, a
+  disclosed and reasoned deferral.
+  No verbatim sentence for the
+  README stands anywhere in that
+  record, in the contract, in the
+  pull request body, in the review
+  reports, or in the landing
+  comment. The record names the
+  fact the prose must cure and the
+  two arms that could cure it, and
+  it takes neither. This round
+  therefore leaves the Install
+  prose untouched, word for word,
+  and the question stands open by
+  name. What is missing is stated
+  exactly. A choice between the two
+  arms is missing, and under the
+  chosen arm the exact sentence the
+  Install prose is to carry is
+  missing, and neither is this
+  round's to invent. The choice
+  between the two arms, and under
+  the chosen arm the exact sentence
+  the Install prose is to carry,
+  are the repository owner's to
+  supply, and the question closes
+  on his word and not before. The
+  underlying fact is re-verified
+  fresh in this round. The GitHub CLI on this box
+  holds no login, and the clone
+  command as printed refuses at
+  exit 4 with its instruction to
+  log in, reproduced in this round
+  as in Round 9. The guard's own
+  prerequisites stand exactly as
+  named, and the Python 3 naming
+  IP-52 repaired still holds as
+  printed.
+- IP-64. The realistic pass, the
+  line's realistic-data rule kept
+  with synthetic content only. The
+  shapes are stated from the
+  material itself. The three
+  documents padded past a million
+  bytes each with their own
+  repeated text, README.md at
+  1,002,204 bytes in 123 whole
+  copies, MANIFESTO.md at 1,000,008
+  bytes in 129 whole copies, and
+  PRACTICE.md at 1,003,332 bytes in
+  121 whole copies, pass their
+  copy-bar tests clean on both
+  arms. Each of the sixteen
+  fold-set codepoints planted
+  singly at character offset
+  900,000 in each padded document
+  is convicted by its guarding
+  copy-bar test, 48 of 48
+  plantings, and the interpreter's
+  arm convicts every one. The
+  practice document at 100 whole
+  copies (829,200 bytes) carries a
+  count claim of the barred shape,
+  the words eleven rounds appended
+  at the very end, convicted by the
+  claims test, and an em dash as
+  its final character, convicted by
+  the practice copy-bar test. The
+  padded README with one em dash
+  appended is convicted by the
+  repository scan, which exits 1
+  reporting U+2014=1. The scan
+  surface is exercised over many
+  documents. A staged tree carrying
+  the three true documents and 60
+  synthetic method notes, each note
+  twelve repetitions of a short
+  method passage, passes the scan
+  at exit 0, and the same tree with
+  one em dash standing in the 47th
+  note is convicted by the scan at
+  exit 1 reporting U+2014=1. A
+  mixed practice document, 90
+  paragraphs drawn in rotation from
+  the three documents, passes the
+  practice copy-bar test on both
+  arms. The claim for that cell is
+  the copy-bar verdict only. The
+  section pins judge the true
+  document's shape and are not
+  claimed over mixed material. A
+  boundary document built from a
+  passage carrying each of the 34
+  near codepoints of IP-62 beside
+  plain punctuation, repeated eight
+  times at 22,672 bytes,
+  passes the copy-bar tests as
+  README.md and as PRACTICE.md on
+  both arms, and the same document
+  with one U+FE55 planted inside a
+  word is convicted on both arms in
+  both placings. Across IP-62 and
+  this item the two arms agree on
+  every copy-bar cell, 175 cells,
+  with no disagreement. Every
+  exercised tree stands
+  byte-identical after its runs,
+  the guard reading and never
+  writing at volume as on the true
+  tree. No conviction failed, so
+  no repair rides this item.
+- IP-65. The round closes on the
+  standing gate and the standing
+  record. The gate on the final
+  tree runs the repository
+  codepoint scan, cargo fmt
+  --check, cargo clippy
+  --all-targets -- -D warnings, and
+  cargo test, and stands at 20
+  tests passed with the scan at
+  zero on both barred dashes.
+  README records 10 of 100 only in
+  the closure commit, with this
+  round's three reviews the owner's
+  step after this branch and the
+  landing the owner's act alone,
+  and the Status line carries the
+  contract range to IP-65 in the
+  same commit. The storefront's
+  third item is reported from
+  evidence at the head, not from
+  habit. The GitHub description,
+  the README lede, and the
+  Cargo.toml description are one
+  line in all three homes,
+  byte-identical at the base head
+  de696837 and untouched by this
+  round, and the description
+  question stands answered outright
+  on this repo under IP-43. The
+  Install prose stands untouched
+  under IP-63, its question carried
+  open by name. The lane staged its
+  trees and scratch outside the
+  workspace in this round, the
+  workspace file-count cap refusing
+  new files on this box, and the
+  gate figures and battery figures
+  recorded in IP-62 and IP-64 stand
+  in those items themselves.
+- IP-66. The repair record for this round's
+  reviews. The spec fidelity review returned
+  NOT PASS with one Minor and one Nit; the
+  standards review NOT APPROVE with one
+  Minor; the red team APPROVE with no
+  findings and two notes. The spec Minor
+  stood against the census in IP-64, whose
+  stated parts sum to 175 copy-bar cells and
+  not the 174 the item and the pull request
+  body carried (IP-62 states 118, the 48
+  fold plantings, the 68 neighbor plantings,
+  and the 2 emptied documents; IP-64 states
+  57, the 3 padded documents clean, the 48
+  padded plantings, the em dash cell at 100
+  copies, the mixed document, and the
+  boundary document in its 2 clean and 2
+  planted placings; and 175 with the
+  battery's 6 entries that are not copy-bar
+  cells closes on the battery total of 181
+  the body records). The figure stands
+  corrected to 175 in IP-64 and in the
+  body's two repetitions by the owner's
+  body edit. A second enumeration, excluding
+  the em dash cell from the total, was
+  recorded on the standards axis and is
+  noted here as the dissenting count; the
+  battery total decides for 175, since the
+  dash cell stands inside the 181 and
+  outside the six named non-copy-bar
+  entries. The spec Nit stood against one
+  IP-61 sentence that described the Round 9
+  walkthrough shell's first form as
+  carrying the review's three Minors; the
+  sentence stands corrected in IP-61, the
+  Minors the review's and the shell a
+  separate comment that carried none of
+  them. The standards Minor stood against
+  IP-63, which named what the Install
+  question lacks without naming whose act
+  supplies it; IP-63 now names the
+  repository owner as the supplier of the
+  arm choice and of the exact sentence, and
+  the Install prose stands untouched still.
