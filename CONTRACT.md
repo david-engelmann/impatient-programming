@@ -1082,9 +1082,11 @@ open (IP-61 to IP-65)
   (the review 5848588770, run
   6154f0fd-36fb-419c-9443-213245034416,
   over the base 6373a87a to a3b88ea4,
-  two files selected) the shell
+  two files selected) the review
   carried the three actionable
-  Minors above. The Round 9
+  Minors above; the walkthrough
+  shell is a separate comment and
+  carried none of them. The Round 9
   statements about the shell were
   true of the form that lane read,
   and no disposition turns on the
@@ -1224,9 +1226,15 @@ open (IP-61 to IP-65)
   chosen arm the exact sentence the
   Install prose is to carry is
   missing, and neither is this
-  round's to invent. The underlying
-  fact is re-verified fresh in this
-  round. The GitHub CLI on this box
+  round's to invent. The choice
+  between the two arms, and under
+  the chosen arm the exact sentence
+  the Install prose is to carry,
+  are the repository owner's to
+  supply, and the question closes
+  on his word and not before. The
+  underlying fact is re-verified
+  fresh in this round. The GitHub CLI on this box
   holds no login, and the clone
   command as printed refuses at
   exit 4 with its instruction to
@@ -1301,7 +1309,7 @@ open (IP-61 to IP-65)
   word is convicted on both arms in
   both placings. Across IP-62 and
   this item the two arms agree on
-  every copy-bar cell, 174 cells,
+  every copy-bar cell, 175 cells,
   with no disagreement. Every
   exercised tree stands
   byte-identical after its runs,
@@ -1348,3 +1356,46 @@ open (IP-61 to IP-65)
   gate figures and battery figures
   recorded in IP-62 and IP-64 stand
   in those items themselves.
+- IP-66. The repair record for this round's
+  reviews. The spec fidelity review returned
+  NOT PASS with one Minor and one Nit; the
+  standards review NOT APPROVE with one
+  Minor; the red team APPROVE with no
+  findings and two notes. The spec Minor
+  stood against the census in IP-64, whose
+  stated parts sum to 175 copy-bar cells and
+  not the 174 the item and the pull request
+  body carried (IP-62 states 118, the 48
+  fold plantings, the 68 neighbor plantings,
+  and the 2 emptied documents; IP-64 states
+  57, the 3 padded documents clean, the 48
+  padded plantings, the em dash cell at 100
+  copies, the mixed document, and the
+  boundary document in its 2 clean and 2
+  planted placings; and 175 with the
+  battery's 6 entries that are not copy-bar
+  cells closes on the battery total of 181
+  the body records). The figure stands
+  corrected to 175 in IP-64 and in the
+  body's two repetitions by the owner's
+  body edit. A second enumeration, excluding
+  the em dash cell from the total, was
+  recorded on the standards axis and is
+  noted here as the dissenting count; the
+  battery total decides for 175, since the
+  dash cell stands inside the 181 and
+  outside the six named non-copy-bar
+  entries. The spec Nit stood against one
+  IP-61 sentence that described the Round 9
+  walkthrough shell's first form as
+  carrying the review's three Minors; the
+  sentence stands corrected in IP-61, the
+  Minors the review's and the shell a
+  separate comment that carried none of
+  them. The standards Minor stood against
+  IP-63, which named what the Install
+  question lacks without naming whose act
+  supplies it; IP-63 now names the
+  repository owner as the supplier of the
+  arm choice and of the exact sentence, and
+  the Install prose stands untouched still.
