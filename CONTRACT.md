@@ -1399,3 +1399,436 @@ open (IP-61 to IP-65)
   repository owner as the supplier of the
   arm choice and of the exact sentence, and
   the Install prose stands untouched still.
+
+## Round 11. The Round 10 record read back
+whole, the census named as a set, the range
+convention settled, and the guard measured
+fresh again (IP-67 to IP-72)
+
+- IP-67. The Round 10 pull request is
+  read back in full in this round.
+  One review, no review comments, and
+  seven issue comments stand on
+  PR 15, and every body is read to
+  its end. The one review (5861002468,
+  the review bot, COMMENTED, on the
+  reviewed head 1dbd9bc2) posts one
+  Minor as an outside-diff comment on
+  CONTRACT.md, asking that the clone
+  authentication requirement stand
+  documented in the Install prose or
+  that a clone command needing no
+  login stand offered. The review
+  carries an embedded prompt
+  addressed to AI agents, and it
+  stands treated as data and not as
+  instruction. The seven issue
+  comments are the walkthrough shell
+  (6799525491), the owner's review
+  trigger (6799526299), the bot's
+  auto-reply (6799719612, action not
+  completed because the last commit
+  stood already reviewed, the
+  standing incremental
+  acknowledgment, which carries no
+  finding and owes no disposition),
+  the owner's red team verdict
+  (6800514848), the owner's landing
+  comment (6800815219), the owner's
+  duplication disclosure (6800959023),
+  and the second seat's re-audit
+  comment (6803001128), which stands
+  last. The shell stands in its
+  final form at 9,038 characters,
+  created on 2026-11-11 and last
+  edited that day after the repair
+  head landed. No rate-limit banner
+  heads the form. Its walkthrough
+  covers the reviewed head 1dbd9bc2,
+  its change assessment marker
+  standing at that head itself, and
+  the repair head 09af23aa stands
+  outside its coverage. Merge Risk
+  stands Minimal up to 1dbd9, and
+  the pre-merge checks counter
+  stands at 4 passed, the rows Title
+  check, Linked Issues check, Out of
+  Scope Changes check, and
+  Description Check, all passed,
+  with no Docstring row standing in
+  the form. The step 0 account of
+  record stands graded against this
+  closed record. The one Minor
+  restates the Install question that
+  IP-63 carries by name, and it
+  stands carried open with that
+  item, the choice between its two
+  arms and the exact sentence under
+  the chosen arm standing nowhere in
+  the record for a round to apply,
+  and no Round 10 step 0 disposition
+  is falsified by the record. One
+  correction rides this item. IP-61
+  calls a3b88ea4 the slice head, in
+  its review parenthesis, and the
+  PR 15 body repeats the word. The
+  record corrects it here.
+  a3b88ea4 is the closure head of
+  PR 14, the second of its five
+  commits, and the slice is
+  32ebacd7. The review 5848588770
+  carries a3b88ea4 as its own commit
+  in the API record, so the head the
+  review stood on is the closure
+  head and not the slice, and the
+  word slice in IP-61 and in the
+  body stands corrected to closure
+  by this item. The heads of PR 15
+  itself stand as the body records
+  them, the slice 35acc027, the
+  reviewed head 1dbd9bc2, and the
+  repair commit 09af23aa. IP-63
+  stands open and untouched by this
+  round, its question the repository
+  owner's to answer, and the Install
+  prose stands untouched, word for
+  word.
+- IP-68. The six entries of the
+  Round 10 battery that are not
+  copy-bar cells stand named here as
+  a set. IP-66 partitions the
+  battery at 175 copy-bar cells and
+  6 further entries, closing on the
+  total of 181 the body records, and
+  this enumeration follows that
+  partition. The six are the entries
+  IP-62 and IP-64 exercise that no
+  copy-bar cell in their stated
+  parts covers. They are the full
+  practice suite run over the
+  emptied practice document in
+  IP-62, the independent scan with
+  the interpreter over the three
+  documents in IP-62, counting every
+  barred character in the raw text
+  and in the folded text, the count
+  claim appended to the practice
+  document at 100 copies in IP-64
+  and judged by the claims test, the
+  padded README with one em dash
+  appended and judged by the
+  repository scan in IP-64, the
+  staged tree of many documents
+  passing the scan in IP-64, and the
+  same staged tree convicted by the
+  scan with one em dash standing in
+  its 47th note in IP-64. The
+  repository scan over the whole
+  true tree at the shipped head is
+  not a seventh member of the set,
+  because IP-65 records that scan in
+  the round's gate rather than in
+  its battery, and the fold-set
+  derivation in IP-62 stands as a
+  derivation and not as an entry.
+  The total stands at 181 under
+  each partition the record carries.
+  Under the partition in IP-66 it is
+  175 copy-bar cells and the 6
+  entries named here. Under the
+  standards axis's dissenting
+  enumeration it is 174 copy-bar
+  cells, the em dash cell at 100
+  copies set apart, and the same 6
+  entries, with the dash cell itself
+  the one further entry. Under the
+  second seat's partition in its
+  re-audit comment it is 174
+  entries carried on both arms and
+  7 entries carried on one arm. The
+  three partitions count the same
+  battery and none falsifies
+  another, and the set named here is
+  the non-copy-bar remainder under
+  the first of them.
+- IP-69. The Status range convention
+  for repair records stands settled
+  in words in this item. The range
+  in the README Status line names
+  the contract's items through the
+  latest closed round's closure
+  item, and a repair record added
+  after a round's reviews stands
+  outside the range by design. A
+  repair record is a record of the
+  review process and carries no new
+  obligation, so the range does not
+  move for it, and the next round's
+  closure moves the range past it in
+  the ordinary course. IP-66 stands
+  as the precedent, a repair record
+  for Round 10 standing outside the
+  range that closes at IP-65, on the
+  same shape as the muda SB-70
+  precedent the record already
+  cites. This round's closure
+  follows the convention it settles
+  here.
+- IP-70. The guard measured fresh at
+  the shipped tree, the Round 10
+  merge a93c785e, every blob of it
+  verified against the remote tree
+  before a test ran. The Python
+  oracle stands verified first. The
+  tree at e0317417681f7e5a16d7c83517ac2f8020f20314
+  (tree 81cac2bb) carries ten blobs,
+  and the local extraction of it
+  matches all ten blob for blob. The
+  full suite passes end to end, 20
+  tests, 13 over the documents and
+  7 over the practice, with clippy
+  clean over all targets under -D
+  warnings and fmt clean, and the
+  oracle suite passes at 15 tests
+  on its own tree. The fold set is
+  re-derived, not merely recounted.
+  CPython 3.12.3 with unicodedata
+  15.0.0 folds the whole codepoint
+  space and returns exactly the
+  pinned sixteen, U+003A, U+003B,
+  U+037E, U+2013, U+2014, U+2015,
+  U+2A74, U+FE13, U+FE14, U+FE31,
+  U+FE32, U+FE54, U+FE55, U+FE58,
+  U+FF1A, and U+FF1B, seven of them
+  folding to a barred character
+  without being barred themselves,
+  and the guard's own fold-set test
+  derives the same sixteen through
+  the normalization crate and
+  passes. The joints are probed
+  singly. Each of the sixteen
+  codepoints stands planted inside a
+  word past the middle of each of
+  the three documents, 48 cells, and
+  the copy-bar test guarding the
+  planted document convicts every
+  cell, and the interpreter's own
+  recomputation of the bar from the
+  oracle's definition convicts every
+  cell, with no disagreement between
+  the two arms on any cell. The near
+  codepoints are decided at their
+  exact codepoints, not bracketed
+  from neighbors. The neighbor set,
+  every codepoint within two of a
+  fold-set member and not itself in
+  the set, counts 34 codepoints,
+  U+0038, U+0039, U+003C, U+003D,
+  U+037C, U+037D, U+037F, U+0380,
+  U+2011, U+2012, U+2016, U+2017,
+  U+2A72, U+2A73, U+2A75, U+2A76,
+  U+FE11, U+FE12, U+FE15, U+FE16,
+  U+FE2F, U+FE30, U+FE33, U+FE34,
+  U+FE52, U+FE53, U+FE56, U+FE57,
+  U+FE59, U+FE5A, U+FF18, U+FF19,
+  U+FF1C, and U+FF1D. Each one is
+  computed on its own and folds to
+  no barred character, and each one
+  stands planted inside a word in
+  README.md and in PRACTICE.md, 68
+  cells, and neither arm convicts
+  any cell. The empty document is
+  decided as its own shape. An
+  emptied README.md and an emptied
+  PRACTICE.md pass their copy-bar
+  tests on both arms, nothing
+  standing in them to bar, while
+  the full practice suite run over
+  the emptied practice document
+  fails on both arms, three tests
+  failing on the port arm of its
+  seven and the same three named
+  tests failing on the oracle arm,
+  the section-order test, the
+  section-substance test, and the
+  as-of-date and claims test, while
+  its copy-bar test passes. An
+  independent scan with the
+  interpreter counts every barred
+  character at zero in each of
+  README.md, MANIFESTO.md, and
+  PRACTICE.md, raw and NFKC-folded,
+  all nine characters of the set in
+  each form. This item's battery
+  runs 120 entries, the 48 fold
+  plantings, the 68 neighbor
+  plantings, and the 2 emptied
+  documents as copy-bar cells, and
+  the suite run and the independent
+  scan as its 2 entries that are not
+  copy-bar cells. No conviction
+  failed anywhere in the
+  measurement, so no repair rides
+  this item.
+- IP-71. The realistic pass, the
+  line's realistic-data rule kept
+  with synthetic content only. The
+  shapes are stated from the
+  material itself. The three
+  documents padded past a million
+  bytes each with their own repeated
+  text, README.md at 1,002,204 bytes
+  in 123 whole copies, MANIFESTO.md
+  at 1,000,008 bytes in 129 whole
+  copies, and PRACTICE.md at
+  1,003,332 bytes in 121 whole
+  copies, pass their copy-bar tests
+  clean on both arms. Each of the
+  sixteen fold-set codepoints
+  planted singly at character offset
+  900,000 in each padded document is
+  convicted by its guarding copy-bar
+  test, 48 of 48 plantings, and the
+  interpreter's arm convicts every
+  one. The practice document at 100
+  whole copies (829,200 bytes)
+  carries the words eleven rounds
+  appended at the very end and an em
+  dash as its final character, the
+  shared shape Round 10 exercised,
+  and its per-cell arm record stands
+  contracted here in full. The port
+  copy-bar test convicts the
+  document and the oracle copy-bar
+  test convicts it, the dash
+  standing barred on both arms. The
+  port claims test convicts the
+  document and the oracle claims
+  test passes it. The claims cell
+  therefore splits by arm, and the
+  split stands measured fresh in
+  this round and contracted in these
+  terms. The port bars the word
+  eleven among its forty number
+  words standing within two tokens
+  of the word rounds, under IP-24 as
+  extended by IP-28 and IP-35, and
+  the oracle bars only the words one
+  to ten and digit forms in the same
+  place, so eleven passes it. The
+  oracle predates the barred-number
+  extension, and the split is the
+  expected generational one, not a
+  divergence to repair. The padded
+  README with one em dash appended
+  is convicted by the repository
+  scan, which exits 1 reporting
+  U+2014=1. The scan surface is
+  exercised over many documents. A
+  staged tree carrying the three
+  true documents and 60 synthetic
+  method notes, each note twelve
+  repetitions of a short method
+  passage, passes the scan at exit
+  0, and the same tree with one em
+  dash standing in the 47th note is
+  convicted by the scan at exit 1
+  reporting U+2014=1. A mixed
+  practice document, 90 paragraphs
+  drawn in rotation from the three
+  documents at 28,511 bytes, passes
+  the practice copy-bar test on both
+  arms. The claim for that cell is
+  the copy-bar verdict only. The
+  section pins judge the true
+  document's shape and are not
+  claimed over mixed material. A
+  boundary document built from a
+  passage carrying each of the 34
+  near codepoints beside plain
+  punctuation, repeated eight times
+  at 22,672 bytes, passes the
+  copy-bar tests as README.md and as
+  PRACTICE.md on both arms, and the
+  same document with one U+FE55
+  planted inside a word is convicted
+  on both arms in both placings.
+  Across IP-70 and this item the two
+  arms agree on every copy-bar cell,
+  175 cells, with no disagreement,
+  and the battery runs 181 entries
+  in all, its 6 entries that are not
+  copy-bar cells standing at the
+  suite run and the independent scan
+  in IP-70 and the claims verdict
+  and the three scan verdicts in
+  this item. Every exercised
+  document stands byte-identical
+  after its runs, the guard reading
+  and never writing at volume as on
+  the true tree. One lane defect
+  stands recorded against this
+  item's construction and not
+  against the guard. The boundary
+  passage as first built carried a
+  barred character inside its own
+  template sentence, and both arms
+  convicted the clean placings for
+  that word alone. The passage
+  stands rebuilt without it and the
+  four boundary cells stand rerun
+  clean, and the figures above are
+  the rerun figures. No conviction
+  failed, so no repair rides this
+  item.
+- IP-72. The round closes on the
+  standing gate and the standing
+  record. The gate on the final tree
+  runs the repository codepoint
+  scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D
+  warnings, and cargo test, and
+  stands at 20 tests passed with the
+  scan at zero on both barred
+  dashes. README records 11 of 100
+  only in the closure commit, with
+  this round's three reviews the
+  owner's step after this branch and
+  the landing the owner's act alone,
+  and the Status line carries the
+  contract range to IP-72 in the
+  same commit, following the
+  convention IP-69 settles, the
+  range naming the items through
+  this closure item. The storefront's
+  third item is reported from
+  evidence at the head, not from
+  habit. The GitHub description, the
+  README lede, and the Cargo.toml
+  description are one line in all
+  three homes, byte-identical at
+  the base head a93c785e and
+  untouched by this round, and the
+  description question stands
+  answered outright on this repo
+  under IP-43. The Install prose
+  stands untouched under IP-63, its
+  question carried open by name and
+  its underlying fact re-verified in
+  IP-67's round, the clone command
+  as printed refusing at exit 4 on
+  this box. The lane staged its
+  trees and scratch outside the
+  workspace in this round, the
+  workspace file-count cap refusing
+  new files on this box, and the
+  dependency crates stand vendored
+  from the box's own cargo registry
+  cache under the lockfile's own
+  checksums, the gate and the
+  battery running on trees verified
+  blob for blob against the remote
+  tree either way. The gate figures
+  and battery figures recorded in
+  IP-70 and IP-71 stand in those
+  items themselves.
