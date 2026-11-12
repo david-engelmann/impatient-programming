@@ -1781,3 +1781,54 @@ fresh again (IP-67 to IP-72)
   the rerun figures. No conviction
   failed, so no repair rides this
   item.
+- IP-72. The round closes on the
+  standing gate and the standing
+  record. The gate on the final tree
+  runs the repository codepoint
+  scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D
+  warnings, and cargo test, and
+  stands at 20 tests passed with the
+  scan at zero on both barred
+  dashes. README records 11 of 100
+  only in the closure commit, with
+  this round's three reviews the
+  owner's step after this branch and
+  the landing the owner's act alone,
+  and the Status line carries the
+  contract range to IP-72 in the
+  same commit, following the
+  convention IP-69 settles, the
+  range naming the items through
+  this closure item. The storefront's
+  third item is reported from
+  evidence at the head, not from
+  habit. The GitHub description, the
+  README lede, and the Cargo.toml
+  description are one line in all
+  three homes, byte-identical at
+  the base head a93c785e and
+  untouched by this round, and the
+  description question stands
+  answered outright on this repo
+  under IP-43. The Install prose
+  stands untouched under IP-63, its
+  question carried open by name and
+  its underlying fact re-verified in
+  IP-67's round, the clone command
+  as printed refusing at exit 4 on
+  this box. The lane staged its
+  trees and scratch outside the
+  workspace in this round, the
+  workspace file-count cap refusing
+  new files on this box, and the
+  dependency crates stand vendored
+  from the box's own cargo registry
+  cache under the lockfile's own
+  checksums, the gate and the
+  battery running on trees verified
+  blob for blob against the remote
+  tree either way. The gate figures
+  and battery figures recorded in
+  IP-70 and IP-71 stand in those
+  items themselves.
