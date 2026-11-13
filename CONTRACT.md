@@ -2023,3 +2023,119 @@ IP-78)
   tree. No conviction failed anywhere in
   the measurement, so no repair rides this
   item.
+- IP-75. The routed Install question is
+  read back whole and carried open, as
+  IP-63 leaves it. The Install prose
+  stands untouched, word for word, and no
+  sentence for it stands supplied anywhere
+  in the Round 11 record for a round to
+  apply. The underlying fact is
+  re-verified fresh in this round. The
+  GitHub CLI on this box holds no login,
+  and the clone command as printed refuses
+  at exit 4 with its instruction to log
+  in, reproduced in this round as in
+  Rounds 10 and 11. What is missing stands
+  exactly as IP-63 as amended records it.
+  A choice between the two arms is
+  missing, and under the chosen arm the
+  exact sentence the Install prose is to
+  carry is missing, and the choice and the
+  sentence are the repository owner's to
+  supply. The question closes on his word
+  and not before, and this round takes
+  neither arm.
+- IP-76. The realistic pass, the line's
+  realistic-data rule kept with synthetic
+  content only. The shapes are stated from
+  the material itself. The three documents
+  padded past a million bytes each with
+  their own repeated text, README.md at
+  1,002,573 bytes in 123 whole copies,
+  MANIFESTO.md at 1,000,008 bytes in 129
+  whole copies, and PRACTICE.md at
+  1,003,332 bytes in 121 whole copies,
+  pass their copy-bar tests clean on both
+  arms. Each of the sixteen fold-set
+  codepoints planted singly at character
+  offset 900,000 in each padded document
+  is convicted by its guarding copy-bar
+  test, 48 of 48 plantings, and the
+  interpreter's arm convicts every one.
+  The practice document at 100 whole
+  copies (829,200 bytes) carries the words
+  eleven rounds appended at the very end
+  and an em dash as its final character,
+  and its per-cell arm record stands
+  contracted here in full. The port
+  copy-bar test convicts the document and
+  the oracle copy-bar test convicts it,
+  the dash standing barred on both arms.
+  The port claims test convicts the
+  document and the oracle claims test
+  passes it. The claims cell therefore
+  splits by arm, and the split stands
+  measured fresh in this round and
+  contracted in these terms. The port bars
+  the word eleven among its forty number
+  words standing within two tokens of the
+  word rounds, under IP-24 as extended by
+  IP-28 and IP-35, and the oracle bars
+  only the words one to ten and digit
+  forms in the same place, so eleven
+  passes it. The oracle predates the
+  barred-number extension, and the split
+  is the expected generational one, not a
+  divergence to repair. The padded README
+  with one em dash appended is convicted
+  by the repository scan, which exits 1
+  reporting U+2014=1. The scan surface is
+  exercised over many documents. A staged
+  tree carrying the three true documents
+  and 60 synthetic method notes, each note
+  twelve repetitions of a short method
+  passage, passes the scan at exit 0, and
+  the same tree with one em dash standing
+  in the 47th note is convicted by the
+  scan at exit 1 reporting U+2014=1. A
+  mixed practice document, 90 paragraphs
+  drawn in rotation from the three
+  documents at 28,515 bytes, passes the
+  practice copy-bar test on both arms. The
+  claim for that cell is the copy-bar
+  verdict only. The section pins judge the
+  true document's shape and are not
+  claimed over mixed material. A boundary
+  document built from a passage carrying
+  each of the 34 near codepoints of IP-74
+  inside a word, in a sentence of plain
+  words and plain punctuation, the passage
+  repeated eight times at 12,152 bytes,
+  passes the copy-bar tests as README.md
+  and as PRACTICE.md on both arms, and the
+  same document with one U+FE55 planted
+  inside a word is convicted on both arms
+  in both placings. Across IP-74 and this
+  item the two arms agree on every
+  copy-bar cell, 175 cells, with no
+  disagreement, and the battery runs 181
+  entries in all. Its 6 entries that are
+  not copy-bar cells stand named as a set
+  under the partition IP-68 states, and
+  all six stand run in this round, the
+  full practice suite run over the emptied
+  practice document and the independent
+  scan with the interpreter over the three
+  documents in IP-74, and the count claim
+  appended to the practice document at 100
+  copies and judged by the claims test,
+  the padded README with one em dash
+  appended and judged by the repository
+  scan, the staged tree of many documents
+  passing the scan, and the same staged
+  tree convicted by the scan in this item.
+  Every exercised document stands
+  byte-identical after its runs, the guard
+  reading and never writing at volume as
+  on the true tree. No conviction failed,
+  so no repair rides this item.
