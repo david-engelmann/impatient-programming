@@ -2530,3 +2530,78 @@ the Install question carried open again
   than the fleet's, and it stands verified
   by the suite itself and by the
   independent scan recorded in IP-81.
+- IP-84. The round closes on the standing
+  gate and the standing record. The gate
+  on the final tree runs the repository
+  codepoint scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D warnings, and
+  cargo test, and stands at 20 tests
+  passed with the scan at zero on both
+  barred dashes. README records 13 of 100
+  only in the closure commit, with this
+  round's three reviews the owner's step
+  after this branch and the landing the
+  owner's act alone, and the Status line
+  carries the contract range to IP-84 in
+  the same commit, following the
+  convention IP-69 settles, the range
+  naming the items through this closure
+  item. The storefront's third item stands
+  verified in IP-83 and its tenth item
+  stands reported there as not rendered.
+  The Install prose stands untouched under
+  IP-63, its question carried open by name
+  and its underlying fact re-verified in
+  IP-82. The second charge of the Round 12
+  landing comment stands discharged here,
+  with the environment effects of the
+  Round 12 round stated in full in this
+  item's own text. That lane staged its
+  trees and scratch outside the workspace,
+  the workspace file-count cap refusing
+  new files on this box. Its dependency
+  crates stand vendored from the box's own
+  cargo registry cache under the
+  lockfile's own checksums after the
+  registry cache write itself hit the disk
+  quota. And its scratch volume filled
+  once mid-round from other tenants, and
+  the local git staging moved to shared
+  memory with nothing lost, the appended
+  item text standing in the file
+  throughout. This round's own environment
+  effects stand stated in full here as
+  well, and no part of this round's gate
+  stands outside this account. All
+  scratch, the working clone, and the
+  staging of this round stand under shared
+  memory, because the temporary volume on
+  this box stands full at 100 percent and
+  the home volume refuses new files under
+  its disk quota, which refused a scratch
+  directory in the workspace in this round
+  as it refused the Round 12 lane's files.
+  The first gate attempt hit the disk
+  quota on the cargo registry cache write
+  in the home directory, so the cargo home
+  moved under the shared-memory scratch
+  and the dependency crates were
+  downloaded there under the lockfile
+  before the gate ran. The compiler's
+  temporary files and the cargo target
+  directory stand under the scratch as
+  well, the compiler writing its
+  temporaries through the full temporary
+  volume. Every gate command on both trees
+  ran in the foreground and was awaited to
+  its own completion, and nothing in the
+  gate ran in the background. One batch of
+  API reads early in the round finished
+  as a backgrounded shell job when the
+  shell tool's own wait window closed, and
+  its output was read whole before
+  anything rested on it, and that batch
+  was a read and no part of the gate. The
+  gate figures and measurement figures
+  recorded in IP-81 stand in that item
+  itself.
