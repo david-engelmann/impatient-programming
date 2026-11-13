@@ -2221,3 +2221,25 @@ IP-78)
   figures and battery figures recorded in
   IP-74 and IP-76 stand in those items
   themselves.
+
+- IP-79. A correction to IP-74's
+  mechanism clause, appended on the red
+  team's Minor and rewriting nothing.
+  IP-74 states that the nine barred
+  characters stand in the set by folding
+  to themselves. Five do (U+003A,
+  U+003B, U+2013, U+2014, and U+2015).
+  Four fold to a different barred
+  character (U+FF1A folds to U+003A,
+  U+FF1B folds to U+003B, U+FE58 folds
+  to U+2014, and U+FE54 folds to
+  U+003B). The set itself is unchanged,
+  every member standing in it under the
+  raw check, and the same sixteen
+  result under the folded check alone,
+  so no cell, count, or verdict of this
+  round moves. The correction is to the
+  stated mechanism only, and this item
+  stands outside the Status range as a
+  repair record under the convention
+  IP-69 settles.
