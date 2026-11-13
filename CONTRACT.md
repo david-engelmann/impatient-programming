@@ -2139,3 +2139,49 @@ IP-78)
   reading and never writing at volume as
   on the true tree. No conviction failed,
   so no repair rides this item.
+- IP-77. The storefront read at the
+  shipped tree, each item reported from
+  evidence at the head and not from habit.
+  The third item stands verified outright
+  in this round. The GitHub description
+  read through the API, the README lede,
+  and the Cargo.toml description field are
+  one line in all three homes,
+  byte-identical at the base head a2f14595
+  and untouched by this round, and the
+  description question stands answered
+  outright on this repo under IP-43. The
+  first screen stands in the adapted shape
+  the standard allows, the title, the lede
+  identical to the description, one short
+  paragraph, no badge standing by design
+  because the founding guard bars the
+  colon a badge address needs, and one
+  real captured output, the codepoint
+  scan's summary line, reproduced in this
+  round by running the scan on the shipped
+  tree, which exits 0 reporting U+2014=0
+  and U+2013=0. Taking a copy and running
+  the guard stand in the adapted form the
+  record has always carried. The clone as
+  printed refuses at exit 4 on this box
+  (IP-75), so the copy for this round
+  stands taken through the API and
+  verified blob for blob, and the
+  quickstart is the guard run itself, run
+  verbatim on the shipped tree at 20 tests
+  passed with the scan run beside it. The
+  tenth item stands reported as not
+  rendered, and the third charge of the
+  Round 11 landing comment stands
+  discharged here. No rendered check of
+  the README at phone width stands from
+  this sandbox, and no reasoning stands
+  presented in its place as a rendered
+  inspection. The phone-width question
+  stands open on environment grounds
+  alone. The eleventh item is this repo's
+  own bar, stricter than the fleet's, and
+  it stands verified by the suite itself
+  and by the independent scan recorded in
+  IP-74.
