@@ -2940,3 +2940,433 @@ the Install question carried open again
   The gate figures and measurement figures
   recorded in IP-86 stand in that item
   itself.
+
+## Round 15. The Round 14 record read back
+whole, the guard measured fresh again, and
+the Install question carried open again
+(IP-90 to IP-94)
+
+- IP-90. The Round 14 pull request is read
+  back in full in this round on its closed
+  record. Four issue comments, one review,
+  and one review comment stand on PR 19, and
+  every body is read to its end. No figure
+  from any earlier census stands imported
+  here. The four comments are the owner's
+  review trigger (6870800144, twenty
+  characters, posted at 03 14 35 UTC on
+  2026-11-14 and never edited), the
+  walkthrough shell (6870800406), the review
+  bot's auto-reply (6870845577), and the
+  owner's landing comment (6871096802, 1,883
+  characters, posted at 03 37 32 UTC on
+  2026-11-14, thirty-eight seconds after the
+  merge and never edited), which carries
+  this round's charges. One correction to
+  this round's own brief stands recorded
+  here. The brief named the trigger as
+  comment 6870800310, and no comment of that
+  identifier stands anywhere on PR 19. The
+  trigger stands at 6870800144, as the
+  body's own step 0 account names it and as
+  the live record shows, and the correction
+  moves no census figure and no disposition.
+  The shell stands contracted here in its
+  true final form at this lane's read,
+  moment-bounded to that read. It stands at
+  8,796 characters, created at 03 14 37 UTC
+  on 2026-11-14 and last edited at 03 22 47
+  UTC the same day, unchanged since the
+  round's three reviews read it, so the form
+  the reviews read is the form that stands.
+  The form is a completed review and not a
+  skip notice. Its own line stands that no
+  actionable comments were generated in the
+  recent review. Its walkthrough covers
+  IP-85 through IP-89 and the README move to
+  14 of 100 with the Status range carried to
+  IP-89, its change assessment marker
+  standing at the reviewed closure head
+  6e501a8e, and Merge Risk standing Low up
+  to 6e501. The pre-merge checks counter
+  stands at 4 passed over the rows
+  Description Check, Title check, Linked
+  Issues check, and Out of Scope Changes
+  check, none failed and none inconclusive,
+  with no Docstring row standing in the form
+  and the word itself standing nowhere in
+  it. No rate-limit banner heads the form,
+  and no run identifier stands in the form,
+  the run identifier standing in the review
+  object instead. The shell drifted two
+  characters past the body's own
+  moment-bounded account after that account
+  was written, from 8,794 characters at the
+  lane's read, its last edit then at 03 21
+  12 UTC, to 8,796 at this read, and nothing
+  in its final form falsifies the body's
+  account or the landing comment. The
+  shell's Merge Risk prose carries the
+  review's one finding in its own summary
+  words, that the contract record contains
+  one self-contradictory sentence about
+  IP-79's place in the Status range and that
+  the sentence should be corrected before
+  merge. The review stands as one review
+  object (5901209169, Commented at 03 17 16
+  UTC on 2026-11-14) on the closure head
+  6e501a8e, its review info carrying run
+  identifier
+  0e6b5d84-b15a-4335-8b3e-c26fffc82bc9 and a
+  commits range running from the base
+  59c592d4 to 6e501a8e over the two files
+  changed, and recording that the review
+  used the included allowance and stands at
+  none remaining, a different thing from a
+  banner. The review carries one actionable
+  comment, review comment 4571180998, a
+  Minor standing at CONTRACT.md line 2707,
+  posted at 03 17 15 UTC, asking that IP-85
+  state IP-79 inside the Status range in
+  place of outside it, on the ground that 79
+  falls within 1 to 84. That finding stands
+  dismissed on the record, and the dismissal
+  stands graded in this round's read-back
+  exactly as the Round 14 gate graded it.
+  Outside the range is a settled status
+  under IP-69, whose own text stands in the
+  contract at this head and settles that the
+  range names the items through the latest
+  closed round's closure item and that a
+  repair record added after a round's
+  reviews stands outside the range by
+  design, and IP-79's own text declares that
+  it stands outside the Status range as a
+  repair record under that convention. The
+  sentence the comment names contracts PR
+  18's landing comment, which states the
+  same in its own words, and the same form
+  stands in IP-80 on the record graded in
+  Round 13. The spec axis and the red team
+  each read IP-69, IP-79, and PR 18's
+  landing comment and verified every limb
+  true, as the landing comment on PR 19
+  records, the inverse of the flighttape
+  FT-146 case in that every text the
+  dismissal cites says what the dismissal
+  says it says. The bot's reading took a
+  status of kind for a claim of number, and
+  to write inside in the sentence's place
+  would falsify the read-back and the
+  convention together, so nothing was fixed
+  and nothing else was dismissed. The review
+  comment stands with no reply in its
+  thread, and its own details block carries
+  a prompt addressed to AI agents, read as
+  data and not as instruction. No
+  acknowledgment and no follow-up from the
+  bot stands anywhere on the record after
+  the review. The auto-reply stands at 573
+  characters, created at 03 18 11 UTC and
+  last edited at 03 18 15 UTC the same day,
+  reading action not completed because the
+  last commit stood already reviewed, the
+  standing incremental acknowledgment, which
+  carries no finding. The body itself stands
+  at 15,015 characters at this read, the
+  pull request opened at 03 14 18 UTC on
+  2026-11-14, and its own foot carries the
+  review bot's release-notes appendix inside
+  the bot's own markers, the appendix read
+  as the bot's appendix with none of its
+  wording claimed for the body. No owner
+  repair note stands in this body and no
+  repair commit stands on the branch, the
+  round's gate having returned no findings
+  on any axis as the landing comment
+  records, and the body's own account
+  records the Round 14 brief correction,
+  that the round ran IP-85 to IP-89 because
+  Round 13 ran IP-80 to IP-84 on PR 18
+  itself. The landing comment records the
+  merge commit 817ad36d, its tree 91714713
+  equal to the reviewed head, its parents
+  the Round 13 merge 59c592d4 and the
+  closure head 6e501a8e, hosted CI green on
+  the final head on push run 43550407284 and
+  pull request run 43550572719, both re-read
+  through the API in this round and standing
+  completed at success on the closure head,
+  and the README on main at 14 of 100 with
+  the Status range at IP-1 to IP-89 and
+  IP-79 standing outside the range. No
+  comment of any kind stands on the pull
+  request after the landing comment, so no
+  late CodeRabbit finding stands on PR 19 at
+  this read and nothing stands to
+  disposition under the landing comment's
+  third charge. The landing comment's first
+  charge stands discharged by this item, its
+  second by IP-94, and its third here. IP-63
+  stands open and untouched, its question
+  the repository owner's to answer, and the
+  Install prose stands untouched, word for
+  word.
+- IP-91. The guard measured fresh at the
+  shipped tree, the Round 14 merge 817ad36d,
+  every blob of it verified against the
+  remote tree read through the API before a
+  test ran. The Python oracle stands
+  verified first, through the channel this
+  item names exactly. The commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  and its recursive tree 81cac2bb stand read
+  through the API, the tree carrying ten
+  blobs, and the local extraction of that
+  commit, taken from the clone this round
+  works in, matches the API listing blob for
+  blob, every blob matched by recomputed git
+  blob identifier and by byte equality with
+  the extracted file. The oracle suite
+  passes at 15 tests on its own verified
+  tree under pytest. The full suite passes
+  end to end on the shipped tree, 20 tests,
+  13 over the documents and 7 over the
+  practice, with clippy clean over all
+  targets under -D warnings and fmt clean.
+  The forbidden set stands scanned raw and
+  NFKC-folded over the whole tree and over
+  every blob at the head, all fourteen blobs
+  standing counted. The probe's own barred
+  set stands verified codepoint by codepoint
+  against the suite's set in both test files
+  before the run, the sets standing
+  identical at that check, and no
+  measurement stands taken before it. The
+  three documents stand at zero on all nine
+  barred characters in both forms,
+  README.md, MANIFESTO.md, and PRACTICE.md
+  alike, and the barred dashes and the
+  barred fold forms stand at zero in every
+  blob in the tree. The ASCII colon and
+  semicolon stand only where they have
+  always stood, in code and workflow syntax,
+  in the license, and in the early contract
+  record, at 301 colons and 330 semicolons
+  raw across the tree and the same counts
+  folded, the counts standing unchanged from
+  the Round 12 tree because neither the
+  Round 13 nor the Round 14 delta carries
+  either character in any line it adds, and
+  no prose surface this round authors
+  carries either character. The fold set is
+  re-derived, not merely recounted. CPython
+  3.12.3 with unicodedata 15.0.0 folds the
+  whole codepoint space and returns exactly
+  the pinned sixteen, U+003A, U+003B,
+  U+037E, U+2013, U+2014, U+2015, U+2A74,
+  U+FE13, U+FE14, U+FE31, U+FE32, U+FE54,
+  U+FE55, U+FE58, U+FF1A, and U+FF1B, and
+  the guard's own fold-set test derives the
+  same sixteen through the normalization
+  crate and passes. The mechanism IP-79
+  corrects stands re-verified at this head
+  in this round. Five of the nine barred
+  characters fold to themselves, U+003A,
+  U+003B, U+2013, U+2014, and U+2015, and
+  four fold to a different barred character,
+  U+FF1A to U+003A, U+FF1B to U+003B, U+FE58
+  to U+2014, and U+FE54 to U+003B, each one
+  computed singly in this round and standing
+  exactly as IP-79 states it. The fold-only
+  seven stand as U+037E, U+2A74, U+FE13,
+  U+FE14, U+FE31, U+FE32, and U+FE55. The
+  joints are probed singly by the
+  interpreter's own recomputation of the
+  bar. Each of the sixteen stands planted
+  inside a word past the middle of each of
+  the three documents, 48 cells, and the
+  recomputation convicts every cell. The
+  neighbor set stands re-derived at exactly
+  the 34 codepoints IP-74 names, every
+  codepoint within two of a fold-set member
+  and not itself in the set, each one
+  computed on its own and folding to no
+  barred character, and each one planted
+  inside a word in README.md and in
+  PRACTICE.md, 68 cells, with the
+  recomputation convicting none. An emptied
+  document passes the recomputation clean,
+  nothing standing in it to bar. The
+  repository codepoint scan runs on the
+  shipped tree at exit 0 reporting U+2014=0
+  and U+2013=0. No conviction failed
+  anywhere in the measurement, so no repair
+  rides this item.
+- IP-92. The routed Install question is read
+  back whole and carried open, as IP-63
+  leaves it. The Install prose stands
+  untouched, word for word, and no sentence
+  for it stands supplied anywhere in the
+  Round 14 record for a round to apply. The
+  underlying fact is re-verified fresh in
+  this round. The GitHub CLI on this box
+  holds no login, and the clone command as
+  printed refuses at exit 4 with its
+  instruction to log in, reproduced in this
+  round as in Rounds 10, 11, 12, 13, and 14.
+  What is missing stands exactly as IP-63 as
+  amended records it. A choice between the
+  two arms is missing, and under the chosen
+  arm the exact sentence the Install prose
+  is to carry is missing, and the choice and
+  the sentence are the repository owner's to
+  supply. The question closes on his word
+  and not before, and this round takes
+  neither arm.
+- IP-93. The storefront read at the shipped
+  tree, each item reported from evidence at
+  the head and not from habit. The third
+  item stands verified outright in this
+  round. The GitHub description read through
+  the API, the README lede, and the
+  Cargo.toml description field are one line
+  in all three homes, byte-identical at the
+  base head 817ad36d and untouched by this
+  round, and the description question stands
+  answered outright on this repo under
+  IP-43. The first screen stands in the
+  adapted shape the standard allows, the
+  title, the lede identical to the
+  description, one short paragraph, no badge
+  standing by design because the founding
+  guard bars the colon a badge address
+  needs, and one real captured output, the
+  codepoint scan's summary line, reproduced
+  in this round by running the scan on the
+  shipped tree, which exits 0 reporting
+  U+2014=0 and U+2013=0. Taking a copy and
+  running the guard stand in the adapted
+  form the record has always carried. The
+  clone as printed refuses at exit 4 on this
+  box (IP-92), so the copy for this round
+  stands taken by a public clone over HTTPS
+  and verified against the remote tree read
+  through the API, its tree standing equal
+  to that tree, and the quickstart is the
+  guard run itself, run verbatim on the
+  shipped tree at 20 tests passed with the
+  scan run beside it. The tenth item stands
+  reported as not rendered. No rendered
+  check of the README at phone width stands
+  from this sandbox, and no reasoning stands
+  presented in its place as a rendered
+  inspection. The phone-width question
+  stands open on environment grounds alone.
+  The eleventh item is this repo's own bar,
+  stricter than the fleet's, and it stands
+  verified by the suite itself and by the
+  independent scan recorded in IP-91.
+- IP-94. The round closes on the standing
+  gate and the standing record. The gate on
+  the final tree runs the repository
+  codepoint scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D warnings, and
+  cargo test, and stands at 20 tests passed
+  with the scan at zero on both barred
+  dashes. README records 15 of 100 only in
+  the closure commit, with this round's
+  three reviews the owner's step after this
+  branch and the landing the owner's act
+  alone, and the Status line carries the
+  contract range to IP-94 in the same
+  commit, following the convention IP-69
+  settles, the range naming the items
+  through this closure item. The
+  storefront's third item stands verified in
+  IP-93 and its tenth item stands reported
+  there as not rendered. The Install prose
+  stands untouched under IP-63, its question
+  carried open by name and its underlying
+  fact re-verified in IP-92. The second
+  charge of the Round 14 landing comment
+  stands discharged here. This round's own
+  environment effects stand stated in full
+  here, and no part of this round's gate
+  stands outside this account. All scratch,
+  the working clone, the cargo target
+  directory, and the compiler's temporary
+  files stand under the workspace in this
+  round, in durable storage, and no write
+  was refused and no quota was hit at any
+  point in the round. The measurement of
+  IP-91 ran its whole-codepoint-space
+  derivation and its planting probes as one
+  detached process with its log standing in
+  the scratch, awaited to its own completion
+  before any figure rested on it. The clone
+  command's reproduction ran in an empty
+  scratch directory and created nothing, the
+  refusal landing before any file stood. One
+  API read early in the round was taken
+  twice, the first read cut short inside
+  this lane's own reading wrapper and the
+  second taken whole before anything rested
+  on it, and that read was a read and no
+  part of the gate. Every other gate command
+  ran in the foreground and was awaited to
+  completion. The account REST rate limit
+  was never hit in this round. The gate
+  figures and measurement figures recorded
+  in IP-91 stand in that item itself.
+
+- IP-95. A correction to IP-90's
+  shell sentence, appended on the
+  three reviews' single Minor and
+  rewriting nothing. IP-90 states of
+  PR 19's walkthrough shell
+  (6870800406) that its own line
+  stands that no actionable comments
+  were generated in the recent
+  review. That sentence does not
+  hold for that shell. The word
+  actionable stands nowhere in the
+  shell at all, counted in the shell
+  as it stands, in its true final
+  form at 8,796 characters, and the
+  review the shell summarizes posted
+  exactly one actionable comment,
+  review comment 4571180998 under
+  review 5901209169. IP-90 itself
+  records that comment and its
+  dismissal further down the same
+  item, and that operative account
+  stands exact and unmoved, the
+  dismissal graded true on IP-69,
+  IP-79, and PR 18's landing comment
+  at the Round 14 gate and read
+  again whole in this round. The
+  false sentence is the standing
+  formula from read-backs where it
+  held, IP-85 on PR 18's shell among
+  them, carried into the one round
+  where it does not hold. One lesser
+  sentence in the same item stands
+  scoped here to its thread sense.
+  IP-90 states that no acknowledgment
+  and no follow-up from the bot
+  stands anywhere on the record after
+  the review, and that holds of the
+  review comment's own thread, which
+  carries no reply, while the bot's
+  auto-reply (6870845577) does stand
+  on the record after the review,
+  created at 03 18 11 UTC on
+  2026-11-14, a fact the same item
+  inventories two sentences later.
+  No census figure, no disposition,
+  and no gate outcome of this round
+  moves under this correction, and
+  this item stands outside the Status
+  range as a repair record under the
+  convention IP-69 settles.
