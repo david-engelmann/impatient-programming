@@ -3267,3 +3267,55 @@ the Install question carried open again
   stricter than the fleet's, and it stands
   verified by the suite itself and by the
   independent scan recorded in IP-91.
+- IP-94. The round closes on the standing
+  gate and the standing record. The gate on
+  the final tree runs the repository
+  codepoint scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D warnings, and
+  cargo test, and stands at 20 tests passed
+  with the scan at zero on both barred
+  dashes. README records 15 of 100 only in
+  the closure commit, with this round's
+  three reviews the owner's step after this
+  branch and the landing the owner's act
+  alone, and the Status line carries the
+  contract range to IP-94 in the same
+  commit, following the convention IP-69
+  settles, the range naming the items
+  through this closure item. The
+  storefront's third item stands verified in
+  IP-93 and its tenth item stands reported
+  there as not rendered. The Install prose
+  stands untouched under IP-63, its question
+  carried open by name and its underlying
+  fact re-verified in IP-92. The second
+  charge of the Round 14 landing comment
+  stands discharged here. This round's own
+  environment effects stand stated in full
+  here, and no part of this round's gate
+  stands outside this account. All scratch,
+  the working clone, the cargo target
+  directory, and the compiler's temporary
+  files stand under the workspace in this
+  round, in durable storage, and no write
+  was refused and no quota was hit at any
+  point in the round. The measurement of
+  IP-91 ran its whole-codepoint-space
+  derivation and its planting probes as one
+  detached process with its log standing in
+  the scratch, awaited to its own completion
+  before any figure rested on it. The clone
+  command's reproduction ran in an empty
+  scratch directory and created nothing, the
+  refusal landing before any file stood. One
+  API read early in the round was taken
+  twice, the first read cut short inside
+  this lane's own reading wrapper and the
+  second taken whole before anything rested
+  on it, and that read was a read and no
+  part of the gate. Every other gate command
+  ran in the foreground and was awaited to
+  completion. The account REST rate limit
+  was never hit in this round. The gate
+  figures and measurement figures recorded
+  in IP-91 stand in that item itself.
