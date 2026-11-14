@@ -3203,3 +3203,67 @@ the Install question carried open again
   and U+2013=0. No conviction failed
   anywhere in the measurement, so no repair
   rides this item.
+- IP-92. The routed Install question is read
+  back whole and carried open, as IP-63
+  leaves it. The Install prose stands
+  untouched, word for word, and no sentence
+  for it stands supplied anywhere in the
+  Round 14 record for a round to apply. The
+  underlying fact is re-verified fresh in
+  this round. The GitHub CLI on this box
+  holds no login, and the clone command as
+  printed refuses at exit 4 with its
+  instruction to log in, reproduced in this
+  round as in Rounds 10, 11, 12, 13, and 14.
+  What is missing stands exactly as IP-63 as
+  amended records it. A choice between the
+  two arms is missing, and under the chosen
+  arm the exact sentence the Install prose
+  is to carry is missing, and the choice and
+  the sentence are the repository owner's to
+  supply. The question closes on his word
+  and not before, and this round takes
+  neither arm.
+- IP-93. The storefront read at the shipped
+  tree, each item reported from evidence at
+  the head and not from habit. The third
+  item stands verified outright in this
+  round. The GitHub description read through
+  the API, the README lede, and the
+  Cargo.toml description field are one line
+  in all three homes, byte-identical at the
+  base head 817ad36d and untouched by this
+  round, and the description question stands
+  answered outright on this repo under
+  IP-43. The first screen stands in the
+  adapted shape the standard allows, the
+  title, the lede identical to the
+  description, one short paragraph, no badge
+  standing by design because the founding
+  guard bars the colon a badge address
+  needs, and one real captured output, the
+  codepoint scan's summary line, reproduced
+  in this round by running the scan on the
+  shipped tree, which exits 0 reporting
+  U+2014=0 and U+2013=0. Taking a copy and
+  running the guard stand in the adapted
+  form the record has always carried. The
+  clone as printed refuses at exit 4 on this
+  box (IP-92), so the copy for this round
+  stands taken by a public clone over HTTPS
+  and verified against the remote tree read
+  through the API, its tree standing equal
+  to that tree, and the quickstart is the
+  guard run itself, run verbatim on the
+  shipped tree at 20 tests passed with the
+  scan run beside it. The tenth item stands
+  reported as not rendered. No rendered
+  check of the README at phone width stands
+  from this sandbox, and no reasoning stands
+  presented in its place as a rendered
+  inspection. The phone-width question
+  stands open on environment grounds alone.
+  The eleventh item is this repo's own bar,
+  stricter than the fleet's, and it stands
+  verified by the suite itself and by the
+  independent scan recorded in IP-91.
