@@ -2605,3 +2605,216 @@ the Install question carried open again
   gate figures and measurement figures
   recorded in IP-81 stand in that item
   itself.
+
+## Round 14. The Round 13 record read back
+whole, the guard measured fresh again, and
+the Install question carried open again
+(IP-85 to IP-89)
+
+- IP-85. The Round 13 pull request is read
+  back in full in this round on its closed
+  record. No reviews, no review comments,
+  and four issue comments stand on PR 18,
+  and every body is read to its end. The
+  census matches the shape IP-80 records
+  for PR 17, and no figure from any earlier
+  census stands imported here. The four
+  comments are the owner's review trigger
+  (6859110847, twenty characters, posted at
+  16 42 21 UTC on 2026-11-13 and never
+  edited), the walkthrough shell
+  (6859111642), the review bot's auto-reply
+  (6859155400), and the owner's landing
+  comment (6859506490, 1,376 characters,
+  posted at 16 59 44 UTC on 2026-11-13,
+  twenty-four seconds after the merge and
+  never edited), which carries this round's
+  charges. The shell stands contracted
+  here in its true final form at this
+  lane's read, moment-bounded to that
+  read. It stands at 11,001 characters,
+  created at 16 42 23 UTC on 2026-11-13 and
+  last edited at 16 46 20 UTC the same day.
+  The form is a completed review and not a
+  skip notice. Its own line stands that no
+  actionable comments were generated in the
+  recent review. Its walkthrough covers
+  the reviewed closure head 2cbb89a6, its
+  change assessment marker standing at
+  that head, its review info carrying run
+  identifier
+  08c9d9be-437f-459c-a79d-143635d09dce and
+  a commits range running from the base
+  014c3b84 to 2cbb89a6 over the two files
+  changed, and Merge Risk standing Minimal
+  up to 2cbb8. The pre-merge checks
+  counter stands at 4 passed over the rows
+  Title check, Linked Issues check, Out of
+  Scope Changes check, and Description
+  Check, none failed and none
+  inconclusive, with no Docstring row
+  standing in the form and the word itself
+  standing nowhere in it. No rate-limit
+  banner heads the form, and its review
+  info records that the review used the
+  included allowance and stands at none
+  remaining, a different thing from a
+  banner. No repair commit stands on this
+  record, the round's three commits being
+  the slice, the Install and storefront
+  commit, and the closure, and the shell's
+  commits range ends at the reviewed
+  closure head itself. The shell drifted
+  past the body's own moment-bounded
+  account after that account was written,
+  from 10,999 characters at the lane's
+  last read to 11,001 at this read, two
+  characters as the landing comment
+  records, its last edit at 16 46 20, and
+  nothing in its final form falsifies the
+  body's account or the landing comment.
+  The auto-reply stands at 573
+  characters, created at 16 44 18 UTC and
+  last edited at 16 44 22 UTC the same day,
+  reading action not completed because the
+  last commit stood already reviewed, the
+  standing incremental acknowledgment,
+  which carries no finding. The body
+  itself stands at 13,045 characters at
+  this read, opened at 16 42 09 UTC on
+  2026-11-13, and its own foot carries the
+  review bot's release-notes appendix
+  inside the bot's own markers, the
+  appendix read as the bot's appendix with
+  none of its wording claimed for the
+  body. No owner repair note stands in
+  this body and no repair commit stands on
+  the branch, the round's gate having
+  returned no findings on any axis as the
+  landing comment records. The landing
+  comment records the merge commit
+  59c592d4, its tree 19be1d39 equal to the
+  reviewed head, its parents the Round 12
+  merge 014c3b84 and the closure head
+  2cbb89a6, hosted CI green on the final
+  head on push run 43465023589 and pull
+  request run 43465368367, both re-read
+  through the API in this round and
+  standing completed at success on the
+  closure head, and the README on main at
+  13 of 100 with the Status range at IP-1
+  to IP-84 and IP-79 standing outside the
+  range. No late CodeRabbit finding stands
+  on PR 18 at this read. The census whole
+  carries no review and no review comment
+  at all, the shell states that no
+  actionable comments were generated, and
+  no comment of any kind stands on the
+  pull request after the landing comment,
+  so nothing stands to fix and nothing
+  stands dismissed, and the third charge
+  of the landing comment stands discharged
+  here. The landing comment's first charge
+  stands discharged by this item, its
+  second by IP-89, and its third here.
+  IP-63 stands open and untouched, its
+  question the repository owner's to
+  answer, and the Install prose stands
+  untouched, word for word.
+- IP-86. The guard measured fresh at the
+  shipped tree, the Round 13 merge
+  59c592d4, every blob of it verified
+  against the remote tree read through
+  the API before a test ran. The Python
+  oracle stands verified first, through
+  the channel this item names exactly.
+  The commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  and its recursive tree 81cac2bb stand
+  read through the API, the tree carrying
+  ten blobs, and the local extraction of
+  that commit, taken from the clone this
+  round works in, matches the API listing
+  blob for blob, every blob matched by
+  recomputed git blob identifier and by
+  byte equality with the extracted file.
+  The oracle suite passes at 15 tests on
+  its own verified tree under pytest. The
+  full suite passes end to end on the
+  shipped tree, 20 tests, 13 over the
+  documents and 7 over the practice, with
+  clippy clean over all targets under
+  -D warnings and fmt clean. The
+  forbidden set stands scanned raw and
+  NFKC-folded over the whole tree and
+  over every blob at the head, all
+  fourteen blobs standing counted. The
+  probe's own barred set stands verified
+  codepoint by codepoint against the
+  suite's set before the run, one
+  mistyped literal caught and corrected
+  at that check with no measurement taken
+  before it. The three documents stand at
+  zero on all nine barred characters in
+  both forms, README.md, MANIFESTO.md, and
+  PRACTICE.md alike, and the barred
+  dashes and the barred fold forms stand
+  at zero in every blob in the tree. The
+  ASCII colon and semicolon stand only
+  where they have always stood, in code
+  and workflow syntax, in the license,
+  and in the early contract record, at
+  301 colons and 330 semicolons raw
+  across the tree and the same counts
+  folded, the counts standing unchanged
+  from the Round 12 tree because the
+  Round 13 delta carries neither
+  character in any line it adds, and no
+  prose surface this round authors
+  carries either character. The fold set
+  is re-derived, not merely recounted.
+  CPython 3.12.3 with unicodedata 15.0.0
+  folds the whole codepoint space and
+  returns exactly the pinned sixteen,
+  U+003A, U+003B, U+037E, U+2013, U+2014,
+  U+2015, U+2A74, U+FE13, U+FE14, U+FE31,
+  U+FE32, U+FE54, U+FE55, U+FE58, U+FF1A,
+  and U+FF1B, and the guard's own fold-set
+  test derives the same sixteen through
+  the normalization crate and passes. The
+  mechanism IP-79 corrects stands
+  re-verified at this head in this round.
+  Five of the nine barred characters fold
+  to themselves, U+003A, U+003B, U+2013,
+  U+2014, and U+2015, and four fold to a
+  different barred character, U+FF1A to
+  U+003A, U+FF1B to U+003B, U+FE58 to
+  U+2014, and U+FE54 to U+003B, each one
+  computed singly in this round and
+  standing exactly as IP-79 states it.
+  The fold-only seven stand as U+037E,
+  U+2A74, U+FE13, U+FE14, U+FE31, U+FE32,
+  and U+FE55. The joints are probed
+  singly by the interpreter's own
+  recomputation of the bar. Each of the
+  sixteen stands planted inside a word
+  past the middle of each of the three
+  documents, 48 cells, and the
+  recomputation convicts every cell. The
+  neighbor set stands re-derived at
+  exactly the 34 codepoints IP-74 names,
+  every codepoint within two of a
+  fold-set member and not itself in the
+  set, each one computed on its own and
+  folding to no barred character, and
+  each one planted inside a word in
+  README.md and in PRACTICE.md, 68 cells,
+  with the recomputation convicting none.
+  An emptied document passes the
+  recomputation clean, nothing standing
+  in it to bar. The repository codepoint
+  scan runs on the shipped tree at exit 0
+  reporting U+2014=0 and U+2013=0. No
+  conviction failed anywhere in the
+  measurement, so no repair rides this
+  item.
