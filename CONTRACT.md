@@ -3319,3 +3319,54 @@ the Install question carried open again
   was never hit in this round. The gate
   figures and measurement figures recorded
   in IP-91 stand in that item itself.
+
+- IP-95. A correction to IP-90's
+  shell sentence, appended on the
+  three reviews' single Minor and
+  rewriting nothing. IP-90 states of
+  PR 19's walkthrough shell
+  (6870800406) that its own line
+  stands that no actionable comments
+  were generated in the recent
+  review. That sentence does not
+  hold for that shell. The word
+  actionable stands nowhere in the
+  shell at all, counted in the shell
+  as it stands, in its true final
+  form at 8,796 characters, and the
+  review the shell summarizes posted
+  exactly one actionable comment,
+  review comment 4571180998 under
+  review 5901209169. IP-90 itself
+  records that comment and its
+  dismissal further down the same
+  item, and that operative account
+  stands exact and unmoved, the
+  dismissal graded true on IP-69,
+  IP-79, and PR 18's landing comment
+  at the Round 14 gate and read
+  again whole in this round. The
+  false sentence is the standing
+  formula from read-backs where it
+  held, IP-85 on PR 18's shell among
+  them, carried into the one round
+  where it does not hold. One lesser
+  sentence in the same item stands
+  scoped here to its thread sense.
+  IP-90 states that no acknowledgment
+  and no follow-up from the bot
+  stands anywhere on the record after
+  the review, and that holds of the
+  review comment's own thread, which
+  carries no reply, while the bot's
+  auto-reply (6870845577) does stand
+  on the record after the review,
+  created at 03 18 11 UTC on
+  2026-11-14, a fact the same item
+  inventories two sentences later.
+  No census figure, no disposition,
+  and no gate outcome of this round
+  moves under this correction, and
+  this item stands outside the Status
+  range as a repair record under the
+  convention IP-69 settles.
