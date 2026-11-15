@@ -4153,3 +4153,56 @@ the Install question carried open again
   it stands verified by the suite itself
   and by the independent scan recorded in
   IP-102.
+
+- IP-105. The round closes on the standing
+  gate and the standing record. The gate
+  on the final tree runs the repository
+  codepoint scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D warnings, and
+  cargo test, and stands at 20 tests
+  passed with the scan at zero on both
+  barred dashes. README records 17 of 100
+  only in the closure commit, with this
+  round's three reviews the owner's step
+  after this branch and the landing the
+  owner's act alone, and the Status line
+  carries the contract range to IP-105 in
+  the same commit, following the
+  convention IP-69 settles, the range
+  naming the items through this closure
+  item. The storefront's third item stands
+  verified in IP-104 and its tenth item
+  stands reported there as not rendered.
+  The Install prose stands untouched under
+  IP-63, its question carried open by name
+  and its underlying fact re-verified in
+  IP-103. The second charge of the Round
+  16 landing comment stands discharged
+  here. This round's own environment
+  effects stand stated in full here, and
+  no part of this round's gate stands
+  outside this account. All scratch, the
+  working clone, the cargo target
+  directory, and the compiler's temporary
+  files stand under the workspace in this
+  round, in durable storage, and no write
+  was refused and no quota was hit at any
+  point in the round. The measurement of
+  IP-102 ran twice in this round as a
+  detached process, the two runs standing
+  with their logs in the scratch and
+  returning the same figures on every
+  count and every cell. The clone
+  command's reproduction ran in an empty
+  scratch directory and created nothing,
+  the refusal landing before any file
+  stood. Every other gate command ran in
+  the foreground and was awaited to
+  completion. No API read in this round
+  was rested on in a cut-short form, every
+  figure in these items tracing to a read
+  taken whole, and the account REST rate
+  limit was never hit in this round. The
+  gate figures and measurement figures
+  recorded in IP-102 stand in that item
+  itself.
