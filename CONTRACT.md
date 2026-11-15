@@ -4459,3 +4459,69 @@ again, and the guard measured fresh again
   anywhere in the measurement, so no
   repair rides this item or the one before
   it.
+
+- IP-109. The whole tree stands scanned at
+  the shipped tree, the Round 17 merge
+  5fa47b1c3b9aef07e23b2aa2425f5296fb78ef8f,
+  every blob of it verified against the
+  remote tree read through the API before
+  a test ran, the extracted local tree
+  standing at
+  a0609b009870ef2777b434c8017439ba138e4bab,
+  equal to the remote tree at the merge.
+  The scan is the probe's own, from the
+  agreeing pair of runs recorded in
+  IP-108, over all fourteen blobs at the
+  head. The three documents stand at zero
+  on all nine barred characters in both
+  forms, README.md, MANIFESTO.md, and
+  PRACTICE.md alike, raw and NFKC-folded,
+  and the barred dashes and the barred
+  fold forms stand at zero in every blob
+  in the tree in both forms. The ASCII
+  colon and semicolon stand only where
+  they have always stood, in code and
+  workflow syntax, in the license, and in
+  the early contract record, at 301 colons
+  and 330 semicolons raw across the tree
+  and the same counts folded, the counts
+  standing unchanged from the Round 12
+  tree, this round's count at the Round 17
+  tree standing equal to the count IP-102
+  recorded at the Round 16 tree, so the
+  Round 17 delta carries neither character
+  in any line it adds, and no prose
+  surface this round authors carries
+  either character. The Python oracle
+  stands verified first, through the
+  channel this item names exactly. The
+  commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  and its recursive tree 81cac2bb stand
+  read through the API, the tree carrying
+  ten blobs, and the local extraction of
+  that commit matches the API listing blob
+  for blob, every blob matched by
+  recomputed git blob identifier. The
+  oracle suite passes at 15 tests on its
+  own verified tree under pytest. The
+  printed clone command stands reproduced
+  in this round. The GitHub CLI on this
+  box holds no login, and the clone
+  command as printed in the README Install
+  section refuses at exit 4 with its
+  instruction to log in, the reproduction
+  running in an empty scratch directory
+  and creating nothing, the refusal
+  landing before any file stood, as in
+  Rounds 10 through 17. The gate on the
+  base tree runs the repository codepoint
+  scan, cargo fmt --check, cargo clippy
+  --all-targets -- -D warnings, and cargo
+  test, and stands at 20 tests passed, 13
+  over the documents and 7 over the
+  practice, with the scan at exit 0
+  reporting U+2014=0 and U+2013=0 and
+  clippy and fmt clean. The gate on the
+  final tree stands recorded in the
+  closure item IP-110.
