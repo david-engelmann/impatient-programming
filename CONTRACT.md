@@ -4585,3 +4585,51 @@ again, and the guard measured fresh again
   gate figures and measurement figures
   recorded in IP-107, IP-108, and IP-109
   stand in those items themselves.
+
+- IP-111. A correction to IP-106's
+  distribution clause for the colons
+  of PR 22's body, appended on the
+  spec review's and the red team's
+  single shared Minor and rewriting
+  nothing. IP-106 states that two of
+  the colons stand in the appendix
+  content and the third in its
+  closing marker. That distribution
+  does not hold at the offsets
+  measured in this repair against
+  the body read whole through the
+  API at 14,884 characters, its
+  appendix opening at character
+  14,422. The three colons stand at
+  characters 14,460, 14,526, and
+  14,848, the first inside the
+  opening marker itself, the second
+  inside the version marker that
+  follows it, and the third inside
+  the closing marker, which spans
+  characters 14,814 to 14,884. The
+  appendix content proper, the
+  Summary heading and its two
+  bullets standing between the
+  version marker's end at character
+  14,533 and the closing marker at
+  14,814, carries no colon at all.
+  Two of the three colons stand in
+  the appendix's opening markers,
+  none in its content, and the
+  third in its closing marker.
+  Every block-level claim of IP-106
+  stands as written, three colons
+  raw and the same count folded,
+  every one inside the appendix
+  block, no other barred character
+  anywhere in the body in either
+  form, and the authored body at
+  zero on the whole barred set raw
+  and NFKC-folded. No census figure,
+  no disposition, and no gate
+  outcome of this round moves under
+  this correction, and this item
+  stands outside the Status range
+  as a repair record under the
+  convention IP-69 settles.
