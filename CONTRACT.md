@@ -4525,3 +4525,63 @@ again, and the guard measured fresh again
   clippy and fmt clean. The gate on the
   final tree stands recorded in the
   closure item IP-110.
+
+- IP-110. The round closes on the standing
+  gate and the standing record. The gate
+  on the final tree runs the repository
+  codepoint scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D warnings, and
+  cargo test, and stands at 20 tests
+  passed with the scan at zero on both
+  barred dashes. README records 18 of 100
+  only in the closure commit, with this
+  round's three reviews the owner's step
+  after this branch and the landing the
+  owner's act alone, and the Status line
+  carries the contract range to IP-110 in
+  the same commit, following the
+  convention IP-69 settles, the range
+  naming the items through this closure
+  item. The storefront's third item stands
+  verified in the body of this round's
+  pull request and its tenth item stands
+  reported there as not rendered. The
+  Install prose stands untouched under
+  IP-63, its question carried open by name
+  at IP-106 and here, and its underlying
+  fact re-verified in IP-109. The second
+  charge of the Round 17 landing comment
+  stands discharged here. This round's own
+  environment effects stand stated in full
+  here, and no part of this round's gate
+  stands outside this account. All
+  scratch, the working tree, the cargo
+  target directory, and the compiler's
+  temporary files stand under the
+  workspace in this round, in durable
+  storage, and no write was refused and no
+  quota was hit at any point in the round.
+  The working tree itself stands taken by
+  extraction from the remote tree read
+  through the API and verified equal to it
+  blob for blob, the local clone on this
+  box not carrying the Round 17 merge
+  commit. The measurement of IP-107 and
+  IP-108 ran twice in this round as
+  detached processes, the two runs
+  standing with their logs in the scratch
+  and returning the same figures on every
+  count and every cell. The clone
+  command's reproduction ran in an empty
+  scratch directory and created nothing,
+  the refusal landing before any file
+  stood. Every other gate command ran in
+  the foreground and was awaited to
+  completion. No API read in this round
+  was rested on in a cut-short form, every
+  figure in these items tracing to a read
+  taken whole, and the account REST rate
+  limit was never hit in this round. The
+  gate figures and measurement figures
+  recorded in IP-107, IP-108, and IP-109
+  stand in those items themselves.
