@@ -4206,3 +4206,169 @@ the Install question carried open again
   gate figures and measurement figures
   recorded in IP-102 stand in that item
   itself.
+
+## Round 18. The Round 17 record read back
+whole, the Install question carried open
+again, and the guard measured fresh again
+(IP-106 to IP-110)
+
+- IP-106. The Round 17 pull request is
+  read back in full in this round on its
+  closed record. Four issue comments stand
+  on PR 22, and no review and no review
+  comment stand on it, and every body is
+  read to its end. No figure from any
+  earlier census stands imported here. The
+  four comments are the review bot's
+  walkthrough shell (6887895084), the
+  owner's review trigger (6887895875,
+  twenty characters, posted at 02 23 41
+  UTC on 2026-11-15 and never edited), the
+  review bot's auto-reply (6887932656),
+  and the owner's landing comment
+  (6888143345, 1,979 characters, posted at
+  02 47 31 UTC on 2026-11-15 and never
+  edited), which carries this round's
+  charges. The shell stands posted at 02
+  23 36 UTC on 2026-11-15, five seconds
+  before the trigger, on the bot's own run
+  and not in answer to the trigger, and
+  the trigger drew the auto-reply because
+  the last commit stood already reviewed.
+  This round's own brief cited the census
+  as it stands here, and every identifier
+  in it stands verified live on the pull
+  request in this round, so no correction
+  to the brief stands recorded in this
+  item. The shell stands contracted here
+  in its true final form at this lane's
+  read, moment-bounded to that read. It
+  stands at 11,235 characters, created at
+  02 23 36 UTC on 2026-11-15 and last
+  edited at 02 29 54 UTC the same day. The
+  body's own moment-bounded account read
+  the shell at 11,233 characters with its
+  last edit then at 02 25 46 UTC, and the
+  round's three reviews read it at 11,235
+  characters with its last edit then at 02
+  29 54 UTC, and the shell stands
+  unchanged at this round's read from the
+  reviews' read, its final edit predating
+  the landing comment, so nothing in its
+  final form falsifies the body's account
+  or the landing comment. The form is a
+  completed review and not a skip notice.
+  Its own line stands that no actionable
+  comments were generated in the recent
+  review, and the line stands in the form
+  itself, in its recent review status
+  block. Its walkthrough covers IP-101
+  through IP-105 and the README move to 17
+  of 100 with the Status range carried to
+  IP-105, its change assessment marker
+  standing at the reviewed closure head
+  510358123fe6d96e39df2911c3c799b5ffa72ba1,
+  and Merge Risk standing Minimal up to
+  51035. The pre-merge checks counter
+  stands at 4 passed over the rows
+  Description Check, Title check, Linked
+  Issues check, and Out of Scope Changes
+  check, none failed and none
+  inconclusive, with no Docstring row
+  standing in the form and the word itself
+  standing nowhere in it. No rate-limit
+  banner heads the form, and its recent
+  review info carries run identifier
+  657f1e23-93fb-45c4-a549-131671b5a867 in
+  the form itself, over the two files
+  selected, CONTRACT.md and README.md, and
+  records that the review used the
+  included allowance and stands at none
+  remaining. The one dismissal on this
+  record stands in the body, of the passed
+  Title check's full-details prose calling
+  the title long and wordy while stating
+  that it still refers to real parts of
+  the change, so the check passes. The
+  dismissal's grounds stand re-counted in
+  this round and hold on every limb. The
+  title carries the line's standing form
+  at 122 characters, naming its round, the
+  prior round's record read back whole,
+  the Install question carried open again,
+  and the guard measured fresh again, and
+  the titles of PR 18, PR 19, PR 20, and
+  PR 21 carry the identical shape at the
+  identical length of 122 characters, each
+  naming its own round and the same three
+  parts in the same order, read through
+  the API in this round. The check itself
+  passed, and the shell's own standing
+  line records that no actionable comments
+  were generated, so the reservation is
+  summary prose inside a passed check and
+  names no change the record supports, and
+  nothing was fixed under it and nothing
+  else was dismissed. The auto-reply
+  stands at 573 characters, created at 02
+  27 14 UTC on 2026-11-15 and last edited
+  at 02 27 17 UTC the same day, reading
+  action not completed because the last
+  commit stood already reviewed, the
+  standing incremental acknowledgment,
+  which is not a finding and carries no
+  correction. The body itself stands at
+  14,884 characters at this read, the pull
+  request opened at 02 23 20 UTC on
+  2026-11-15, and its own foot carries the
+  review bot's release-notes appendix
+  inside the bot's own markers, the
+  opening marker standing at character
+  14,422 of the body and the end marker at
+  14,814, the appendix read as the bot's
+  appendix with none of its wording
+  claimed for the body. The body's barred
+  characters stand counted in this round,
+  and every one of them stands inside that
+  appendix block, three colons raw and the
+  same count folded and no other barred
+  character anywhere in the body in either
+  form, two of the colons standing in the
+  appendix content and the third in its
+  closing marker, the authored body
+  standing at zero on the whole barred set
+  raw and NFKC-folded. The landing comment
+  records the merge commit 5fa47b1c, its
+  tree a0609b00 equal to the closure head
+  tree, its parents the Round 16 merge
+  042d008f and the closure head 51035812,
+  and hosted CI green on the closure head
+  on push run 43667358730 and pull request
+  run 43667551547, each re-read through
+  the API in this round and standing
+  completed at success on the closure
+  head, and the README on main at 17 of
+  100 with the Status range at IP-1 to
+  IP-105. The merge, its tree, and its
+  parents stand verified firsthand in this
+  round against the remote read through
+  the API, main's head standing at the
+  merge commit itself. No comment of any
+  kind stands on the pull request after
+  the landing comment, so no late
+  CodeRabbit finding stands on PR 22 at
+  this read and nothing stands to
+  disposition under the landing comment's
+  third charge. The landing comment's
+  first charge stands discharged by this
+  item, its second by the IP-63 carry in
+  this item and at the closure, and its
+  third here. This round's own brief
+  stands verified on its numbering against
+  the contract at the base, the contract
+  closing at IP-105 with the Status range
+  at IP-1 to IP-105, so this round runs
+  IP-106 to IP-110. IP-63 stands open and
+  untouched, its question the repository
+  owner's to answer, and the Install prose
+  stands untouched, word for word.
