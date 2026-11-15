@@ -4845,3 +4845,90 @@ again, and the guard measured fresh again
   untouched, its question the repository
   owner's to answer, and the Install prose
   stands untouched, word for word.
+
+- IP-113. The guard's fold measurement is
+  taken fresh in this round under CPython
+  3.12.3 with unicodedata 15.0.0, the
+  interpreter and the Unicode data version
+  standing named here because every figure
+  in this item and the next is a claim
+  about that interpreter's normalization
+  and no other. The probe's own barred set
+  stands verified codepoint by codepoint
+  against the suite's FORBIDDEN set in
+  both test files, tests/test_documents.rs
+  and tests/test_practice.rs, before any
+  measurement stands taken, the sets
+  standing identical at nine codepoints in
+  each file, the colon, the semicolon,
+  U+2014, U+2013, U+2015, U+FF1A, U+FF1B,
+  U+FE58, and U+FE54. The fold set is
+  re-derived, not merely recounted. The
+  interpreter folds the whole codepoint
+  space and returns exactly the pinned
+  sixteen, U+003A, U+003B, U+037E, U+2013,
+  U+2014, U+2015, U+2A74, U+FE13, U+FE14,
+  U+FE31, U+FE32, U+FE54, U+FE55, U+FE58,
+  U+FF1A, and U+FF1B, the codepoints whose
+  NFKC fold contains a barred character.
+  The fold-only seven stand as U+037E,
+  U+2A74, U+FE13, U+FE14, U+FE31, U+FE32,
+  and U+FE55, the members of the sixteen
+  that are not themselves barred. The
+  mechanism IP-79 corrects stands
+  re-verified singly in this round. Five
+  of the nine barred characters fold to
+  themselves, U+003A, U+003B, U+2013,
+  U+2014, and U+2015, and four fold to a
+  different barred character, U+FF1A to
+  U+003A, U+FF1B to U+003B, U+FE58 to
+  U+2014, and U+FE54 to U+003B, each one
+  computed singly in this round and
+  standing exactly as IP-79 states it.
+  U+2A74 folds to the three-character
+  string U+003A U+003A U+003D, computed
+  singly in this round, so the pinned
+  sixteen stand as the contains-rule set
+  the guard's own test derives, the set of
+  codepoints whose fold contains a barred
+  character and not the set whose fold is
+  one. The guard's own fold-set test
+  derives the same sixteen through the
+  normalization crate and passes, standing
+  in the suite run recorded in IP-115.
+
+- IP-114. The joints are probed singly by
+  the interpreter's own recomputation of
+  the bar, on the same measurement as
+  IP-113 and under the same interpreter
+  standing named there. Each of the
+  sixteen fold-set members stands planted
+  inside a word past the middle of each of
+  the three documents, README.md,
+  MANIFESTO.md, and PRACTICE.md, 48 cells,
+  and the recomputation convicts every
+  cell, 48 convicted of 48, sixteen in
+  each of the three documents. The
+  neighbor set stands re-derived at
+  exactly the 34 codepoints IP-74 names,
+  every codepoint within two of a fold-set
+  member and not itself in the set, each
+  one computed on its own and folding to
+  no barred character, and each one
+  planted inside a word in README.md and
+  in PRACTICE.md, 68 cells, with the
+  recomputation convicting none, 0
+  convicted of 68. An emptied document
+  passes the recomputation clean, nothing
+  standing in it to bar. The measurement
+  ran twice in this round as detached
+  processes, the two runs standing with
+  their logs in this round's scratch and
+  returning the same figures on every
+  count and every cell, the two logs
+  standing identical line for line, and
+  this item and IP-113 contract only on
+  the agreeing pair. No conviction failed
+  anywhere in the measurement, so no
+  repair rides this item or the one before
+  it.
