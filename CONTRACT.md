@@ -4206,3 +4206,430 @@ the Install question carried open again
   gate figures and measurement figures
   recorded in IP-102 stand in that item
   itself.
+
+## Round 18. The Round 17 record read back
+whole, the Install question carried open
+again, and the guard measured fresh again
+(IP-106 to IP-110)
+
+- IP-106. The Round 17 pull request is
+  read back in full in this round on its
+  closed record. Four issue comments stand
+  on PR 22, and no review and no review
+  comment stand on it, and every body is
+  read to its end. No figure from any
+  earlier census stands imported here. The
+  four comments are the review bot's
+  walkthrough shell (6887895084), the
+  owner's review trigger (6887895875,
+  twenty characters, posted at 02 23 41
+  UTC on 2026-11-15 and never edited), the
+  review bot's auto-reply (6887932656),
+  and the owner's landing comment
+  (6888143345, 1,979 characters, posted at
+  02 47 31 UTC on 2026-11-15 and never
+  edited), which carries this round's
+  charges. The shell stands posted at 02
+  23 36 UTC on 2026-11-15, five seconds
+  before the trigger, on the bot's own run
+  and not in answer to the trigger, and
+  the trigger drew the auto-reply because
+  the last commit stood already reviewed.
+  This round's own brief cited the census
+  as it stands here, and every identifier
+  in it stands verified live on the pull
+  request in this round, so no correction
+  to the brief stands recorded in this
+  item. The shell stands contracted here
+  in its true final form at this lane's
+  read, moment-bounded to that read. It
+  stands at 11,235 characters, created at
+  02 23 36 UTC on 2026-11-15 and last
+  edited at 02 29 54 UTC the same day. The
+  body's own moment-bounded account read
+  the shell at 11,233 characters with its
+  last edit then at 02 25 46 UTC, and the
+  round's three reviews read it at 11,235
+  characters with its last edit then at 02
+  29 54 UTC, and the shell stands
+  unchanged at this round's read from the
+  reviews' read, its final edit predating
+  the landing comment, so nothing in its
+  final form falsifies the body's account
+  or the landing comment. The form is a
+  completed review and not a skip notice.
+  Its own line stands that no actionable
+  comments were generated in the recent
+  review, and the line stands in the form
+  itself, in its recent review status
+  block. Its walkthrough covers IP-101
+  through IP-105 and the README move to 17
+  of 100 with the Status range carried to
+  IP-105, its change assessment marker
+  standing at the reviewed closure head
+  510358123fe6d96e39df2911c3c799b5ffa72ba1,
+  and Merge Risk standing Minimal up to
+  51035. The pre-merge checks counter
+  stands at 4 passed over the rows
+  Description Check, Title check, Linked
+  Issues check, and Out of Scope Changes
+  check, none failed and none
+  inconclusive, with no Docstring row
+  standing in the form and the word itself
+  standing nowhere in it. No rate-limit
+  banner heads the form, and its recent
+  review info carries run identifier
+  657f1e23-93fb-45c4-a549-131671b5a867 in
+  the form itself, over the two files
+  selected, CONTRACT.md and README.md, and
+  records that the review used the
+  included allowance and stands at none
+  remaining. The one dismissal on this
+  record stands in the body, of the passed
+  Title check's full-details prose calling
+  the title long and wordy while stating
+  that it still refers to real parts of
+  the change, so the check passes. The
+  dismissal's grounds stand re-counted in
+  this round and hold on every limb. The
+  title carries the line's standing form
+  at 122 characters, naming its round, the
+  prior round's record read back whole,
+  the Install question carried open again,
+  and the guard measured fresh again, and
+  the titles of PR 18, PR 19, PR 20, and
+  PR 21 carry the identical shape at the
+  identical length of 122 characters, each
+  naming its own round and the same three
+  parts in the same order, read through
+  the API in this round. The check itself
+  passed, and the shell's own standing
+  line records that no actionable comments
+  were generated, so the reservation is
+  summary prose inside a passed check and
+  names no change the record supports, and
+  nothing was fixed under it and nothing
+  else was dismissed. The auto-reply
+  stands at 573 characters, created at 02
+  27 14 UTC on 2026-11-15 and last edited
+  at 02 27 17 UTC the same day, reading
+  action not completed because the last
+  commit stood already reviewed, the
+  standing incremental acknowledgment,
+  which is not a finding and carries no
+  correction. The body itself stands at
+  14,884 characters at this read, the pull
+  request opened at 02 23 20 UTC on
+  2026-11-15, and its own foot carries the
+  review bot's release-notes appendix
+  inside the bot's own markers, the
+  opening marker standing at character
+  14,422 of the body and the end marker at
+  14,814, the appendix read as the bot's
+  appendix with none of its wording
+  claimed for the body. The body's barred
+  characters stand counted in this round,
+  and every one of them stands inside that
+  appendix block, three colons raw and the
+  same count folded and no other barred
+  character anywhere in the body in either
+  form, two of the colons standing in the
+  appendix content and the third in its
+  closing marker, the authored body
+  standing at zero on the whole barred set
+  raw and NFKC-folded. The landing comment
+  records the merge commit 5fa47b1c, its
+  tree a0609b00 equal to the closure head
+  tree, its parents the Round 16 merge
+  042d008f and the closure head 51035812,
+  and hosted CI green on the closure head
+  on push run 43667358730 and pull request
+  run 43667551547, each re-read through
+  the API in this round and standing
+  completed at success on the closure
+  head, and the README on main at 17 of
+  100 with the Status range at IP-1 to
+  IP-105. The merge, its tree, and its
+  parents stand verified firsthand in this
+  round against the remote read through
+  the API, main's head standing at the
+  merge commit itself. No comment of any
+  kind stands on the pull request after
+  the landing comment, so no late
+  CodeRabbit finding stands on PR 22 at
+  this read and nothing stands to
+  disposition under the landing comment's
+  third charge. The landing comment's
+  first charge stands discharged by this
+  item, its second by the IP-63 carry in
+  this item and at the closure, and its
+  third here. This round's own brief
+  stands verified on its numbering against
+  the contract at the base, the contract
+  closing at IP-105 with the Status range
+  at IP-1 to IP-105, so this round runs
+  IP-106 to IP-110. IP-63 stands open and
+  untouched, its question the repository
+  owner's to answer, and the Install prose
+  stands untouched, word for word.
+
+- IP-107. The guard's fold measurement is
+  taken fresh in this round under CPython
+  3.12.3 with unicodedata 15.0.0, the
+  interpreter and the Unicode data version
+  standing named here because every figure
+  in this item and the next is a claim
+  about that interpreter's normalization
+  and no other. The probe's own barred set
+  stands verified codepoint by codepoint
+  against the suite's FORBIDDEN set in
+  both test files, tests/test_documents.rs
+  and tests/test_practice.rs, before any
+  measurement stands taken, the sets
+  standing identical at nine codepoints in
+  each file, the colon, the semicolon,
+  U+2014, U+2013, U+2015, U+FF1A, U+FF1B,
+  U+FE58, and U+FE54. The fold set is
+  re-derived, not merely recounted. The
+  interpreter folds the whole codepoint
+  space and returns exactly the pinned
+  sixteen, U+003A, U+003B, U+037E, U+2013,
+  U+2014, U+2015, U+2A74, U+FE13, U+FE14,
+  U+FE31, U+FE32, U+FE54, U+FE55, U+FE58,
+  U+FF1A, and U+FF1B, the codepoints whose
+  NFKC fold contains a barred character.
+  The fold-only seven stand as U+037E,
+  U+2A74, U+FE13, U+FE14, U+FE31, U+FE32,
+  and U+FE55, the members of the sixteen
+  that are not themselves barred. The
+  mechanism IP-79 corrects stands
+  re-verified singly in this round. Five
+  of the nine barred characters fold to
+  themselves, U+003A, U+003B, U+2013,
+  U+2014, and U+2015, and four fold to a
+  different barred character, U+FF1A to
+  U+003A, U+FF1B to U+003B, U+FE58 to
+  U+2014, and U+FE54 to U+003B, each one
+  computed singly in this round and
+  standing exactly as IP-79 states it.
+  U+2A74 folds to the three-character
+  string U+003A U+003A U+003D, computed
+  singly in this round, so the pinned
+  sixteen stand as the contains-rule set
+  the guard's own test derives, the set of
+  codepoints whose fold contains a barred
+  character and not the set whose fold is
+  one. The guard's own fold-set test
+  derives the same sixteen through the
+  normalization crate and passes, standing
+  in the suite run recorded in IP-109.
+
+- IP-108. The joints are probed singly by
+  the interpreter's own recomputation of
+  the bar, on the same measurement as
+  IP-107 and under the same interpreter
+  standing named there. Each of the
+  sixteen fold-set members stands planted
+  inside a word past the middle of each of
+  the three documents, README.md,
+  MANIFESTO.md, and PRACTICE.md, 48 cells,
+  and the recomputation convicts every
+  cell, 48 convicted of 48, sixteen in
+  each of the three documents. The
+  neighbor set stands re-derived at
+  exactly the 34 codepoints IP-74 names,
+  every codepoint within two of a fold-set
+  member and not itself in the set, each
+  one computed on its own and folding to
+  no barred character, and each one
+  planted inside a word in README.md and
+  in PRACTICE.md, 68 cells, with the
+  recomputation convicting none, 0
+  convicted of 68. An emptied document
+  passes the recomputation clean, nothing
+  standing in it to bar. The measurement
+  ran twice in this round as detached
+  processes, the two runs standing with
+  their logs in this round's scratch and
+  returning the same figures on every
+  count and every cell, the two logs
+  standing identical line for line, and
+  this item and IP-107 contract only on
+  the agreeing pair. No conviction failed
+  anywhere in the measurement, so no
+  repair rides this item or the one before
+  it.
+
+- IP-109. The whole tree stands scanned at
+  the shipped tree, the Round 17 merge
+  5fa47b1c3b9aef07e23b2aa2425f5296fb78ef8f,
+  every blob of it verified against the
+  remote tree read through the API before
+  a test ran, the extracted local tree
+  standing at
+  a0609b009870ef2777b434c8017439ba138e4bab,
+  equal to the remote tree at the merge.
+  The scan is the probe's own, from the
+  agreeing pair of runs recorded in
+  IP-108, over all fourteen blobs at the
+  head. The three documents stand at zero
+  on all nine barred characters in both
+  forms, README.md, MANIFESTO.md, and
+  PRACTICE.md alike, raw and NFKC-folded,
+  and the barred dashes and the barred
+  fold forms stand at zero in every blob
+  in the tree in both forms. The ASCII
+  colon and semicolon stand only where
+  they have always stood, in code and
+  workflow syntax, in the license, and in
+  the early contract record, at 301 colons
+  and 330 semicolons raw across the tree
+  and the same counts folded, the counts
+  standing unchanged from the Round 12
+  tree, this round's count at the Round 17
+  tree standing equal to the count IP-102
+  recorded at the Round 16 tree, so the
+  Round 17 delta carries neither character
+  in any line it adds, and no prose
+  surface this round authors carries
+  either character. The Python oracle
+  stands verified first, through the
+  channel this item names exactly. The
+  commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  and its recursive tree 81cac2bb stand
+  read through the API, the tree carrying
+  ten blobs, and the local extraction of
+  that commit matches the API listing blob
+  for blob, every blob matched by
+  recomputed git blob identifier. The
+  oracle suite passes at 15 tests on its
+  own verified tree under pytest. The
+  printed clone command stands reproduced
+  in this round. The GitHub CLI on this
+  box holds no login, and the clone
+  command as printed in the README Install
+  section refuses at exit 4 with its
+  instruction to log in, the reproduction
+  running in an empty scratch directory
+  and creating nothing, the refusal
+  landing before any file stood, as in
+  Rounds 10 through 17. The gate on the
+  base tree runs the repository codepoint
+  scan, cargo fmt --check, cargo clippy
+  --all-targets -- -D warnings, and cargo
+  test, and stands at 20 tests passed, 13
+  over the documents and 7 over the
+  practice, with the scan at exit 0
+  reporting U+2014=0 and U+2013=0 and
+  clippy and fmt clean. The gate on the
+  final tree stands recorded in the
+  closure item IP-110.
+
+- IP-110. The round closes on the standing
+  gate and the standing record. The gate
+  on the final tree runs the repository
+  codepoint scan, cargo fmt --check, cargo
+  clippy --all-targets -- -D warnings, and
+  cargo test, and stands at 20 tests
+  passed with the scan at zero on both
+  barred dashes. README records 18 of 100
+  only in the closure commit, with this
+  round's three reviews the owner's step
+  after this branch and the landing the
+  owner's act alone, and the Status line
+  carries the contract range to IP-110 in
+  the same commit, following the
+  convention IP-69 settles, the range
+  naming the items through this closure
+  item. The storefront's third item stands
+  verified in the body of this round's
+  pull request and its tenth item stands
+  reported there as not rendered. The
+  Install prose stands untouched under
+  IP-63, its question carried open by name
+  at IP-106 and here, and its underlying
+  fact re-verified in IP-109. The second
+  charge of the Round 17 landing comment
+  stands discharged here. This round's own
+  environment effects stand stated in full
+  here, and no part of this round's gate
+  stands outside this account. All
+  scratch, the working tree, the cargo
+  target directory, and the compiler's
+  temporary files stand under the
+  workspace in this round, in durable
+  storage, and no write was refused and no
+  quota was hit at any point in the round.
+  The working tree itself stands taken by
+  extraction from the remote tree read
+  through the API and verified equal to it
+  blob for blob, the local clone on this
+  box not carrying the Round 17 merge
+  commit. The measurement of IP-107 and
+  IP-108 ran twice in this round as
+  detached processes, the two runs
+  standing with their logs in the scratch
+  and returning the same figures on every
+  count and every cell. The clone
+  command's reproduction ran in an empty
+  scratch directory and created nothing,
+  the refusal landing before any file
+  stood. Every other gate command ran in
+  the foreground and was awaited to
+  completion. No API read in this round
+  was rested on in a cut-short form, every
+  figure in these items tracing to a read
+  taken whole, and the account REST rate
+  limit was never hit in this round. The
+  gate figures and measurement figures
+  recorded in IP-107, IP-108, and IP-109
+  stand in those items themselves.
+
+- IP-111. A correction to IP-106's
+  distribution clause for the colons
+  of PR 22's body, appended on the
+  spec review's and the red team's
+  single shared Minor and rewriting
+  nothing. IP-106 states that two of
+  the colons stand in the appendix
+  content and the third in its
+  closing marker. That distribution
+  does not hold at the offsets
+  measured in this repair against
+  the body read whole through the
+  API at 14,884 characters, its
+  appendix opening at character
+  14,422. The three colons stand at
+  characters 14,460, 14,526, and
+  14,848, the first inside the
+  opening marker itself, the second
+  inside the version marker that
+  follows it, and the third inside
+  the closing marker, which spans
+  characters 14,814 to 14,884. The
+  appendix content proper, the
+  Summary heading and its two
+  bullets standing between the
+  version marker's end at character
+  14,533 and the closing marker at
+  14,814, carries no colon at all.
+  Two of the three colons stand in
+  the appendix's opening markers,
+  none in its content, and the
+  third in its closing marker.
+  Every block-level claim of IP-106
+  stands as written, three colons
+  raw and the same count folded,
+  every one inside the appendix
+  block, no other barred character
+  anywhere in the body in either
+  form, and the authored body at
+  zero on the whole barred set raw
+  and NFKC-folded. No census figure,
+  no disposition, and no gate
+  outcome of this round moves under
+  this correction, and this item
+  stands outside the Status range
+  as a repair record under the
+  convention IP-69 settles.
