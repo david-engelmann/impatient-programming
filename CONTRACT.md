@@ -5466,3 +5466,96 @@ again, and the guard measured fresh again
   conviction failed anywhere in the
   measurement, so no repair rides this
   item or the one before it.
+
+
+- IP-121. The shipped tree stands scanned
+  whole in this round. The tree is the
+  Round 19 merge
+  54a5cdeff36aeb6992c377d62097262a3f4434f6,
+  tree
+  00f848f29d5b6593805cfdf41b6e4286e1a31269,
+  taken into this round's working tree by
+  extraction from the remote tree read
+  through the application programming
+  interface, every one of its fourteen
+  blobs verified against the remote tree
+  by recomputed git blob identifier before
+  a test ran, the local tree standing
+  equal to the remote tree. The scan
+  counts every blob at head, taken from
+  the agreeing pair of runs recorded in
+  IP-120. The three documents, README.md,
+  MANIFESTO.md, and PRACTICE.md, stand at
+  zero on all nine barred characters, raw
+  and NFKC folded. The dashes and the fold
+  forms stand at zero in every blob, raw
+  and folded. The colon stands at 301 raw
+  and the same 301 folded, and the
+  semicolon stands at 330 raw and the same
+  330 folded, standing unchanged from the
+  Round 12 tree, this round's own count at
+  that tree,
+  7635a37fc62c48b5e48a9edceac05448b893de85,
+  taken through the application
+  programming interface in this round and
+  returning the same figures, and this
+  round's count at the shipped tree taken
+  through the same interface returning the
+  same 301 and the same 330. The Round 19
+  delta carries neither character in any
+  line it adds, the contract gaining 484
+  lines and the README gaining three lines
+  and losing three across the round. The
+  Python oracle stands verified through
+  the application programming interface in
+  this round, with no reliance on a local
+  clone, this repository's oracle being
+  reachable through the interface. The
+  oracle commit stands at
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  and its tree at
+  81cac2bb225f0a4edd847e794ca0740635604365
+  over ten blobs, the local extraction
+  matching it blob for blob by recomputed
+  git blob identifier, and its suite
+  stands at 15 tests passed under pytest.
+  The clone the Install section prints
+  stands reproduced in this round in an
+  empty scratch directory, refusing at
+  exit 4 with its instruction to log in,
+  the directory standing empty after the
+  refusal, nothing created, the refusal
+  arriving before any file stood, as in
+  Rounds 10 through 19. The flighttape pin
+  stands reconfirmed in this round. The
+  pin commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e
+  stands read through the application
+  programming interface in the flighttape
+  repository, its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  over exactly 50 blobs, and the pinned
+  checkout stands taken from the local
+  flighttape clone's object store at that
+  commit, its tree standing equal to the
+  tree read through the interface. The
+  checkout's suite stands run whole at 241
+  tests passed, the golden fixture digest
+  test among them standing passed. The
+  golden stands executed through the
+  checkout's own command line in this
+  round as well, the converted fixture
+  tape standing at 1,663 bytes and its
+  digest returning the pinned value in
+  full, the digest's full string standing
+  in this round's pull request body. The
+  full gate as run on the base tree in
+  this round stands as follows. The scan
+  exits at 0 and prints U+2014=0 and
+  U+2013=0, the format check passes,
+  clippy passes with warnings denied, and
+  cargo test passes at 20 tests, thirteen
+  in the documents suite and seven in the
+  practice suite. The full gate on the
+  final tree stands recorded in the
+  closure item IP-122.
