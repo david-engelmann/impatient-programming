@@ -5633,3 +5633,239 @@ again, and the guard measured fresh again
   discharged here. The round's record
   stands complete as written in IP-118,
   IP-119, IP-120, IP-121, and this item.
+
+
+- IP-123. The Round 20 pull request is
+  read back in full in this round on its
+  closed record, PR 25 in this repository,
+  and the round takes its shape from the
+  five charges the Round 20 landing
+  comment leaves for it. Two issue
+  comments stand on PR 25, and no review
+  and no review comment stand on it, and
+  every body is read to its end. No figure
+  from any earlier census stands imported
+  here, and no item in this round rests on
+  any count but its own. This round's
+  brief stands verified on its census
+  against the live record at every
+  identifier it cites, the shell and the
+  landing comment and the appendix suffix
+  and the base and the contract tail, and
+  no correction to the brief stands
+  recorded in this round. The comments
+  stand as coderabbitai[bot]'s review
+  shell 6912504052 and the owner's landing
+  comment 6913132962, the landing comment
+  standing at 1,996 characters, posted at
+  09 54 29 UTC on 2026-11-16 and never
+  edited, standing last on the pull
+  request with nothing after it, and
+  carrying the charges this item answers.
+  The shell stands posted at 09 25 39 UTC
+  on 2026-11-16, seventeen seconds after
+  the pull request opened at 09 25 22 UTC
+  the same day, and no trigger comment
+  stands anywhere on the pull request, the
+  bot having reviewed automatically at the
+  opening. The shell took four forms
+  across the round, and this item
+  contracts it across all four. In its
+  first form it stands at 12,959
+  characters, created at 09 25 39 UTC and
+  last edited at 09 27 49 UTC on
+  2026-11-16, a completed review and not a
+  skip, its pre-merge checks counter
+  standing at 3 passed over the
+  Description Check, Linked Issues, and
+  Out of Scope, with the Title check
+  standing inconclusive and none failed,
+  no rate limit banner heading it, and no
+  Docstring Coverage row standing in its
+  checks table and the word nowhere in it.
+  In its second form it stands at 13,163
+  characters, last edited at 09 31 32 UTC
+  the same day, its Title check prose
+  reworded and its check standing
+  inconclusive still, with every other
+  particular unchanged. In its third form
+  it stands at 11,498 characters, last
+  edited at 09 33 23 UTC the same day, its
+  Title check flipped to Passed with its
+  checks counter at 4 passed, the one
+  reservation on the pull request
+  withdrawn by the bot itself. In its true
+  final form, the form this read-back
+  contracts, the shell stands at 11,500
+  characters, last edited at 09 38 15 UTC
+  the same day, the change from its third
+  form whitespace noise only with its
+  posture unchanged, standing unchanged at
+  this round's read, and its final edit
+  predates the landing comment, so nothing
+  in its final form falsifies the body's
+  account or the landing comment. The
+  first three forms stand verified in this
+  round on the Round 20 lane's preserved
+  shell snapshots, standing at 12,959 and
+  13,163 and 11,498 characters with the
+  Title posture as stated in each. The
+  final form's own walkthrough covers the
+  records IP-118 to IP-122 and the README
+  move to 20 of 100 with the Status range
+  carried through IP-122, and its review
+  stands over the commits between the
+  Round 19 merge
+  54a5cdeff36aeb6992c377d62097262a3f4434f6
+  and the closure head
+  3a93a995204a2390189c6e66290f6955c4d16050
+  and the two files CONTRACT.md and
+  README.md, its Merge Risk standing at
+  Minimal up to 3a93a. Its pre-merge
+  checks counter stands at 4 passed over
+  Linked Issues, Out of Scope, Title, and
+  Description, none failed and none
+  inconclusive, and its Title check's full
+  details name the title's parts with
+  approval, a Round 20 closure, a
+  read-back of the Round 19 record, the
+  Install question being carried open, and
+  a fresh guard measurement, the
+  reservation withdrawn. Its own line
+  stands in its recent review status block
+  that no actionable comments were
+  generated in the recent review. Its
+  recent review info carries run
+  identifier
+  c93a898b-de94-48a4-b2cc-690eaa0da77c,
+  the included allowance standing used
+  with none remaining, and no Docstring
+  Coverage row stands in its checks table
+  and the word stands nowhere in it, and
+  no rate limit banner heads the final
+  form and no rate limited attempt stands
+  recorded in any form. The one dismissal
+  on PR 25's record stands in the body and
+  nowhere else, of the Title check's
+  inconclusive reservation in the first
+  two forms the lane read, its
+  full-details prose calling the title
+  vague in its first wording and partially
+  related in its reworded form while
+  conceding in both that the title is
+  related to the changeset and naming the
+  round record among the title's parts,
+  proposing a shorter rewrite in its first
+  wording. The dismissal's grounds stand
+  re-counted in this round and hold on
+  every limb. The title stands at 122
+  characters in the standing form,
+  identical in shape and length to the
+  titles of PR 18, PR 19, PR 20, PR 21, PR
+  22, PR 23, and PR 24, each read through
+  the application programming interface in
+  this round and standing at 122. The
+  check stood inconclusive rather than
+  failed at the dismissal's read and has
+  since flipped to Passed by the bot
+  itself with the reservation withdrawn.
+  The change is a records round whose
+  parts are those the title names. The
+  shell's own standing line records no
+  actionable comments. So the reservation
+  is summary prose inside an inconclusive
+  check and names no change the record
+  supports, and nothing was fixed under it
+  and nothing else was dismissed. The one
+  factual slip in the bot's prose, naming
+  the added items a Round 19 record where
+  they are Round 20's, stands in its
+  walkthrough and in its appendix's first
+  bullet, is the bot's own, and moves
+  nothing on the record. No repair head
+  stands on PR 25, the round having closed
+  on its closure head with no repair
+  commit, and no repair read-back stands
+  charged in this round. The body stands
+  at 9,737 characters at this read, and
+  its foot carries the bot's release notes
+  appendix inside the bot's own markers,
+  the appendix suffix standing at 587
+  characters from its opening marker and
+  588 counting the one newline that
+  separates it from the authored body,
+  preserved byte for byte through the
+  body's three patches and verified in
+  this round on the Round 20 lane's
+  preserved final body file, standing at
+  9,737 characters and equal to the live
+  body at this read with the suffix
+  identical in both. The appendix stands
+  at three bullets, each correct in
+  substance at this read, the Round 20
+  record added with its census and closure
+  under the bot's own round misnomer in
+  the first bullet, the documented count
+  at 20 of 100 with the range through
+  IP-122, and the Install question
+  standing open and unchanged. The body's
+  barred counts stand at three colons raw
+  and the same three folded, every one
+  inside the appendix's own markers, the
+  first inside the opening marker, the
+  second inside the version marker, and
+  the third inside the closing marker, the
+  appendix's content proper carrying none
+  and the authored body standing at zero
+  on the whole barred set raw and folded.
+  The landing comment records the merge at
+  7bdfc24f81b89ccd3f20bfecb440c351cc9cbd19,
+  its tree
+  473c286be0c042298edf6c7b4cb541d3588501cf
+  equal to the closure head's tree, its
+  parents the Round 19 merge
+  54a5cdeff36aeb6992c377d62097262a3f4434f6
+  and the closure head
+  3a93a995204a2390189c6e66290f6955c4d16050,
+  and the README on main at 20 of 100 with
+  the Status range at IP-1 to IP-122 and
+  IP-111 and IP-117 standing outside it as
+  repair records, and the merge and the
+  tree and the parents stand verified
+  firsthand in this round against the
+  remote read through the application
+  programming interface, main's head
+  standing at the merge commit itself.
+  Hosted continuous integration stands
+  green on the closure head at push run
+  43839456635 and pull request run
+  43839597332 and on the three earlier
+  heads at push runs 43838829341 and
+  43838937408 and 43838985157, each
+  re-read through the application
+  programming interface in this round and
+  standing completed at success on its own
+  head. No comment of any kind stands on
+  PR 25 after the landing comment, so no
+  late CodeRabbit material stands on the
+  pull request at this read and nothing
+  stands to disposition under the landing
+  comment's fifth charge. The landing
+  comment's first charge stands discharged
+  by the shell contraction and the census
+  in this item, its second by the census
+  in this item, its third by the appendix
+  census in this item, its fourth by the
+  IP-63 carry in this item and again at
+  the closure, and its fifth here. This
+  round's brief stands verified on its
+  numbering against the contract at the
+  base, the contract closing at IP-122
+  with IP-111 and IP-117 standing outside
+  the Status range as repair records under
+  the convention IP-69 settles, so this
+  round runs IP-123 to IP-127. IP-63
+  stands open and untouched in this round,
+  its question the repository owner's to
+  answer, and the Install prose stands
+  untouched, word for word.
