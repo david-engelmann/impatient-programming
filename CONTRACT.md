@@ -5064,3 +5064,56 @@ again, and the guard measured fresh again
   gate figures and measurement figures
   recorded in IP-113, IP-114, and IP-115
   stand in those items themselves.
+
+- IP-117. A repair record for the
+  closure item's gate account,
+  appended on the standards review's
+  single Minor, the spec review
+  carrying the same point as an
+  observation, and rewriting nothing.
+  The gate on the final tree did not
+  pass at its first running in this
+  round. Its first run failed on the
+  suite's state-agreement test, the
+  test that holds the README's own
+  state statements to one another,
+  because the README's fleet bullet
+  still carried the prior round's
+  state word at Eighteen while the
+  rounds line already stood at 19 of
+  100 in the closure commit as first
+  assembled. The cure stood inside
+  that same closure commit, before
+  the commit was ever pushed, the
+  fleet bullet's state word moving
+  to Nineteen so the bullet and the
+  rounds line agreed, and the gate
+  then ran whole on the final tree
+  and passed at the figures IP-116
+  records. IP-116 states those
+  passing figures and claims that no
+  part of this round's gate stands
+  outside its account, and the pull
+  request body states that the full
+  local gate passed on the base tree
+  and again on the final tree,
+  neither naming the failed first
+  run nor the bullet move that the
+  closure commit's third README line
+  carries. The gate's conclusion
+  stands as both record it, the
+  final tree passing whole and the
+  pin itself since proven to bite by
+  the red team's mutation of the
+  state word back to Eighteen, under
+  which the agreement test fails.
+  The account stands incomplete on
+  this one point alone, and this
+  record completes it, IP-116
+  standing byte-unrewritten. No gate
+  figure, no measurement figure, and
+  no disposition of this round moves
+  under this repair, and this item
+  stands outside the Status range as
+  a repair record under the
+  convention IP-69 settles.
