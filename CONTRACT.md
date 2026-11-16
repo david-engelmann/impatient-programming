@@ -5559,3 +5559,77 @@ again, and the guard measured fresh again
   practice suite. The full gate on the
   final tree stands recorded in the
   closure item IP-122.
+
+
+- IP-122. Round 20 closes here on the
+  record of its own items. The gate as run
+  in full on the final tree in this round
+  stands as follows. The scan exits at 0
+  and prints U+2014=0 and U+2013=0, the
+  format check passes, clippy passes with
+  warnings denied, and cargo test passes
+  at 20 tests, thirteen in the documents
+  suite and seven in the practice suite.
+  The closure commit as first assembled in
+  this round carries the fleet bullet's
+  state word moved with the rounds line,
+  and the gate on the final tree stands
+  passed at its first running in this
+  round, the state agreement pin standing
+  exercised by the suite on the moved
+  pair. The README records 20 of 100 only
+  in the closure commit, and its Status
+  line carries the contract range to
+  IP-122 in the same commit, the Status
+  range naming the items through the
+  latest closed round's closure item under
+  the convention IP-69 settles, and the
+  README's own fleet bullet carries its
+  state word at Twenty in the same commit,
+  so the bullet and the rounds line stand
+  in agreement under the state agreement
+  pin. Item 3 of the storefront checklist
+  stands verified in the pull request body
+  at its contracted state, and item 10
+  stands reported there as not rendered,
+  no rendered check standing in this
+  round. The gate and measurement figures
+  recorded in IP-119, IP-120, and IP-121
+  stand in those items themselves. Every
+  gate run and measurement run in this
+  round stands named in the record at its
+  item, the failed launch recorded in
+  IP-120 included, and no run stands
+  counted that the record does not name.
+  This round's environment effects stand
+  stated in full here. This round's
+  scratch, its working tree, its compiler
+  target directories, and the compiler's
+  temporaries stand under the workspace on
+  this box, and no write in this round
+  stood refused and no quota stood hit at
+  any point in the round. The working tree
+  stands taken by extraction from the
+  remote tree read through the application
+  programming interface and verified equal
+  to it by tree identifier before a test
+  ran. The measurement ran twice as
+  detached processes with their logs
+  standing in this round's scratch, and
+  the flighttape checkout's suite ran
+  detached at the verified pin checkout,
+  and the clone reproduction ran in an
+  empty scratch directory and created
+  nothing, and every other gate command
+  ran in the foreground and was awaited,
+  and no application programming interface
+  read in this round stands rested on in a
+  cut-short form, and the account rate
+  limit stands never hit in this round.
+  IP-63 stands open and untouched at the
+  closure, its question the repository
+  owner's to answer, and the fourth charge
+  of the Round 19 landing comment stands
+  discharged here. The round's record
+  stands complete as written in IP-118,
+  IP-119, IP-120, IP-121, and this item.
