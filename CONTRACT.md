@@ -6547,3 +6547,100 @@ again, and the guard measured fresh again
   IP-128 and in the body's known
   deviations, and the Install prose
   stands untouched.
+
+
+- IP-130. The Round 21 red team's carried
+  executions stand discharged by execution
+  at this lane's own hand in this round,
+  and the runner that lane left armed
+  stands accounted first. The runner
+  rt_runner.py in the Round 21 red team
+  scratch stood still armed at this
+  round's opening, its process alive and
+  probing, and this lane stood it down by
+  signal and verified it dead. No stage of
+  it ever executed in either round, no
+  stage log and no done marker standing in
+  its scratch and its own runner log
+  standing at zero bytes under the write
+  fault, and its six stages stood owed to
+  this lane and stand run here. The
+  closure tree gate whole ran on the Round
+  21 closure tree 186ff82b, a tree this
+  lane verified blob for blob at fourteen
+  blobs with zero bad before any stage
+  pointed at it. Its repository scan
+  printed the one line codepoint scan
+  U+2014=0 U+2013=0 at exit 0, its format
+  check passed clean at exit 0, its linter
+  with warnings denied passed clean at
+  exit 0, and its test suite passed whole
+  at 20 tests, thirteen in the documents
+  suite and seven in the practice suite.
+  The pin teeth mutation stands proven in
+  this round on a copy of that same tree
+  verified blob for blob, the README's own
+  bullet moved from 21 to 20 of one
+  hundred rounds closed with the Status
+  line standing at 21, and the state
+  agreement test failed on the moved pair
+  as it must and passed again on the
+  restored pair, the restored README
+  standing at the closure blob
+  c5a542638c93b1fcff69c98869f562a38d7f59b3.
+  The oracle suite ran under pytest
+  against the oracle at commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314,
+  its tree
+  81cac2bb225f0a4edd847e794ca0740635604365
+  verified blob for blob at ten blobs with
+  zero bad before the suite pointed at it,
+  and passed at 15 of 15. The flighttape
+  pin suite ran against the pin at commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e,
+  its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  verified blob for blob at fifty blobs
+  with zero bad before the suite pointed
+  at it, and passed at 241 of 241, the
+  count standing verified at this lane's
+  own hand by listing the built suites'
+  tests at 241 in sum, and the golden
+  stands executed with the pin's own built
+  binary, the converted fixture tape
+  standing at 1,663 bytes and its digest
+  at the pinned value
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3
+  and verify accepting at exit 0. The fold
+  re-run stands discharged on the closure
+  tree in this round, the fold set
+  standing at exactly the pinned sixteen
+  with the mechanism exact, the fold cells
+  convicted 48 of 48, the neighbor cells
+  clean 68 of 68, and an emptied document
+  passing clean, and the whole tree scan
+  over that tree standing at colon 301 and
+  semicolon 330 raw and folded with the
+  dashes and the fold forms at zero in
+  every blob and the three documents at
+  zero on all nine barred characters raw
+  and folded. The clone refusal stands
+  discharged, the clone the Install
+  section prints run verbatim in an empty
+  directory and refusing at exit 4 with
+  its instruction to log in and creating
+  nothing. No runner stands armed from
+  this lane's work at this item's writing.
+  The stages stand run outside the build
+  slot, the slot standing fault jammed
+  behind a sibling lane's retrying driver
+  for over ninety minutes at the round's
+  middle and this repo's builds being
+  light, each stage retried across the
+  write fault's waves on workspace target
+  directories until one window let every
+  stage land whole on its first attempt
+  inside it, and the pin suite's own
+  slotted driver stands killed by a
+  runtime restart while it waited in the
+  queue and counted nowhere.
