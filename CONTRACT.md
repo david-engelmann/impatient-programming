@@ -6304,3 +6304,126 @@ again, and the guard measured fresh again
   discharged here. The round's record
   stands complete as written in IP-123,
   IP-124, IP-125, IP-126, and this item.
+
+
+- IP-128. This item stands as a repair
+  record under the convention IP-69
+  settles, standing outside the Status
+  range the README carries, and it
+  qualifies IP-126 and IP-127 without
+  rewriting either. Those two items state
+  that the final gate's local running on
+  the closure tree, the oracle suite's
+  local running, and the flighttape
+  checkout suite's local running with the
+  golden's local execution stand owed at
+  this round's closure. Each statement
+  stood true when the closure was
+  assembled, the box write fault having
+  refused every attempt the first
+  completion lane made, and the runnings
+  have since been executed whole, and this
+  item records their discharges so the
+  owed statements do not stand as the
+  round's last word on them. The
+  completion arrangement stands as
+  follows. The first completion lane
+  opened this round's pull request and
+  drafted the closure, and its session
+  ended without a delivery. A second
+  completion seating then hunted the
+  runnings for hours, and its session
+  ended on a transport failure at 09 46
+  UTC on 2026-11-17 with the runnings
+  still owed, leaving a window runner
+  standing in this round's scratch. A
+  third completion seating adopted that
+  runner and finished the round,
+  relaunching the runner whole after each
+  box restart that killed it and never
+  launching a duplicate, its relaunches
+  standing at 11 40 UTC and 13 38 UTC and
+  15 20 UTC on 2026-11-17. The runner's
+  own accounting stands as follows. A
+  detached first runner ended in the box
+  restart at about 07 18 UTC on
+  2026-11-17, and the window stood probed
+  clean at 07 29 UTC the same day. The
+  tracked runner's first instance opened
+  the window at 07 30 UTC and lost the
+  slot or the window before the gate could
+  run, and the lane replaced it after
+  confirming its death. Its second
+  instance found the probes refused across
+  its cycles, and a box restart ended it.
+  Its third instance stands replayed by
+  the restart at 09 21 UTC, queuing the
+  gate twice at twenty five minutes each
+  without the slot, after which the window
+  closed and a further restart ended it.
+  Its fourth instance queued the gate once
+  without the slot inside the same wait,
+  and the window closed again, and a
+  restart ended it. Its fifth instance ran
+  the gate whole as recorded below and
+  queued the oracle once without the slot,
+  and a restart ended it with the window
+  closed. Its sixth instance ran the
+  oracle and the pin whole as recorded
+  below, and the runner stands complete
+  with every marker standing. The fleet
+  account rate limit stood hit a second
+  time in this round during the completion
+  seatings, its reset standing at 10 47
+  UTC on 2026-11-17, and no application
+  programming interface figure in this
+  item rests on a read taken while it
+  stood at zero. The gate discharge stands
+  as follows. The closure tree
+  186ff82b23a589e44d3b3d2ee26b66aab35906ca
+  stood extracted through the application
+  programming interface into a fresh
+  working tree, its fourteen blobs each
+  verified by recomputed git blob
+  identifier, and the gate ran whole on
+  that tree under the build slot. The
+  repository codepoint scan exits at 0 and
+  prints U+2014=0 and U+2013=0, its totals
+  over the tree standing at the colon at
+  301 and the semicolon at 330 raw and the
+  same folded, with the dashes and the
+  fold forms at zero, the format check
+  exits at 0, the linter exits at 0 with
+  warnings denied, and cargo test exits at
+  0 at 20 passed, thirteen in the
+  documents suite and seven in the
+  practice suite, the state agreement pin
+  exercised on the moved pair inside it.
+  The oracle discharge stands as follows.
+  The suite of the oracle commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  ran whole under the build slot at exit
+  0, fifteen passed of fifteen. The pin
+  discharge stands as follows. The suite
+  of the pinned checkout at
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e
+  ran whole under the build slot at exit
+  0, 241 passed of 241, the golden fixture
+  digest test among the passed, and the
+  golden stands executed at this seating's
+  own hand as well, the converted fixture
+  tape standing at 1,663 bytes and its
+  digest standing at the pinned value with
+  verify accepting at exit 0. The counts
+  of this round stand unchanged by this
+  item, which carries none of the barred
+  characters itself, and the colon stands
+  at 301 and the semicolon at 330 over
+  this repair head's fourteen blobs as
+  over the closure tree, verified by count
+  through the application programming
+  interface after this item's push. IP-63
+  stands open and untouched by this item.
+  The round's record stands complete as
+  written in IP-123 through IP-127 and
+  this item.
