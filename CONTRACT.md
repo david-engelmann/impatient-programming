@@ -6762,3 +6762,46 @@ again, and the guard measured fresh again
   and its amendment standing routed to the
   main chat, and the Install prose stands
   untouched in this round as charged.
+
+
+- IP-134. This record stands as a repair
+  record under the convention IP-69
+  settles, standing outside the Status
+  range the README carries, and it records
+  the closure tree gate's discharge by
+  execution after the closure. The gate
+  ran whole at this lane's own hand on the
+  pushed closure tree, head
+  9fbcc65b64654501682f4509bdba5a4425ae2b1b
+  and tree
+  06c53f6f03d5a97b837955ae5167e1f4b67ed16c,
+  the tree assembled on disk from the base
+  tree and the round's item drafts and the
+  prepared closure README and verified
+  blob for blob at fourteen blobs with
+  zero bad before the gate pointed at it,
+  its contract construction standing
+  proven against the pushed closure blob
+  ced866c21396e3e637d15c211cee21e07e0da678
+  at 258,856 bytes. The repository scan
+  printed the one line codepoint scan
+  U+2014=0 U+2013=0 at exit 0, the format
+  check passed clean at exit 0, the linter
+  with warnings denied passed clean at
+  exit 0, and the test suite passed whole
+  at 20 tests, thirteen in the documents
+  suite and seven in the practice suite,
+  the state agreement pin standing
+  exercised on the moved pair in that
+  running, the README's rounds line and
+  its own bullet and its Status range all
+  standing at the closure's figures and
+  agreeing. The counting pass over the
+  closure tree stands at colon 301 and
+  semicolon 330 raw and the same folded,
+  the dashes and the fold forms at zero in
+  every blob and the three documents at
+  zero on all nine barred characters raw
+  and folded, the round's five authored
+  items adding no barred character among
+  them.
