@@ -6427,3 +6427,123 @@ again, and the guard measured fresh again
   The round's record stands complete as
   written in IP-123 through IP-127 and
   this item.
+
+
+- IP-129. The Round 21 pull request
+  stands read back in full in this round
+  on its closed record, PR 26 in this
+  repository, and the round takes its
+  shape from the four charges the Round
+  21 landing comment 6954696984 leaves
+  for it. The census of PR 26 at this
+  read stands at four issue comments,
+  one formal review, and one review
+  comment, and nothing stands posted on
+  the pull request after its landing.
+  The review shell 6937025956 stands in
+  its true final form at this read at
+  11,362 characters, last edited at 16
+  37 34 UTC on 2026-11-17, its recent
+  review standing under run
+  3f519fcd-f6a3-41a7-9620-2b0cc92e2c99,
+  and its forms across the round stand
+  as follows. An earlier completed form
+  stood at 10,581 characters. The form
+  the body's final patch read stood at
+  11,358 characters. The form the
+  owner's three reviews read stood at
+  11,360 characters. The form at the
+  landing and at this read stands at
+  11,362 characters. Its walkthrough
+  covers IP-123 through IP-128 in four
+  rows and stands accurate in substance.
+  Its recent review generated no
+  actionable comments. Its merge risk
+  stands graded low up to the repair
+  head, and the remark standing in its
+  risk text, that this description and
+  the commit message disagreed on
+  whether the local gate runs stood
+  completed before the round was counted
+  closed, stands reconciled on the
+  record by the repair record IP-128 and
+  by the body's own step 0 account, and
+  no further action stands owed on it.
+  Its pre-merge checks stand at four
+  passed. The formal review 5932256706
+  stands in the commented state on the
+  closure head
+  ce900b2ffcfed27bf9ecfaa72b8d754d468e2c0c
+  under run
+  9f214101-f49d-45e4-8f9b-5e49d2927339,
+  at 3,773 characters, posting the one
+  actionable comment, and it stands read
+  whole. The one review comment
+  4594875224 stands on README.md line 78
+  at 2,947 characters and stands read
+  whole to its end, and no reply stands
+  in its thread. The comment offered two
+  branches, that the local format and
+  lint and test gates run on the closure
+  tree and their results stand recorded,
+  or that the count return to 20. Its
+  first branch stood taken in Round 21,
+  the gate running whole on the closure
+  tree as IP-128 records, and its
+  discharge by execution stands
+  re-graded sound at this read, the
+  count at 21 standing on those results,
+  and this round runs that same gate
+  again at its own hand in the carried
+  executions family. The Title check
+  stands passed in the shell's final
+  form, its details faulting the title
+  as partially related and overly broad
+  and as not naming the main change
+  clearly, and its shorter title
+  proposal stands not taken on counted
+  grounds re-verified at this hand, the
+  title of PR 26 standing measured at
+  exactly 122 characters and the titles
+  of PRs 18 through 25 each standing
+  measured at exactly 122 characters in
+  the identical standing shape. The
+  owner's queue comment 6954374694
+  stands at 12 characters, the bare
+  merge instruction, and the Trunk
+  notice 6954378313 stands at 113
+  characters in its post-merge form, and
+  the landing comment itself stands at
+  1,855 characters, and each stands
+  censused here. The body of PR 26
+  stands in its final form at 15,385
+  characters, and the owner's pre-merge
+  patch stands confirmed in it, the push
+  route bullet carrying the sentence
+  that records the repair record's
+  failed first push attempt, the attempt
+  that failed on a transport error at
+  the tree step after the blob had
+  landed with the branch ref verified
+  unmoved before the clean rerun, so the
+  standards Minor of the Round 21 gate
+  stands repaired on the record itself.
+  The bot's release notes appendix
+  stands at the body's foot at 598
+  characters from its marker, its
+  characters the bot's own and accounted
+  apart from the round's prose, standing
+  whole in the body's final form. The
+  fourth charge of the landing comment,
+  that anything posted on PR 26 after
+  its landing stand for this round's
+  read-back to disposition, stands
+  discharged here with nothing to
+  disposition, the census at this read
+  closing on the landing itself. IP-63
+  stands carried open by name again at
+  this round's opening, as it stood
+  carried at IP-123 and IP-127 and
+  IP-128 and in the body's known
+  deviations, and the Install prose
+  stands untouched.
