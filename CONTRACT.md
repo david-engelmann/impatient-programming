@@ -6734,3 +6734,31 @@ again, and the guard measured fresh again
   itself and stand identical to the
   carried re-run's figures on the closure
   tree for that reason.
+
+
+- IP-133. Round 22 closes at 22 of 100.
+  The round read the Round 21 record back
+  whole at IP-129 and discharged the Round
+  21 red team's carried executions by
+  execution at IP-130 and ran the base
+  gate whole at IP-131 and re-verified the
+  fold measurement whole at IP-132, and
+  this item closes the round with the
+  README move in this same commit, the
+  rounds line standing at 22 of 100 and
+  the fleet bullet's own state word
+  standing at 22 of one hundred rounds
+  closed and the Status range standing at
+  IP-1 to IP-133 under the convention
+  IP-69 settles with the repair records
+  outside it. The closure tree's own gate
+  stands to be run whole on the pushed
+  closure tree and recorded in a following
+  record before the pull request opens, in
+  the posture IP-128 settled for Round 21.
+  IP-63 stands carried open by name again,
+  the Install sentence's credential
+  question standing as IP-129 records it
+  and its amendment standing routed to the
+  main chat, and the Install prose stands
+  untouched in this round as charged.
