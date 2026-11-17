@@ -5959,3 +5959,348 @@ again, and the guard measured fresh again
   conviction failed anywhere in the
   measurement, so no repair rides this
   item or the one before it.
+
+
+- IP-126. The shipped tree stands scanned
+  whole in this round. The tree is the
+  Round 20 merge
+  7bdfc24f81b89ccd3f20bfecb440c351cc9cbd19,
+  tree
+  473c286be0c042298edf6c7b4cb541d3588501cf,
+  taken into this round's working tree by
+  extraction from the remote tree read
+  through the application programming
+  interface, every one of its fourteen
+  blobs verified against the remote tree
+  by recomputed git blob identifier before
+  a test ran, the local tree standing
+  equal to the remote tree. The scan
+  counts every blob at head, taken from
+  the agreeing pair of runs recorded in
+  IP-125. The three documents, README.md,
+  MANIFESTO.md, and PRACTICE.md, stand at
+  zero on all nine barred characters, raw
+  and NFKC folded. The dashes and the fold
+  forms stand at zero in every blob, raw
+  and folded. The colon stands at 301 raw
+  and the same 301 folded, and the
+  semicolon stands at 330 raw and the same
+  330 folded, standing unchanged from the
+  Round 12 tree, this round's own count at
+  that tree,
+  7635a37fc62c48b5e48a9edceac05448b893de85,
+  taken through the application
+  programming interface in this round and
+  returning the same figures, and this
+  round's count at the shipped tree taken
+  through the same interface returning the
+  same 301 and the same 330. The Round 20
+  delta carries neither character in any
+  line it adds, the contract gaining 516
+  lines and losing none and the README
+  gaining three lines and losing three
+  across the round. The fold figures this
+  item and IP-124 and IP-125 rest on stand
+  spot-verified at the completion lane's
+  own hand in this round, the fold set and
+  the neighbor set re-derived from the
+  whole codepoint space by an independent
+  script returning exactly the pinned
+  sixteen and exactly the 34, the
+  mechanism re-computed singly to the same
+  folds for the nine barred and for
+  U+2A74, and cells planted at that hand
+  inside a word in README.md standing at
+  16 of 16 convicted for the fold set and
+  34 of 34 clean for the neighbor set and
+  the emptied document clean, the script
+  and its log standing in this round's
+  scratch beside the pair of probe logs it
+  audited identical line for line. The
+  state agreement pin stands stated
+  exactly here. The guard's own-state test
+  reads the tools section of the README,
+  takes this repo's own bullet as one
+  whitespace-joined block, and finds the
+  state frames the bullet carries, a frame
+  being a number word or a digit run
+  followed by the tail of one hundred
+  rounds closed, the scan for the number
+  running backward from the tail across
+  alphanumeric characters only and
+  stopping at the first character that is
+  not one, so the token the frame names is
+  the run of letters and digits standing
+  directly against the tail. The test
+  requires exactly one frame on the own
+  bullet and compares the value the token
+  names against the digits the README's
+  status line carries after its rounds
+  words. The value table the test carries,
+  the set IP-24 settles, spells the counts
+  as single words only, zero through
+  nineteen and the tens twenty through
+  ninety and hundred, with no compound
+  form standing in it, so no spelled form
+  of the count names it at this round, a
+  hyphenated spelling breaking at the
+  hyphen and leaving the token at one, and
+  the digit run is the pin's standing form
+  at this round's count, the closure
+  moving the own bullet to the digit run
+  21 with the pin's exercise on the moved
+  pair standing on the closure tree's
+  hosted runs as the closure item IP-127
+  records. The Python oracle stands
+  verified through the application
+  programming interface in this round,
+  with no reliance on a local clone, this
+  repository's oracle being reachable
+  through the interface. The oracle commit
+  stands at
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  and its tree at
+  81cac2bb225f0a4edd847e794ca0740635604365
+  over ten blobs, the local extraction
+  matching it blob for blob by recomputed
+  git blob identifier, and its suite
+  stands at 15 tests. The first build
+  lane's own running of that suite left no
+  final accounting standing in this
+  round's scratch when its session ended,
+  so no figure from that running stands
+  counted anywhere in this round. The
+  completion lane that finishes this round
+  started that suite twice more and both
+  runnings failed at their start inside
+  the box write fault stated in IP-127,
+  the interpreter finding no usable
+  temporary directory in any of its
+  candidate roots, and three further
+  runners carrying the suite never reached
+  it, and the suite's local running stands
+  owed at this round's closure with no
+  figure for it asserted anywhere in this
+  round, each failed running and each
+  runner standing counted nowhere. The
+  clone the Install section prints stands
+  reproduced in this round in an empty
+  scratch directory, refusing at exit 4
+  with its instruction to log in, the
+  directory standing empty after the
+  refusal, nothing created, the refusal
+  arriving before any file stood, as in
+  Rounds 10 through 20. The flighttape pin
+  stands reconfirmed in this round. The
+  pin commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e
+  stands read through the application
+  programming interface in the flighttape
+  repository, its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  over exactly 50 blobs, and the pinned
+  checkout stands taken from the local
+  flighttape clone's object store at that
+  commit, its tree standing equal to the
+  tree read through the interface and
+  verified blob for blob against it. The
+  checkout's suite stands at 241 tests,
+  the golden fixture digest test among
+  them, and the golden's standing figures
+  stand as the converted fixture tape at
+  1,663 bytes and the digest at the pinned
+  value with verify accepting at exit 0,
+  the digest's full string standing in
+  this round's pull request body. The
+  first build lane's launch of that suite
+  left its log standing empty when its
+  session ended, so that launch stands
+  counted nowhere. The completion lane
+  started that suite once and its build's
+  fingerprint writes stood refused inside
+  the box write fault stated in IP-127,
+  counted nowhere, and the runners that
+  never reached the oracle suite never
+  reached this suite either, and this
+  suite's local running and the golden's
+  local execution stand owed at this
+  round's closure with no figure for
+  either asserted anywhere in this round
+  beyond the standing figures this
+  paragraph names. The full gate as run on
+  the base tree in this round stands as
+  follows. The scan exits at 0 and prints
+  U+2014=0 and U+2013=0, the format check
+  passes, clippy passes with warnings
+  denied, and cargo test passes at 20
+  tests, thirteen in the documents suite
+  and seven in the practice suite. The
+  full gate on the final tree stands
+  recorded in the closure item IP-127.
+
+
+- IP-127. Round 21 closes here on the
+  record of its own items. The gate on the
+  final tree in this round stands as
+  follows. The scan as run over the
+  assembled closure content exits at 0 and
+  prints U+2014=0 and U+2013=0, the count
+  standing over the closure tree's
+  fourteen blobs as assembled through the
+  application programming interface at the
+  family two head with the two closure
+  items and the README moves counted in,
+  the colon standing at 301 and the
+  semicolon at 330 and the dashes and the
+  fold forms at zero as IP-126 records for
+  the shipped tree. The gate's remaining
+  parts stand as follows at this closure.
+  The final gate's local running stands
+  owed, its every attempt in the
+  completion lane refused by the box write
+  fault stated below before the format
+  check or the linter or the suite could
+  run on the closure tree, and the closure
+  tree's format and lint and test checks
+  stand on the hosted runs of its exact
+  head, the hosted runs carrying the
+  format check and the linter with
+  warnings denied and the suite of 20
+  tests, thirteen in the documents suite
+  and seven in the practice suite, the
+  state agreement pin exercised on the
+  moved pair inside it, each run named in
+  the pull request body once it stands.
+  The closure commit as first assembled in
+  this round carries the fleet bullet's
+  state moved with the rounds line, the
+  state standing as the digit run 21 in
+  the form IP-126 states. The README
+  records 21 of 100 only in the closure
+  commit, and its Status line carries the
+  contract range to IP-127 in the same
+  commit, the Status range naming the
+  items through the latest closed round's
+  closure item under the convention IP-69
+  settles, and the README's own fleet
+  bullet carries its state as the digit
+  run 21 in the same commit, so the bullet
+  and the rounds line stand in agreement
+  under the state agreement pin. Item 3 of
+  the storefront checklist stands verified
+  in the pull request body at its
+  contracted state, and item 10 stands
+  reported there as not rendered, no
+  rendered check standing in this round.
+  The gate and measurement figures
+  recorded in IP-124, IP-125, and IP-126
+  stand in those items themselves. Every
+  gate run and measurement run in this
+  round stands named in the record at its
+  item, the attempted re-runs of the
+  oracle suite and of the flighttape suite
+  and golden recorded in IP-126 included,
+  each standing counted nowhere, and no
+  run stands counted that the record does
+  not name. This round's environment
+  effects stand stated in full here. This
+  round's scratch, its working tree, its
+  compiler target directories, and the
+  compiler's temporaries stand under the
+  workspace on this box, and the box write
+  fault stood over the completion lane's
+  part of the round in its hard form,
+  content writes by executed processes
+  refused with operation not permitted
+  across this round's scratch, the
+  temporary directory, and the shared
+  memory directory, while directory
+  creation and writes through the file
+  tools landed throughout. The fault's
+  span stands probed as follows. The
+  completion lane's first runnings of the
+  oracle suite and of the flighttape
+  checkout's suite failed inside it as
+  IP-126 records, a probe gated runner
+  then ended by a signal after about sixty
+  eight minutes with neither suite
+  started, one content write to this
+  scratch landed at a probe at 21 34 UTC
+  on 2026-11-16 between runnings, a
+  further running of the oracle suite
+  failed at its start after its wait in
+  the build slot with the fault standing
+  again, a probe held inside the build
+  slot across twenty attempts at a minute
+  apart never passed, and a window runner
+  probing every three minutes found no
+  window in sixty attempts over about
+  three hours, its last probe standing at
+  03 07 UTC on 2026-11-17, and a direct
+  probe at 03 08 UTC the same day refused
+  in the temporary directory and in this
+  scratch alike. No quota stood hit at any
+  point in the round, and no counted pass
+  in this round rests on a killed or
+  refused attempt, and the closure stands
+  assembled and pushed through the
+  application programming interface
+  because that route writes nothing on
+  this box, with the local runnings named
+  in IP-126 and in this item standing owed
+  at the closure. The working tree stands
+  taken by extraction from the remote tree
+  read through the application programming
+  interface and verified equal to it by
+  tree identifier before a test ran. The
+  measurement ran twice as detached
+  processes with their logs standing in
+  this round's scratch, and the clone
+  reproduction ran in an empty scratch
+  directory and created nothing, and the
+  first build lane's other gate commands
+  ran in the foreground and were awaited,
+  the heavy runs among them waited out in
+  the line's shared build slot behind the
+  other repos' lanes, the waiting standing
+  as no stall and no effect on any figure,
+  and the completion lane's runnings ran
+  as detached processes under the same
+  slot as its own record in this item
+  states. The fleet account rate limit
+  stands hit once in this round, in the
+  first build lane's counting pass, the
+  limit standing at zero remaining at 19
+  39 UTC on 2026-11-16 with its reset at
+  19 45 46 UTC the same day, and all
+  application programming interface work
+  stopped at the hard stop and resumed
+  after the reset on a single probe read
+  standing at 4,980 remaining, and the
+  counting pass stands re-run whole after
+  the reset, and no application
+  programming interface figure in this
+  round rests on a cut-short read. The
+  first build lane's session ended without
+  a final answer after the read-back
+  family and the measurement family stood
+  banked on the remote branch and after
+  its own runnings of the oracle suite and
+  the flighttape checkout's suite had
+  begun, and a completion lane finished
+  the round, attempting the oracle suite
+  and the flighttape checkout's suite and
+  golden whole where the first lane's
+  runnings left no completed accounting
+  standing and carrying the closure
+  through the interface when the fault
+  refused every local running, and the
+  completion stands disclosed here and in
+  IP-126 and in the pull request body.
+  IP-63 stands open and untouched at the
+  closure, its question the repository
+  owner's to answer, and the fourth charge
+  of the Round 20 landing comment stands
+  discharged here. The round's record
+  stands complete as written in IP-123,
+  IP-124, IP-125, IP-126, and this item.
