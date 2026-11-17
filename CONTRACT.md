@@ -6644,3 +6644,51 @@ again, and the guard measured fresh again
   slotted driver stands killed by a
   runtime restart while it waited in the
   queue and counted nowhere.
+
+
+- IP-131. The base gate whole ran on this
+  round's base tree in this round at this
+  lane's own hand, the tree standing as
+  main's landing tree
+  7eeddd91671a2d351feb3e222e73293abaf902c1
+  at head
+  09f617c1941b2628fd18afe0e797b58503dd1428.
+  The tree this gate ran on stands
+  assembled on disk and verified blob for
+  blob against that tree at fourteen blobs
+  with zero bad before the gate pointed at
+  it, its contract reconstructed on disk
+  from the Round 21 closure contract and
+  the IP-128 draft under Round 21's own
+  push parameters and standing proven by
+  its blob identifier
+  39d81669a63ef8be741571b04c44076f9bd68986
+  at 246,289 bytes, no application
+  programming interface call spent on the
+  assembly. The repository scan printed
+  the one line codepoint scan U+2014=0
+  U+2013=0 at exit 0. The format check
+  passed clean at exit 0, the linter with
+  warnings denied passed clean at exit 0,
+  and the test suite passed whole at 20
+  tests, thirteen in the documents suite
+  and seven in the practice suite. The
+  counting pass over the base tree stands
+  with the scan, the three documents at
+  zero on all nine barred characters raw
+  and NFKC folded, the dashes and the fold
+  forms at zero in every blob, and the
+  colon at 301 and the semicolon at 330
+  raw and the same folded, figures
+  identical to the Round 21 closure tree's
+  because every item the contract has ever
+  appended stands written under the prose
+  bar and adds no barred character. The
+  gate's cargo stages stand run outside
+  the build slot on workspace target
+  directories, the slot standing fault
+  jammed at the round's middle as IP-130
+  records, the stages retried across the
+  write fault's waves and landing whole in
+  the same window that carried IP-130's
+  set.
