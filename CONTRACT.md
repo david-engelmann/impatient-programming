@@ -6805,3 +6805,117 @@ again, and the guard measured fresh again
   and folded, the round's five authored
   items adding no barred character among
   them.
+
+
+- IP-135. Round 22's record stands read
+  back whole on PR 28 and this item
+  contracts what the read-back found. PR
+  28 stands closed and merged at 07 28 45
+  UTC on 2026-11-18 as squash
+  4daabcefb8a07b460bc7cda70d3409f25c4a02d6,
+  its merge tree equal to the reviewed
+  final tree
+  2cde2be07a78b2eddd6039e772ae88ee8aff6ce8
+  and the README on main reading 22 of 100
+  at the landing. The census stands whole
+  at four issue comments and no reviews
+  and no review comments. The Trunk notice
+  6960944744 stands in its final
+  post-merge form at 113 characters, last
+  edited at 07 28 49 UTC on 2026-11-18.
+  The owner's queue comment 6971932108
+  stands at 12 characters and never
+  edited. The landing comment 6976620167
+  stands at 1,617 characters and standing
+  last, and nothing stands posted after it
+  at this read, so the post-landing
+  material the landing comment's third
+  charge assigns to this read-back stands
+  empty and stands discharged here. The
+  shell 6960948938 stands in its true
+  final form at this read at 11,337
+  characters, last edited at 07 21 27 UTC
+  on 2026-11-18 under Run ID
+  c167df25-8a8c-4cfb-a542-62419b0c773b,
+  and this item corrects the landing
+  comment's gate-read figure of 11,335
+  characters last edited at 21 10 57 UTC
+  on 2026-11-17, the shell having
+  re-rendered two characters longer under
+  the same run after the gate reads were
+  taken. The shell generated no actionable
+  comments and no review and no review
+  comment stands from it. Its walkthrough
+  covers the read-back and the carried
+  executions, the base validation and the
+  fold measurements, and the closure and
+  the post-closure record in three rows
+  and stands accurate in substance. Its
+  merge risk stands at Minimal up to the
+  final head
+  63fd4e7882170e9a4c874d332fd9764b86e63fb8
+  with no concrete merge blocking issue
+  found. Its pre-merge checks stand at
+  four passed, the Linked Issues check and
+  the Out of Scope Changes check and the
+  Title check and the Description Check
+  each standing Passed, and the Title
+  check's details note only that the title
+  lists several items, is long at 21
+  words, and uses internal round and gate
+  jargon. No dismissal stands in the
+  shell's final form, every check standing
+  passed in it, and the Title dismissal
+  the body records stands against the
+  earlier form's inconclusive Title check
+  on its counted grounds alone, the title
+  standing in the standing shape at
+  exactly 122 characters as PRs 18 through
+  26 stood before it and as PR 28 stands
+  at this read. The owner's two body
+  sentences stand graded accurate against
+  the record. The sentence restating the
+  checks census to four passed with the
+  Title check standing Passed matches the
+  shell's final form element for element.
+  The sentence recording the first branch
+  creation script's death in a retry loop
+  after an earlier exhaustion of the same
+  rate limit, before posting anything, and
+  the clean rerun that created the branch
+  at the base commit, matches the Round 22
+  lane's own attempts record, and the rate
+  limit bullet's once stands scoped to the
+  17 47 UTC episode that bullet names, the
+  two episodes standing apart in that
+  record exactly as the sentence states.
+  The bot's release notes appendix stands
+  at 445 characters from its opening
+  marker and 447 from its separator at
+  this hand, byte for byte what it stood
+  before the owner's patch, the patch
+  having moved the body from 12,445 to
+  13,053 characters without touching the
+  appendix. The Round 22 gate verdicts
+  stand contracted at spec fidelity REPAIR
+  one Minor and standards REPAIR one
+  Minor, each body-only, and red team
+  APPROVE with no findings, and both
+  Minors stand repaired by the owner's
+  body patch before the merge, the
+  appendix byte identical after the patch
+  and the head unchanged at the final
+  head. The read-back also contracts that
+  the second charge Round 21's landing
+  laid on Round 22 stood discharged by
+  execution at IP-130, the Round 21 red
+  team's armed runner at pid 88627 stood
+  down by signal at that round's opening
+  with zero stages ever executed in either
+  round, its runner log at zero bytes and
+  no stage log and no done marker standing
+  in its scratch, and the six owed stages
+  executed whole in that round. IP-63
+  stands carried open by name again,
+  untouched, as the landing comment's
+  second charge directs.
