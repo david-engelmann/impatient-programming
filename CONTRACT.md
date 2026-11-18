@@ -7051,3 +7051,31 @@ again, and the guard measured fresh again
   standing routed to the main chat, and
   the Install prose stands untouched in
   this round as charged.
+
+
+- IP-140. The closure gate stands
+  discharged by execution at this lane's
+  hand on the pushed closure tree
+  f3d11158cbd225ddfa6985c562a15552a1d619e8,
+  assembled on disk from the closure head
+  and verified blob for blob at fourteen
+  blobs with zero bad, the repository scan
+  printing the one line codepoint scan
+  U+2014=0 U+2013=0 at exit 0, the fold
+  and counting pass on the closure tree
+  standing at colon 301 and semicolon 330
+  raw and the same folded with the dashes
+  and the fold forms at zero in every blob
+  and the three documents at zero on all
+  nine barred characters raw and folded,
+  the fold cells convicted 48 of 48, the
+  neighbor cells clean 68 of 68, and an
+  emptied document passing clean, the
+  format check clean, the linter clean,
+  and the suite at 20 passed, thirteen in
+  the documents suite and seven in the
+  practice suite, with the state agreement
+  pin exercised on the moved pair. This
+  record stands outside the Status range
+  in the repair record posture, and the
+  range stands through IP-139.
