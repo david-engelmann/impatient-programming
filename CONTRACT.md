@@ -7302,3 +7302,23 @@ again, and the guard measured fresh again
   Install prose stands byte-identical to
   the base, IP-63 carried open by name and
   untouched.
+
+
+- IP-146. Round 24 closes here. The README
+  moves to 24 of 100 in this commit only,
+  its own bullet and its programme status
+  line and its contract range moving
+  together from 23 of one hundred rounds
+  closed to 24 of one hundred rounds
+  closed and from 23 of 100 to 24 of 100
+  and from the range through IP-139 to the
+  range through IP-146, the state
+  agreement pin exercised on the moved
+  pair by the closure gate in the
+  post-closure record. The Status range
+  reads IP-1 to IP-146 from this item on,
+  and the round's items stand at IP-142 to
+  IP-146, with any post-closure record
+  standing outside the range in the repair
+  record posture. IP-63 stands carried
+  open by name at the closure, untouched.
