@@ -7233,3 +7233,25 @@ again, and the guard measured fresh again
   the dashes and the fold forms at zero in
   every blob, and the three documents at
   zero on all nine barred.
+
+
+- IP-144. The fold measurement stands
+  re-verified whole on the base tree at
+  this lane's hand under Python 3.12.3 and
+  unicodedata 15.0.0. The fold set stands
+  re-derived from the whole codepoint
+  space at exactly the pinned sixteen,
+  five of the nine barred folding to
+  themselves and four folding to a
+  different barred character and U+2A74
+  folding to the three character string of
+  colon and colon and equals, the
+  fold-only members standing at exactly
+  seven. The neighbor set stands
+  re-derived beside the sixteen at exactly
+  34. The fold cells stand convicted at 48
+  of 48, planted mid word in each of the
+  three documents, and the neighbor cells
+  stand clean at 68 of 68 across the
+  README and the practice document, and an
+  emptied document passes clean.
