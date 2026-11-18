@@ -7114,3 +7114,108 @@ again, and the guard measured fresh again
   against it. This record stands outside
   the Status range in the repair record
   posture.
+
+
+- IP-142. Round 23's record stands read
+  back whole on PR 30 and this item
+  contracts what the read-back found. PR
+  30 stands closed and merged at 13 56 27
+  UTC on 2026-11-18 as squash
+  809222b1395b589a3adf1921604dfbb66bffd7e2,
+  its merge tree equal to the reviewed
+  head tree
+  7b04ca476e659b5fba8b9d35b45f41956b888e6b
+  and the README on main reading 23 of 100
+  at the landing. The census stands whole
+  at four issue comments and one review
+  and no review comments. The Trunk notice
+  6978551520 stands in its final
+  post-merge form at 113 characters, last
+  edited at 13 56 29 UTC on 2026-11-18.
+  The owner's queue comment 6980487431
+  stands at 12 characters and never
+  edited. The landing comment 6982807186
+  stands at 1,001 characters and standing
+  last, and nothing stands posted after it
+  at this read, so the post-landing
+  material the landing comment's third
+  charge assigns to this read-back stands
+  empty and stands discharged here. The
+  shell 6978556283 stands in its true
+  final form at this read at 8,809
+  characters, last edited at 12 44 23 UTC
+  on 2026-11-18, and this item corrects
+  the body's stated figure of 8,807
+  characters, the shell having re-rendered
+  two characters longer after the body's
+  last patch. The shell generated no
+  actionable comments and no review
+  comment stands from it, and the one
+  formal review stands contracted below.
+  Its walkthrough covers the read-back and
+  the verification and the closure and the
+  post-closure record in three rows and
+  stands accurate in substance. Its merge
+  risk stands at Minimal up to
+  26791fe31eb84a05cdc39a3e594269ed08d0ad33
+  with no concrete merge blocking issue
+  found, and its coverage stands at that
+  head, the repair head
+  98f5458db990b921f16ed48dd851c63d2e3dde48
+  standing with no bot review of its own.
+  Its pre-merge checks stand at four
+  passed, the Title check and the Linked
+  Issues check and the Out of Scope
+  Changes check and the Description Check
+  each standing Passed, and the Title
+  check's details note only that the title
+  is long at 122 characters and 21 words
+  and lists several items and does not
+  state the most important change clearly.
+  No dismissal stands in the shell's final
+  form, every check standing passed in it.
+  The formal review 5956591325 stands
+  COMMENTED at commit
+  26791fe31eb84a05cdc39a3e594269ed08d0ad33
+  under Run ID
+  57e0ed38-d24f-4cb7-b7fa-7d0650a72d2e and
+  carries one nitpick at README.md line
+  79, classed trivial, that the state
+  agreement guard checks the README's own
+  bullet state word and the rounds digits
+  and does not check the contract range
+  line, so a later edit could move the
+  range without the suite failing, the
+  current values agreeing. The nitpick
+  stands verified accurate at this lane's
+  hand against the base tree's suite, the
+  documents suite's state agreement test
+  reading the own bullet's state frame and
+  the status line's digits and no test
+  reading the range line or comparing its
+  upper bound against the contract's
+  highest record in the Status range, the
+  values standing in agreement at IP-139
+  against IP-139. IP-141 recorded the
+  nitpick and charged the guard extension
+  to this round as that round's suite
+  work, and this round's change stands
+  confined to CONTRACT.md and README.md
+  only under the standing shape, the same
+  ground IP-141 recorded for Round 23, so
+  the extension stands carried to Round 25
+  by name here, the original review
+  unrewritten and no dismissal standing
+  against it. The bot's release notes
+  appendix stands at 452 characters from
+  its opening marker and 454 from its
+  separator at this hand. The Round 23
+  gate verdicts stand contracted at spec
+  fidelity PASS and standards APPROVE and
+  red team APPROVE with no findings on any
+  axis and nothing left untested at the
+  red team's hand. IP-63 stands carried
+  open by name again, untouched, as the
+  landing comment's second charge directs,
+  the Install prose standing
+  byte-identical to the base.
