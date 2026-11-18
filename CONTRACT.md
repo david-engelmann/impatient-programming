@@ -7322,3 +7322,20 @@ again, and the guard measured fresh again
   standing outside the range in the repair
   record posture. IP-63 stands carried
   open by name at the closure, untouched.
+
+
+- IP-147. A post-closure record for Round
+  24, standing outside the Status range in
+  the repair record posture, and the range
+  stands through IP-146. The closure gate
+  stands run whole on the pushed closure
+  tree under the build slot. The scan
+  printed its one line at exit 0, the
+  format check clean, the linter clean,
+  and the suite at 20 passed, thirteen in
+  the documents suite and seven in the
+  practice suite, with the state agreement
+  pin exercised on the moved pair. This
+  record stands outside the Status range
+  in the repair record posture, and the
+  range stands through IP-146.
