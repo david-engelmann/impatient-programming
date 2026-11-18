@@ -6919,3 +6919,27 @@ again, and the guard measured fresh again
   stands carried open by name again,
   untouched, as the landing comment's
   second charge directs.
+
+
+- IP-136. The base gate stands run whole
+  at this lane's hand on the base tree,
+  the tree assembled on disk from the
+  landing tree
+  2cde2be07a78b2eddd6039e772ae88ee8aff6ce8
+  and verified blob for blob at fourteen
+  blobs with zero bad before the gate
+  pointed at it. The repository scan
+  printed the one line codepoint scan
+  U+2014=0 U+2013=0 at exit 0. The format
+  check passed clean at exit 0, the linter
+  with warnings denied passed clean at
+  exit 0, and the test suite passed whole
+  at 20 tests, thirteen in the documents
+  suite and seven in the practice suite.
+  The counting pass over the base tree
+  stands at colon 301 and semicolon 330
+  raw and the same folded, the dashes and
+  the fold forms at zero in every blob,
+  and the three documents at zero on all
+  nine barred characters raw and NFKC
+  folded.
