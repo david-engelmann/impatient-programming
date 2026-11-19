@@ -7565,3 +7565,30 @@ again, and the guard measured fresh again
   IP-149, and the suite on the closure
   tree stands charged to the closure
   gate.
+
+
+- IP-153. Round 25 closes here. The
+  README moves to 25 of 100 and the
+  contract range to IP-1 to IP-153 in
+  this same commit. The round read Round
+  24's record back whole on PR 32 at
+  IP-148, built the guard extension
+  charged at IP-141 at IP-149 with its
+  bite proven by mutation, ran the base
+  gate whole at IP-150, re-verified the
+  fold measurement whole at IP-151, and
+  discharged the verification family at
+  IP-152. The guard now watches the
+  range line beside the own bullet and
+  the status digits, so the move this
+  commit makes stands guarded on all
+  three statements at once. IP-63
+  carries open by name into Round 26,
+  its question still before the main
+  chat, and the Install prose stands
+  untouched in this round,
+  byte-identical to base. The closure
+  gate stands charged to the
+  post-closure record, on the closure
+  tree assembled from this commit's tree
+  and verified blob for blob.
