@@ -7630,3 +7630,93 @@ again, and the guard measured fresh again
   the Status range in the repair record
   posture, and the range stands through
   IP-153.
+
+
+- IP-155. Round 25's record stands read
+  back whole on PR 34 and this item
+  contracts what the read-back found. PR
+  34 stands closed and merged at 05 27
+  22 UTC on 2026-11-19 as squash
+  41bc1896c305f613ed7c39b4ee4c5018ca3dd37b,
+  its merge tree equal to the reviewed
+  final tree
+  769cc390bcf08334c260302a4d72e15976966166,
+  and the README on main reads 25 of
+  100. The census at this lane's read
+  stands at four issue comments, no
+  reviews, and no review comments. The
+  Trunk notice 6998110799 stands at 113
+  characters in its post-merge form,
+  last edited at 05 27 25 UTC on
+  2026-11-19. The shell 6998113760
+  stands read whole in its true final
+  form at 11,344 characters, last edited
+  at 05 19 55 UTC on 2026-11-19, under
+  Run ID
+  a1ea888d-db54-4f47-8ce3-0cdc55e1c4a6.
+  No actionable comments stand in the
+  shell. Its walkthrough stands accurate
+  in substance against the record, its
+  three rows matching the read-back, the
+  range check and verification records,
+  and the closure, its change assessment
+  naming the final head
+  586c904065f8bc819de81e554bc0e96976c3cd5a.
+  The merge risk stands at Minimal up to
+  the final head, its coverage standing
+  at that head with source and covered
+  the same commit, and its prose
+  recording that the change does not
+  change runtime behavior and that no
+  merge-blocking risk was found. The
+  pre-merge checks stand at four passed,
+  the Title check and the Linked Issues
+  check and the Out of Scope Changes
+  check and the Description Check each
+  standing Passed, the Linked Issues and
+  Out of Scope Changes and Description
+  checks each standing passed as skipped
+  on their stated grounds, and the Title
+  check's details noting that the title
+  is a long list naming secondary items
+  beside the main change while standing
+  related to the changeset, so it does
+  not fail. No related pull request
+  entry stands in the shell. No
+  dismissal stands in the shell's final
+  form. The review used the included
+  allowance, none remaining after it.
+  The owner's queue comment 7000510391
+  stands at 12 characters, and the
+  landing comment 7002170018 stands last
+  at 1,239 characters. The appendix on
+  PR 34's body measures 546 characters
+  from its opening marker at this lane's
+  hand, matching the figure the Round 25
+  lane recorded.
+
+The owner's pre-merge body patch stands
+  graded exact at its own read against
+  this record. The patch restated the
+  shell at 11 342 characters, last
+  edited at 02 52 22 UTC on 2026-11-19,
+  with the appendix byte-identical after
+  the patch and the head unchanged. The
+  shell re-rendered once more after that
+  read, two characters longer, standing
+  at 11,344 characters from 05 19 55
+  UTC, two seconds after the owner's
+  queue comment was created and before
+  the merge, with no disposition bearing
+  element moving, and this item
+  contracts the true final form. The
+  Round 25 gate verdicts stand
+  contracted as the landing comment
+  records them, REPAIR one Minor on each
+  of the three axes on the same stale
+  shell figure, each closed by the
+  owner's patch, and the guard extension
+  graded clean on every axis. No
+  post-landing material stands on PR 34
+  after the landing comment, so charge 3
+  stands discharged as empty.
