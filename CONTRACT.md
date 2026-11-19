@@ -7775,3 +7775,42 @@ The owner's pre-merge body patch stands
   stand clean at 68 of 68, the neighbor
   set at thirty-four codepoints, and an
   emptied document passes clean.
+
+
+- IP-158. The verification family stands
+  discharged by execution at this lane's
+  hand. The Python oracle stands
+  verified through the application
+  programming interface at commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314,
+  tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  ten blobs matched blob for blob by
+  recomputed git blob identifier, and
+  its suite ran and passed at 15 of 15
+  under pytest. The flighttape pin
+  stands verified the same way at commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e,
+  tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e,
+  exactly fifty blobs matched, its suite
+  ran at exit 0 in the gate run with its
+  tail suites visible, and the count
+  stands confirmed by listing the built
+  suites' tests at 241 in sum. The
+  golden stands executed with the pin's
+  own built binary, the converted
+  fixture tape at 1,663 bytes and the
+  digest at the pinned value
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3
+  with verify accepting at exit 0. The
+  clone the Install section prints
+  stands reproduced in an empty
+  directory in this round, refusing at
+  exit 4 with its instruction to log in
+  and creating nothing, and the Install
+  prose stands byte-identical to base,
+  the README standing untouched at its
+  base blob through this item. The suite
+  on the closure tree stands charged to
+  the closure gate.
