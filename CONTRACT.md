@@ -7421,3 +7421,57 @@ again, and the guard measured fresh again
   hand. No post-landing material stands
   on PR 32 after the landing comment, so
   charge 4 stands discharged as empty.
+
+
+- IP-149. The guard extension charged at
+  IP-141 stands built in this round, and
+  this item contracts it. The state
+  agreement guard in
+  tests/test_documents.rs, the test that
+  reads the README's own bullet state
+  word against the Programme status
+  line's digits, now also checks the
+  README's contract range line. The
+  extension reads the contract's records
+  in order and takes the latest record
+  whose opening closes its round, the
+  closures having taken two opening
+  shapes across the record, one naming
+  the round as it closes and one closing
+  on the standing gate and the standing
+  record, and it asserts the range
+  line's upper bound equals that
+  record's number. The check compares
+  the numbers, not a literal, so it
+  holds at whatever bound a closure
+  sets, and every existing check in the
+  guard stands intact. The test file
+  stands as the only test file this
+  round touches, moving from 21,286
+  bytes at base to 24,884 bytes, and the
+  suite stands at 20 tests in all,
+  thirteen in the documents suite and
+  seven in the practice suite, the
+  extension adding its limb inside the
+  standing test rather than a new one.
+  The extension's bite stands proven by
+  mutation at this lane's hand on a copy
+  of the branch tree. The copy's README
+  range line moved from IP-1 to IP-146
+  to IP-1 to IP-145 with the contract
+  standing whole, and the named test
+  failed on the new limb with left 145
+  and right 146, and the line restored,
+  the test passed again. The standing
+  limb stands re-proven in the same
+  pass, the copy's own bullet moved from
+  24 to 23 of one hundred rounds closed
+  with the status line standing at 24,
+  the named test failing with left 23
+  and right 24, and passing again on the
+  restored pair with the full documents
+  suite at 13 passed. The whole suite
+  ran on the branch tree with the
+  extension standing and passed at 20,
+  with the format check and the linter
+  clean on the extended file.
