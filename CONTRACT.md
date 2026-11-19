@@ -7497,3 +7497,30 @@ again, and the guard measured fresh again
   in every blob, and the three documents
   at zero on all nine barred characters
   raw and NFKC folded.
+
+
+- IP-151. The fold measurement stands
+  re-verified whole on the base tree at
+  this lane's hand. The barred set
+  stands verified against both test
+  files at nine codepoints. The fold set
+  stands at exactly the pinned sixteen,
+  U+003A and U+003B and U+037E and
+  U+2013 and U+2014 and U+2015 and
+  U+2A74 and U+FE13 and U+FE14 and
+  U+FE31 and U+FE32 and U+FE54 and
+  U+FE55 and U+FE58 and U+FF1A and
+  U+FF1B, with the mechanism as IP-79
+  states it, five of the nine barred
+  characters folding to themselves and
+  four folding to a different barred
+  character, and U+2A74 folding to the
+  three-character string U+003A U+003A
+  U+003D. The fold-only seven stand at
+  U+037E and U+2A74 and U+FE13 and
+  U+FE14 and U+FE31 and U+FE32 and
+  U+FE55. The fold cells stand convicted
+  at 48 of 48 and the neighbor cells
+  stand clean at 68 of 68, the neighbor
+  set at thirty-four codepoints, and an
+  emptied document passes clean.
