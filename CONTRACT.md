@@ -7814,3 +7814,27 @@ The owner's pre-merge body patch stands
   base blob through this item. The suite
   on the closure tree stands charged to
   the closure gate.
+
+
+- IP-159. Round 26 closes here. The
+  README moves to 26 of 100 and the
+  contract range to IP-1 to IP-159 in
+  this same commit. The round read Round
+  25's record back whole on PR 34 at
+  IP-155, ran the base gate whole at
+  IP-156, re-verified the fold
+  measurement whole at IP-157, and
+  discharged the verification family at
+  IP-158. The guard watches the range
+  line beside the own bullet and the
+  status digits, so the move this commit
+  makes stands guarded on all three
+  statements at once. IP-63 carries open
+  by name into Round 27, its question
+  still before the main chat, and the
+  Install prose stands untouched in this
+  round, byte-identical to base. The
+  closure gate stands charged to the
+  post-closure record, on the closure
+  tree assembled from this commit's tree
+  and verified blob for blob.
