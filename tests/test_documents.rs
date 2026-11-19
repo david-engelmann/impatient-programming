@@ -574,6 +574,97 @@ fn test_the_readmes_own_state_statements_agree() {
         .collect();
     let status: usize = digits.parse().expect("a digit status count");
     assert_eq!(state_value(word), status);
+    // IP-149. The watch extends to the contract range
+    // line. The README states the contract's range, and
+    // the range names the items through the latest
+    // closed round's closure item under IP-69, so the
+    // bound the line carries must equal the number of
+    // the latest closure record in the contract. A
+    // later edit could move the range line without
+    // moving either statement above, and the nitpick
+    // that charged this extension stands at IP-141.
+    // The check compares the numbers, not a literal,
+    // so it holds at whatever bound a closure sets.
+    let contract = read_document("CONTRACT.md");
+    let range_tail = readme
+        .split_once("Contract, IP-1 to IP-")
+        .map(|(_, tail)| tail)
+        .expect("the README carries a contract range line");
+    let range_digits: String = range_tail
+        .chars()
+        .take_while(|char| char.is_ascii_digit())
+        .collect();
+    let bound: usize = range_digits.parse().expect("a digit range bound");
+    assert_eq!(bound, latest_closure_record(&contract));
+}
+
+/// The number of the latest closure record in the
+/// contract: the highest record whose opening closes
+/// its round. A record is one of the contract's list
+/// items, opening with its number, and its text runs
+/// to the next record's opening. The record's text
+/// joins before its opening is read, so an opening
+/// split across a wrap is seen whole. The openings
+/// have taken two shapes across the rounds, one
+/// naming the round as it closes and one closing on
+/// the standing gate and the standing record, and
+/// both stand watched here.
+fn latest_closure_record(contract: &str) -> usize {
+    let mut latest = 0usize;
+    let mut records: Vec<(usize, String)> = Vec::new();
+    let mut current: Option<(usize, String)> = None;
+    for line in contract.lines() {
+        let heading = line.strip_prefix("- IP-").and_then(|rest| {
+            let digits: String = rest
+                .chars()
+                .take_while(|char| char.is_ascii_digit())
+                .collect();
+            if !digits.is_empty() && rest[digits.len()..].starts_with(". ") {
+                digits.parse::<usize>().ok()
+            } else {
+                None
+            }
+        });
+        match heading {
+            Some(number) => {
+                if let Some(record) = current.take() {
+                    records.push(record);
+                }
+                current = Some((number, line.to_string()));
+            }
+            None => {
+                if let Some((_, text)) = &mut current {
+                    text.push(' ');
+                    text.push_str(line);
+                }
+            }
+        }
+    }
+    if let Some(record) = current.take() {
+        records.push(record);
+    }
+    for (number, text) in records {
+        let collapsed: String = text.split_whitespace().collect::<Vec<_>>().join(" ");
+        let opening = collapsed
+            .split_once(". ")
+            .map(|(_, tail)| tail)
+            .unwrap_or("");
+        let closes = opening.starts_with("The round closes ")
+            || opening
+                .strip_prefix("Round ")
+                .map(|rest| {
+                    let digits: String = rest
+                        .chars()
+                        .take_while(|char| char.is_ascii_digit())
+                        .collect();
+                    !digits.is_empty() && rest[digits.len()..].starts_with(" closes ")
+                })
+                .unwrap_or(false);
+        if closes && number > latest {
+            latest = number;
+        }
+    }
+    latest
 }
 
 /// IP-14. The interpreter's fold set: every codepoint whose
