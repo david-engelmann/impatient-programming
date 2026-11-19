@@ -7876,3 +7876,275 @@ The owner's pre-merge body patch stands
   Status range in the repair record
   posture, and the range stands through
   IP-159.
+
+
+- IP-161. Round 26's record stands read
+  back whole on PR 36 and this item
+  contracts what the read-back found. PR
+  36 stands closed and merged at 12 13
+  34 UTC on 2026-11-19 as squash
+  5283b6a97c1eb2b2c43499bba75a58b77b77642e,
+  its merge tree equal to the reviewed
+  final tree
+  8c2f1e45e75d60ea88660b6e6b01de4f59e7424f,
+  and the README on main reads 26 of
+  100. The census at this lane's read
+  stands at four issue comments, no
+  reviews, and no review comments. The
+  Trunk notice 7002585182 stands at 113
+  characters in its post-merge form,
+  last edited at 12 13 36 UTC on
+  2026-11-19. The shell 7002589098
+  stands read whole in its true final
+  form at 11,306 characters, last edited
+  at 12 05 24 UTC on 2026-11-19, under
+  Run ID
+  c477b96e-3bbc-49be-8b8b-a3c17d7fb6dd.
+  No actionable comments stand in the
+  shell. Its walkthrough stands accurate
+  in substance against the record, its
+  three rows matching the read-back, the
+  gates and verification records, and
+  the closure with its post-closure
+  checks, and its change assessment
+  stands at Other. Its possibly related
+  pull requests entry names PR 34 for
+  the reason the record carries, that it
+  records Round 25 and adds the state
+  agreement guard that checks the
+  contract range against the latest
+  closure record. The merge risk stands
+  at Minimal up to the final head
+  3cd574acb4a5579a61e81c18845e8e68ef68991c,
+  its coverage standing at that head
+  with source and covered the same
+  commit, and its prose recording that
+  the change updates the closure record
+  and the README status counts, changes
+  no runtime behavior, and leaves no
+  actionable merge-blocking risk. The
+  pre-merge checks stand at four passed,
+  the Description check and the Linked
+  Issues check and the Out of Scope
+  Changes check and the Title check each
+  standing Passed, the Linked Issues and
+  Out of Scope Changes checks each
+  standing passed as skipped on their
+  stated grounds and the Description
+  check standing passed as skipped on
+  its stated ground, and the Title
+  check's details holding the title
+  partially related and overly broad,
+  which is a pass under its own
+  criteria, and no proposal for a
+  shorter title standing anywhere in the
+  final form. No dismissal stands
+  against the shell's final form. The
+  review used the included allowance,
+  none remaining after it. The owner's
+  queue comment 7008579121 stands at 12
+  characters, created at 12 05 33 UTC on
+  2026-11-19 and never edited, and the
+  landing comment 7009944717 stands last
+  at 1,577 characters. The appendix on
+  PR 36's body measures 386 characters
+  from its opening marker at this lane's
+  hand.
+
+The owner's pre-merge body patch stands
+  graded exact at its own read against
+  this record. The patch restated the
+  shell at 11 304 characters, last
+  edited at 07 27 43 UTC on 2026-11-19,
+  corrected the checks census to the
+  four passed the final form carries,
+  and corrected the dismissal the lane
+  had recorded against the shell's
+  earlier form to stand against no final
+  form, with the appendix byte-identical
+  after the patch and the head
+  unchanged. The shell re-rendered once
+  more after that read, two characters
+  longer, standing at 11,306 characters
+  from 12 05 24 UTC, nine seconds before
+  the owner's queue comment was created
+  and before the merge, with no
+  disposition bearing element moving at
+  this lane's hand, the Run ID and the
+  four passed checks and the Minimal
+  merge risk and the no actionable
+  comments statement each standing as
+  the patch graded them, and this item
+  contracts the true final form. The
+  Round 26 gate verdicts stand
+  contracted as the landing comment
+  records them, REPAIR one Minor on each
+  of the three axes on the same shell
+  fact, each closed by the owner's
+  patch, and the red team's cargo side
+  standing UNTESTED at its hand under
+  the box's write fault with its record
+  side verified whole, the contracted
+  executions standing on the Round 26
+  lane's discharge, graded as it stands.
+  No post-landing material stands on PR
+  36 after the landing comment, so
+  charge 3 stands discharged as empty.
+
+
+- IP-162. The base gate stands run whole
+  on the base tree at this lane's hand.
+  The base tree stands assembled on disk
+  from the landing tree
+  8c2f1e45e75d60ea88660b6e6b01de4f59e7424f
+  and verified blob for blob against it
+  at fourteen blobs with zero bad. The
+  repository scan prints the one line
+  codepoint scan U+2014=0 U+2013=0 at
+  exit 0. The format check stands clean,
+  the linter stands clean, and the suite
+  stands at 20 passed, thirteen in the
+  documents suite and seven in the
+  practice suite, the state agreement
+  guard among the documents tests
+  exercised on its three statements at
+  the values this tree carries, the own
+  bullet and the status line at 26 and
+  the range line naming IP-159. The
+  counting pass over the base tree
+  stands at colon 316 and semicolon 350
+  raw and the same folded, the dashes
+  and the fold forms at zero in every
+  blob, and the three documents at zero
+  on all nine barred characters raw and
+  NFKC folded.
+
+
+- IP-163. The fold measurement stands
+  re-verified whole on the base tree at
+  this lane's hand. The barred set
+  stands verified against both test
+  files at nine codepoints. The fold set
+  stands at exactly the pinned sixteen,
+  U+003A and U+003B and U+037E and
+  U+2013 and U+2014 and U+2015 and
+  U+2A74 and U+FE13 and U+FE14 and
+  U+FE31 and U+FE32 and U+FE54 and
+  U+FE55 and U+FE58 and U+FF1A and
+  U+FF1B, with the mechanism as IP-79
+  states it, five of the nine barred
+  characters folding to themselves and
+  four folding to a different barred
+  character, and U+2A74 folding to the
+  three-character string U+003A U+003A
+  U+003D. The fold-only seven stand at
+  U+037E and U+2A74 and U+FE13 and
+  U+FE14 and U+FE31 and U+FE32 and
+  U+FE55. The fold cells stand convicted
+  at 48 of 48 and the neighbor cells
+  stand clean at 68 of 68, the neighbor
+  set at thirty-four codepoints, and an
+  emptied document passes clean.
+
+
+- IP-164. The verification family stands
+  discharged by execution at this lane's
+  hand. The Python oracle stands
+  verified through the application
+  programming interface at commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314,
+  tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  ten blobs matched blob for blob by
+  recomputed git blob identifier, and
+  its suite ran and passed at 15 of 15
+  under pytest. The flighttape pin
+  stands verified the same way at commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e,
+  tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e,
+  exactly fifty blobs matched, its suite
+  ran whole at exit 0 with every result
+  line at zero failed, and the count
+  stands confirmed two ways at the same
+  figure, by listing the built suites'
+  tests at 241 in sum and by summing the
+  run's own result lines at 241. The
+  golden stands executed with the pin's
+  own built binary, the converted
+  fixture tape at 1,663 bytes and the
+  digest at the pinned value
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3
+  with verify accepting at exit 0. The
+  clone the Install section prints
+  stands reproduced in an empty
+  directory in this round, refusing at
+  exit 4 with its instruction to log in
+  and creating nothing, and the Install
+  prose stands byte-identical to base,
+  the README standing untouched at its
+  base blob through this item. The suite
+  on the closure tree stands charged to
+  the closure gate.
+
+
+- IP-165. Round 27 closes here. The
+  README moves to 27 of 100 and the
+  contract range to IP-1 to IP-165 in
+  this same commit. The round read Round
+  26's record back whole on PR 36 at
+  IP-161, ran the base gate whole at
+  IP-162, re-verified the fold
+  measurement whole at IP-163, and
+  discharged the verification family at
+  IP-164. The guard watches the range
+  line beside the own bullet and the
+  status digits, so the move this commit
+  makes stands guarded on all three
+  statements at once. IP-63 carries open
+  by name into Round 28, its question
+  still before the main chat, and the
+  Install prose stands untouched in this
+  round, byte-identical to base. The
+  closure gate stands charged to the
+  post-closure record, on the closure
+  tree assembled from this commit's tree
+  and verified blob for blob.
+
+
+- IP-166. The closure gate stands
+  discharged on the pushed closure tree
+  by execution at this lane's hand. The
+  closure tree stands assembled on disk
+  from tree
+  2d4f09ce2c2b3052ea0cb379d8237d5026a66c11
+  and verified blob for blob at fourteen
+  blobs with zero bad. The repository
+  scan prints the one line codepoint
+  scan U+2014=0 U+2013=0 at exit 0. The
+  format check stands clean, the linter
+  stands clean, and the suite stands at
+  20 passed, the state agreement guard
+  exercised on the moved triple, the own
+  bullet and the status line at 27 and
+  the range line naming IP-165, the
+  guard's range limb reading this
+  round's own closure record as the
+  latest the contract carries. The fold
+  re-run on the closure tree stands at
+  the base tree's figures, the fold
+  cells convicted at 48 of 48, the
+  neighbor cells clean at 68 of 68, and
+  an emptied document passing clean. The
+  counting pass over the closure tree
+  stands at colon 316 and semicolon 350
+  raw and the same folded, standing at
+  the base tree's figures exactly with
+  no growth in any blob, the dashes and
+  the fold forms at zero in every blob,
+  and the three documents at zero on all
+  nine barred characters raw and NFKC
+  folded. This record stands outside the
+  Status range in the repair record
+  posture, and the range stands through
+  IP-165.
