@@ -7475,3 +7475,25 @@ again, and the guard measured fresh again
   extension standing and passed at 20,
   with the format check and the linter
   clean on the extended file.
+
+
+- IP-150. The base gate stands run whole
+  on the base tree at this lane's hand.
+  The base tree stands assembled on disk
+  from the landing tree
+  81c9f20b2f1e0200a7b1b9adc471e35cc674047a
+  and verified blob for blob against it
+  at fourteen blobs with zero bad. The
+  repository scan prints the one line
+  codepoint scan U+2014=0 U+2013=0 at
+  exit 0. The format check stands clean,
+  the linter stands clean, and the suite
+  stands at 20 passed, thirteen in the
+  documents suite and seven in the
+  practice suite. The counting pass over
+  the base tree stands at colon 301 and
+  semicolon 330 raw and the same folded,
+  the dashes and the fold forms at zero
+  in every blob, and the three documents
+  at zero on all nine barred characters
+  raw and NFKC folded.
