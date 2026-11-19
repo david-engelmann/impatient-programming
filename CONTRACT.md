@@ -7990,3 +7990,31 @@ The owner's pre-merge body patch stands
   No post-landing material stands on PR
   36 after the landing comment, so
   charge 3 stands discharged as empty.
+
+
+- IP-162. The base gate stands run whole
+  on the base tree at this lane's hand.
+  The base tree stands assembled on disk
+  from the landing tree
+  8c2f1e45e75d60ea88660b6e6b01de4f59e7424f
+  and verified blob for blob against it
+  at fourteen blobs with zero bad. The
+  repository scan prints the one line
+  codepoint scan U+2014=0 U+2013=0 at
+  exit 0. The format check stands clean,
+  the linter stands clean, and the suite
+  stands at 20 passed, thirteen in the
+  documents suite and seven in the
+  practice suite, the state agreement
+  guard among the documents tests
+  exercised on its three statements at
+  the values this tree carries, the own
+  bullet and the status line at 26 and
+  the range line naming IP-159. The
+  counting pass over the base tree
+  stands at colon 316 and semicolon 350
+  raw and the same folded, the dashes
+  and the fold forms at zero in every
+  blob, and the three documents at zero
+  on all nine barred characters raw and
+  NFKC folded.
