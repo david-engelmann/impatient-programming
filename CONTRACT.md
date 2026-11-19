@@ -7838,3 +7838,41 @@ The owner's pre-merge body patch stands
   post-closure record, on the closure
   tree assembled from this commit's tree
   and verified blob for blob.
+
+
+- IP-160. The closure gate stands
+  discharged on the pushed closure tree
+  by execution at this lane's hand. The
+  closure tree stands assembled on disk
+  from tree
+  9134e2650627ea6f8596306a6f4cf733d5bc253f
+  and verified blob for blob at fourteen
+  blobs with zero bad. The repository
+  scan prints the one line codepoint
+  scan U+2014=0 U+2013=0 at exit 0. The
+  format check stands clean, the linter
+  stands clean, and the suite stands at
+  20 passed, the state agreement guard
+  exercised on the moved triple, the own
+  bullet and the status line at 26 and
+  the range line naming IP-159, the
+  guard's range limb reading this
+  round's own closure record as the
+  latest the contract carries. The fold
+  re-run on the closure tree stands at
+  the base tree's figures, the fold
+  cells convicted at 48 of 48, the
+  neighbor cells clean at 68 of 68, and
+  an emptied document passing clean. The
+  counting pass over the closure tree
+  stands at colon 316 and semicolon 350
+  raw and the same folded, standing at
+  the base tree's figures exactly with
+  no growth in any blob, the dashes and
+  the fold forms at zero in every blob,
+  and the three documents at zero on all
+  nine barred characters raw and NFKC
+  folded. This record stands outside the
+  Status range in the repair record
+  posture, and the range stands through
+  IP-159.
