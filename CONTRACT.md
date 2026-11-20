@@ -8431,3 +8431,28 @@ The standalone golden execution ran with
   through this item. The suite on the
   closure tree stands charged to the
   closure gate.
+
+
+- IP-172. Round 28 closes here. The
+  README moves to 28 of 100 and the
+  contract range to IP-1 to IP-172 in
+  this same commit. The round read Round
+  27's record back whole on PR 38 at
+  IP-167, ran the base gate whole at
+  IP-168, executed the two charged limbs
+  whole at IP-169, re-verified the fold
+  measurement whole at IP-170, and
+  discharged the verification family at
+  IP-171. The guard watches the range
+  line beside the own bullet and the
+  status digits, so the move this commit
+  makes stands guarded on all three
+  statements at once. IP-63 carries open
+  by name into Round 29, its question
+  still before the main chat, and the
+  Install prose stands untouched in this
+  round, byte-identical to base. The
+  closure gate stands charged to the
+  post-closure record, on the closure
+  tree assembled from this commit's tree
+  and verified blob for blob.
