@@ -8456,3 +8456,41 @@ The standalone golden execution ran with
   post-closure record, on the closure
   tree assembled from this commit's tree
   and verified blob for blob.
+
+
+- IP-173. The closure gate stands
+  discharged by execution on the closure
+  tree. Tree
+  82729b82a5841e8bc4d574f167399ae930ce4966
+  stands assembled on disk from the
+  pushed closure commit
+  6f151e8bb3e61cad9a99a6db1526dd8314afe93b
+  and verified blob for blob at fourteen
+  blobs with zero bad. The scan printed
+  the one line codepoint scan U+2014=0
+  U+2013=0 and exited 0, the format
+  check stood clean at exit 0, the
+  linter stood clean at exit 0, and the
+  suite passed at twenty in the standing
+  split of thirteen documents tests and
+  seven practice tests with the state
+  agreement guard exercised on the moved
+  triple, the own bullet and the status
+  line at 28 and the range line naming
+  IP-172. The fold re-run on the closure
+  tree stands at the base tree's
+  figures, the fold cells convicted at
+  48 of 48, the neighbor cells clean at
+  68 of 68, and an emptied document
+  passing clean. The counting pass over
+  the closure tree stands at colon 316
+  and semicolon 350 raw and the same
+  folded, standing at the base tree's
+  figures exactly with no growth in any
+  blob, the dashes and the fold forms at
+  zero in every blob, and the three
+  documents at zero on all nine barred
+  characters raw and NFKC folded. This
+  record stands outside the Status range
+  in the repair record posture, and the
+  range stands through IP-172.
