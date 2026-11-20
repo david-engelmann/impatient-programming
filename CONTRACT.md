@@ -8494,3 +8494,152 @@ The standalone golden execution ran with
   record stands outside the Status range
   in the repair record posture, and the
   range stands through IP-172.
+
+- IP-174. Round 28's record stands read
+  back whole on PR 40 and this item
+  contracts what the read-back found. PR
+  40 stands closed and merged at 09 39
+  02 UTC on 2026-11-20 as squash
+  bbec7f599767b118832db9532ad10dd0a4db8ab3,
+  its merge tree equal to the reviewed
+  final tree
+  0dd7c94ea4334ee21842d45e9054613862082199,
+  and the README on main reads 28 of
+  100. The census at this lane's read
+  stands at four issue comments, no
+  reviews, and no review comments. The
+  Trunk note 7031927869 stands at 113
+  characters in its post-merge form,
+  last edited at 09 39 02 UTC on
+  2026-11-20. The shell 7031930712
+  stands read whole in its landing form
+  at 10,934 characters, last edited at
+  06 23 00 UTC on 2026-11-20, under Run
+  ID
+  0c0cf4eb-bf6c-4771-92f9-098d380a6126.
+  No actionable comments stand in the
+  shell. Its walkthrough stands accurate
+  in its summary and in each of its
+  three rows, the review and gate
+  re-proof row, the fold and oracle
+  verification row, and the closure and
+  closure-tree checks row, and its
+  change assessment stands at Other. The
+  merge risk stands at Minimal up to the
+  final head
+  2a9dfc2c1758653236d17c8d03ff46e5996ef2e9,
+  its coverage standing at that head
+  with source and covered the same
+  commit, and its prose recording that
+  the change updates contract and README
+  documentation records, changes no
+  runtime behavior, and so stands
+  minimal. The pre-merge checks stand at
+  four passed, the Title check and the
+  Linked Issues check and the Out of
+  Scope Changes check and the
+  Description check each standing
+  Passed, the Linked Issues and Out of
+  Scope Changes checks each standing
+  passed as skipped because no linked
+  issues stand found, the Description
+  check standing passed as skipped
+  because the high level summary stands
+  enabled, and the Title check's details
+  holding that the title names the Round
+  28 record and the Round 27 read-back
+  which match the changeset, that the
+  title is long and uses internal round
+  and gate jargon and lists several
+  items, that it still describes real
+  parts of the change so it is not
+  off-topic, and that it does not name
+  the main change in a concise way, and
+  no proposal for a shorter title
+  standing anywhere in the shell. The
+  finishing touches stand as offers only
+  with their checkboxes unticked and no
+  action taken on any of them. The
+  review used the included allowance,
+  none remaining after it.
+
+The Title check's reservation stands
+  graded sound in the dismissal the PR
+  40 body records. The body dismissed
+  the reservation on the counted ground
+  that the title stands at exactly 122
+  characters in the standing shape, and
+  the title stands counted at exactly
+  122 characters at this lane's hand in
+  the same standing shape every round on
+  this repository carries, the check
+  itself standing Passed with its
+  details recording the title as
+  describing real parts of the change
+  and matching the changeset, and no
+  shorter title standing proposed
+  anywhere in the shell, so the
+  dismissal stands on its counted
+  grounds. The body's own shell figures
+  stand graded against the landing form.
+  The body read the shell at 10,932
+  characters, last edited at 06 19 25
+  UTC on 2026-11-20, and documented the
+  re-render cadence on its face, the
+  shell standing two characters longer
+  after each of the lane's two body
+  patches from 10,928 characters at its
+  first read, and charged any later
+  re-render to this round's read-back.
+  The shell re-rendered once more after
+  that read to its landing form at
+  10,934 characters, last edited at 06
+  23 00 UTC, with no disposition bearing
+  element moving between the forms at
+  this lane's hand, the Run ID and the
+  four passed checks and the Minimal
+  merge risk and the no actionable
+  comments statement each standing in
+  the landing form exactly as the body
+  states them, and this item contracts
+  the landing form. The appendix on PR
+  40's body measures 442 characters from
+  its opening marker at this lane's
+  hand, the body's own figure. The
+  owner's queue comment 7035888680
+  stands at 12 characters, created at 09
+  31 01 UTC on 2026-11-20 and never
+  edited, and the landing comment
+  7044480622 stands last at 1,465
+  characters, created at 16 14 31 UTC on
+  2026-11-20 and never edited.
+
+The Round 28 gate verdicts stand
+  contracted as the landing comment
+  records them, spec PASS with no
+  findings, standards APPROVE with no
+  findings, and red team APPROVE with no
+  findings and its untested set empty,
+  both Round 27 re-proof limbs standing
+  re-executed at the red team's own hand
+  and discharged there, so the limbs
+  stand discharged twice over with their
+  first discharge at IP-169, and no body
+  patch standing owed on any axis, the
+  gate fully clean. Hosted continuous
+  integration stands verified at this
+  lane's hand, the push run 44674653202
+  completed at success on the closure
+  head
+  6f151e8bb3e61cad9a99a6db1526dd8314afe93b,
+  the push run 44684548114 completed at
+  success on the final head, and the
+  pull request run 44685468348 completed
+  at success on the final head. The
+  post-landing material on PR 40 stands
+  at the Trunk note's post-merge form
+  and the landing comment itself, both
+  contracted above, and nothing stands
+  posted after the landing comment, so
+  the third charge stands discharged on
+  those two named items.
