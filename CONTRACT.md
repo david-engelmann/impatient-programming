@@ -8728,3 +8728,50 @@ The Round 28 gate verdicts stand
   base tree again after the Rust arm
   restored it. The two arms agree on
   every cell.
+
+- IP-177. The verification family stands
+  discharged whole. The oracle at commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  stands extracted blob for blob against
+  its tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  ten blobs with every blob identifier
+  recomputed over the fetched bytes and
+  no bad blob among them, and its suite
+  stands at 15 passed of 15 under pytest
+  at this lane's hand. The pin at commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e
+  stands extracted the same way against
+  its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  at exactly 50 blobs, and its suite
+  stands at 241 passed and none failed,
+  the total confirmed two ways, by
+  summing the run's own result lines
+  across its nineteen targets and by
+  listing the built suites' tests at
+  241, with the golden executed inside
+  the suite among them. The standalone
+  golden execution ran with the pin's
+  built binary outside the suite, the
+  conversion of the synthetic Claude
+  session fixture exiting 0 with the
+  tape standing at exactly 1,663 bytes
+  on the first attempt, its digest
+  printed as
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3
+  at exit 0 and the verify against that
+  digest exiting 0. The clone refusal
+  stands reproduced, the clone attempt
+  under a fresh empty home exiting 4
+  with the instruction to run the login
+  command or populate the token variable
+  on its error output, and nothing
+  created. IP-63's proof stands on the
+  README itself, the file standing
+  untouched at its base blob
+  2fcb43e478fd33cfd8f6ba9a2c04a90bf2b6c7e0
+  through this item with every commit of
+  the round so far carrying the contract
+  alone, so the Install prose stands
+  byte-identical to its base text.
