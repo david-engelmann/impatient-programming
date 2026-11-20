@@ -8315,3 +8315,54 @@ The owner's gate patch stands graded
   in every blob, and the three documents
   at zero on all nine barred characters
   raw and NFKC folded.
+
+
+- IP-169. The two re-proof limbs the
+  Round 27 red team left untested stand
+  executed whole on the base tree at
+  this lane's hand, and this item
+  contracts both. The guard mutation
+  re-proof ran on a scratch copy of the
+  base tree verified identical to the
+  base before the run and verified
+  identical again after the restore. The
+  guard test passes on the pristine copy
+  at one passed. Under the first
+  mutation, the README's status bullet
+  moved from 27 of 100 to 28 of 100 with
+  the copy's own bullet left standing,
+  and the guard test failed at its
+  status assert with the state word's
+  value at 27 against the mutated digits
+  at 28, so the rounds digits limb bites
+  at its own assert. Under the second
+  mutation, the README's range bullet
+  moved from IP-1 to IP-165 to IP-1 to
+  IP-164 with the contract left
+  standing, and the guard test failed at
+  its range assert with the mutated
+  bound at 164 against the latest
+  closure record at 165, so the range
+  line limb bites at its own assert.
+  With the README restored from the
+  base, the whole suite passes again on
+  the copy at thirteen documents tests
+  and seven practice tests with none
+  failed, and the restored copy stands
+  verified identical to the base tree.
+
+The standalone golden execution ran with
+  the pin's own built binary outside the
+  suite. The convert of the recorded
+  fixture produced the tape at exactly
+  1,663 bytes at exit 0, the digest
+  command printed the pinned digest
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3
+  at exit 0, and verify accepted the
+  tape against that digest at exit 0,
+  reporting the digest matching. Both
+  limbs therefore stand discharged by
+  execution in this round's own record,
+  and nothing of the Round 27 red team's
+  untested set carries forward from this
+  item.
