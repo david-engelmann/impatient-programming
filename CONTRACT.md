@@ -8676,3 +8676,55 @@ The Round 28 gate verdicts stand
   blob, and the three documents at zero
   on all nine barred characters raw and
   NFKC folded.
+
+- IP-176. The fold stands measured whole
+  on the base tree. The barred set
+  stands at nine codepoints, the set
+  read from the shipped suite's constant
+  and the oracle suite's constant
+  agreeing codepoint for codepoint. The
+  fold set stands re-derived from the
+  whole codepoint space over the base
+  tree's own interpreter, surrogates
+  skipped, at exactly the pinned
+  sixteen, 003A and 003B and 037E and
+  2013 and 2014 and 2015 and 2A74 and
+  FE13 and FE14 and FE31 and FE32 and
+  FE54 and FE55 and FE58 and FF1A and
+  FF1B, and the in-crate re-derivation
+  inside the base gate run returns the
+  same sixteen. The fold cells stand at
+  48 convicted of 48 under the Python
+  arm, each fold codepoint planted
+  inside a word past the middle of each
+  of the three documents and the bar
+  convicting on the raw arm or the
+  folded arm, and at 48 convicted of 48
+  under the Rust arm, each cell run
+  against the shipped copy bar test
+  guarding the planted document and
+  failing. The neighbor set stands
+  derived as every codepoint within two
+  of a fold member and not itself in the
+  set, at exactly 34 codepoints, 0038
+  and 0039 and 003C and 003D and 037C
+  and 037D and 037F and 0380 and 2011
+  and 2012 and 2016 and 2017 and 2A72
+  and 2A73 and 2A75 and 2A76 and FE11
+  and FE12 and FE15 and FE16 and FE2F
+  and FE30 and FE33 and FE34 and FE52
+  and FE53 and FE56 and FE57 and FE59
+  and FE5A and FF18 and FF19 and FF1C
+  and FF1D, each folding to no barred
+  character on its own. The neighbor
+  cells stand at 68 clean of 68 under
+  both arms, planted in README.md and
+  PRACTICE.md with neither arm
+  convicting, and the emptied documents
+  pass clean, all three under the Python
+  arm and README.md and PRACTICE.md
+  under the Rust arm, the planted copy
+  standing verified identical to the
+  base tree again after the Rust arm
+  restored it. The two arms agree on
+  every cell.
