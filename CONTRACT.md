@@ -8775,3 +8775,34 @@ The Round 28 gate verdicts stand
   the round so far carrying the contract
   alone, so the Install prose stands
   byte-identical to its base text.
+
+- IP-178. Round 29 closes here. The
+  round read Round 28's record back
+  whole on PR 40 at IP-174, the shell
+  standing in its landing form at 10,934
+  characters with the recorded Title
+  check dismissal standing graded sound
+  on its counted grounds, ran the base
+  gate whole on the base tree at IP-175,
+  measured the fold whole on the base
+  tree at IP-176 with both arms agreeing
+  on every cell, and discharged the
+  verification family whole at IP-177,
+  the oracle verified blob for blob with
+  its suite at 15 of 15, the pin suite
+  at 241 confirmed two ways with the
+  golden executed inside it and the
+  standalone golden beside it, the clone
+  refusal reproduced, and the Install
+  prose standing byte-identical under
+  IP-63's proof. The README moves to 29
+  of 100 in this commit only, its own
+  bullet and its two status bullets
+  moving together with the range
+  standing through IP-178. IP-63 carries
+  open by name into Round 30, its
+  Install question standing for the
+  owner's direction, and this record
+  stands inside the Status range in the
+  repair record posture, and the range
+  stands through IP-178.
