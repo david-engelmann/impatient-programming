@@ -8286,3 +8286,32 @@ The owner's gate patch stands graded
   landing comment, so the fourth charge
   stands discharged on those two named
   items.
+
+
+- IP-168. The base gate stands run whole
+  on the base tree at this lane's hand,
+  the tree standing as main's landing
+  tree for Round 27 at
+  a705379e049383de1f5df0dea068a1b54693c7b5.
+  The codepoint scan passes at exit 0
+  with the em dash and the en dash each
+  at zero. The format check passes at
+  exit 0. The lint pass stands clean at
+  exit 0 with warnings denied across all
+  targets. The test run passes whole at
+  exit 0 in the standing split, thirteen
+  in the documents suite and seven in
+  the practice suite and none in the doc
+  tests, twenty in sum. The state
+  agreement guard stands exercised
+  inside that run at its base values,
+  the README's own bullet and its status
+  line agreeing at 27 and its range line
+  naming IP-165 as the latest closure
+  record. The counting pass over the
+  base tree stands at colon 316 and
+  semicolon 350 raw and the same folded,
+  the dashes and the fold forms at zero
+  in every blob, and the three documents
+  at zero on all nine barred characters
+  raw and NFKC folded.
