@@ -8643,3 +8643,36 @@ The Round 28 gate verdicts stand
   posted after the landing comment, so
   the third charge stands discharged on
   those two named items.
+
+- IP-175. The base gate stands run whole
+  on the base tree at this lane's hand,
+  the tree standing as main's landing
+  tree for Round 28 at
+  0dd7c94ea4334ee21842d45e9054613862082199.
+  The codepoint scan passes at exit 0,
+  its one line reading codepoint scan
+  U+2014=0 U+2013=0 with the em dash and
+  the en dash each at zero. The format
+  check passes at exit 0. The lint pass
+  stands clean at exit 0 with warnings
+  denied across all targets. The test
+  run passes whole at exit 0 in the
+  standing split, thirteen in the
+  documents suite and seven in the
+  practice suite and none in the library
+  unit tests and none in the doc tests,
+  twenty in sum, each target's count
+  paired with its own Running header in
+  the gate log. The state agreement
+  guard stands exercised inside that run
+  at its base values, the README's own
+  bullet and its status line agreeing at
+  28 and its range line naming IP-172 as
+  the latest closure record. The
+  counting pass over the base tree
+  stands at colon 316 and semicolon 350
+  raw and the same folded, the dashes
+  and the fold forms at zero in every
+  blob, and the three documents at zero
+  on all nine barred characters raw and
+  NFKC folded.
