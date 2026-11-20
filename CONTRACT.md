@@ -8806,3 +8806,46 @@ The Round 28 gate verdicts stand
   stands inside the Status range in the
   repair record posture, and the range
   stands through IP-178.
+
+- IP-179. The closure gate stands
+  discharged whole on the closure tree,
+  extracted blob for blob from the
+  pushed closure tree
+  05248d03c42b4c36e3ea8749ff2dc2b3f890d802
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan passes
+  at exit 0 with the em dash and the en
+  dash each at zero. The format check
+  passes at exit 0, the lint pass stands
+  clean at exit 0 with warnings denied,
+  and the suite passes at twenty in the
+  standing split of thirteen documents
+  tests and seven practice tests with
+  the state agreement guard passing on
+  the moved triple, the README's own
+  bullet standing at 29 of one hundred
+  rounds closed beside the status line
+  at 29 of 100 and the range line
+  standing through IP-178. The fold
+  stands re-run on the closure tree at
+  the base figures, the sixteen
+  re-derived and 48 of 48 convicted and
+  68 of 68 neighbors clean, and the
+  counting pass over the closure tree
+  stands at the base figures with no
+  growth, colon 316 and semicolon 350
+  raw and the same folded, the other
+  seven barred at zero in every blob,
+  and the three documents at zero on all
+  nine barred characters raw and NFKC
+  folded. The first closure gate launch
+  stands named here as an attempt
+  counted nowhere, its scan leg voided
+  by a wrong script path in the lane's
+  own runner while its remaining legs
+  stood green, and the gate stands
+  discharged by the corrected whole
+  re-run this item contracts. This
+  record stands outside the Status range
+  in the repair record posture, and the
+  range stands through IP-178.
