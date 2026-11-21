@@ -8887,3 +8887,480 @@ The Round 28 gate verdicts stand
   outside the Status range in the
   repair record posture, and the
   range stands through IP-178.
+
+- IP-181. Pull request 42 stands read
+  back whole over both of its pre-merge
+  heads, the IP-179 head
+  2bb534439999924a6119ca1e1ebdee3a753daeb4
+  at tree
+  0fed1878223e75cd6a0edd770f2c8dd184d36b17
+  and the repair head
+  f25a86192f82d88976f0d080771863aef527c232
+  at tree
+  fddf27ddeddbdac88d10e152d89f39b733b96445,
+  seven commits in the chain from IP-174
+  through IP-180, each tree read at this
+  lane's hand. The pull request stands
+  closed and merged, its merge commit
+  5bd1eca8751bac8e81b379ca1459e784e6e4f109
+  standing as main itself with its tree
+  equal to the repair head tree, and the
+  README on main reading 29 of 100
+  closed rounds with the contract range
+  through IP-178. The census at this
+  lane's read stands at four issue
+  comments, one review, and no review
+  comments, and nothing stands after the
+  landing comment, so the post-landing
+  charge from that comment discharges
+  here as nothing standing.
+
+The shell 7047068069 stands read whole
+  in its true final form at 12,595
+  characters, last edited at 05 32 59
+  UTC on 2026-11-21. Its forms chain
+  stands at 8,627 characters in the
+  completed form the Round 29 lane
+  dispositioned, 8,629 after that lane's
+  patch, 12,822 at the owner's patch
+  read after the repair head landed, and
+  12,595 in this final form. Its
+  walkthrough stands accurate in its
+  summary and in each of its two rows,
+  the second row naming the digest
+  correction beside the closure. Its
+  change assessment stands at Other with
+  effort 2, Simple, assessed at the
+  repair head, and its merge risk stands
+  at Minimal up to the repair head with
+  source and covered the same commit
+  under a reviewed coverage kind, its
+  prose recording that the change
+  updates documentation records and
+  status counts only and carries no
+  identified merge-blocking risk. Its
+  pre-merge checks stand at three passed
+  and one inconclusive, the Title check
+  inconclusive on the ground that the
+  title names the work in vague terms, a
+  reservation this lane dismisses on the
+  counted ground that the title stands
+  at exactly 122 characters in the
+  standing shape this line's titles
+  carry and names the round's families
+  in that shape's own terms. No
+  actionable comments stand in its
+  recent review.
+
+The shell's final form carries review
+  information of its own, a recent
+  review block recording Run ID
+  ce06374f-bd55-4745-9185-96881be4f387
+  for the bot's re-review of the repair
+  commit, its commit range running from
+  the IP-179 head to the repair head
+  with CONTRACT.md alone selected for
+  processing and the included allowance
+  spent by it. Run ID
+  30f13ee9-f76d-4770-a87e-c7b24f2350f8
+  stands nowhere in the shell at this
+  lane's search and stands in the body
+  of review 5997357148 alone, exactly
+  where the Round 29 body locates it.
+  The seating brief for this round
+  stated that Run ID as standing in the
+  review's envelope and not in the
+  shell, and this item corrects the
+  second limb on the record. The
+  completed form the Round 29 body
+  dispositioned carried no Run ID and no
+  review information block, and that
+  statement stands true of that form.
+
+Review 5997357148 stands in COMMENTED
+  state, submitted at 18 14 03 UTC on
+  2026-11-20 against the IP-179 head,
+  its body at 3,871 characters carrying
+  Run ID
+  30f13ee9-f76d-4770-a87e-c7b24f2350f8
+  in its run configuration and one
+  additional comment inside its own
+  body, graded Minor by the bot and
+  marked unverified by it, pressing that
+  the rendered README stands unchecked
+  before closure is recorded. That point
+  stands answered on the pull request's
+  record at the body's checklist item
+  10, where the rendered check stands
+  stated as not rendered, and it raises
+  no defect in the tree. The owner's
+  census patch stands graded exact at
+  this lane's hand. The body it patched
+  stood at 13,313 characters at the
+  owner's patch read and stands at
+  14,340 characters at this lane's read.
+  The census sentence as patched states
+  the review, its state and its time,
+  its one comment and its disposition,
+  truly on every limb this lane checked,
+  and the Verified block as patched
+  names the repair head and its tree
+  with hosted continuous integration
+  completed at success on that head,
+  push run 44870469130 and pull request
+  run 44870474865, both re-read at this
+  lane's hand. The head stood unmoved at
+  the patch, the pull request's head
+  standing at the repair head still at
+  this lane's read. The bot appendix
+  stands at 605 characters from its
+  marker at offset 13,735 in the patched
+  body, preserved byte for byte across
+  the patch by the patch's own assertion
+  and standing whole at this lane's
+  read. The Round 29 lane's own read had
+  counted the appendix at 607 characters
+  at offset 12,708 in its 13,315
+  character body, and the two character
+  difference between the two reads
+  stands inside the bot's own appendix
+  span, the totals and the appendix
+  figures each differing by the same two
+  and the marker offset standing
+  unchanged between the records.
+
+The repair record IP-180 stands graded
+  sound at this lane's hand. The digest
+  IP-177 names,
+  2fcb43e478fd33cfd8f6ba9a2c04a90bf2b6c7e0,
+  returns no blob at this lane's fetch,
+  and the true blob
+  2fcb43e478fdfab9eaf6f1599a76722f8b91e695
+  stands at 8,148 bytes and stands as
+  the README entry of the Round 29 base
+  tree and of the IP-177 commit's own
+  tree, both read at this lane's hand,
+  so IP-177's substance stands true and
+  IP-177 stands unrewritten in the
+  contract as it stands. The Trunk note
+  7047064204 stands at 113 characters in
+  its post-merge form, the queue comment
+  7057997962 at 12 characters never
+  edited, and the landing comment
+  7058635980 at 1,463 characters
+  standing last. The title stands
+  counted at exactly 122 characters at
+  this lane's hand, and Round 30's pull
+  request mirrors its shape. Hosted
+  continuous integration stands
+  completed at success on the IP-179
+  head as well, push run 44789734456 and
+  pull request run 44790243173, re-read
+  at this lane's hand.
+
+- IP-182. The Round 29 closure gate legs
+  the red team left untested stand
+  discharged by execution at this lane's
+  hand. The Round 29 closure tree,
+  commit
+  289bd709514ce88fe397520d4e912694901ad711
+  at tree
+  05248d03c42b4c36e3ea8749ff2dc2b3f890d802,
+  stands extracted blob for blob at
+  fourteen blobs with no bad blob, and
+  the three legs ran on that extraction
+  outside the build slot on the IP-130
+  precedent, the slot standing jammed
+  behind sibling lanes and this repo's
+  builds being light.
+
+The format check ran as cargo fmt
+  --check and exited 0. The clippy pass
+  ran as cargo clippy --offline
+  --all-targets with warnings denied and
+  exited 0. The test pass ran as cargo
+  test --offline and exited 0, its 20
+  tests standing in the split 13
+  documents plus 7 practice plus 0
+  library unit plus 0 doc, each count
+  paired with its own Running header in
+  the gate log, and the state agreement
+  guard passing inside the run on the
+  closure tree's moved triple, its own
+  bullet and its status bullet agreeing
+  at 29 and its range line naming
+  IP-178.
+
+The legs' first run in this round's
+  stage chain met a cold registry cache
+  and its clippy and test legs refused
+  at exit 101 on the tinyvec download
+  while its format leg exited 0, and the
+  re-run after the base gate's index
+  update passed whole as recorded above,
+  the first run counting nowhere. The
+  red team's two mitigations stand as
+  recorded on the Round 29 record, and
+  this item discharges the limb itself
+  by execution, not the mitigations.
+
+- IP-183. The base gate ran whole on the
+  new base tree, main standing at
+  5bd1eca8751bac8e81b379ca1459e784e6e4f109
+  at tree
+  fddf27ddeddbdac88d10e152d89f39b733b96445
+  and the tree extracted blob for blob
+  at fourteen blobs with no bad blob.
+  The codepoint scan printed its one
+  line, codepoint scan U+2014=0
+  U+2013=0, and exited 0. The format
+  check exited 0. The clippy pass ran
+  with warnings denied across all
+  targets and exited 0.
+
+The test pass exited 0 with 20 tests in
+  the split 13 documents plus 7 practice
+  plus 0 library unit plus 0 doc, each
+  count paired with its own Running
+  header in the gate log, and the state
+  agreement guard exercised inside the
+  run at the base values, the README's
+  own bullet and its status bullet
+  agreeing at 29 and its range line
+  naming IP-178.
+
+The counting pass over the whole base
+  tree, run in memory at this lane's
+  hand, stands at colon 316 and
+  semicolon 350 raw and the same folded,
+  the other seven barred codepoints
+  standing at zero in every blob, and
+  the three documents standing at zero
+  on all nine barred codepoints raw and
+  folded.
+
+- IP-184. The fold ran whole on the base
+  tree under both arms. The barred set
+  stands at nine, read from both test
+  files and agreeing codepoint for
+  codepoint. The fold set stands
+  re-derived from the whole codepoint
+  space over the tree's own interpreter,
+  surrogates skipped, at exactly the
+  pinned sixteen, 003A 003B 037E 2013
+  2014 2015 2A74 FE13 FE14 FE31 FE32
+  FE54 FE55 FE58 FF1A FF1B, and the
+  in-crate re-derivation inside the base
+  gate run returned the same sixteen.
+
+The fold cells stand at 48 convicted of
+  48 under the Python arm and 48
+  convicted of 48 under the Rust arm
+  against the shipped copy-bar tests.
+  The neighbor set stands at exactly 34
+  codepoints, 0038 0039 003C 003D 037C
+  037D 037F 0380 2011 2012 2016 2017
+  2A72 2A73 2A75 2A76 FE11 FE12 FE15
+  FE16 FE2F FE30 FE33 FE34 FE52 FE53
+  FE56 FE57 FE59 FE5A FF18 FF19 FF1C
+  FF1D, and its cells stand at 68 clean
+  of 68 under both arms, planted in
+  README.md and PRACTICE.md. The emptied
+  documents pass clean under both arms.
+  The two arms agree on every cell, and
+  the planted copy stands verified
+  identical to the base tree again after
+  the Rust arm restores it.
+
+- IP-185. The guard mutation re-proof
+  ran on a scratch copy of the base
+  tree, the copy verified identical to
+  the base before the run and again
+  after the restore, and its build
+  exited 0. The guard test passes on the
+  pristine copy at one passed. The
+  rounds-digits mutation, the status
+  bullet's digits moved from 29 to 30
+  with the README's own bullet left
+  standing, fails at its state assert in
+  tests/test_documents.rs at line 576
+  with left 29 and right 30 named in the
+  failure, the run exiting 101.
+
+The range-line mutation, the README's
+  range bullet bound moved from IP-178
+  to IP-177 with the contract left
+  standing, fails at its range assert in
+  tests/test_documents.rs at line 598
+  with left 177 and right 178 named in
+  the failure, the run exiting 101. With
+  the README restored from the base
+  after each mutation, the whole suite
+  passes again on the copy at 13
+  documents and 7 practice with none
+  failed.
+
+- IP-186. The verification family ran
+  whole. The oracle stands extracted
+  blob for blob against its tree at ten
+  blobs, every identifier recomputed,
+  commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  at tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  and its suite passed at 15 passed of
+  15 under pytest. The pin stands
+  verified blob for blob against its
+  tree at exactly 50 blobs, tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e,
+  its suite at 241 passed and none
+  failed, confirmed two ways, the run's
+  own result lines summing to 241 across
+  its nineteen targets and the built
+  suites' tests listing at 241, with the
+  golden executed inside the suite.
+
+The standalone golden ran with the pin's
+  built binary outside the suite, the
+  synthetic Claude session fixture
+  converting at exit 0 with the tape at
+  exactly 1,663 bytes on the first
+  attempt, the digest printing
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and verify against it exiting 0. The
+  clone refusal stands reproduced under
+  a fresh empty home at exit 4, its
+  error output carrying the instruction
+  to run the login command or populate
+  the token variable, and nothing
+  created in the work directory.
+
+IP-63's proof stands on the README
+  itself at its base blob, the README
+  standing untouched at blob
+  6e4c69b9a4a254a4775076ec467454277b863b2f
+  through this item, its Install section
+  printing the clone command the refusal
+  leg exercised, and every commit of
+  this round so far carrying the
+  contract alone.
+
+- IP-187. Round 30 closes. IP-181 read
+  the Round 29 record back whole on PR
+  42 over both pre-merge heads and
+  graded the owner's census patch exact
+  and the IP-180 repair record sound,
+  correcting the brief on the shell's
+  own recent-review block and on the
+  appendix count. IP-182 discharged the
+  Round 29 closure gate legs by
+  execution. IP-183 ran the base gate
+  whole on the new base tree with the
+  counting pass inside it. IP-184 ran
+  the fold whole under both arms. IP-185
+  re-proved the guard by mutation.
+  IP-186 ran the verification family
+  whole, the oracle at 15, the pin at
+  241 with the golden whole, the clone
+  refusal reproduced, and IP-63's proof
+  standing on the README at its base
+  blob.
+
+The README moves in this commit only,
+  its own bullet and its two status
+  bullets moving together from 29 to 30
+  and its range line standing through
+  IP-187. IP-63 stands carried open by
+  name, untouched, its amendment still
+  the owner's call. This record stands
+  inside the Status range, and the range
+  stands through IP-187.
+
+- IP-188. Round 30 closes here, its
+  first closure record standing
+  corrected. IP-187 opened with the
+  words Round 30 closes and a full stop,
+  and the guard's closure rule asks a
+  closure record to open with the round
+  named and the word closes followed by
+  a further word, as IP-178 opened with
+  Round 29 closes here. IP-187 therefore
+  does not register as a closure record
+  at the guard's hand, and the guard
+  failed on the closure head at its
+  range assert with left 187 and right
+  178, as the hosted gate on that head
+  recorded in its run 44897557244.
+  IP-187 stands unrewritten, and this
+  record supplies the registering
+  closure record for the round.
+
+The README's range line moves to IP-188
+  in this commit, and the rounds digits
+  stand at 30 in the README's own bullet
+  and in its status bullet, unmoved by
+  this record. The range stands through
+  IP-188, and the closing sentence of
+  IP-187 stands corrected by this record
+  on its range claim alone. Every other
+  claim of IP-187 stands as written, and
+  the round stands as IP-181 through
+  IP-187 record it, with this record
+  added.
+
+- IP-189. The closure gate stands
+  discharged on the final closure tree,
+  extracted blob for blob from the
+  pushed tree
+  5b9b5921b22de9d2b66e9e3720b566abae3cb2bb
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan passes
+  at exit 0 with the em dash and the en
+  dash each at zero. The format check
+  passes at exit 0, and the lint pass
+  stands clean at exit 0 with warnings
+  denied.
+
+The suite stands at twenty in the
+  standing split of thirteen documents
+  tests and seven practice tests with
+  the state agreement guard passing on
+  the moved triple, the README's own
+  bullet standing at 30 of one hundred
+  rounds closed beside the status line
+  at 30 of 100 and the range line
+  standing through IP-188, as the hosted
+  gate recorded over this identical tree
+  in its run 44900363485, completed at
+  success. At this lane's hand the test
+  leg's local runs stand counted
+  nowhere, and their history stands
+  named here. The first local runs rode
+  a target directory carried into the
+  extraction as hardlinks from the base
+  tree and judged the base tree's
+  documents through the base-built
+  binary, passing a suite that never
+  read this tree. The fresh builds on
+  the extracted tree then refused on
+  their writes in the box's write-fault
+  wave across every attempt, and the
+  leg's local re-run stands charged to
+  the next round's read-back in the
+  standing posture.
+
+The fold stands re-run on the closure
+  tree at the base figures, the sixteen
+  re-derived and 48 of 48 convicted and
+  68 of 68 neighbors clean, and the
+  counting pass over the closure tree
+  stands at the base figures with no
+  growth, colon 316 and semicolon 350
+  raw and the same folded, the other
+  seven barred at zero in every blob,
+  and the three documents at zero on all
+  nine barred characters raw and NFKC
+  folded. This record stands outside the
+  Status range in the repair record
+  posture, and the range stands through
+  IP-188.
