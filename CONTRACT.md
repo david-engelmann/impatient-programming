@@ -9171,3 +9171,31 @@ The fold cells stand at 48 convicted of
   the planted copy stands verified
   identical to the base tree again after
   the Rust arm restores it.
+
+- IP-185. The guard mutation re-proof
+  ran on a scratch copy of the base
+  tree, the copy verified identical to
+  the base before the run and again
+  after the restore, and its build
+  exited 0. The guard test passes on the
+  pristine copy at one passed. The
+  rounds-digits mutation, the status
+  bullet's digits moved from 29 to 30
+  with the README's own bullet left
+  standing, fails at its state assert in
+  tests/test_documents.rs at line 576
+  with left 29 and right 30 named in the
+  failure, the run exiting 101.
+
+The range-line mutation, the README's
+  range bullet bound moved from IP-178
+  to IP-177 with the contract left
+  standing, fails at its range assert in
+  tests/test_documents.rs at line 598
+  with left 177 and right 178 named in
+  the failure, the run exiting 101. With
+  the README restored from the base
+  after each mutation, the whole suite
+  passes again on the copy at 13
+  documents and 7 practice with none
+  failed.
