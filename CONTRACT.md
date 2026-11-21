@@ -9588,3 +9588,58 @@ The cargo legs ran outside the build
   waiting, and the closure gate's slot
   discipline stands charged to IP-197
   on this same record.
+
+- IP-193. The fold stands whole on the
+  base tree under both arms. Each cell
+  plants one codepoint as its own line
+  at the end of one document standing
+  on a verified pristine base and runs
+  the shipped copy-bar test, the
+  sixteen fold codepoints across
+  README, MANIFESTO, and PRACTICE for
+  48 cells that must fail, and the
+  thirty-four neighbor codepoints
+  across README and PRACTICE for 68
+  cells that must pass. Under the
+  Python arm the fold stands convicted
+  at 48 of 48 and the neighbors clean
+  at 68 of 68, and under the Rust arm
+  the fold stands convicted at 48 of
+  48 and the neighbors clean at 68 of
+  68, the two arms agreeing on every
+  cell. The emptied documents pass
+  clean under both arms, and the
+  planted copy stands verified
+  identical to the base after every
+  restore, its three documents
+  standing at their base blobs at the
+  family's close.
+
+The Python arm's README cells stand
+  executed under a hardened discipline
+  the fault forced. A first campaign's
+  restore was overtaken by the fault's
+  delayed flush and left a stray colon
+  standing in the copy's README at
+  blob e349bb902a16 against the base
+  blob f790eba3dcd0, poisoning every
+  later README cell in that campaign,
+  and two later campaigns running
+  concurrently against the same copy
+  invalidated each other's plants.
+  Those cells count nowhere. The
+  standing README cells ran
+  sequentially under a discipline that
+  sources pristine bytes from the
+  verified worktree extraction for
+  every cell and counts a run only
+  when the planted bytes stand
+  verified immediately before it and
+  still stand immediately after it, a
+  run overtaken mid-flight standing
+  void and retried. The MANIFESTO and
+  PRACTICE cells of the earlier
+  window-aware campaign stand as
+  executed, their bases standing
+  verified clean at their base blobs
+  throughout.
