@@ -8849,3 +8849,41 @@ The Round 28 gate verdicts stand
   record stands outside the Status range
   in the repair record posture, and the
   range stands through IP-178.
+
+- IP-180. A repair record for IP-177,
+  found at this round's gate on the
+  standards axis and confirmed at the
+  red team's hand. IP-177 names the
+  base README blob as
+  2fcb43e478fd33cfd8f6ba9a2c04a90bf2b6c7e0
+  and that digest names no object in
+  this repository, its blob fetch
+  returning 404 at this repair hand.
+  The true base README blob stands at
+  2fcb43e478fdfab9eaf6f1599a76722f8b91e695
+  its blob fetch returning 200, and
+  the two digests share only their
+  first twelve characters. IP-177
+  stands unrewritten, and its
+  substance stands true. The README
+  blob in the tree of the IP-177
+  commit
+  abb4b039a748d6ea15677d23f94972bde89d8f17
+  stands identical to the true base
+  blob above, so the file did stand
+  untouched at its base blob through
+  that item as IP-177 says, the name
+  alone standing wrong. The Install
+  prose stands identical byte for
+  byte from the base README through
+  the closure README to the final
+  README of this round, the round's
+  only README changes standing in
+  the rounds lines and the Status
+  range line of the closure commit,
+  and IP-63's proof stands on that
+  Install prose and stands
+  unaffected. This record stands
+  outside the Status range in the
+  repair record posture, and the
+  range stands through IP-178.
