@@ -9307,3 +9307,60 @@ The README's range line moves to IP-188
   the round stands as IP-181 through
   IP-187 record it, with this record
   added.
+
+- IP-189. The closure gate stands
+  discharged on the final closure tree,
+  extracted blob for blob from the
+  pushed tree
+  5b9b5921b22de9d2b66e9e3720b566abae3cb2bb
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan passes
+  at exit 0 with the em dash and the en
+  dash each at zero. The format check
+  passes at exit 0, and the lint pass
+  stands clean at exit 0 with warnings
+  denied.
+
+The suite stands at twenty in the
+  standing split of thirteen documents
+  tests and seven practice tests with
+  the state agreement guard passing on
+  the moved triple, the README's own
+  bullet standing at 30 of one hundred
+  rounds closed beside the status line
+  at 30 of 100 and the range line
+  standing through IP-188, as the hosted
+  gate recorded over this identical tree
+  in its run 44900363485, completed at
+  success. At this lane's hand the test
+  leg's local runs stand counted
+  nowhere, and their history stands
+  named here. The first local runs rode
+  a target directory carried into the
+  extraction as hardlinks from the base
+  tree and judged the base tree's
+  documents through the base-built
+  binary, passing a suite that never
+  read this tree. The fresh builds on
+  the extracted tree then refused on
+  their writes in the box's write-fault
+  wave across every attempt, and the
+  leg's local re-run stands charged to
+  the next round's read-back in the
+  standing posture.
+
+The fold stands re-run on the closure
+  tree at the base figures, the sixteen
+  re-derived and 48 of 48 convicted and
+  68 of 68 neighbors clean, and the
+  counting pass over the closure tree
+  stands at the base figures with no
+  growth, colon 316 and semicolon 350
+  raw and the same folded, the other
+  seven barred at zero in every blob,
+  and the three documents at zero on all
+  nine barred characters raw and NFKC
+  folded. This record stands outside the
+  Status range in the repair record
+  posture, and the range stands through
+  IP-188.
