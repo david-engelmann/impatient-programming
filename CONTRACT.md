@@ -9138,3 +9138,36 @@ The counting pass over the whole base
   the three documents standing at zero
   on all nine barred codepoints raw and
   folded.
+
+- IP-184. The fold ran whole on the base
+  tree under both arms. The barred set
+  stands at nine, read from both test
+  files and agreeing codepoint for
+  codepoint. The fold set stands
+  re-derived from the whole codepoint
+  space over the tree's own interpreter,
+  surrogates skipped, at exactly the
+  pinned sixteen, 003A 003B 037E 2013
+  2014 2015 2A74 FE13 FE14 FE31 FE32
+  FE54 FE55 FE58 FF1A FF1B, and the
+  in-crate re-derivation inside the base
+  gate run returned the same sixteen.
+
+The fold cells stand at 48 convicted of
+  48 under the Python arm and 48
+  convicted of 48 under the Rust arm
+  against the shipped copy-bar tests.
+  The neighbor set stands at exactly 34
+  codepoints, 0038 0039 003C 003D 037C
+  037D 037F 0380 2011 2012 2016 2017
+  2A72 2A73 2A75 2A76 FE11 FE12 FE15
+  FE16 FE2F FE30 FE33 FE34 FE52 FE53
+  FE56 FE57 FE59 FE5A FF18 FF19 FF1C
+  FF1D, and its cells stand at 68 clean
+  of 68 under both arms, planted in
+  README.md and PRACTICE.md. The emptied
+  documents pass clean under both arms.
+  The two arms agree on every cell, and
+  the planted copy stands verified
+  identical to the base tree again after
+  the Rust arm restores it.
