@@ -9643,3 +9643,32 @@ The Python arm's README cells stand
   executed, their bases standing
   verified clean at their base blobs
   throughout.
+
+- IP-194. The guard proof by mutation
+  stands re-run on both asserts. On a
+  fresh copy of the base tree with a
+  fresh target directory the pristine
+  guard test stands passed at 1 passed
+  with 12 filtered out. The digits
+  mutation, the status bullet's rounds
+  figure moved from 30 to 31 with the
+  contract's own bullet left standing,
+  stands failed at exit 101, the panic
+  standing at the state assert in
+  tests/test_documents.rs at line 576
+  with left 30 and right 31, and the
+  README stands restored. The range
+  mutation, the README's range bound
+  moved from IP-188 to IP-187 with the
+  contract left standing, stands
+  failed at exit 101, the panic
+  standing at the range assert in the
+  same file at line 598 with left 187
+  and right 188, and the README stands
+  restored. The restored suite stands
+  passed whole at exit 0, 13 documents
+  and 7 practice with 0 library unit
+  tests and 0 doc tests. Both asserts
+  stand proven to bite on the base
+  tree in this round, as they stood
+  proven in the rounds before it.
