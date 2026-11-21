@@ -9244,3 +9244,34 @@ IP-63's proof stands on the README
   leg exercised, and every commit of
   this round so far carrying the
   contract alone.
+
+- IP-187. Round 30 closes. IP-181 read
+  the Round 29 record back whole on PR
+  42 over both pre-merge heads and
+  graded the owner's census patch exact
+  and the IP-180 repair record sound,
+  correcting the brief on the shell's
+  own recent-review block and on the
+  appendix count. IP-182 discharged the
+  Round 29 closure gate legs by
+  execution. IP-183 ran the base gate
+  whole on the new base tree with the
+  counting pass inside it. IP-184 ran
+  the fold whole under both arms. IP-185
+  re-proved the guard by mutation.
+  IP-186 ran the verification family
+  whole, the oracle at 15, the pin at
+  241 with the golden whole, the clone
+  refusal reproduced, and IP-63's proof
+  standing on the README at its base
+  blob.
+
+The README moves in this commit only,
+  its own bullet and its two status
+  bullets moving together from 29 to 30
+  and its range line standing through
+  IP-187. IP-63 stands carried open by
+  name, untouched, its amendment still
+  the owner's call. This record stands
+  inside the Status range, and the range
+  stands through IP-187.
