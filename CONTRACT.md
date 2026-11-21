@@ -9103,3 +9103,38 @@ The legs' first run in this round's
   recorded on the Round 29 record, and
   this item discharges the limb itself
   by execution, not the mitigations.
+
+- IP-183. The base gate ran whole on the
+  new base tree, main standing at
+  5bd1eca8751bac8e81b379ca1459e784e6e4f109
+  at tree
+  fddf27ddeddbdac88d10e152d89f39b733b96445
+  and the tree extracted blob for blob
+  at fourteen blobs with no bad blob.
+  The codepoint scan printed its one
+  line, codepoint scan U+2014=0
+  U+2013=0, and exited 0. The format
+  check exited 0. The clippy pass ran
+  with warnings denied across all
+  targets and exited 0.
+
+The test pass exited 0 with 20 tests in
+  the split 13 documents plus 7 practice
+  plus 0 library unit plus 0 doc, each
+  count paired with its own Running
+  header in the gate log, and the state
+  agreement guard exercised inside the
+  run at the base values, the README's
+  own bullet and its status bullet
+  agreeing at 29 and its range line
+  naming IP-178.
+
+The counting pass over the whole base
+  tree, run in memory at this lane's
+  hand, stands at colon 316 and
+  semicolon 350 raw and the same folded,
+  the other seven barred codepoints
+  standing at zero in every blob, and
+  the three documents standing at zero
+  on all nine barred codepoints raw and
+  folded.
