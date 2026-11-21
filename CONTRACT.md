@@ -8887,3 +8887,173 @@ The Round 28 gate verdicts stand
   outside the Status range in the
   repair record posture, and the
   range stands through IP-178.
+
+- IP-181. Pull request 42 stands read
+  back whole over both of its pre-merge
+  heads, the IP-179 head
+  2bb534439999924a6119ca1e1ebdee3a753daeb4
+  at tree
+  0fed1878223e75cd6a0edd770f2c8dd184d36b17
+  and the repair head
+  f25a86192f82d88976f0d080771863aef527c232
+  at tree
+  fddf27ddeddbdac88d10e152d89f39b733b96445,
+  seven commits in the chain from IP-174
+  through IP-180, each tree read at this
+  lane's hand. The pull request stands
+  closed and merged, its merge commit
+  5bd1eca8751bac8e81b379ca1459e784e6e4f109
+  standing as main itself with its tree
+  equal to the repair head tree, and the
+  README on main reading 29 of 100
+  closed rounds with the contract range
+  through IP-178. The census at this
+  lane's read stands at four issue
+  comments, one review, and no review
+  comments, and nothing stands after the
+  landing comment, so the post-landing
+  charge from that comment discharges
+  here as nothing standing.
+
+The shell 7047068069 stands read whole
+  in its true final form at 12,595
+  characters, last edited at 05 32 59
+  UTC on 2026-11-21. Its forms chain
+  stands at 8,627 characters in the
+  completed form the Round 29 lane
+  dispositioned, 8,629 after that lane's
+  patch, 12,822 at the owner's patch
+  read after the repair head landed, and
+  12,595 in this final form. Its
+  walkthrough stands accurate in its
+  summary and in each of its two rows,
+  the second row naming the digest
+  correction beside the closure. Its
+  change assessment stands at Other with
+  effort 2, Simple, assessed at the
+  repair head, and its merge risk stands
+  at Minimal up to the repair head with
+  source and covered the same commit
+  under a reviewed coverage kind, its
+  prose recording that the change
+  updates documentation records and
+  status counts only and carries no
+  identified merge-blocking risk. Its
+  pre-merge checks stand at three passed
+  and one inconclusive, the Title check
+  inconclusive on the ground that the
+  title names the work in vague terms, a
+  reservation this lane dismisses on the
+  counted ground that the title stands
+  at exactly 122 characters in the
+  standing shape this line's titles
+  carry and names the round's families
+  in that shape's own terms. No
+  actionable comments stand in its
+  recent review.
+
+The shell's final form carries review
+  information of its own, a recent
+  review block recording Run ID
+  ce06374f-bd55-4745-9185-96881be4f387
+  for the bot's re-review of the repair
+  commit, its commit range running from
+  the IP-179 head to the repair head
+  with CONTRACT.md alone selected for
+  processing and the included allowance
+  spent by it. Run ID
+  30f13ee9-f76d-4770-a87e-c7b24f2350f8
+  stands nowhere in the shell at this
+  lane's search and stands in the body
+  of review 5997357148 alone, exactly
+  where the Round 29 body locates it.
+  The seating brief for this round
+  stated that Run ID as standing in the
+  review's envelope and not in the
+  shell, and this item corrects the
+  second limb on the record. The
+  completed form the Round 29 body
+  dispositioned carried no Run ID and no
+  review information block, and that
+  statement stands true of that form.
+
+Review 5997357148 stands in COMMENTED
+  state, submitted at 18 14 03 UTC on
+  2026-11-20 against the IP-179 head,
+  its body at 3,871 characters carrying
+  Run ID
+  30f13ee9-f76d-4770-a87e-c7b24f2350f8
+  in its run configuration and one
+  additional comment inside its own
+  body, graded Minor by the bot and
+  marked unverified by it, pressing that
+  the rendered README stands unchecked
+  before closure is recorded. That point
+  stands answered on the pull request's
+  record at the body's checklist item
+  10, where the rendered check stands
+  stated as not rendered, and it raises
+  no defect in the tree. The owner's
+  census patch stands graded exact at
+  this lane's hand. The body it patched
+  stood at 13,313 characters at the
+  owner's patch read and stands at
+  14,340 characters at this lane's read.
+  The census sentence as patched states
+  the review, its state and its time,
+  its one comment and its disposition,
+  truly on every limb this lane checked,
+  and the Verified block as patched
+  names the repair head and its tree
+  with hosted continuous integration
+  completed at success on that head,
+  push run 44870469130 and pull request
+  run 44870474865, both re-read at this
+  lane's hand. The head stood unmoved at
+  the patch, the pull request's head
+  standing at the repair head still at
+  this lane's read. The bot appendix
+  stands at 605 characters from its
+  marker at offset 13,735 in the patched
+  body, preserved byte for byte across
+  the patch by the patch's own assertion
+  and standing whole at this lane's
+  read. The Round 29 lane's own read had
+  counted the appendix at 607 characters
+  at offset 12,708 in its 13,315
+  character body, and the two character
+  difference between the two reads
+  stands inside the bot's own appendix
+  span, the totals and the appendix
+  figures each differing by the same two
+  and the marker offset standing
+  unchanged between the records.
+
+The repair record IP-180 stands graded
+  sound at this lane's hand. The digest
+  IP-177 names,
+  2fcb43e478fd33cfd8f6ba9a2c04a90bf2b6c7e0,
+  returns no blob at this lane's fetch,
+  and the true blob
+  2fcb43e478fdfab9eaf6f1599a76722f8b91e695
+  stands at 8,148 bytes and stands as
+  the README entry of the Round 29 base
+  tree and of the IP-177 commit's own
+  tree, both read at this lane's hand,
+  so IP-177's substance stands true and
+  IP-177 stands unrewritten in the
+  contract as it stands. The Trunk note
+  7047064204 stands at 113 characters in
+  its post-merge form, the queue comment
+  7057997962 at 12 characters never
+  edited, and the landing comment
+  7058635980 at 1,463 characters
+  standing last. The title stands
+  counted at exactly 122 characters at
+  this lane's hand, and Round 30's pull
+  request mirrors its shape. Hosted
+  continuous integration stands
+  completed at success on the IP-179
+  head as well, push run 44789734456 and
+  pull request run 44790243173, re-read
+  at this lane's hand.
