@@ -9275,3 +9275,35 @@ The README moves in this commit only,
   the owner's call. This record stands
   inside the Status range, and the range
   stands through IP-187.
+
+- IP-188. Round 30 closes here, its
+  first closure record standing
+  corrected. IP-187 opened with the
+  words Round 30 closes and a full stop,
+  and the guard's closure rule asks a
+  closure record to open with the round
+  named and the word closes followed by
+  a further word, as IP-178 opened with
+  Round 29 closes here. IP-187 therefore
+  does not register as a closure record
+  at the guard's hand, and the guard
+  failed on the closure head at its
+  range assert with left 187 and right
+  178, as the hosted gate on that head
+  recorded in its run 44897557244.
+  IP-187 stands unrewritten, and this
+  record supplies the registering
+  closure record for the round.
+
+The README's range line moves to IP-188
+  in this commit, and the rounds digits
+  stand at 30 in the README's own bullet
+  and in its status bullet, unmoved by
+  this record. The range stands through
+  IP-188, and the closing sentence of
+  IP-187 stands corrected by this record
+  on its range claim alone. Every other
+  claim of IP-187 stands as written, and
+  the round stands as IP-181 through
+  IP-187 record it, with this record
+  added.

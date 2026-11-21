@@ -76,7 +76,7 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 The method is stated in full in this README and in MANIFESTO.md and PRACTICE.md. The tools that embody it are under construction across the portfolio.
 
 - Closed perfection rounds, 30 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
-- Contract, IP-1 to IP-187. The obligations the documents and the guard must meet, each with the test that judges it.
+- Contract, IP-1 to IP-188. The obligations the documents and the guard must meet, each with the test that judges it.
 - Local gate, python3 scripts/codepoint_scan.py, cargo fmt --check, cargo clippy --all-targets -- -D warnings, and cargo test. CI runs the same commands.
 
 ## License
