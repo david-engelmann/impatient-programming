@@ -9057,3 +9057,49 @@ The repair record IP-180 stands graded
   head as well, push run 44789734456 and
   pull request run 44790243173, re-read
   at this lane's hand.
+
+- IP-182. The Round 29 closure gate legs
+  the red team left untested stand
+  discharged by execution at this lane's
+  hand. The Round 29 closure tree,
+  commit
+  289bd709514ce88fe397520d4e912694901ad711
+  at tree
+  05248d03c42b4c36e3ea8749ff2dc2b3f890d802,
+  stands extracted blob for blob at
+  fourteen blobs with no bad blob, and
+  the three legs ran on that extraction
+  outside the build slot on the IP-130
+  precedent, the slot standing jammed
+  behind sibling lanes and this repo's
+  builds being light.
+
+The format check ran as cargo fmt
+  --check and exited 0. The clippy pass
+  ran as cargo clippy --offline
+  --all-targets with warnings denied and
+  exited 0. The test pass ran as cargo
+  test --offline and exited 0, its 20
+  tests standing in the split 13
+  documents plus 7 practice plus 0
+  library unit plus 0 doc, each count
+  paired with its own Running header in
+  the gate log, and the state agreement
+  guard passing inside the run on the
+  closure tree's moved triple, its own
+  bullet and its status bullet agreeing
+  at 29 and its range line naming
+  IP-178.
+
+The legs' first run in this round's
+  stage chain met a cold registry cache
+  and its clippy and test legs refused
+  at exit 101 on the tinyvec download
+  while its format leg exited 0, and the
+  re-run after the base gate's index
+  update passed whole as recorded above,
+  the first run counting nowhere. The
+  red team's two mitigations stand as
+  recorded on the Round 29 record, and
+  this item discharges the limb itself
+  by execution, not the mitigations.
