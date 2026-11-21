@@ -9199,3 +9199,48 @@ The range-line mutation, the README's
   passes again on the copy at 13
   documents and 7 practice with none
   failed.
+
+- IP-186. The verification family ran
+  whole. The oracle stands extracted
+  blob for blob against its tree at ten
+  blobs, every identifier recomputed,
+  commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314
+  at tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  and its suite passed at 15 passed of
+  15 under pytest. The pin stands
+  verified blob for blob against its
+  tree at exactly 50 blobs, tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e,
+  its suite at 241 passed and none
+  failed, confirmed two ways, the run's
+  own result lines summing to 241 across
+  its nineteen targets and the built
+  suites' tests listing at 241, with the
+  golden executed inside the suite.
+
+The standalone golden ran with the pin's
+  built binary outside the suite, the
+  synthetic Claude session fixture
+  converting at exit 0 with the tape at
+  exactly 1,663 bytes on the first
+  attempt, the digest printing
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and verify against it exiting 0. The
+  clone refusal stands reproduced under
+  a fresh empty home at exit 4, its
+  error output carrying the instruction
+  to run the login command or populate
+  the token variable, and nothing
+  created in the work directory.
+
+IP-63's proof stands on the README
+  itself at its base blob, the README
+  standing untouched at blob
+  6e4c69b9a4a254a4775076ec467454277b863b2f
+  through this item, its Install section
+  printing the clone command the refusal
+  leg exercised, and every commit of
+  this round so far carrying the
+  contract alone.
