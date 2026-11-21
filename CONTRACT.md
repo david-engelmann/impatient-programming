@@ -9707,3 +9707,17 @@ The clone refusal stands reproduced.
   David's word, carried by name in
   this round's pull request body,
   untouched by this lane.
+
+- IP-196. Round 31 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 31 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 31 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-196. The Status
+  range stands through IP-196. The
+  round stands as IP-190 through
+  IP-195 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
