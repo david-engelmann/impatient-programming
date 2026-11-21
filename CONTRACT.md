@@ -9481,3 +9481,63 @@ The item corrects the seating brief on
   by name at IP-63, and no Round 30
   disposition is falsified by the
   record.
+
+- IP-191. The limbs Round 30 carried
+  untested stand discharged by
+  execution. The closure gate's local
+  test leg stands executed locally to
+  completion on the Round 30 final
+  tree, extracted fresh at this lane's
+  hand into the round's worktree, and
+  it stands passed whole at exit 0,
+  the split standing at 13 documents
+  and 7 practice with 0 library unit
+  tests and 0 doc tests, each count
+  paired with its own Running header,
+  the documents suite at 20.72 seconds
+  and the practice suite at 1.31. The
+  limb IP-189 carried untested at
+  three consecutive hands stands
+  discharged, and with it the shell's
+  Merge Risk point and the second
+  Minor of review comment 4652343666.
+
+The base gate's cargo limb stands
+  executed as a run on the same
+  extraction, clippy at exit 0 and the
+  test leg above, its whole gate
+  standing at IP-192. Both guard
+  mutations stand executed, the
+  pristine guard at 1 passed, the
+  digits mutation failing at exit 101
+  at the state assert with left 30 and
+  right 31, the range mutation failing
+  at exit 101 at the range assert with
+  left 187 and right 188, and the
+  restored suite passing whole, the
+  full proof standing at IP-194. The
+  fold's Rust arm stands executed as a
+  run at 48 of 48 fold cells convicted
+  and 68 of 68 neighbor cells clean
+  with the emptied documents passing,
+  the whole fold standing at IP-193.
+
+The pin suite stands executed at 241
+  passed, confirmed two ways, the
+  run's own result lines summing to
+  241 across 19 targets and the built
+  suites' test listing counting 241.
+  The standalone golden stands
+  executed, the synthetic Claude
+  session fixture converting at exit 0
+  with the tape at exactly 1,663
+  bytes, the digest printing
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and verify against it exiting 0.
+  The oracle suite stands executed
+  under the pytest harness itself at
+  15 passed and exit 0. No limb the
+  red team named stands carried into
+  this round's record as a bare
+  assertion, every one standing
+  executed at this lane's hand.
