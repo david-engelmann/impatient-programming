@@ -9541,3 +9541,50 @@ The pin suite stands executed at 241
   this round's record as a bare
   assertion, every one standing
   executed at this lane's hand.
+
+- IP-192. The base gate stands whole
+  on the new base. The base stands at
+  main at
+  b33d1fe9766dfa87df47b2a341302fb0eed127c9,
+  tree
+  b54a075c8982398562ec225097199eb7c86975c0,
+  both verified at this lane's hand
+  through the API before building, and
+  the worktree stands as a fresh
+  extraction of that tree, blob by
+  blob, 14 blobs each verified by its
+  recomputed blob SHA. The codepoint
+  scan leg stands passed at exit 0,
+  the format leg stands passed at exit
+  0, the clippy leg stands passed at
+  exit 0, and the test leg stands
+  passed at exit 0 with the split at
+  13 documents, 7 practice, 0 library
+  unit tests, and 0 doc tests, the
+  documents suite at 20.72 seconds and
+  the practice suite at 1.31.
+
+The counting pass stands inside the
+  gate, re-added from its stated
+  parts. Over the whole base tree the
+  colon stands at 316 and the
+  semicolon at 350, raw and the same
+  under NFKC folding, the other seven
+  barred characters standing at zero
+  raw and folded in every blob, and
+  README, MANIFESTO, and PRACTICE
+  standing at zero on all nine, raw
+  and folded. The fold set stands
+  re-derived over the whole codepoint
+  space, surrogates skipped, at
+  exactly the pinned sixteen, equal to
+  the set the guard's fold test pins.
+
+The cargo legs ran outside the build
+  slot on the IP-130 precedent, the
+  slot standing jammed at the hour of
+  the run with seven waiters queued
+  and the oldest thirty minutes
+  waiting, and the closure gate's slot
+  discipline stands charged to IP-197
+  on this same record.
