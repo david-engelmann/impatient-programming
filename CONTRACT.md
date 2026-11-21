@@ -9672,3 +9672,38 @@ The Python arm's README cells stand
   stand proven to bite on the base
   tree in this round, as they stood
   proven in the rounds before it.
+
+- IP-195. The verification family
+  stands whole. The oracle tree stands
+  verified blob by blob at ten of ten
+  against commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314,
+  tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  and its suite stands at 15 under the
+  pytest harness itself, as IP-191
+  records. The flighttape pin stands
+  verified against tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  at exactly 50 blobs, extracted blob
+  by blob, its suite standing at 241
+  confirmed two ways, and the golden
+  standing executed inside it and
+  standalone, as IP-191 records.
+
+The clone refusal stands reproduced.
+  Under a fresh empty HOME the clone
+  command refused at exit 4, its error
+  carrying the instruction to run the
+  login command or populate the token
+  variable, the work directory
+  standing empty and nothing created.
+  IP-63's proof stands on the README
+  at its base blob
+  f790eba3dcd0dd99225cfd1c7fcf9bd8e3e753ae,
+  8,148 bytes, the Install sentence
+  standing in it as written at the
+  base, and IP-63 stands open on
+  David's word, carried by name in
+  this round's pull request body,
+  untouched by this lane.
