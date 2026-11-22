@@ -9721,3 +9721,51 @@ The clone refusal stands reproduced.
   IP-195 record it, with this record
   added, and IP-63 stands open within
   it on David's word.
+
+- IP-197. The closure gate stands
+  discharged on the final closure tree,
+  extracted blob for blob from the
+  pushed tree
+  1e850792c8f7982296f129f0b11576b7a9faadba
+  at fourteen blobs with no bad blob
+  among them. The gate ran inside one
+  build-slot flock hold for its whole
+  lifetime, the slot discipline IP-192
+  charged standing discharged with it.
+  The codepoint scan passes at exit 0,
+  the format check passes at exit 0,
+  the clippy leg passes at exit 0 with
+  warnings denied, and the test leg
+  passes at exit 0, the suite standing
+  at twenty in the standing split of
+  thirteen documents tests and seven
+  practice tests with the state
+  agreement guard passing on the moved
+  triple, the README's own bullet
+  standing at 31 of one hundred rounds
+  closed beside the status line at 31
+  of 100 and the range line standing
+  through IP-196.
+
+The counting pass stands re-run on
+  the closure tree at no growth, the
+  colon standing at 316 and the
+  semicolon at 350, raw and the same
+  under NFKC folding, the other seven
+  barred characters standing at zero,
+  and the fold standing re-run at the
+  base figures inside the passing
+  suite. The gate's own attempts stand
+  named here. Its first run took the
+  slot at once and exhausted one
+  hundred extraction tries refused
+  across an hour of closed wave, its
+  successor queued on the slot and was
+  killed by the box restart, and the
+  standing run queued six minutes, took
+  the slot, and ran every stage on its
+  first try. Every refused attempt
+  counts nowhere. This record stands
+  outside the Status range in the
+  post-closure record posture, and the
+  range stands through IP-196.
