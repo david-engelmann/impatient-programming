@@ -10359,3 +10359,48 @@ The counting pass inside the gate
   with it at exactly 34 codepoints,
   every one folding clean of the
   barred set.
+
+- IP-207. The fold stands whole on the
+  base tree under both arms. The
+  barred set stands verified against
+  the suite's own FORBIDDEN set in
+  both test files at nine codepoints
+  each, and the fold set stands
+  re-derived over the whole codepoint
+  space at exactly the pinned sixteen
+  with the neighbor band at exactly
+  34, as IP-206 records. Each of the
+  48 fold cells stands convicted and
+  each of the 68 neighbor cells stands
+  clean under the Python arm and under
+  the Rust arm, the two arms agreeing
+  on every cell, the emptied documents
+  passing clean under both arms, and
+  the planted copy standing verified
+  identical to the base after every
+  restore, its three documents
+  standing at their base blobs at the
+  family's close. Every standing cell
+  ran under the hardened discipline
+  from the start, pristine bytes
+  standing sourced from the verified
+  worktree extraction for every cell,
+  and a run counting only when the
+  planted bytes stood verified
+  immediately before it and still
+  stood immediately after it.
+
+Both arms ran whole on their first
+  campaigns inside one build slot
+  hold, the runner taking the slot
+  after a one minute wait and holding
+  it for the family's whole lifetime,
+  with no cell voided and none wrong
+  in either arm and no stage refused
+  at any point. The fold copy stood
+  built from the verified worktree
+  extraction with the oracle's two
+  Python test files standing in its
+  tests directory, and its test
+  binaries stood built before either
+  arm ran.
