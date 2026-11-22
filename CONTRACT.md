@@ -10500,3 +10500,33 @@ The golden stands executed with the
   IP-209 record it, with this record
   added, and IP-63 stands open within
   it on David's word.
+
+- IP-211. The closure gate stands
+  discharged on the final closure
+  tree, extracted blob for blob from
+  the pushed tree
+  631a7e25172e5a37e130710c9b66756ec5a296ef
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan
+  passes at exit 0 with the em dash
+  and the en dash each at zero. The
+  format check passes at exit 0, and
+  the lint pass stands clean at exit 0
+  with warnings denied. The test leg
+  passes whole at 13 documents and 7
+  practice, the guard passing on the
+  moved triple. The counting pass
+  stands re-run at colon 316 and
+  semicolon 350, raw and folded, with
+  no growth.
+
+The gate ran inside one build-slot
+  flock hold for its whole lifetime,
+  the extraction included, the runner
+  taking the slot after a five minute
+  wait and every stage landing on its
+  first try, so no refused attempt
+  stands in this gate's account. It
+  stands outside the Status range in
+  the post-closure record posture, as
+  IP-197 does.
