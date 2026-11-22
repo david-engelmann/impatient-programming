@@ -10078,3 +10078,17 @@ The family's runs ran outside the
   runs, and the departure stands
   disclosed here in the open, as the
   precedent requires.
+
+- IP-203. Round 32 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 32 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 32 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-203. The Status
+  range stands through IP-203. The
+  round stands as IP-198 through
+  IP-202 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
