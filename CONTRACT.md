@@ -9899,3 +9899,49 @@ No limb stands owed from Round 31. Its
   open by name at IP-63, and no Round
   31 disposition is falsified by the
   record.
+
+- IP-199. The base gate stands run
+  whole on the new base, main standing
+  at
+  00f70b1af480ce3794edd9facf0bca72df8c3249
+  at tree
+  eb0ca9370a9a7aeabefdcc01a6783785ab191604
+  and the worktree standing verified
+  blob for blob against that tree at
+  fourteen of fourteen at this lane's
+  hand. The scan leg, the format leg,
+  the clippy leg, and the test leg
+  each stand executed locally at exit
+  0, the test leg standing paired per
+  its Running headers at 13 documents
+  and 7 practice for 20 tests, the
+  guard passing within it.
+
+The counting pass inside the gate
+  stands re-added from its stated
+  parts at colon 316 and semicolon
+  350, raw and folded, over the whole
+  tree, standing at no growth against
+  the figures the Round 31 base
+  carried, the contract's growth
+  across that round standing in items
+  that carry no barred character. The
+  other seven barred characters stand
+  at zero across the tree, and the
+  three documents stand at zero on all
+  nine barred characters, raw and
+  folded. The fold set stands
+  re-derived over the whole codepoint
+  space at exactly the pinned sixteen.
+
+The gate's cargo legs ran outside the
+  build slot on the IP-130 precedent,
+  the slot standing jammed at the hour
+  of the run with four sibling waiters
+  queued and the oldest standing over
+  an hour in the queue, and the
+  departure stands disclosed here in
+  the open, as the precedent requires.
+  The closure gate stands charged to
+  the slot discipline at IP-204's
+  record.
