@@ -9769,3 +9769,133 @@ The counting pass stands re-run on
   outside the Status range in the
   post-closure record posture, and the
   range stands through IP-196.
+
+- IP-198. The Round 31 record stands
+  read back whole on PR 46. The census
+  stands at four issue comments, no
+  formal review, and no review
+  comment, the shell standing read
+  whole in its true final form, and
+  the landing standing verified with
+  its merge tree equal to the final
+  head tree. Nothing stands after the
+  landing comment.
+
+The body stands at 16,266 characters
+  as the Round 31 lane left it, no
+  owner patch standing in the round.
+  Its Verified block names the base
+  and all eight heads with their
+  trees, each matching the pull
+  request's commits list at this
+  lane's hand, the contract standing
+  at 352,339 bytes at the base and
+  366,223 bytes at the final head. The
+  bot's appendix stands preserved byte
+  for byte at 432 characters from its
+  opening marker at offset 15,834.
+  Hosted integration stands verified
+  at this lane's hand on the final
+  head, push run 44967521100 and pull
+  request run 44967967429, each
+  completed at success.
+
+The shell 7071734437 stands read whole
+  in its true final form at 11,039
+  characters, created at 00 43 09 UTC
+  and last edited at 00 48 09 UTC on
+  2026-11-22. The body dispositioned
+  it moment-bounded at 11,037
+  characters at its reading, when its
+  last edit stood at 00 45 47 UTC, and
+  charged any later re-render to this
+  read-back. It stands re-rendered two
+  characters longer in the cadence
+  this line records, and its last edit
+  stands before the merge, so the
+  post-merge form the landing comment
+  names is the final form itself, and
+  this read-back takes it. No
+  actionable comments were generated
+  in the recent review. Its
+  walkthrough stands accurate in its
+  summary and in each of its three
+  rows, the Round 30 PR read-back row,
+  the Round 30 verification records
+  row, and the Round 31 closure and
+  status row, and its change
+  assessment stands at Other with
+  effort 2, Simple, at the final head.
+  Its review information carries Run
+  ID
+  7b205292-6338-420d-8068-5e14f8208f81
+  in the shell itself, no formal
+  review standing on the pull request
+  this round. A Merge Risk block
+  stands in this form at Minimal,
+  holding that the document guard
+  logic handles the new records
+  correctly and that no actionable
+  merge risk remains, and it presses
+  no point, the local test record
+  point its Round 30 form pressed
+  standing discharged by execution at
+  IP-191 and IP-197. The pre-merge
+  checks stand at four passed, the
+  Description check and the Linked
+  Issues check and the Out of Scope
+  Changes check each standing Passed
+  as skipped, and the Title check
+  standing Passed with its
+  reservation, that the title is
+  partially related, does not name the
+  main change directly, uses insider
+  terms, and is long at 122 characters
+  and overly broad. That reservation
+  stands answered on the counted
+  grounds the body recorded, the title
+  standing counted at exactly 122
+  characters at this lane's hand in
+  the standing shape. No possibly
+  related pull request stands named in
+  this form, and the finishing touches
+  and the Autofix box stand unticked
+  with no action taken on any of them.
+
+The landing stands verified whole. The
+  pull request stands closed and
+  merged at 04 41 53 UTC on
+  2026-11-22, the merge commit
+  standing at
+  00f70b1af480ce3794edd9facf0bca72df8c3249
+  with the main ref standing at the
+  merge, and the merge tree standing
+  at
+  eb0ca9370a9a7aeabefdcc01a6783785ab191604,
+  equal to the reviewed final head
+  tree at head
+  cbe7064bbb78188bb4df1c9d7e544a7f3bc26b1a.
+  The Trunk note stands at 113
+  characters in its post-merge form,
+  the queue comment at 12, and the
+  landing comment 7074647211 at 793
+  characters standing last, its gate
+  record standing as spec PASS,
+  standards APPROVE, and red team
+  APPROVE, with no findings on any
+  axis and no body patch owed.
+
+No limb stands owed from Round 31. Its
+  red team discharged every charge at
+  its own hand, the Round 30 leg
+  re-executed on its own extraction
+  among them, so this round carries no
+  execution debt into its record. The
+  item corrects the seating brief on
+  no limb, every figure in it standing
+  matched against the live record at
+  this lane's hand. The census closes
+  with the one routed arm standing
+  open by name at IP-63, and no Round
+  31 disposition is falsified by the
+  record.
