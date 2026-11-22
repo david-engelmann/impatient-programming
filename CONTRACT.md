@@ -10306,3 +10306,56 @@ This round's own brief stands verified
   marker at offset 17,667, the shell
   charged to this read-back, and the
   landing as it names it.
+
+- IP-206. The base gate stands run
+  whole on the new base, main standing
+  at
+  3a102dc1ceaaefe7fec20ccbada8d5385c896e2b
+  at tree
+  175aab055f219e11932cc040fe0cab2744b7e390
+  and the worktree standing verified
+  blob for blob against that tree at
+  fourteen of fourteen at this lane's
+  hand. The scan leg, the format leg,
+  the clippy leg, and the test leg
+  each stand executed locally at exit
+  0, the test leg standing paired per
+  its Running headers at 13 documents
+  and 7 practice for 20 tests, the
+  guard passing within it. The gate's
+  legs ran inside the build slot under
+  one flock hold, the runner taking
+  the slot after a six minute wait and
+  holding it for the legs' whole
+  lifetime, and the first runner
+  instance stands killed by a box
+  restart inside its own earlier wait
+  with no leg run under it, counted
+  nowhere.
+
+The counting pass inside the gate
+  stands re-added from its stated
+  parts at colon 316 and semicolon
+  350, raw and folded, over the whole
+  tree, standing at no growth against
+  the figures the Round 32 head
+  carried, the contract's growth
+  across that round standing in items
+  that carry no barred character. The
+  other seven barred characters stand
+  at zero across the tree, and the
+  three documents stand at zero on all
+  nine, raw and folded. The fold set
+  stands re-derived over the whole
+  codepoint space at exactly the
+  pinned sixteen, U+003A, U+003B,
+  U+037E, U+2013, U+2014, U+2015,
+  U+2A74, U+FE13, U+FE14, U+FE31,
+  U+FE32, U+FE54, U+FE55, U+FE58,
+  U+FF1A, and U+FF1B, seven of them
+  folding onto a barred character
+  without being barred themselves, and
+  the neighbor band stands re-derived
+  with it at exactly 34 codepoints,
+  every one folding clean of the
+  barred set.
