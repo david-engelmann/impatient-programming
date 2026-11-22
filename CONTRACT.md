@@ -9945,3 +9945,32 @@ The gate's cargo legs ran outside the
   The closure gate stands charged to
   the slot discipline at IP-204's
   record.
+
+- IP-201. The guard stands re-proved
+  by mutation on both asserts, on a
+  fresh copy of the verified worktree
+  with its target removed. The
+  pristine guard stands at 1 passed at
+  exit 0, its README standing at the
+  base blob
+  16c467a4ad1297e3ad33ca3d09a8253f2d3c3094.
+  The rounds-digits mutation, the
+  status bullet's 31 standing replaced
+  by 32 with the own bullet unmoved,
+  fails at exit 101 at the state
+  assert at line 576 with left 31 and
+  right 32. The range-line mutation,
+  the range bound 196 standing
+  replaced by 195 with the contract
+  unmoved, fails at exit 101 at the
+  range assert at line 598 with left
+  195 and right 196.
+
+Each plant stood verified by blob
+  before its run, and the README
+  stands restored after each mutation
+  with its blob verified back at the
+  base blob. The restored suite passes
+  whole at exit 0 in the standing
+  split of 13 documents and 7
+  practice.
