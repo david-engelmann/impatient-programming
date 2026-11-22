@@ -10092,3 +10092,35 @@ The family's runs ran outside the
   IP-202 record it, with this record
   added, and IP-63 stands open within
   it on David's word.
+
+- IP-204. The closure gate stands
+  discharged on the final closure
+  tree, extracted blob for blob from
+  the pushed tree
+  01ff9a25bc661daa571c0ce058c5c9c8abc1d4ed
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan
+  passes at exit 0 with the em dash
+  and the en dash each at zero. The
+  format check passes at exit 0, and
+  the lint pass stands clean at exit 0
+  with warnings denied. The test leg
+  passes whole at 13 documents and 7
+  practice, the guard passing on the
+  moved triple. The counting pass
+  stands re-run at colon 316 and
+  semicolon 350, raw and folded, with
+  no growth.
+
+The gate ran outside the build slot on
+  the IP-130 precedent after its
+  slotted attempt queued thirty-one
+  minutes behind sibling waiters who
+  had themselves waited over
+  thirty-seven, the slot standing
+  jammed for the whole round, and the
+  departure stands disclosed here in
+  the open, as the precedent requires.
+  It stands outside the Status range
+  in the post-closure record posture,
+  as IP-197 does.
