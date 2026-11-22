@@ -10404,3 +10404,32 @@ Both arms ran whole on their first
   tests directory, and its test
   binaries stood built before either
   arm ran.
+
+- IP-208. The guard stands re-proved
+  by mutation on both asserts, on a
+  fresh copy of the verified worktree
+  with its target removed. The
+  pristine guard stands at 1 passed at
+  exit 0, its README standing at the
+  base blob
+  3cc874a4c88839a761e4419e27c1bda9f975eb14.
+  The rounds-digits mutation, the
+  status bullet's 32 standing replaced
+  by 33 with the own bullet unmoved,
+  fails at exit 101 at the state
+  assert at line 576 with left 32 and
+  right 33. The range-line mutation,
+  the range bound 203 standing
+  replaced by 202 with the contract
+  unmoved, fails at exit 101 at the
+  range assert at line 598 with left
+  202 and right 203.
+
+Each plant stood verified by blob
+  before its run, and the README
+  stands restored after each mutation
+  with its blob verified back at the
+  base blob. The restored suite passes
+  whole at exit 0 in the standing
+  split of 13 documents and 7
+  practice.
