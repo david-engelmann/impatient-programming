@@ -10017,3 +10017,64 @@ The golden stands executed with the
   the README at its base blob
   16c467a4ad1297e3ad33ca3d09a8253f2d3c3094
   with the item open on David's word.
+
+- IP-200. The fold stands whole on the
+  base tree under both arms. Each of
+  the 48 fold cells stands convicted
+  and each of the 68 neighbor cells
+  stands clean under the Python arm
+  and under the Rust arm, the two arms
+  agreeing on every cell, the emptied
+  documents passing clean under both
+  arms, and the planted copy standing
+  verified identical to the base after
+  every restore, its three documents
+  standing at their base blobs at the
+  family's close. Every standing cell
+  ran under the hardened discipline
+  from the start, pristine bytes
+  standing sourced from the verified
+  worktree extraction for every cell,
+  and a run counting only when the
+  planted bytes stood verified
+  immediately before it and still
+  stood immediately after it.
+
+The Rust arm ran whole on its first
+  campaign with no cell voided and
+  none wrong. The Python arm's first
+  campaign never got a verdict, every
+  run standing refused at pytest
+  startup on its temporary directory
+  probe across an hour of the write
+  fault's fresh-write face, the fault
+  then refusing new files while writes
+  to standing files landed, and those
+  runs count nowhere. The refusal
+  stands traced to the harness's own
+  capture machinery, its
+  file-descriptor capture opening a
+  temporary file before any test runs,
+  and the arm stands run whole under
+  the same harness with its capture
+  standing switched to the system
+  mode, the test, its node, its
+  plants, and its verdicts unchanged,
+  the switched mode standing proven
+  first on the standing colon plant at
+  1 failed. That campaign convicted
+  twenty fold cells before a runtime
+  restart killed it, its in-flight
+  plant standing found in the copy's
+  manifesto and restored and verified
+  before the relaunch, and it counts
+  nowhere. The relaunched campaign ran
+  whole as the figures above record.
+
+The family's runs ran outside the
+  build slot on the IP-130 precedent,
+  the slot standing jammed with
+  sibling waiters at the hours of the
+  runs, and the departure stands
+  disclosed here in the open, as the
+  precedent requires.
