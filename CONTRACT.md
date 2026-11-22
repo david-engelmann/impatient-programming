@@ -10486,3 +10486,17 @@ The golden stands executed with the
   standing killed by a box restart
   inside its own loop, each counted
   nowhere.
+
+- IP-210. Round 33 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 33 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 33 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-210. The Status
+  range stands through IP-210. The
+  round stands as IP-205 through
+  IP-209 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
