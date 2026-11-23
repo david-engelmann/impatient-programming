@@ -10938,3 +10938,422 @@ The gate ran inside one build-slot
   account. It stands outside the
   Status range in the post-closure
   record posture, as IP-197 does.
+
+- IP-219. The Round 34 record stands
+  read back whole on PR 52. The census
+  stands at four issue comments, no
+  formal review, and no review
+  comment, the shell standing read
+  whole in its true final form, and
+  the landing standing verified with
+  its merge tree equal to the reviewed
+  final head tree. Nothing stands
+  after the landing comment.
+
+The body stands at 22,151 characters
+  in its final form, standing as the
+  Round 34 lane left it with no owner
+  patch on it, the gate standing fully
+  clean so no patch stood owed. The
+  bot's appendix stands preserved byte
+  for byte at 611 characters from its
+  marker at offset 21,540, carrying
+  the body's only barred characters,
+  three colons inside its own marker
+  lines. Its Verified block names the
+  base and all seven heads with their
+  trees, each matching the pull
+  request's commits list at this
+  lane's hand, the contract standing
+  at 391,556 bytes at the base and
+  405,280 bytes at the final head.
+  Hosted integration stands verified
+  at this lane's hand on every head,
+  push runs 45084794507, 45093555285,
+  45110198510, 45110367705,
+  45117927714, 45117986159, and
+  45119011834, and pull request run
+  45119145116 on the final head, each
+  completed at success.
+
+The shell 7092600080 stands read whole
+  in its true final form at 11,077
+  characters, created at 05 39 36 UTC
+  and last edited at 05 59 19 UTC on
+  2026-11-23. The body dispositioned
+  it moment-bounded at 11,075
+  characters in its completed form at
+  its reading, when its last edit
+  stood at 05 42 13 UTC, and charged
+  its true final form to this
+  read-back. It stands re-rendered 2
+  characters longer once, its posture
+  and every disposition bearing
+  element unchanged, and its last edit
+  stands before the merge, so the
+  post-merge form the landing comment
+  names is the final form itself, and
+  this read-back takes it. No
+  actionable comments were generated.
+  Its walkthrough stands accurate in
+  its summary and in each of its three
+  rows, the read-back and base-tree
+  gate row, the fold, guard, and
+  verification results row, and the
+  closure and pushed-tree status row,
+  and its change assessment stands at
+  Other with effort 2, Simple, at the
+  final head. Its review information
+  carries Run ID
+  d16a4918-e7d0-4c1d-bee5-898aadfa1212
+  standing in the shell itself, no
+  formal review standing on the pull
+  request and no review comments
+  standing on it. A Merge Risk block
+  stands in this form at Minimal, its
+  coverage standing at the final head
+  with source and covered the same
+  commit under a reviewed kind,
+  recording that the change updates
+  project documentation and round
+  counters only, that no runtime
+  behavior changes, and that no
+  merge-blocking risk was identified,
+  and it presses no point. The
+  pre-merge checks stand at four
+  passed, the Description check and
+  the Linked Issues check and the Out
+  of Scope Changes check each standing
+  Passed as skipped, and the Title
+  check standing Passed with its
+  standing reservation against the
+  title's breadth and length and the
+  placeholder the objectives as first
+  posted described, answered on the
+  counted grounds the body recorded,
+  the title counted at exactly 122
+  characters in the standing shape.
+  Its finishing touches and its
+  Autofix box stand unticked, and no
+  action was taken on either. The
+  included review allowance stands
+  used with none remaining, and no
+  manual review was triggered.
+
+The gate stood fully clean on
+  findings, at spec PASS with no
+  findings, standards APPROVE with no
+  findings, and red team APPROVE with
+  no findings. Six execution limbs
+  stood untested at the red team's
+  hand under the hard write-fault
+  wave, each named in its report and
+  each standing charged to this
+  round's red team by name, the cargo
+  suite re-run at twenty paired as
+  thirteen documents and seven
+  practice, the fold whole on both
+  arms at 48 convicted and 68 clean
+  with the emptied documents passing,
+  the guard mutation executions at
+  lines 576 and 598 each at exit 101,
+  the pin suite execution at 241 over
+  nineteen result lines, the golden
+  execution at verify exit 0, and the
+  oracle suite execution at 15 under
+  pytest. No body patch stood owed and
+  none was made. The owner's enqueue
+  comment 7093605274 stands at 12
+  characters, and the landing comment
+  7093765876 stands last at 555
+  characters, its text standing clean
+  over the barred set at this lane's
+  scan, recording the landing and
+  charging this lane to read this
+  record back whole first.
+
+The landing stands verified. The pull
+  request stands closed and merged at
+  06 50 02 UTC on 2026-11-23, its
+  merge commit standing at
+  bc4e25571a529d374297b748d6af4feae0de345f
+  with the main ref standing at the
+  merge, and the merge tree standing
+  at
+  633a6c03d401494cd2c935e30a525786640778c2,
+  equal to the reviewed final head
+  tree at head
+  265ba9ad046da5c2a5b36c71fc3d6f2c3f505e51.
+  The README on main stands at 34 of
+  100 with the range IP-1 to IP-217.
+  The Trunk note 7092597037 stands at
+  113 characters in its merged form.
+  Checklist item 3 stands verified
+  live, the repo description, the
+  README lede, and the Cargo.toml
+  description one byte-identical
+  canonical line. Nothing stands owed
+  from Round 34 beyond the six named
+  execution limbs charged to this
+  round's red team.
+
+This round's own brief stands verified
+  on its numbering against the
+  contract at the base, the contract
+  closing at IP-218 with the Status
+  range at IP-1 to IP-217, so this
+  round runs IP-219 to IP-225. The
+  brief's census of PR 52 stands exact
+  on every limb, the body at 22,151
+  characters, the appendix at 611
+  characters from its marker at offset
+  21,540, the shell in its true final
+  form at 11,077 characters, and the
+  landing as it names it. The closure
+  at IP-224 follows the contract's own
+  closure shape, moving the range to
+  the closure item's own number in the
+  closure commit.
+
+- IP-220. The base gate stands run
+  whole on the new base, main standing
+  at
+  bc4e25571a529d374297b748d6af4feae0de345f
+  at tree
+  633a6c03d401494cd2c935e30a525786640778c2
+  and the worktree standing verified
+  blob for blob against that tree at
+  fourteen of fourteen at this lane's
+  hand. The scan leg, the format leg,
+  the clippy leg, and the test leg
+  each stand executed locally at exit
+  0, the test leg standing paired per
+  its Running headers at 13 documents
+  and 7 practice for 20 tests, the
+  guard passing within it. The gate's
+  legs ran inside one build-slot flock
+  hold for their whole lifetime on the
+  runner that carried them, the slot
+  standing taken after a wait of about
+  six minutes and each leg passing on
+  its first try inside the hold. The
+  gate's earlier runners stand counted
+  nowhere, one grinding on the
+  extraction while the tree stood
+  staged by hand, one losing its
+  extractor to a refused write against
+  its own log, and one standing killed
+  by a box restart before any leg ran.
+
+The counting pass inside the gate
+  stands re-added from its stated
+  parts at colon 316 and semicolon
+  350, raw and folded, over the whole
+  tree, standing at no growth against
+  the figures the Round 33 head
+  carried into Round 34, the
+  contract's growth across Round 34
+  standing in items that carry no
+  barred character. A planted control
+  carrying the nine barred characters
+  once each with U+037E and U+2A74
+  standing after them stands counted
+  first at its hand-computed vectors,
+  raw at one for each of the nine and
+  folded at four colons, four
+  semicolons, two em dashes, one en
+  dash, and one horizontal bar,
+  proving the instrument before the
+  tree stood counted. The other seven
+  barred characters stand at zero
+  across the tree, and the three
+  documents stand at zero on all nine,
+  raw and folded. The fold set stands
+  re-derived over the whole codepoint
+  space at exactly the pinned sixteen,
+  U+003A, U+003B, U+037E, U+2013,
+  U+2014, U+2015, U+2A74, U+FE13,
+  U+FE14, U+FE31, U+FE32, U+FE54,
+  U+FE55, U+FE58, U+FF1A, and U+FF1B,
+  seven of them folding onto a barred
+  character without being barred
+  themselves, and the neighbor band
+  stands re-derived with it at exactly
+  34 codepoints, every one folding
+  clean of the barred set. The pass
+  stands reproduced on two channels at
+  the same figures, in memory from the
+  API blobs and on disk over the
+  staged worktree.
+
+- IP-221. The fold stands whole on the
+  base tree under both arms. The fold
+  set stands at exactly the pinned
+  sixteen as IP-220 re-derived it,
+  with the neighbor band at exactly
+  34. Each of the 48 fold cells stands
+  convicted and each of the 68
+  neighbor cells stands clean under
+  the Python arm and under the Rust
+  arm, the two arms agreeing on every
+  cell, the emptied documents passing
+  clean under both arms, and the
+  planted copy standing verified
+  identical to the base after every
+  restore, its three documents
+  standing at their base blobs at the
+  family's close. Every standing cell
+  ran under the hardened discipline
+  from the start, pristine bytes
+  standing sourced from the verified
+  worktree extraction for every cell,
+  and a run counting only when the
+  planted bytes stood verified
+  immediately before it and still
+  stood immediately after it.
+
+Both arms ran inside one build-slot
+  flock hold for the phase's whole
+  lifetime, the slot standing taken
+  after a wait of about two minutes,
+  the fold copy standing built from
+  the verified worktree extraction
+  with the oracle's two Python test
+  files standing in its tests
+  directory, its test binaries
+  standing built before either arm
+  ran, and the copy and its build each
+  landing on their first tries, so no
+  refused attempt stands in this
+  family's account.
+
+- IP-222. The guard stands re-proved
+  by mutation on both asserts, on a
+  fresh copy of the verified worktree
+  with its target removed. The
+  pristine guard stands at 1 passed at
+  exit 0, its README standing at the
+  base blob
+  c90c63132e3f66267e2e1746a5bab6a6d5256663.
+  The rounds-digits mutation, the
+  status bullet's 34 standing replaced
+  by 35 with the own bullet unmoved,
+  fails at exit 101 at the state
+  assert at line 576 with left 34 and
+  right 35. The range-line mutation,
+  the range bound 217 standing
+  replaced by 216 with the contract
+  unmoved, fails at exit 101 at the
+  range assert at line 598 with left
+  216 and right 217.
+
+Each plant stood verified by blob
+  before its run, and the README
+  stands restored after each mutation
+  with its blob verified back at the
+  base blob. The restored suite passes
+  whole at exit 0 in the standing
+  split of 13 documents and 7
+  practice. The proof ran on its own
+  fault retries without a slot hold by
+  its harness's standing shape. Its
+  first instance stood killed inside
+  its copy step, the copy carrying the
+  target directory the base gate had
+  built, counted nowhere, and the
+  relaunched harness, its copy leaving
+  that directory behind, ran whole.
+
+- IP-223. The verification family
+  stands discharged whole. The oracle
+  stands verified blob by blob at ten
+  of ten against its tree
+  81cac2bb225f0a4edd847e794ca0740635604365
+  at commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands executed under the
+  pytest harness itself at 15 passed.
+  The flighttape pin stands verified
+  at exactly 50 blobs against its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  at commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands at 241 confirmed two
+  ways, the run's own result lines
+  summing across nineteen targets at
+  241 passed with none failed, and the
+  built suites' test listing counting
+  the same 241.
+
+The golden stands executed with the
+  pin's own built binary on the pin
+  tree's synthetic fixture. The
+  convert lands the tape at exactly
+  1,663 bytes, the digest command
+  reads
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and the verify against that digest
+  stands at exit 0. The clone refusal
+  stands reproduced with the printed
+  command itself, the GitHub CLI clone
+  under a fresh empty HOME standing
+  refused at exit 4 with its sign-in
+  message, and IP-63's proof stands on
+  the README at its base blob
+  c90c63132e3f66267e2e1746a5bab6a6d5256663
+  with the item open on David's word.
+  The family's executions ran inside
+  one build-slot flock hold for the
+  phase's whole lifetime, the slot
+  standing taken after a wait of about
+  one minute, and every leg landing on
+  its first try, so no refused attempt
+  stands in this family's account.
+
+- IP-224. Round 35 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 35 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 35 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-224. The Status
+  range stands through IP-224. The
+  round stands as IP-219 through
+  IP-223 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
+
+- IP-225. The closure gate stands
+  discharged on the final closure
+  tree, extracted blob for blob from
+  the pushed tree
+  468f1520e4430e185a8b0dad2fbf3e59a756b153
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan
+  passes at exit 0 with the em dash
+  and the en dash each at zero. The
+  format check passes at exit 0, and
+  the lint pass stands clean at exit 0
+  with warnings denied. The test leg
+  passes whole at 13 documents and 7
+  practice, the guard passing on the
+  moved triple. The counting pass
+  stands re-run at colon 316 and
+  semicolon 350, raw and folded, with
+  no growth.
+
+The gate ran inside one build-slot
+  flock hold for its whole lifetime,
+  the extraction included, the runner
+  taking the slot after a wait of
+  about half a minute and every stage
+  landing on its first try, so no
+  refused attempt stands in this
+  gate's account. It stands outside
+  the Status range in the post-closure
+  record posture, as IP-218 does.
