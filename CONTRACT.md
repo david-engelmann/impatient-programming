@@ -11742,3 +11742,17 @@ The golden stands executed with the
   landing on its first try, so no
   refused attempt stands in this
   family's account.
+
+- IP-231. Round 36 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 36 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 36 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-231. The Status
+  range stands through IP-231. The
+  round stands as IP-226 through
+  IP-230 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
