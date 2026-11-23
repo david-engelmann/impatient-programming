@@ -11691,3 +11691,54 @@ Each plant stood verified by blob
   its copy step by a box restart,
   counted nowhere, and the relaunched
   harness ran whole.
+
+- IP-230. The verification family
+  stands discharged whole. The oracle
+  stands verified blob by blob at ten
+  of ten against its tree
+  81cac2bb225f0a4edd847e794ca0740635604365
+  at commit
+  e0317417681f7e5a16d7c83517ac2f8020f20314,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands executed under the
+  pytest harness itself at 15 passed.
+  The flighttape pin stands verified
+  at exactly 50 blobs against its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e
+  at commit
+  74a83298aeb31c82e62b9fb0c613f5bc8600799e,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands at 241 confirmed two
+  ways, the run's own result lines
+  summing across nineteen targets at
+  241 passed with none failed, and the
+  built suites' test listing counting
+  the same 241.
+
+The golden stands executed with the
+  pin's own built binary on the pin
+  tree's synthetic fixture. The
+  convert lands the tape at exactly
+  1,663 bytes, the digest command
+  reads
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and the verify against that digest
+  stands at exit 0. The clone refusal
+  stands reproduced with the printed
+  command itself, the GitHub CLI clone
+  under a fresh empty HOME standing
+  refused at exit 4 with its sign-in
+  message, and IP-63's proof stands on
+  the README at its base blob
+  06e09ecaa619db61016097d4a3d4c1485dc2b092
+  with the item open on David's word.
+  The family's executions ran inside
+  one build-slot flock hold for the
+  phase's whole lifetime, the slot
+  standing taken after a wait of about
+  fifteen minutes, and every leg
+  landing on its first try, so no
+  refused attempt stands in this
+  family's account.
