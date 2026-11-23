@@ -11656,3 +11656,38 @@ Both arms ran whole on their first
   refused attempt stands in this
   family's account and no cell stood
   voided or wrong in either arm.
+
+- IP-229. The guard stands re-proved
+  by mutation on both asserts, on a
+  fresh copy of the verified worktree
+  with its target removed. The
+  pristine guard stands at 1 passed at
+  exit 0, its README standing at the
+  base blob
+  06e09ecaa619db61016097d4a3d4c1485dc2b092.
+  The rounds-digits mutation, the
+  status bullet's 35 standing replaced
+  by 36 with the own bullet unmoved,
+  fails at exit 101 at the state
+  assert at line 576 with left 35 and
+  right 36. The range-line mutation,
+  the range bound 224 standing
+  replaced by 223 with the contract
+  unmoved, fails at exit 101 at the
+  range assert at line 598 with left
+  223 and right 224.
+
+Each plant stood verified by blob
+  before its run, and the README
+  stands restored after each mutation
+  with its blob verified back at the
+  base blob. The restored suite passes
+  whole at exit 0 in the standing
+  split of 13 documents and 7
+  practice. The proof ran on its own
+  fault retries without a slot hold by
+  its harness's standing shape. Its
+  first instance stood killed inside
+  its copy step by a box restart,
+  counted nowhere, and the relaunched
+  harness ran whole.
