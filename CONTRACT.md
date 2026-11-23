@@ -11756,3 +11756,52 @@ The golden stands executed with the
   IP-230 record it, with this record
   added, and IP-63 stands open within
   it on David's word.
+
+- IP-232. The closure gate stands
+  discharged on the final closure
+  tree, extracted blob for blob from
+  the pushed tree
+  fee786758a114e775923fdf6b869ba148188536a
+  at fourteen blobs with no bad blob
+  among them. The codepoint scan
+  passes at exit 0 with the em dash
+  and the en dash each at zero. The
+  format check passes at exit 0, and
+  the lint pass stands clean at exit 0
+  with warnings denied. The test leg
+  passes whole at 13 documents and 7
+  practice, the guard passing on the
+  moved triple. The counting pass
+  stands re-run at colon 316 and
+  semicolon 350, raw and folded, with
+  no growth.
+
+The gate's course stands as it ran.
+  The slotted runner waited the
+  bounded thirty minutes on the jammed
+  build slot and then ran outside the
+  slot on the IP-130 precedent, and
+  its extraction stage stood refused
+  on every try under the hard
+  write-fault wave, so the runner
+  stood stopped and the extraction
+  stands staged by hand through the
+  file tools, slice by slice against
+  the closure contract blob, one slice
+  landing a byte short at a line-end
+  whitespace position and standing
+  repaired and re-verified, the whole
+  standing verified blob for blob
+  before any leg ran. The scan and the
+  format check landed on their first
+  tries. The lint pass stood refused
+  eighteen times under the write fault
+  across its attempts, one of its
+  retry runners standing killed
+  mid-course between attempts, and
+  landed clean on its nineteenth
+  attempt, and the test leg landed
+  whole on its first attempt after it.
+  It stands outside the Status range
+  in the post-closure record posture,
+  as IP-225 does.
