@@ -11357,3 +11357,180 @@ The gate ran inside one build-slot
   gate's account. It stands outside
   the Status range in the post-closure
   record posture, as IP-218 does.
+
+- IP-226. The Round 35 record stands
+  read back whole on PR 54. The census
+  stands at four issue comments, no
+  formal review, and no review
+  comment, the shell standing read
+  whole in its true final form, and
+  the landing standing verified with
+  its merge tree equal to the reviewed
+  final head tree. Nothing stands
+  after the landing comment.
+
+The body stands at 21,010 characters
+  in its final form, standing as the
+  Round 35 lane left it with no owner
+  patch on it, the gate standing fully
+  clean so no patch stood owed. The
+  bot's appendix stands preserved byte
+  for byte at 444 characters from its
+  marker at offset 20,566, carrying
+  the body's only barred characters,
+  three colons inside its own marker
+  lines. Its Verified block names the
+  base and all seven heads with their
+  trees, each matching the pull
+  request's commits list at this
+  lane's hand, the contract standing
+  at 405,280 bytes at the base and
+  419,465 bytes at the final head.
+  Hosted integration stands verified
+  at this lane's hand on every head,
+  push runs 45129516976, 45132850433,
+  45137577707, 45147279781,
+  45147536597, 45147652699, and
+  45147997030, and pull request run
+  45148129459 on the final head, each
+  completed at success.
+
+The shell 7096808496 stands read whole
+  in its true final form at 10,933
+  characters, created at 09 33 43 UTC
+  and last edited at 09 41 38 UTC on
+  2026-11-23. The body dispositioned
+  it moment-bounded at 10,931
+  characters in its completed form at
+  its reading, when its last edit
+  stood at 09 36 18 UTC, and charged
+  its true final form to this
+  read-back. It stands re-rendered 2
+  characters longer once, its posture
+  and every disposition bearing
+  element unchanged, and its last edit
+  stands before the merge, so the
+  post-merge form the landing comment
+  names is the final form itself, and
+  this read-back takes it. No
+  actionable comments were generated.
+  Its walkthrough stands accurate in
+  its summary and in each of its three
+  rows, the Round 34 review and
+  base-tree gate row, the fold,
+  mutation, and suite verification
+  row, and the Round 35 closure and
+  status row, and its change
+  assessment stands at Other with
+  effort 2, Simple, at the final head.
+  Its review information carries Run
+  ID
+  50e12086-78b5-4a08-a3ae-d3fc05efab88
+  standing in the shell itself, no
+  formal review standing on the pull
+  request and no review comments
+  standing on it. A Merge Risk block
+  stands in this form at Minimal, its
+  coverage standing at the final head
+  with source and covered the same
+  commit under a reviewed kind,
+  recording that the change updates
+  project records and the README round
+  count and contract range, that it
+  has no runtime behavior change, and
+  that no merge-blocking concern
+  remains, and it presses no point.
+  The pre-merge checks stand at four
+  passed, the Description check and
+  the Linked Issues check and the Out
+  of Scope Changes check each standing
+  Passed as skipped, and the Title
+  check standing Passed with its
+  standing reservation against the
+  title's length and its terms the
+  summary does not explain, answered
+  on the counted grounds the body
+  recorded, the title counted at
+  exactly 122 characters in the
+  standing shape. Its finishing
+  touches and its Autofix box stand
+  unticked, and no action was taken on
+  either. The included review
+  allowance stands used with none
+  remaining, and no manual review was
+  triggered.
+
+The gate stood fully clean on findings
+  for the third consecutive round, at
+  spec PASS with no findings,
+  standards APPROVE with no findings,
+  and red team APPROVE with no
+  findings. The red team executed all
+  six inherited execution limbs at its
+  own hand, the limbs the Round 34 red
+  team had left untested under the
+  hard write-fault wave, the cargo
+  suite re-run at twenty paired as
+  thirteen documents and seven
+  practice, the fold whole on both
+  arms at 48 convicted and 68 clean
+  with the emptied documents passing,
+  the guard mutation executions at
+  lines 576 and 598 each at exit 101,
+  the pin suite execution at 241 over
+  nineteen result lines, the golden
+  execution at verify exit 0, and the
+  oracle suite execution at 15 under
+  pytest, and no limb stood untested
+  at its hand. No body patch stood
+  owed and none was made. The owner's
+  enqueue comment 7098434992 stands at
+  12 characters, and the landing
+  comment 7098726592 stands last at
+  702 characters, its text standing
+  clean over the barred set raw and
+  folded at this lane's scan,
+  recording the landing and charging
+  this lane to read this record back
+  whole first.
+
+The landing stands verified. The pull
+  request stands closed and merged at
+  10 53 08 UTC on 2026-11-23, its
+  merge commit standing at
+  6ac869ae5c8cbe2bd23fd1adfed606e84b3e60de
+  with the main ref standing at the
+  merge, and the merge tree standing
+  at
+  52e61e390d39e62957bf8e0dc26eccd443285487,
+  equal to the reviewed final head
+  tree at head
+  77756f982081a9ff04ec4aed602a4ad0e93ca37e.
+  The README on main stands at 35 of
+  100 with the range IP-1 to IP-224.
+  The Trunk note 7096804434 stands at
+  113 characters in its merged form.
+  Checklist item 3 stands verified
+  live, the repo description, the
+  README lede, and the Cargo.toml
+  description one byte-identical
+  canonical line. Nothing stands owed
+  from Round 35.
+
+This round's own brief stands verified
+  on its numbering against the
+  contract at the base, the contract
+  closing at IP-225 with the Status
+  range at IP-1 to IP-224, so this
+  round runs IP-226 to IP-232. The
+  brief's census of PR 54 stands exact
+  on every limb, the body at 21,010
+  characters, the appendix at 444
+  characters from its marker at offset
+  20,566, the shell in its true final
+  form at 10,933 characters, and the
+  landing as it names it. The closure
+  at IP-231 follows the contract's own
+  closure shape, moving the range to
+  the closure item's own number in the
+  closure commit.
