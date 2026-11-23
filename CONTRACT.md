@@ -10894,3 +10894,17 @@ The golden stands executed with the
   refusal each landing on its first
   try once the write fault's wave
   broke.
+
+- IP-217. Round 34 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 34 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 34 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-217. The Status
+  range stands through IP-217. The
+  round stands as IP-212 through
+  IP-216 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
