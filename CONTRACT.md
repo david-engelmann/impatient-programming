@@ -11534,3 +11534,82 @@ This round's own brief stands verified
   closure shape, moving the range to
   the closure item's own number in the
   closure commit.
+
+- IP-227. The base gate stands run
+  whole on the new base, main standing
+  at
+  6ac869ae5c8cbe2bd23fd1adfed606e84b3e60de
+  at tree
+  52e61e390d39e62957bf8e0dc26eccd443285487
+  and the worktree standing verified
+  blob for blob against that tree at
+  fourteen of fourteen at this lane's
+  hand. The scan leg, the format leg,
+  the clippy leg, and the test leg
+  each stand executed locally at exit
+  0, the test leg standing paired per
+  its Running headers at 13 documents
+  and 7 practice for 20 tests, the
+  guard passing within it at its base
+  values, the README's own bullet and
+  its status line agreeing at 35 and
+  its range line naming IP-224 as the
+  latest closure record. The gate's
+  legs ran inside one build-slot flock
+  hold for their whole lifetime on the
+  runner that carried them, the slot
+  standing taken after a wait of about
+  six minutes and each leg passing on
+  its first try inside the hold. The
+  gate's earlier runners stand counted
+  nowhere, the phase runner instances
+  standing stopped inside the
+  extraction stage under the box write
+  fault and a foreground extractor
+  losing its second file to a refused
+  write, the tree standing staged by
+  hand through the file tools in their
+  place, slice by slice against the
+  base contract blob, and verified
+  blob for blob before any leg ran.
+
+The counting pass inside the gate
+  stands re-added from its stated
+  parts at colon 316 and semicolon
+  350, raw and folded, over the whole
+  tree, standing at no growth against
+  the figures the Round 34 head
+  carried into Round 35, the
+  contract's growth across Round 35
+  standing in items that carry no
+  barred character. A planted control
+  carrying the nine barred characters
+  once each with U+037E and U+2A74
+  standing after them stands counted
+  first at its hand-computed vectors,
+  raw at one for each of the nine and
+  folded at four colons, four
+  semicolons, two em dashes, one en
+  dash, and one horizontal bar,
+  proving the instrument before the
+  tree stood counted. The other seven
+  barred characters stand at zero
+  across the tree, and the three
+  documents stand at zero on all nine,
+  raw and folded. The fold set stands
+  re-derived over the whole codepoint
+  space at exactly the pinned sixteen,
+  U+003A, U+003B, U+037E, U+2013,
+  U+2014, U+2015, U+2A74, U+FE13,
+  U+FE14, U+FE31, U+FE32, U+FE54,
+  U+FE55, U+FE58, U+FF1A, and U+FF1B,
+  seven of them folding onto a barred
+  character without being barred
+  themselves, and the neighbor band
+  stands re-derived with it at exactly
+  34 codepoints, every one folding
+  clean of the barred set. The pass
+  stands reproduced on two channels at
+  the same figures, in memory from the
+  API blobs and on disk over the
+  staged worktree.
