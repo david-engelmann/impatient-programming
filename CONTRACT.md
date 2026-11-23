@@ -11226,3 +11226,40 @@ Both arms ran inside one build-slot
   landing on their first tries, so no
   refused attempt stands in this
   family's account.
+
+- IP-222. The guard stands re-proved
+  by mutation on both asserts, on a
+  fresh copy of the verified worktree
+  with its target removed. The
+  pristine guard stands at 1 passed at
+  exit 0, its README standing at the
+  base blob
+  c90c63132e3f66267e2e1746a5bab6a6d5256663.
+  The rounds-digits mutation, the
+  status bullet's 34 standing replaced
+  by 35 with the own bullet unmoved,
+  fails at exit 101 at the state
+  assert at line 576 with left 34 and
+  right 35. The range-line mutation,
+  the range bound 217 standing
+  replaced by 216 with the contract
+  unmoved, fails at exit 101 at the
+  range assert at line 598 with left
+  216 and right 217.
+
+Each plant stood verified by blob
+  before its run, and the README
+  stands restored after each mutation
+  with its blob verified back at the
+  base blob. The restored suite passes
+  whole at exit 0 in the standing
+  split of 13 documents and 7
+  practice. The proof ran on its own
+  fault retries without a slot hold by
+  its harness's standing shape. Its
+  first instance stood killed inside
+  its copy step, the copy carrying the
+  target directory the base gate had
+  built, counted nowhere, and the
+  relaunched harness, its copy leaving
+  that directory behind, ran whole.
