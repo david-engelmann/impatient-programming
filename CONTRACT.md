@@ -11805,3 +11805,205 @@ The gate's course stands as it ran.
   It stands outside the Status range
   in the post-closure record posture,
   as IP-225 does.
+
+- IP-233. The Round 36 record stands
+  read back whole on PR 56. The census
+  stands at four issue comments, no
+  formal review, and no review
+  comment, the shell standing read
+  whole in its true final form, and
+  the landing standing verified with
+  its merge tree equal to the reviewed
+  final head tree. Nothing stands
+  after the landing comment.
+
+The body stands at 23,344 characters
+  in its final form, standing as the
+  Round 36 lane left it with no owner
+  patch on it, the gate standing fully
+  clean so no patch stood owed. The
+  bot's appendix stands preserved byte
+  for byte at 519 characters from its
+  marker at offset 22,825, carrying
+  the body's only barred characters,
+  three colons inside its own marker
+  lines. Its Verified block names the
+  base and all seven heads with their
+  trees, each matching the pull
+  request's commits list at this
+  lane's hand, the contract standing
+  at 419,465 bytes at the base and
+  434,606 bytes at the final head.
+  Hosted integration stands verified
+  at this lane's hand on every head,
+  push runs 45161864062, 45167223763,
+  45173544070, 45184357452,
+  45187044592, 45187232834, and
+  45206223063, and pull request run
+  45206443212 on the final head, each
+  completed at success.
+
+The shell 7105740900 stands read whole
+  in its true final form at 11,218
+  characters, created at 15 33 03 UTC
+  and last edited at 15 42 11 UTC on
+  2026-11-23. The body dispositioned
+  it moment-bounded at 11,216
+  characters in its completed form at
+  its reading, when its last edit
+  stood at 15 35 37 UTC, and charged
+  its true final form to this
+  read-back. It stands re-rendered 2
+  characters longer once, its posture
+  and every disposition bearing
+  element unchanged, and its last edit
+  stands before the merge, so the
+  post-merge form the landing comment
+  names is the final form itself, and
+  this read-back takes it. No
+  actionable comments were generated.
+  Its walkthrough stands accurate in
+  its summary and in each of its three
+  rows, the Round 35 read-back and
+  base gate row, the fold, guard, and
+  suite verification row, and the
+  Round 36 closure and post-closure
+  gate row, and its change assessment
+  stands at Other with effort 2,
+  Simple, at the final head. Its
+  review information carries Run ID
+  19ab9ece-f24d-448f-8e63-64e73cef611b
+  standing in the shell itself, no
+  formal review standing on the pull
+  request and no review comments
+  standing on it. A Merge Risk block
+  stands in this form at Minimal, its
+  coverage standing at the final head
+  with source and covered the same
+  commit under a reviewed kind,
+  recording that the change adds
+  documentation records for Round 36
+  and updates the README's
+  closed-round count and contract
+  range, that it changes no runtime
+  behavior, and that the document
+  test's closure parser selects the
+  new IP-231 record so no
+  merge-blocking risk remains, and it
+  presses no point. The pre-merge
+  checks stand at four passed, the
+  Description check and the Linked
+  Issues check and the Out of Scope
+  Changes check each standing Passed
+  as skipped, and the Title check
+  standing Passed with its standing
+  reservation against the title's
+  length and its terms the summary
+  does not explain, answered on the
+  counted grounds the body recorded,
+  the title counted at exactly 122
+  characters in the standing shape.
+  Its finishing touches and its
+  Autofix box stand unticked, and no
+  action was taken on either. The
+  included review allowance stands
+  used with none remaining, and no
+  manual review was triggered.
+
+The gate stood fully clean on findings
+  for the fourth consecutive round, at
+  spec PASS with no findings,
+  standards APPROVE with no findings,
+  and red team APPROVE with no
+  findings. The red team executed all
+  eleven limbs at its own hand, the
+  gates on all three trees with the
+  cargo suite paired at twenty as
+  thirteen documents and seven
+  practice, the fold set re-derived
+  over the whole codepoint space at
+  exactly the pinned sixteen and the
+  fold whole on both arms at 48
+  convicted and 68 clean with the
+  emptied documents passing, the guard
+  bite proven by mutation on both
+  trees at lines 576 and 598 each at
+  exit 101, the counting pass
+  reproduced at colon 316 and
+  semicolon 350 with no growth, the
+  pin suite at 241 over nineteen
+  result lines with its one flipped
+  byte yielding exactly one mismatch,
+  the golden executed at 1,663 bytes
+  against its digest with verify at
+  exit 0, the oracle suite at 15 under
+  pytest with the clone refusal
+  reproduced at exit 4, the IP-232
+  correction probed whole with its
+  corrected legs re-run clean at its
+  hand, the structure exact at every
+  step, the record read whole, and the
+  barred set scan at zero over all
+  three trees and both bodies, and no
+  limb stood untested at its hand and
+  nothing stood charged forward. The
+  correction itself stands disclosed
+  in IP-232 and in the body's attempt
+  history, the closing item's first
+  draft standing written from a
+  gate-pass report that did not stand,
+  caught before anything was pushed,
+  and the prose standing rewritten
+  from figures re-run at the lane's
+  own hand. No body patch stood owed
+  and none was made. The owner's
+  enqueue comment 7109926368 stands at
+  12 characters, and the landing
+  comment 7110175266 stands last at
+  831 characters, its text standing
+  clean over the barred set raw and
+  folded at this lane's scan,
+  recording the landing and charging
+  this lane to read this record back
+  whole first.
+
+The landing stands verified. The pull
+  request stands closed and merged at
+  18 23 58 UTC on 2026-11-23, its
+  merge commit standing at
+  3814e0bbd30e760400415ffa8878088a4f65b4a6
+  with the main ref standing at the
+  merge, and the merge tree standing
+  at
+  30a0627f3067b3d5019bbd2f3976ca7a392f3854,
+  equal to the reviewed final head
+  tree at head
+  914a8f48735844601c28c37fbddfa3c53f9f031c.
+  The README on main stands at 36 of
+  100 with the range IP-1 to IP-231.
+  The Trunk note 7105735888 stands at
+  113 characters in its merged form.
+  Checklist item 3 stands verified
+  live, the repo description, the
+  README lede, and the Cargo.toml
+  description one byte-identical
+  canonical line. Nothing stands owed
+  from Round 36.
+
+This round's own brief stands verified
+  on its numbering against the
+  contract at the base, the contract
+  closing at IP-232 with the Status
+  range at IP-1 to IP-231, so this
+  round runs IP-233 to IP-239. The
+  brief's census of PR 56 stands exact
+  on every limb, the body at 23,344
+  characters, the appendix at 519
+  characters from its marker at offset
+  22,825, the shell in its true final
+  form at 11,218 characters, and the
+  landing as it names it. The closure
+  at IP-238 follows the contract's own
+  closure shape, moving the range to
+  the closure item's own number in the
+  closure commit.
