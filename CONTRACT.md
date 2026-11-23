@@ -11613,3 +11613,46 @@ The counting pass inside the gate
   the same figures, in memory from the
   API blobs and on disk over the
   staged worktree.
+
+- IP-228. The fold stands whole on the
+  base tree under both arms. The fold
+  set stands at exactly the pinned
+  sixteen as IP-227 re-derived it,
+  with the neighbor band at exactly
+  34. Each of the 48 fold cells stands
+  convicted and each of the 68
+  neighbor cells stands clean under
+  the Python arm and under the Rust
+  arm, the two arms agreeing on every
+  cell, the emptied documents passing
+  clean under both arms, and the
+  planted copy standing verified
+  identical to the base after every
+  restore, its three documents
+  standing at their base blobs at the
+  family's close. Every standing cell
+  ran under the hardened discipline
+  from the start, pristine bytes
+  standing sourced from the verified
+  worktree extraction for every cell,
+  and a run counting only when the
+  planted bytes stood verified
+  immediately before it and still
+  stood immediately after it.
+
+Both arms ran whole on their first
+  campaigns inside one build-slot
+  flock hold for the phase's whole
+  lifetime, the slot standing taken
+  after a wait of about three minutes,
+  the fold copy standing built from
+  the verified worktree extraction
+  with the oracle's two Python test
+  files standing in its tests
+  directory, its test binaries
+  standing built before either arm
+  ran, and the copy and its build each
+  landing on their first tries, so no
+  refused attempt stands in this
+  family's account and no cell stood
+  voided or wrong in either arm.
