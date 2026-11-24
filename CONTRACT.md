@@ -12757,3 +12757,238 @@ The phase's launch history stands
   the hold. It stands outside the
   Status range in the post-closure
   record posture, as IP-239 does.
+
+- IP-247. The Round 38 record stands
+  read back whole on PR 60. The census
+  stands at four issue comments, no
+  formal review, and no review
+  comment, the shell standing read
+  whole in its true final form, and
+  the landing standing verified with
+  its merge tree equal to the reviewed
+  final head tree. Nothing stands
+  after the landing comment.
+
+The body stands at 20,057 characters
+  in its final form, the body the lane
+  left standing at 18,989 characters
+  with the owner's gate record
+  standing after the appendix, the
+  gate standing fully clean so no
+  repair patch stood owed. The bot's
+  appendix stands preserved byte for
+  byte at 439 characters from its
+  marker at offset 18,550, carrying
+  the body's only barred characters,
+  three colons inside its own marker
+  lines, counted at this lane's hand.
+  The body's authored text before the
+  appendix and the owner's gate record
+  after it each stand at zero on all
+  nine barred characters raw and
+  folded at this lane's scan. Its
+  Verified block names the final head
+  and its tree, each matching the pull
+  request's commits list at this
+  lane's hand, the contract standing
+  at 467,415 bytes at the final head.
+  Hosted integration stands verified
+  at this lane's hand on every head,
+  push runs 45335233510, 45337104502,
+  45342408750, 45342652593,
+  45349566542, 45349656050, and
+  45350950289, and pull request run
+  45351072715 on the final head, each
+  completed at success.
+
+The shell 7125429675 stands read whole
+  in its true final form at 13,139
+  characters, created at 07 50 27 UTC
+  and last edited at 09 04 02 UTC on
+  2026-11-24. The body dispositioned
+  it moment-bounded at 12,995
+  characters in its completed form at
+  its writing, when its last edit
+  stood at 07 53 35 UTC, and charged
+  its true final form to this
+  read-back. The red team read it at
+  13,020 characters and the owner's
+  landing read took it at 13,139, and
+  this read-back settles it at 13,139,
+  its last edit standing before the
+  merge, its posture and every
+  disposition bearing element
+  unchanged across both re-renders. No
+  actionable comments were generated.
+  Its walkthrough stands accurate in
+  its summary and in each of its three
+  rows, the Round 37 read-back row,
+  the Round 38 verification row, and
+  the Round 38 closure and status row,
+  and its change assessment stands at
+  Other with effort 2, Simple, at the
+  final head. Its review information
+  carries Run ID
+  ff38e9d5-6253-4229-8076-8fa2fd099f51
+  standing in the shell itself, no
+  formal review standing on the pull
+  request and no review comments
+  standing on it. A Merge Risk block
+  stands at Minimal, its coverage
+  standing at the final head with
+  source and covered the same commit
+  under a reviewed kind, recording
+  that the README range matches the
+  closure record the repository guard
+  selects so no merge-blocking risk
+  remains, and it presses no point.
+  The pre-merge checks stand at 3
+  passed with the Title check standing
+  at Inconclusive, the Linked Issues
+  check and the Out of Scope Changes
+  check and the Description Check each
+  standing Passed as skipped on their
+  stated grounds, and the Title
+  check's explanation naming the
+  title's shorthand phrases while
+  conceding the title does not
+  contradict the changeset, its
+  resolution proposing the title stand
+  rewritten as one short sentence. The
+  body's disposition of that check
+  stands graded here against the shell
+  itself and stands sustained, the
+  title standing as the fleet's
+  standing shape at exactly 122
+  characters read live from pull
+  request 58's title with the round
+  numbers advanced, naming the round's
+  own record in the fleet's own words,
+  the shell itself recording no
+  contradiction for the disposition to
+  answer, and the same disposition
+  standing in the counted record at
+  IP-240 for the reservation's passed
+  form. Its finishing touches and its
+  Autofix box stand unticked, and no
+  action was taken on either. The
+  included review allowance stands
+  used with none remaining, and no
+  manual review was triggered.
+
+The gate stood fully clean for the
+  sixth consecutive round, at spec
+  PASS with no findings, standards
+  APPROVE with no findings, and red
+  team APPROVE with no findings. The
+  spec axis carried one observation,
+  the body's retelling of Round 37's
+  hosted runs splitting the push runs
+  between the two heads where IP-240
+  lists the set unsplit, the sets
+  agreeing. The standards axis carried
+  one observation, the Round 38 lane's
+  progress record expecting the range
+  mutation pair in the other order at
+  its seating note and correcting it
+  in the open at its completion note.
+  The red team executed every limb at
+  its own hand, the closure gate
+  re-run whole on its own extraction
+  of the closure tree at fourteen
+  blobs with the test leg paired at 13
+  documents and 7 practice, the
+  counting pass reproduced at colon
+  316 and semicolon 350 with the three
+  documents at zero, the fold whole on
+  both arms at 48 of 48 convicted and
+  68 of 68 neighbors clean with the
+  emptied documents at 3 of 3 and
+  wrong at zero in both arms, the
+  guard bite proven by mutation at
+  line 576 and line 598 with the pairs
+  as IP-243 states them, the pin at
+  exactly 50 blobs with its suite at
+  241, the golden executed whole, the
+  oracle at ten blobs with its suite
+  at 15, the clone refusal at exit 4
+  under a fresh empty HOME, and PR 58
+  read back whole at its hand, and no
+  limb stood untested and nothing
+  stood charged forward. No body patch
+  stood owed and none was made beyond
+  the owner's gate record standing
+  after the appendix. The owner's
+  enqueue comment 7126911250 stands at
+  12 characters, and the landing
+  comment 7128883768 stands last at
+  1,502 characters, recording the
+  landing and charging this lane to
+  read this record back whole first.
+
+The landing stands verified. The pull
+  request stands closed and merged at
+  09 10 56 UTC on 2026-11-24, its
+  merge commit standing at
+  af9d6abfce70c00a6a0b206a4a7c98f0f186000f
+  with the main ref standing at the
+  merge, and the merge tree standing
+  at
+  1915a43054ef049b2f0e765547088c40c16de5ad,
+  equal to the reviewed final head
+  tree at head
+  e53f5d5ec1f56a87bb8eeaef227850dc83ec122b,
+  both trees standing read at this
+  lane's hand. The README on main
+  stands at 38 of 100 with the range
+  IP-1 to IP-245 and the contract at
+  467,415 bytes with IP-246 standing
+  outside the range as the
+  post-closure record. The Trunk note
+  7125425367 stands at 113 characters
+  in its merged form, and Trunk's
+  queue pull request 61 stands closed
+  unmerged. Checklist item 3 stands
+  verified live at this lane's hand,
+  the repo description, the README
+  lede, and the Cargo.toml description
+  one byte-identical canonical line.
+  Nothing stands owed from Round 38.
+
+This round's own brief stands verified
+  on its numbering against the
+  contract at the base, the contract
+  closing at IP-246 with the Status
+  range at IP-1 to IP-245, so this
+  round runs IP-247 to IP-253. The
+  brief's census of PR 60 stands exact
+  on every limb, the body at 20,057
+  characters, the appendix at 439
+  characters from its marker at offset
+  18,550, the landing at 1,502
+  characters, and the shell's three
+  readings standing as charged with
+  the true final form settled here.
+  The closure at IP-252 follows the
+  contract's own closure shape, moving
+  the range to the closure item's own
+  number in the closure commit, with
+  IP-253 standing outside the range as
+  the post-closure record. This
+  read-back's own tooling history
+  stands disclosed whole, the fetch
+  script standing run twice with each
+  run failing at its bank of the body
+  text under the box write fault after
+  sixty verified write retries and
+  standing counted nowhere, the body
+  standing banked through the file
+  tools in four chunks and verified
+  byte for byte against the live text
+  by its sha256 digest, and the
+  scratch banks of the base contract
+  and the base readme standing failed
+  across forty attempts each under the
+  same fault and counted nowhere, the
+  phase extraction standing as the
+  verified route to those bytes.
