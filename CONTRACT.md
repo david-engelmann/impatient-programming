@@ -13174,3 +13174,32 @@ The family's course stands disclosed
   packages that path skips, and no
   cell standing unclear in this
   round's launch.
+
+- IP-250. The guard stands re-proved
+  by mutation on the Round 39 base, on
+  a fresh copy of the verified
+  worktree with its target removed.
+  The pristine guard stands at 1
+  passed at exit 0, its README
+  standing at the base blob
+  09de17b97cf9e7cbba287cb376d6ada5bca3f034,
+  the digits mutation fails at exit
+  101 at the state assert at line 576
+  with left 38 and right 39, and the
+  range mutation fails at exit 101 at
+  the range assert at line 598 with
+  left 244 and right 245. Each plant
+  stood verified by blob before its
+  run, and the README stands restored
+  after each mutation with its blob
+  verified back at the base blob, the
+  restored suite passing whole at exit
+  0 in the standing split of 13
+  documents and 7 practice. The
+  proof's first launch stands counted
+  nowhere, killed by a runtime restart
+  with its output standing unrecorded
+  in its pipe, and its second launch
+  ran whole under one build slot flock
+  hold in the course this item
+  records.
