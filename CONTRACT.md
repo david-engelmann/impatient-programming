@@ -12562,3 +12562,66 @@ The counting pass inside the gate
   the same figures, in memory from the
   API blobs and on disk over the
   staged worktree.
+
+- IP-242. The fold stands measured
+  whole on the Round 38 base under
+  both arms. Each of the 48 fold cells
+  stands convicted and each of the 68
+  neighbor cells stands clean under
+  the Rust arm and under the Python
+  arm, the two arms agreeing on every
+  cell, the emptied documents passing
+  clean under both arms at 3 of 3, and
+  no cell standing voided or wrong in
+  either arm. Every standing cell ran
+  under the hardened discipline from
+  the start, pristine bytes standing
+  sourced from the verified worktree
+  extraction for every cell, and a run
+  counting only when the planted bytes
+  stood verified immediately before it
+  and still stood immediately after
+  it, the planted copy standing
+  verified identical to the base after
+  every restore, its three documents
+  standing at their base blobs at the
+  family's close. The mechanism the
+  cells judge stands as IP-79 corrects
+  it, five of the nine barred
+  characters folding to themselves
+  (U+003A, U+003B, U+2013, U+2014, and
+  U+2015) and four folding to a
+  different barred character (U+FF1A
+  folding to U+003A, U+FF1B to U+003B,
+  U+FE58 to U+2014, and U+FE54 to
+  U+003B), with U+2A74 standing
+  outside the nine and folding to
+  colon colon equals.
+
+The family's course stands disclosed
+  here in the open. The phase ran
+  inside one build slot flock hold for
+  its whole lifetime, the slot
+  standing taken after a wait of about
+  a minute and a half, the fold copy
+  standing built on its first try and
+  its test binaries standing built at
+  exit 0 on their first try, and both
+  arms ran whole in that single launch
+  with no launch standing counted
+  nowhere before it. The Python arm
+  ran under the interpreter path
+  repair from the start, the repair
+  that Round 37's Python arm stands
+  recorded with at IP-235 after its
+  first course came back unclear on
+  every cell, its harness calling for
+  a pytest the root interpreter's path
+  does not carry, pytest 9.1.1
+  standing installed in the user site
+  packages that path skips, and the
+  repair standing proved before this
+  launch by that pytest standing
+  importable under it at 9.1.1, no
+  cell standing unclear in this
+  round's launch.
