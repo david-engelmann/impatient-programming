@@ -12992,3 +12992,101 @@ This round's own brief stands verified
   same fault and counted nowhere, the
   phase extraction standing as the
   verified route to those bytes.
+
+- IP-248. The base gate stands run
+  whole on the new base, main standing
+  at
+  af9d6abfce70c00a6a0b206a4a7c98f0f186000f
+  at tree
+  1915a43054ef049b2f0e765547088c40c16de5ad
+  and the worktree standing verified
+  blob for blob against that tree at
+  fourteen of fourteen at this lane's
+  hand. The scan leg, the format leg,
+  the clippy leg, and the test leg
+  each stand executed locally at exit
+  0, the test leg standing paired per
+  its Running headers at 13 documents
+  and 7 practice for 20 tests, the
+  guard passing within it at its base
+  values, the README's own bullet and
+  its status line agreeing at 38 and
+  its range line naming IP-245 as the
+  latest closure record. The gate's
+  legs ran inside one build slot flock
+  hold for their whole lifetime, the
+  slot standing taken after a wait of
+  about six and three-quarter minutes
+  behind sibling lanes' live holds,
+  each holder verified live at this
+  lane's checks and none wedged, and
+  every leg passing on its first try
+  inside the hold.
+
+The extraction's course stands
+  disclosed whole. The phase's first
+  launch stood in its extraction loop
+  under a hard wave of the box write
+  fault for about fifty minutes with
+  no file landing, its log standing
+  eaten at zero bytes, a foreground
+  run of the extractor at this lane's
+  hand standing refused at its first
+  file write in the same wave, and a
+  chunk-writing helper for the
+  contract standing launched beside
+  the loop and landing nothing either.
+  Both background workers stood
+  stopped at this lane's hand, nine of
+  the fourteen files then stood staged
+  through the file tools, and the
+  extractor's next run verified those
+  nine byte for byte by its own blob
+  check and landed the remaining five
+  whole as the wave passed, the
+  extraction standing verified at
+  fourteen of fourteen before the
+  counting pass ran. The phase then
+  stands relaunched whole in the
+  course this item records, its
+  extraction standing confirmed on its
+  first try with every file already
+  standing.
+
+The counting pass inside the gate
+  stands re-added from its stated
+  parts at colon 316 and semicolon
+  350, raw and folded, over the whole
+  tree, standing at no growth against
+  the figures the Round 37 head
+  carried into Round 38. A planted
+  control carrying the nine barred
+  characters once each with U+037E and
+  U+2A74 standing after them stands
+  counted first at its hand-computed
+  vectors, raw at one for each of the
+  nine and folded at four colons, four
+  semicolons, two em dashes, one en
+  dash, and one horizontal bar,
+  proving the instrument before the
+  tree stood counted. The other seven
+  barred characters stand at zero
+  across the tree, and the three
+  documents stand at zero on all nine,
+  raw and folded. The fold set stands
+  re-derived over the whole codepoint
+  space at exactly the pinned sixteen,
+  U+003A, U+003B, U+037E, U+2013,
+  U+2014, U+2015, U+2A74, U+FE13,
+  U+FE14, U+FE31, U+FE32, U+FE54,
+  U+FE55, U+FE58, U+FF1A, and U+FF1B,
+  seven of them folding onto a barred
+  character without being barred
+  themselves, and the neighbor band
+  stands re-derived with it at exactly
+  34 codepoints, every one folding
+  clean of the barred set. The pass
+  stands reproduced on two channels at
+  the same figures, in memory from the
+  API blobs and on disk over the
+  staged worktree.
