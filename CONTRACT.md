@@ -12156,3 +12156,29 @@ The family's course stands disclosed
   taken after a wait of twenty three
   minutes, and it ran whole in that
   hold.
+
+- IP-236. The guard stands re-proved
+  by mutation on the Round 37 base, on
+  a fresh copy of the verified
+  worktree with its target removed.
+  The pristine guard stands at 1
+  passed at exit 0, its README
+  standing at the base blob
+  45493f33264d6f8551f31430e496453e7cc6e012,
+  the digits mutation fails at exit
+  101 at the state assert at line 576
+  with left 36 and right 37, and the
+  range mutation fails at exit 101 at
+  the range assert at line 598 with
+  left 230 and right 231. Each plant
+  stood verified by blob before its
+  run, and the README stands restored
+  after each mutation with its blob
+  verified back at the base blob, the
+  restored suite passing whole at exit
+  0 in the standing split of 13
+  documents and 7 practice. The proof
+  ran whole on its first instance in
+  about forty four seconds, on its own
+  fault retries without a slot hold by
+  its harness's standing shape.
