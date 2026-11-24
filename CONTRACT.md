@@ -13254,3 +13254,17 @@ The family's course stands disclosed
   hold. The phase ran whole in its
   first launch, no launch standing
   counted nowhere before it.
+
+- IP-252. Round 39 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 39 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 39 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-252. The Status
+  range stands through IP-252. The
+  round stands as IP-247 through
+  IP-251 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
