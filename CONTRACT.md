@@ -13090,3 +13090,87 @@ The counting pass inside the gate
   the same figures, in memory from the
   API blobs and on disk over the
   staged worktree.
+
+- IP-249. The fold stands measured
+  whole on the Round 39 base under
+  both arms. Each of the 48 fold cells
+  stands convicted and each of the 68
+  neighbor cells stands clean under
+  the Rust arm and under the Python
+  arm, the two arms agreeing on every
+  cell, the emptied documents passing
+  clean under both arms at 3 of 3, and
+  no cell standing voided or wrong in
+  either arm. Every standing cell ran
+  under the hardened discipline from
+  the start, pristine bytes standing
+  sourced from the verified worktree
+  extraction for every cell, and a run
+  counting only when the planted bytes
+  stood verified immediately before it
+  and still stood immediately after
+  it, the planted copy standing
+  verified identical to the base after
+  every restore, its three documents
+  standing at their base blobs at the
+  family's close. The mechanism the
+  cells judge stands as IP-79 corrects
+  it, five of the nine barred
+  characters folding to themselves
+  (U+003A, U+003B, U+2013, U+2014, and
+  U+2015) and four folding to a
+  different barred character (U+FF1A
+  folding to U+003A, U+FF1B to U+003B,
+  U+FE58 to U+2014, and U+FE54 to
+  U+003B), with U+2A74 standing
+  outside the nine and folding to
+  colon colon equals.
+
+The family's course stands disclosed
+  here in the open. The counted launch
+  ran inside one build slot flock hold
+  for its whole lifetime, the slot
+  standing taken after a wait of about
+  two and three-quarter minutes, its
+  test binaries standing built at exit
+  0 on their first try, and both arms
+  ran whole in that single launch. The
+  launches standing counted nowhere
+  before it stand named here. The
+  phase's first launch stood in its
+  bounded slot wait behind sibling
+  lanes' live holds until the wait
+  expired, its tar copy build then
+  standing refused at every file write
+  under a hard wave of the box write
+  fault for over an hour before it
+  stood stopped at this lane's hand.
+  The fold copy then stood built by
+  hardlink from the verified worktree,
+  its three documents and the oracle's
+  two Python test files standing as
+  real files written through the file
+  tools and verified byte for byte,
+  the copy standing verified whole at
+  fourteen files with its documents at
+  their base blobs. The remainder
+  script's first launch stood killed
+  by a runtime restart inside its slot
+  wait. Its second launch took the
+  slot and built at exit 0, and its
+  Rust arm then failed at its first
+  cell with no test binary standing,
+  the copy's assembly having dropped
+  the Rust test files beside the
+  Python ones, those files standing
+  restored by hardlink with the stale
+  target removed before the counted
+  launch. The Python arm ran under the
+  interpreter path repair from the
+  start, its harness calling for a
+  pytest the root interpreter's path
+  does not carry, pytest 9.1.1
+  standing installed in the user site
+  packages that path skips, and no
+  cell standing unclear in this
+  round's launch.
