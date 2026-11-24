@@ -12651,3 +12651,71 @@ The family's course stands disclosed
   its own fault retries without a slot
   hold by its harness's standing
   shape.
+
+- IP-244. The verification family
+  stands discharged whole on the Round
+  38 base. The flighttape pin stands
+  verified at exactly 50 blobs against
+  its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands at 241 confirmed two
+  ways, the run's own result lines
+  summing across nineteen result lines
+  at 241 passed with none failed, and
+  the built suites' test listing
+  counting the same 241. The golden
+  stands executed with the pin's own
+  built binary, the convert landing
+  the tape at exactly 1,663 bytes, the
+  digest command reading
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and the verify against that digest
+  at exit 0. The oracle stands
+  verified blob for blob at ten of ten
+  against its tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands executed under the
+  pytest harness itself at 15 passed.
+  The clone refusal stands reproduced
+  with the printed command itself, the
+  GitHub CLI clone refused at exit 4
+  under a fresh empty HOME, and
+  IP-63's proof stands on the README
+  at its base blob with the item open
+  on David's word. The family's
+  executions ran inside one build slot
+  flock hold for the phase's whole
+  lifetime, the slot standing taken
+  after a wait of about four and a
+  half minutes and every leg landing
+  on its first try. The oracle leg ran
+  with the interpreter's path repaired
+  to carry the user site packages
+  where its pytest stands installed,
+  the same repair the fold family's
+  Python arm stands recorded with at
+  IP-242.
+
+The phase's launch history stands
+  disclosed here in the open, every
+  earlier launch standing counted
+  nowhere. Its first launch stands
+  stopped at this lane's hand before
+  any leg ran, its interpreter path
+  standing unrepaired at its dispatch.
+  Three further launches stand stopped
+  at this lane's hand during their
+  slot waits, their log files standing
+  eaten by the box write fault at zero
+  bytes so no leg's evidence stood
+  recorded from any of them. One
+  launch stands killed by a runtime
+  restart inside its slot wait, its
+  recorded output standing at its
+  start line alone. The final launch
+  ran whole in the course the first
+  paragraph of this item records.
