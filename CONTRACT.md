@@ -12234,3 +12234,17 @@ The family's course stands disclosed
   installed, the same repair the fold
   family's Python arm stands recorded
   with at IP-235.
+
+- IP-238. Round 37 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 37 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 37 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-238. The Status
+  range stands through IP-238. The
+  round stands as IP-233 through
+  IP-237 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
