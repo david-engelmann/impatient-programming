@@ -12625,3 +12625,29 @@ The family's course stands disclosed
   importable under it at 9.1.1, no
   cell standing unclear in this
   round's launch.
+
+- IP-243. The guard stands re-proved
+  by mutation on the Round 38 base, on
+  a fresh copy of the verified
+  worktree with its target removed.
+  The pristine guard stands at 1
+  passed at exit 0, its README
+  standing at the base blob
+  42c5f872b353c2ab859d88df6d4ce2d7610303fe,
+  the digits mutation fails at exit
+  101 at the state assert at line 576
+  with left 37 and right 38, and the
+  range mutation fails at exit 101 at
+  the range assert at line 598 with
+  left 237 and right 238. Each plant
+  stood verified by blob before its
+  run, and the README stands restored
+  after each mutation with its blob
+  verified back at the base blob, the
+  restored suite passing whole at exit
+  0 in the standing split of 13
+  documents and 7 practice. The proof
+  ran whole on its first instance, on
+  its own fault retries without a slot
+  hold by its harness's standing
+  shape.
