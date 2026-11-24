@@ -13203,3 +13203,54 @@ The family's course stands disclosed
   ran whole under one build slot flock
   hold in the course this item
   records.
+
+- IP-251. The verification family
+  stands discharged whole on the Round
+  39 base. The flighttape pin stands
+  verified at exactly 50 blobs against
+  its tree
+  afd4d7d13520411e003762548fc79082a1b9cf6e,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands at 241 confirmed two
+  ways, the run's own result lines
+  summing across nineteen result lines
+  at 241 passed with none failed, and
+  the built suites' test listing
+  counting the same 241. The golden
+  stands executed with the pin's own
+  built binary, the convert landing
+  the tape at exactly 1,663 bytes, the
+  digest command reading
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3,
+  and the verify against that digest
+  at exit 0. The oracle stands
+  verified blob for blob at ten of ten
+  against its tree
+  81cac2bb225f0a4edd847e794ca0740635604365,
+  each blob standing re-hashed at this
+  lane's hand in this round, and its
+  suite stands executed under the
+  pytest harness itself at 15 passed,
+  the leg running with the
+  interpreter's path repaired to carry
+  the user site packages where its
+  pytest stands installed. The clone
+  refusal stands reproduced with the
+  printed command itself, the GitHub
+  CLI clone refused at exit 4 under a
+  fresh empty HOME, and IP-63's proof
+  stands on the README at its base
+  blob with the item open on David's
+  word. The family's executions ran
+  inside one build slot flock hold for
+  the phase's whole lifetime, the slot
+  standing taken after a wait of about
+  eighteen minutes behind sibling
+  lanes' live holds, each holder
+  verified live at this lane's checks
+  and none wedged, and every leg
+  landing on its first try inside the
+  hold. The phase ran whole in its
+  first launch, no launch standing
+  counted nowhere before it.
