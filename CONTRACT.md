@@ -12096,3 +12096,63 @@ The counting pass inside the gate
   the same figures, in memory from the
   API blobs and on disk over the
   staged worktree.
+
+- IP-235. The fold stands measured
+  whole on the Round 37 base under
+  both arms. Each of the 48 fold cells
+  stands convicted and each of the 68
+  neighbor cells stands clean under
+  the Rust arm and under the Python
+  arm, the two arms agreeing on every
+  cell, the emptied documents passing
+  clean under both arms at 3 of 3, and
+  no cell standing voided or wrong in
+  either arm. Every standing cell ran
+  under the hardened discipline from
+  the start, pristine bytes standing
+  sourced from the verified worktree
+  extraction for every cell, and a run
+  counting only when the planted bytes
+  stood verified immediately before it
+  and still stood immediately after
+  it, the planted copy standing
+  verified identical to the base after
+  every restore, its three documents
+  standing at their base blobs at the
+  family's close.
+
+The family's course stands disclosed
+  here in the open. Its first launch
+  stands counted nowhere, killed by a
+  box restart inside its build slot
+  wait before the fold copy stood
+  built. Its second launch waited the
+  bounded thirty minutes on the jammed
+  slot and then ran outside it on the
+  IP-130 precedent, the fold copy
+  standing built on its first try and
+  its test binaries standing built at
+  exit 0 on their first try, and the
+  Rust arm ran whole in that course.
+  The Python arm in that launch came
+  back unclear on every cell, its
+  harness calling for a pytest the
+  root interpreter's path does not
+  carry, pytest 9.1.1 standing
+  installed in the user site packages
+  that path skips, and the launch
+  stands stopped at this lane's hand
+  with the Rust arm's figures banked,
+  the copy's README standing restored
+  byte for byte from the verified
+  worktree where the stopped arm had
+  left its first plant standing in it.
+  The arm stands rerun standalone with
+  the interpreter's path repaired to
+  carry that site packages directory,
+  the repair standing proved first by
+  the documents node at 1 passed,
+  inside one build slot flock hold
+  taken after a wait of twenty three
+  minutes, and it ran whole in that
+  hold.
