@@ -12248,3 +12248,27 @@ The family's course stands disclosed
   IP-237 record it, with this record
   added, and IP-63 stands open within
   it on David's word.
+
+- IP-239. The closure gate stands
+  discharged on the final closure
+  tree, extracted blob for blob from
+  the pushed closure tree at fourteen
+  blobs with no bad blob among them,
+  the scan, format, clippy, and test
+  legs each executed locally at exit
+  0, the test leg passing whole at 13
+  documents and 7 practice with the
+  guard passing on the moved triple,
+  and the counting pass re-run at
+  colon 316 and semicolon 350 raw and
+  folded with no growth. The gate's
+  course stands as follows. The gate
+  ran inside one build slot flock hold
+  for its whole lifetime, the slot
+  standing taken at once with no wait,
+  the extraction landing on its first
+  try and every leg landing on its
+  first try inside the hold. It stands
+  outside the Status range in the
+  post-closure record posture, as
+  IP-232 does.
