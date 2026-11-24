@@ -12719,3 +12719,17 @@ The phase's launch history stands
   start line alone. The final launch
   ran whole in the course the first
   paragraph of this item records.
+
+- IP-245. Round 38 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 38 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 38 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-245. The Status
+  range stands through IP-245. The
+  round stands as IP-240 through
+  IP-244 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
