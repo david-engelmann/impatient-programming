@@ -13571,3 +13571,93 @@ This round's own brief stands verified
   summary fetch and the shell print
   each standing landed whole at this
   lane's hand on their first runs.
+
+- IP-255. The verification family
+  stands executed whole on the Round
+  40 base, main standing at the Round
+  39 merge with its merge tree at
+  62ccaac2aacfe851c4432460a88136535ecc1781,
+  extracted blob by blob through the
+  API into a plain worktree at
+  fourteen blobs, each blob's bytes
+  verified against its tree entry at
+  this lane's hand before any leg ran
+  on them.
+
+The base gate stands whole on the base
+  tree. Cargo test stands at exit 0
+  with its twenty tests paired as
+  thirteen documents tests, seven
+  practice tests, and zero doc tests,
+  clippy stands clean at exit 0 with
+  warnings denied, and cargo fmt
+  stands clean at exit 0. The repo's
+  own codepoint scan stands at exit 0
+  printing U+2014=0 and U+2013=0 over
+  the three documents.
+
+The counting pass stands executed over
+  the whole base tree on two channels
+  in exact agreement, once in memory
+  against the API's own blobs and once
+  on disk against the verified
+  extraction, the planted control
+  counted first on both channels,
+  standing at one of each barred
+  character raw and at 4, 4, 2, 1, 1,
+  0, 0, 0, 0 folded in the barred
+  order. The whole tree stands at
+  colon 316 and semicolon 350 raw, and
+  at colon 316 and semicolon 350
+  folded, the three documents standing
+  at zero on all nine barred
+  characters raw and folded on both
+  channels, and CONTRACT.md itself
+  standing at colon 38 and semicolon
+  22 raw. No barred character beyond
+  the colon and the semicolon stands
+  anywhere in the tree on either
+  channel, and the two standing
+  figures reproduce the Round 39
+  head's figures exactly, the base
+  tree standing identical to that
+  head's tree.
+
+The legs' own history stands disclosed
+  whole. The extraction itself stood
+  refused twice before it landed, a
+  first launch dying inside the box
+  write fault's wave after its first
+  blob landed truncated at zero bytes
+  and a second launch standing killed
+  by a runtime restart while it
+  retried, each counted nowhere, the
+  third launch standing the extraction
+  whole on its first try once the
+  channel cleared. The build slot
+  stood jammed through a bounded
+  thirty minute wait with sibling
+  lanes' work standing in it, and the
+  gate legs stand run outside the slot
+  on the IP-130 precedent, the course
+  logged in the build scratch. The
+  scan, the format check, and clippy
+  each stood at exit 0 on their first
+  tries. The test leg stood refused
+  across four hundred tries over about
+  three hours while the fault's wave
+  stood over the box, its phase
+  standing exited on that leg alone
+  with every earlier stage complete,
+  one diagnostic run of the leg at
+  this lane's hand standing failed on
+  the fault's own signature in the
+  compiler and counted nowhere, and a
+  test-leg-only phase standing seated
+  with a larger budget and killed by a
+  runtime restart before it produced
+  any figure, counted nowhere. The leg
+  then stands run whole in the
+  foreground once the restart cleared
+  the write channel, standing at exit
+  0 with the pairing stated above.
