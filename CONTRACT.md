@@ -13661,3 +13661,70 @@ The legs' own history stands disclosed
   foreground once the restart cleared
   the write channel, standing at exit
   0 with the pairing stated above.
+
+- IP-256. The fold stands measured
+  whole on the Round 40 base under
+  both arms. Each of the 48 fold cells
+  stands convicted and each of the 68
+  neighbor cells stands clean under
+  the Rust arm and under the Python
+  arm, the two arms agreeing on every
+  cell, the emptied documents passing
+  clean under both arms at 3 of 3, and
+  no cell standing voided or wrong in
+  either arm. Every standing cell ran
+  under the hardened discipline from
+  the start, pristine bytes standing
+  sourced from the verified worktree
+  extraction for every cell, and a run
+  counting only when the planted bytes
+  stood verified immediately before it
+  and still stood immediately after
+  it, the planted copy standing
+  verified identical to the base after
+  every restore, its three documents
+  standing at their base blobs at the
+  family's close. The mechanism the
+  cells judge stands as IP-79 corrects
+  it, five of the nine barred
+  characters folding to themselves
+  (U+003A, U+003B, U+2013, U+2014, and
+  U+2015) and four folding to a
+  different barred character (U+FF1A
+  folding to U+003A, U+FF1B to U+003B,
+  U+FE58 to U+2014, and U+FE54 to
+  U+003B), with U+2A74 standing
+  outside the nine and folding to
+  colon colon equals.
+
+The family's course stands disclosed
+  here in the open. The build lane's
+  own fold launch stands counted
+  nowhere for the arms, its build slot
+  standing taken after a wait of about
+  seventeen minutes and its fold copy
+  standing built on its first try from
+  the verified worktree with the
+  oracle's two Python test files
+  standing copied in beside the Rust
+  ones, and no arm standing run before
+  that lane went quiet, the copy then
+  standing verified whole at this
+  completion lane's hand with its
+  three documents standing at their
+  base blobs and its four test files
+  standing present. The counted launch
+  stands as this completion lane's
+  own, run inside one build slot flock
+  hold for its whole lifetime, the
+  slot standing taken after a wait of
+  about thirty seconds, the fold
+  copy's test binaries standing built
+  at exit 0 on their first try, and
+  both arms running whole in that
+  single launch with no cell standing
+  unclear or voided in either arm. The
+  Python arm ran under the interpreter
+  path repair from the start, pytest
+  9.1.1 standing installed in the user
+  site packages that path carries.
