@@ -13728,3 +13728,29 @@ The family's course stands disclosed
   path repair from the start, pytest
   9.1.1 standing installed in the user
   site packages that path carries.
+
+- IP-257. The guard stands proven by
+  mutation at Round 40, executed on a
+  fresh copy of the verified Round 40
+  worktree, every planted byte
+  verified by blob before its run and
+  the README restored and
+  blob-verified after each mutation.
+  The pristine guard test stands at
+  exit 0. The rounds-digits mutation,
+  the README's Closed perfection
+  rounds figure moved from 39 to 40 on
+  its own, stands refused at exit 101,
+  the documents suite's state test
+  panicking at line 576 of
+  tests/test_documents.rs with left 39
+  and right 40. The range mutation,
+  the README's contract range moved
+  from IP-252 to IP-251 on its own,
+  stands refused at exit 101, the same
+  test panicking at line 598 with left
+  251 and right 252. The restored
+  suite stands whole at exit 0, paired
+  as thirteen documents tests and
+  seven practice tests with zero doc
+  tests.
