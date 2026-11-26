@@ -14421,3 +14421,33 @@ The whole family stands executed
   IP-265 record it, with this record
   added, and IP-63 stands open within
   it on David's word.
+
+- IP-267. The closure gate stands
+  discharged on the final closure tree
+  5f72bb2b55eeaa34240fb23fca405dd912eaef87,
+  extracted blob for blob from the
+  pushed closure tree at fourteen
+  blobs with no bad blob among them,
+  the scan, format, clippy, and test
+  legs each executed locally at exit
+  0, the test leg passing whole at 13
+  documents and 7 practice with 0 doc
+  tests and the guard passing on the
+  moved triple, and the counting pass
+  re-run at colon 316 and semicolon
+  350 raw and folded with no growth.
+  The gate's course stands as follows.
+  The gate ran inside one build slot
+  flock hold for its whole lifetime,
+  the slot standing taken at once with
+  the queue standing clear at that
+  hour, the extraction standing
+  confirmed whole on its first try
+  with no blob already standing, and
+  every leg landing on its first try
+  inside the hold. No launch stands
+  counted nowhere before it, the gate
+  standing as this lane's own single
+  launch. It stands outside the Status
+  range in the post-closure record
+  posture, as IP-260 does.
