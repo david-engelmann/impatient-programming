@@ -14407,3 +14407,17 @@ The whole family stands executed
   every leg standing at its figures on
   its first try and no launch of this
   family standing counted nowhere.
+
+- IP-266. Round 41 closes here, with
+  the README's triple moving in this
+  commit. The README's own bullet
+  moves to 41 of one hundred rounds
+  closed, its status bullet moves to
+  Closed perfection rounds, 41 of 100,
+  and its range line moves to
+  Contract, IP-1 to IP-266. The Status
+  range stands through IP-266. The
+  round stands as IP-261 through
+  IP-265 record it, with this record
+  added, and IP-63 stands open within
+  it on David's word.
