@@ -13855,3 +13855,281 @@ The family's course stands disclosed
   launch. It stands outside the Status
   range in the post-closure record
   posture, as IP-253 does.
+
+- IP-261. The Round 40 record stands
+  read back whole on PR 64. The census
+  stands at three issue comments, no
+  formal review, and no review
+  comment, the shell standing read
+  whole in its true final form, and
+  the landing standing verified with
+  its merge tree equal to the reviewed
+  final head tree. Nothing stands
+  after the owner's enqueue comment.
+
+The body stands at 21,778 characters
+  in its final form, the body the lane
+  left standing at 21,129 characters
+  with the owner's gate record
+  standing after the appendix, the
+  gate standing fully clean so no
+  repair patch stood owed. The bot's
+  appendix stands preserved byte for
+  byte at 402 characters from its
+  marker at offset 20,727, carrying
+  the body's only barred characters,
+  three colons inside its own marker
+  lines, counted at this lane's hand.
+  The body's authored text before the
+  appendix and the owner's gate record
+  of 647 characters after it each
+  stand at zero on all nine barred
+  characters raw and folded at this
+  lane's scan. Its Verified block
+  names the final head and its tree,
+  each matching the pull request's
+  commits list at this lane's hand,
+  the contract standing at 505,594
+  bytes at the final head. Hosted
+  integration stands verified at this
+  lane's hand on every head, push runs
+  45504760202, 45538930647,
+  45721569852, 45721810744,
+  45723158600, 45723196241, and
+  45726765137, and pull request run
+  45726834897 on the final head with
+  the dynamic run 45726829495 standing
+  beside it, each completed at
+  success.
+
+The shell 7178481806 stands read whole
+  in its true final form at 11,110
+  characters, created at 00 10 47 UTC
+  and last edited at 08 28 38 UTC on
+  2026-11-26. The body dispositioned
+  it moment-bounded at 12,981
+  characters in its completed form at
+  its writing, when its last edit
+  stood at 00 14 32 UTC, and charged
+  its true final form to this
+  read-back. The reviewers read it at
+  12,985 characters and the owner's
+  landing read took it at 11,110, and
+  this read-back settles it at 11,110,
+  its last edit standing two seconds
+  after the owner's enqueue posted and
+  before the merge. No actionable
+  comments were generated. Its
+  walkthrough stands accurate in its
+  summary and in each of its three
+  rows, the Round 39 read-back row,
+  the Round 40 verification records
+  row, and the Round 40 closure and
+  status row, and its change
+  assessment stands at Other with
+  effort 2, Simple, at the final head.
+  Its review information carries Run
+  ID
+  cbf91efe-4d51-4893-b25e-2d4e79e45b01
+  standing in the shell itself, no
+  formal review standing on the pull
+  request and no review comments
+  standing on it. A Merge Risk block
+  stands at Minimal, its coverage
+  standing at the final head with
+  source and covered the same commit
+  under a reviewed kind, recording
+  that the change is a
+  documentation-only update to the
+  round records and status counters
+  with the README count and contract
+  range consistent with the closure
+  record and the document tests
+  comparing them dynamically, and that
+  no merge-blocking risk was found,
+  and it presses no point. The
+  pre-merge checks stand at 4 passed
+  in the settled form, the Linked
+  Issues check and the Out of Scope
+  Changes check and the Description
+  Check each standing Passed as
+  skipped on their stated grounds, and
+  the Title check standing at Passed
+  with its full explanation standing
+  in the shell. The body had answered
+  the Title check's earlier form,
+  standing at Inconclusive when the
+  body was written with the checks at
+  3 passed and 1 inconclusive, on the
+  counted grounds the counted record
+  carries at IP-247 for the check's
+  inconclusive form. The settled form
+  supersedes that answer's occasion
+  without disturbing its grounds. The
+  explanation names the title as
+  naming Round 40 and the Round 39
+  record read-back, the gate, the
+  fold, and the Install question,
+  records that the title covers the
+  main change, and reserves that it
+  stands long at 122 characters and 22
+  words, lists many items, and carries
+  a phrase the summaries do not
+  explain, making it hard to scan. No
+  further Title check disposition
+  stands owed on that round, the title
+  standing unchanged as the fleet's
+  standing shape at exactly 122
+  characters, its shape read live from
+  pull request 62's title by that
+  round's lane with the round numbers
+  advanced and naming the round's own
+  record in the fleet's own words. Its
+  finishing touches and its Autofix
+  box stand unticked, and no action
+  was taken on either. The included
+  review allowance stands used with
+  none remaining, and no manual review
+  was triggered.
+
+The gate stood fully clean, at spec
+  PASS with no findings, standards
+  APPROVE with no findings, and red
+  team APPROVE with no findings as the
+  axis completed. The spec axis stands
+  at the reseated seating, its report
+  at 9,175 bytes, the first seating
+  having ended silently after banking
+  only its skeleton. The standards
+  axis stands at 8,290 bytes. The red
+  team stands across two seats. The
+  first seat's report stands at 11,594
+  characters with its verdict at NOT
+  APPROVE as the true record of the
+  incomplete state it faced, its read
+  limbs standing executed, the
+  counting pass reproduced, pull
+  request 62 read back whole, pull
+  request 64 read live whole, and the
+  chain and form limbs standing
+  executed, and its execution limbs
+  standing untested after the seat
+  stopped at an execution-risk flag
+  and named the owner's scoped ruling
+  as its unblock. The continuation's
+  completion stands at 8,306
+  characters with the axis standing
+  APPROVE whole and no findings at any
+  grade, every owed limb executed
+  under the owner's scoped ruling on
+  inputs re-verified blob for blob at
+  its own hand, the gate's test leg
+  standing paired at 13 documents and
+  7 practice, the guard's bite
+  standing proven by mutation, the
+  fold standing whole on both arms at
+  48 of 48 convicted and 68 of 68
+  neighbors clean, the pin suite
+  standing at 241 across its nineteen
+  result lines, the golden standing
+  whole, the oracle suite standing at
+  15, and the clone refusal standing
+  at exit 4 under a fresh empty HOME.
+  The continuation reconciled IP-257's
+  bite figures from the record itself,
+  its plantings standing on the
+  pre-closure tree and moving the
+  printed digits from 39 to 40 and the
+  printed bound from IP-252 to IP-251,
+  so its pairs and the item's pairs
+  stand as the same two assertions
+  read from opposite sides of the same
+  equalities, both operand orders
+  standing read from the test source.
+  No body patch stood owed and none
+  was made beyond the owner's gate
+  record standing after the appendix.
+  The owner's enqueue comment
+  7186639711 stands at 12 characters,
+  and no separate landing comment
+  stands on this pull request, the
+  gate record on the body and the
+  Trunk note carrying the landing
+  between them.
+
+The landing stands verified. The pull
+  request stands closed and merged at
+  08 35 50 UTC on 2026-11-26, its
+  merge commit standing at
+  979135192f222844a9b7b0d29a117ad122f5579b
+  with the main ref standing at the
+  merge, and the merge tree standing
+  at
+  ba60d1cb93d64c8aa59b54549c1d02b3ab6eb7e9,
+  equal to the reviewed final head
+  tree at head
+  3ef5ae5f934dea94c37af5467eb404c66cf87859,
+  both trees standing read at this
+  lane's hand. The README on main
+  stands at 40 of 100 with the range
+  IP-1 to IP-259 and the contract at
+  505,594 bytes with IP-260 standing
+  outside the range as the
+  post-closure record. The Trunk note
+  7178478143 stands at 113 characters
+  in its merged form, and Trunk's
+  queue pull request 65 stands closed
+  unmerged. Checklist item 3 stands
+  verified live at this lane's hand,
+  the repo description, the README
+  lede, and the Cargo.toml description
+  one byte-identical canonical line.
+  Nothing stands owed from Round 40.
+
+This round's own brief stands verified
+  on its numbering against the
+  contract at the base, the contract
+  closing at IP-260 with the Status
+  range at IP-1 to IP-259, so this
+  round runs IP-261 to IP-267. The
+  brief's census of PR 64 stands exact
+  on every limb but one, the body at
+  21,778 characters, the appendix at
+  402 characters from its marker at
+  offset 20,727, the gate record at
+  647 characters standing after it,
+  the census at three issue comments,
+  and the shell's three readings
+  standing as charged with the true
+  final form settled here. The one
+  figure the record contradicts stands
+  corrected here in the open. The
+  brief carried the shell's settled
+  read as standing after a post-merge
+  re-render, and the shell's last edit
+  in fact stands at 08 28 38 UTC on
+  2026-11-26, before the merge, its
+  re-render answering the owner's gate
+  record patch and enqueue in the
+  landing's own course, and its
+  settled form carrying the Title
+  check at Passed where the body had
+  answered its inconclusive form. The
+  closure at IP-266 follows the
+  contract's own closure shape, moving
+  the range to the closure item's own
+  number in the closure commit, with
+  IP-267 standing outside the range as
+  the post-closure record. This
+  read-back's own tooling history
+  stands disclosed whole, the body and
+  the shell standing read whole in the
+  foreground channel, the body
+  standing verified byte for byte by
+  its sha256 digest
+  e2f9973b6997ff482e1a7ae2ca67a7b5d1a91f5bc3f8e6dd51da2f0822519ead
+  against the fetched bytes, and the
+  base, pin, and oracle extractions
+  each standing landed whole on their
+  first launch with every blob
+  verified as it landed.
