@@ -14222,3 +14222,88 @@ The legs' own history stands disclosed
   derivation standing in the same hold
   after them. No leg of this gate ran
   outside the slot at any point.
+
+- IP-263. The fold stands whole on
+  both arms on the Round 41 base.
+
+The mechanism stands as IP-79 states
+  it. Five of the nine barred
+  characters fold to themselves under
+  NFKC, U+003A, U+003B, U+2013,
+  U+2014, and U+2015. Four fold to a
+  different barred character, U+FF1A
+  folding to U+003A, U+FF1B to U+003B,
+  U+FE58 to U+2014, and U+FE54 to
+  U+003B. U+2A74 folds to three
+  characters, U+003A and U+003A and
+  U+003D, the last of them not barred,
+  so a plant of U+2A74 stands
+  invisible to the raw scan and stands
+  caught only by the folded scan. The
+  battery plants each of the sixteen
+  fold set members in each of the
+  three documents for forty-eight fold
+  cells, and each of the thirty-four
+  neighbor band members in the README
+  and the MANIFESTO for sixty-eight
+  neighbor cells, and empties each
+  document once.
+
+The Rust arm stands convicted on 48 of
+  48 fold cells with 68 of 68 neighbor
+  cells clean and the emptied cells
+  passing at 3 of 3, its wrong list
+  standing empty and the three
+  documents standing pristine at the
+  close. The Python arm stands at the
+  same figures outright, 48 of 48
+  convicted, 68 of 68 neighbors clean,
+  emptied passing at 3 of 3, its wrong
+  list standing empty and the
+  documents standing pristine at its
+  close. Both arms ran on the one fold
+  copy, built from the verified base
+  extraction with the oracle's own two
+  Python test files standing beside
+  the port's suites, so each arm
+  judged the same planted documents
+  through its own suite.
+
+The family's own course stands
+  disclosed whole. The phase's first
+  and second launches exited on their
+  bounded sixty minute waits without
+  the slot, counted nowhere, and its
+  third launch stood killed by a
+  runtime restart while it queued,
+  counted nowhere. Its fourth launch
+  took the slot at 12 58 17 UTC on
+  2026-11-26 and ran the Rust arm
+  whole on the arm's first launch
+  inside that hold. Its Python arm
+  then stood unable to start in that
+  shell, the interpreter carrying no
+  pytest on its default path there,
+  and its first cell stood unclear on
+  that ground alone through 298
+  readings, no verdict standing taken
+  on that launch, until a second
+  runtime restart killed the phase
+  with the Rust arm's completion
+  already banked in its log. The
+  Python arm's relaunch restored the
+  fold copy's three documents from the
+  pristine base extraction with their
+  blobs verified before it ran, set
+  the interpreter path repair the
+  record carries from Round 40, the
+  user site packages standing on
+  PYTHONPATH with pytest 9.1.1 visible
+  there, took the slot at 15 21 36 UTC
+  on the same day after a wait of
+  about fifteen minutes, and ran the
+  arm whole on its first launch. Every
+  launch of this family stands counted
+  here, and the unclear readings and
+  the dead launches stand counted
+  nowhere in its figures.
