@@ -14307,3 +14307,51 @@ The family's own course stands
   here, and the unclear readings and
   the dead launches stand counted
   nowhere in its figures.
+
+- IP-264. The guard's bite stands
+  proven by mutation on the Round 41
+  base. The documents suite carries
+  the two assertions in the one test,
+  the README bullet's state word value
+  against the status line's printed
+  digits at line 576 of
+  tests/test_documents.rs, and the
+  README's printed range bound against
+  the contract's latest closure record
+  at line 598, each standing read from
+  the test source at this lane's hand
+  before any planting, so the refusal
+  figures below stand as readings the
+  executions then met exactly.
+
+The pristine documents guard stands at
+  exit 0 on the base tree. The digits
+  mutation, the status line's printed
+  40 advanced to 41 with the bullet
+  standing at 40, stands refused at
+  exit 101, the documents test
+  panicking at line 576 with left 40
+  and right 41. The README stands
+  restored after the planting with its
+  blob verified. The range mutation,
+  the README's printed range bound
+  moved from IP-259 to IP-258 with the
+  contract's latest closure record
+  standing at IP-259, stands refused
+  at exit 101, the same test panicking
+  at line 598 with left 258 and right
+  259. The README stands restored
+  after that planting with its blob
+  verified. The restored suite stands
+  whole at exit 0, paired as thirteen
+  documents tests, seven practice
+  tests, and zero doc tests.
+
+The proof stands executed whole inside
+  one build slot hold on the proof's
+  first launch, the hold taken at 15
+  54 57 UTC on 2026-11-26 after a wait
+  of about twelve minutes, no launch
+  of this proof standing refused or
+  killed and none standing counted
+  nowhere.
