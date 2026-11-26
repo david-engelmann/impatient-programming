@@ -14133,3 +14133,92 @@ This round's own brief stands verified
   each standing landed whole on their
   first launch with every blob
   verified as it landed.
+
+- IP-262. The verification family
+  stands executed whole on the Round
+  41 base, main standing at the Round
+  40 merge with its merge tree at
+  ba60d1cb93d64c8aa59b54549c1d02b3ab6eb7e9,
+  extracted blob by blob through the
+  API into a plain worktree at
+  fourteen blobs, each blob's bytes
+  verified against its tree entry at
+  this lane's hand before any leg ran
+  on them.
+
+The base gate stands whole on the base
+  tree. Cargo test stands at exit 0
+  with its twenty tests paired as
+  thirteen documents tests, seven
+  practice tests, and zero doc tests,
+  clippy stands clean at exit 0 with
+  warnings denied, and cargo fmt
+  stands clean at exit 0. The repo's
+  own codepoint scan stands at exit 0
+  printing U+2014=0 and U+2013=0 over
+  the three documents.
+
+The counting pass stands executed over
+  the whole base tree on two channels
+  in exact agreement, once in memory
+  against the API's own blobs and once
+  on disk against the verified
+  extraction, the planted control
+  counted first on both channels,
+  standing at one of each barred
+  character raw and at 4, 4, 2, 1, 1,
+  0, 0, 0, 0 folded in the barred
+  order. The whole tree stands at
+  colon 316 and semicolon 350 raw, and
+  at colon 316 and semicolon 350
+  folded, the three documents standing
+  at zero on all nine barred
+  characters raw and folded on both
+  channels, and CONTRACT.md itself
+  standing at colon 38 and semicolon
+  22 raw. No barred character beyond
+  the colon and the semicolon stands
+  anywhere in the tree on either
+  channel, and the two standing
+  figures reproduce the Round 40
+  head's figures exactly, the base
+  tree standing identical to that
+  head's tree. The fold set stands
+  re-derived over the whole codepoint
+  space at exactly the pinned sixteen
+  with the neighbor band at 34, every
+  band member folding clean of the
+  barred set.
+
+The legs' own history stands disclosed
+  whole. The extraction itself landed
+  whole on its first launch, fourteen
+  blobs verified as each landed, and
+  the pin and oracle extractions
+  landed whole on their first launches
+  in the same course at fifty of fifty
+  and ten of ten. The gate's counted
+  launch stands as its third. Its
+  first launch stood queued behind
+  sibling lanes' verified-live holds,
+  among them the muda Round 32
+  realistic battery, the onrecord
+  Round 31 closure gate, the
+  secondtake Round 42 red team gate,
+  and the bluepencil Round 45 build,
+  and exited on its bounded sixty
+  minute wait without the slot,
+  counted nowhere. Its second launch
+  stood killed by a runtime restart
+  while it queued, the restart
+  clearing every lane's processes from
+  the box, counted nowhere. Its third
+  launch took the slot after a wait of
+  about seventeen minutes and ran the
+  scan, the format check, clippy, and
+  the test leg each at exit 0 on its
+  first try inside the one hold, with
+  the counting pass and the fold
+  derivation standing in the same hold
+  after them. No leg of this gate ran
+  outside the slot at any point.
