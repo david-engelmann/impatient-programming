@@ -14355,3 +14355,55 @@ The proof stands executed whole inside
   of this proof standing refused or
   killed and none standing counted
   nowhere.
+
+- IP-265. The verification family
+  stands whole on the Round 41 base.
+  The pin stands verified at exactly
+  fifty blobs against tree afd4d7d1 at
+  its extraction, each blob's bytes
+  verified against its tree entry as
+  it landed, and its suite stands at
+  241 tests, counted two ways in exact
+  agreement on the suite's first try
+  inside the hold, the passed counts
+  summed across its nineteen result
+  lines at 241 with nineteen
+  zero-failed lines and no
+  nonzero-failed line standing, and
+  the test list counted at 241. Its
+  first result line stands at 3
+  passed, the pin tree's own library
+  unittests standing at three.
+
+The golden tape stands converted fresh
+  by the pin's own binary from the
+  synthetic fixture to 1,663 bytes on
+  the golden's first attempt, its
+  digest standing at
+  cc9c4e01fca418dcc33114caf75fae1f6bf0d401f297b5d61f6776903fa955a3
+  with the digest check standing at
+  exit 0 and the verify standing at
+  exit 0. The oracle stands verified
+  at ten of ten blobs against tree
+  81cac2bb at its extraction and its
+  suite stands at 15 passed under
+  pytest on its first try, under the
+  interpreter path repair with the
+  user site packages standing on
+  PYTHONPATH and its temporary
+  directory standing inside this
+  round's own scratch. The clone
+  refusal stands at exit 4 on its
+  first attempt, the printed clone
+  command standing run under a fresh
+  empty HOME and refused for want of
+  authentication with its guidance
+  printed.
+
+The whole family stands executed
+  inside one build slot hold taken at
+  15 55 40 UTC on 2026-11-26, the
+  queue standing clear at that hour,
+  every leg standing at its figures on
+  its first try and no launch of this
+  family standing counted nowhere.
