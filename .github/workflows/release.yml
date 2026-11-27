@@ -1,0 +1,330 @@
+name: release
+on:
+  push:
+    tags:
+      - "v*"
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Codepoint scan
+        run: python3 scripts/codepoint_scan.py
+      - name: Format
+        run: cargo fmt --check
+      - name: Clippy
+        run: cargo clippy --all-targets -- -D warnings
+      - name: Tests
+        run: cargo test
+      - name: Build release bundle and standalone HTML edition
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import html
+          import os
+          import pathlib
+          import re
+          import shutil
+          import tarfile
+          import zipfile
+
+          tag = os.environ["RELEASE_TAG"]
+          stem = f"impatient-programming-{tag}"
+          dist = pathlib.Path("dist")
+          bundle_dir = dist / stem
+          if dist.exists():
+              shutil.rmtree(dist)
+          bundle_dir.mkdir(parents=True)
+
+          CSS = """\
+          :root {
+            --bg: #fcfbf9;
+            --fg: #1b1b18;
+            --muted: #575653;
+            --rule: #dfddd6;
+            --code-bg: #f2f0ea;
+            --accent: #1d4ed8;
+          }
+          @media (prefers-color-scheme: dark) {
+            :root {
+              --bg: #141413;
+              --fg: #eae8e1;
+              --muted: #a3a19a;
+              --rule: #2c2b28;
+              --code-bg: #1e1e1c;
+              --accent: #7aa2f7;
+            }
+          }
+          * { box-sizing: border-box; }
+          html { font-size: 18px; }
+          body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--fg);
+            font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+            line-height: 1.68;
+          }
+          header, main, footer {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+          }
+          header {
+            padding-top: 2.25rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--rule);
+          }
+          nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 0.88rem;
+          }
+          nav a { color: var(--muted); text-decoration: none; }
+          nav a:hover { color: var(--fg); text-decoration: underline; }
+          main { padding-top: 2rem; padding-bottom: 3rem; }
+          section + section {
+            margin-top: 3.5rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--rule);
+          }
+          h1, h2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            line-height: 1.25;
+            letter-spacing: -0.015em;
+          }
+          h1 { font-size: 2rem; margin: 0 0 1.25rem; }
+          h2 {
+            font-size: 1.28rem;
+            margin: 2.4rem 0 0.85rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid var(--rule);
+          }
+          p, ul { margin: 0 0 1.15rem; }
+          ul { padding-left: 1.35rem; }
+          li { margin-bottom: 0.65rem; }
+          code, pre {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.86rem;
+          }
+          code {
+            background: var(--code-bg);
+            padding: 0.12rem 0.32rem;
+            border-radius: 3px;
+          }
+          pre {
+            background: var(--code-bg);
+            padding: 0.95rem 1.1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            line-height: 1.5;
+            margin: 0 0 1.25rem;
+          }
+          pre code { background: none; padding: 0; }
+          a { color: var(--accent); }
+          footer {
+            padding-top: 1.25rem;
+            padding-bottom: 2.5rem;
+            border-top: 1px solid var(--rule);
+            color: var(--muted);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 0.82rem;
+          }
+          @media print {
+            body { background: #fff; color: #000; font-size: 11pt; }
+            header { display: none; }
+            main { max-width: none; padding: 0; }
+            section + section { page-break-before: always; border-top: none; }
+            h2 { break-after: avoid; }
+          }
+          """
+
+          def slugify(prefix: str, text: str) -> str:
+              slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+              return f"{prefix}-{slug or 'section'}"
+
+          def render_inline(text: str) -> str:
+              parts = re.split(r"(`[^`]+`)", text)
+              rendered = []
+              for part in parts:
+                  if len(part) >= 2 and part.startswith("`") and part.endswith("`"):
+                      rendered.append(f"<code>{html.escape(part[1:-1])}</code>")
+                      continue
+                  escaped = html.escape(part, quote=True)
+                  escaped = re.sub(
+                      r"\[([^\]]+)\]\(([^)]+)\)",
+                      lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>',
+                      escaped,
+                  )
+                  escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
+                  rendered.append(escaped)
+              return "".join(rendered)
+
+          def render_markdown(md: str, prefix: str) -> str:
+              lines = md.splitlines()
+              blocks = []
+              i = 0
+              while i < len(lines):
+                  line = lines[i]
+                  if not line.strip():
+                      i += 1
+                      continue
+                  if line.startswith("```"):
+                      i += 1
+                      code_lines = []
+                      while i < len(lines) and not lines[i].startswith("```"):
+                          code_lines.append(lines[i])
+                          i += 1
+                      if i < len(lines):
+                          i += 1
+                      blocks.append(
+                          "<pre><code>"
+                          + html.escape("\n".join(code_lines))
+                          + "</code></pre>"
+                      )
+                      continue
+                  if line.startswith("# "):
+                      blocks.append(f"<h1>{render_inline(line[2:].strip())}</h1>")
+                      i += 1
+                      continue
+                  if line.startswith("## "):
+                      heading = line[3:].strip()
+                      blocks.append(
+                          f'<h2 id="{slugify(prefix, heading)}">{render_inline(heading)}</h2>'
+                      )
+                      i += 1
+                      continue
+                  if line.startswith("- "):
+                      items = []
+                      while i < len(lines) and lines[i].startswith("- "):
+                          item_lines = [lines[i][2:].strip()]
+                          i += 1
+                          while i < len(lines) and (
+                              lines[i].startswith("  ") or lines[i].startswith("\t")
+                          ):
+                              item_lines.append(lines[i].strip())
+                              i += 1
+                          items.append("<li>" + render_inline(" ".join(item_lines)) + "</li>")
+                      blocks.append("<ul>\n" + "\n".join(items) + "\n</ul>")
+                      continue
+                  para_lines = [line.strip()]
+                  i += 1
+                  while (
+                      i < len(lines)
+                      and lines[i].strip()
+                      and not lines[i].startswith(("# ", "## ", "- ", "```"))
+                  ):
+                      para_lines.append(lines[i].strip())
+                      i += 1
+                  blocks.append("<p>" + render_inline(" ".join(para_lines)) + "</p>")
+              return "\n".join(blocks)
+
+          sections = []
+          for doc_id, filename in [
+              ("overview", "README.md"),
+              ("manifesto", "MANIFESTO.md"),
+              ("practice", "PRACTICE.md"),
+          ]:
+              raw_md = pathlib.Path(filename).read_text(encoding="utf-8")
+              sections.append(
+                  f'<section id="{doc_id}">\n{render_markdown(raw_md, doc_id)}\n</section>'
+              )
+
+          standalone_html = f"""<!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Impatient Programming ({html.escape(tag)})</title>
+            <style>
+          {CSS}
+            </style>
+          </head>
+          <body>
+            <header>
+              <nav aria-label="Document sections">
+                <a href="#overview">Overview</a>
+                <a href="#manifesto">Manifesto</a>
+                <a href="#practice">Practice</a>
+                <a href="https://github.com/david-engelmann/impatient-programming">Repository</a>
+              </nav>
+            </header>
+            <main>
+          {chr(10).join(sections)}
+            </main>
+            <footer>
+              Impatient Programming ({html.escape(tag)}) by David Engelmann. Licensed under MIT.
+            </footer>
+          </body>
+          </html>
+          """
+
+          included_files = [
+              "README.md",
+              "MANIFESTO.md",
+              "PRACTICE.md",
+              "LICENSE",
+              "CITATION.cff",
+          ]
+          for name in included_files:
+              shutil.copy2(name, bundle_dir / name)
+
+          html_in_bundle = bundle_dir / "impatient-programming.html"
+          html_in_bundle.write_text(standalone_html, encoding="utf-8")
+
+          standalone_asset = dist / f"{stem}.html"
+          standalone_asset.write_text(standalone_html, encoding="utf-8")
+
+          tar_asset = dist / f"{stem}.tar.gz"
+          with tarfile.open(tar_asset, "w:gz") as tf:
+              for item in sorted(bundle_dir.iterdir()):
+                  tf.add(item, arcname=f"{stem}/{item.name}")
+
+          zip_asset = dist / f"{stem}.zip"
+          with zipfile.ZipFile(zip_asset, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+              for item in sorted(bundle_dir.iterdir()):
+                  zf.write(item, arcname=f"{stem}/{item.name}")
+
+          checksum_lines = []
+          for asset in [tar_asset, zip_asset, standalone_asset]:
+              digest = hashlib.sha256(asset.read_bytes()).hexdigest()
+              checksum_lines.append(f"{digest}  {asset.name}")
+          (dist / "SHA256SUMS").write_text("\n".join(checksum_lines) + "\n", encoding="utf-8")
+          PY
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          STEM="impatient-programming-${RELEASE_TAG}"
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" \
+              "dist/${STEM}.tar.gz" \
+              "dist/${STEM}.zip" \
+              "dist/${STEM}.html" \
+              "dist/SHA256SUMS" \
+              --clobber
+          else
+            gh release create "$RELEASE_TAG" \
+              "dist/${STEM}.tar.gz" \
+              "dist/${STEM}.zip" \
+              "dist/${STEM}.html" \
+              "dist/SHA256SUMS" \
+              --title "Impatient Programming ${RELEASE_TAG}" \
+              --generate-notes
+          fi

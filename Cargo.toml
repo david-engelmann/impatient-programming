@@ -2,7 +2,14 @@
 name = "impatient-programming"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.70"
 description = "Impatient Programming for the agent era. The values and practices of Extreme Programming, reworked for one human directing a fleet of agents."
+license = "MIT"
+publish = false
+repository = "https://github.com/david-engelmann/impatient-programming"
+homepage = "https://github.com/david-engelmann/impatient-programming"
+readme = "README.md"
+exclude = ["CONTRACT.md", "scripts/**", ".github/**"]
 
 [dependencies]
 unicode-normalization = "0.1"
