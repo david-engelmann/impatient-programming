@@ -8,3 +8,6 @@ GitHub renders root-relative links such as `[flighttape](/david-engelmann/flight
 
 ### Why does `cargo install` fail with `publish = false`?
 `impatient-programming` is a specification and document-guard repository, not an installable CLI tool (`IP-13`). Clone the repository to read the three documents locally or browse the zero-JavaScript web edition on GitHub Pages (`https://david-engelmann.github.io/impatient-programming/`).
+
+### How are closed perfection rounds counted?
+Under Principle 5 (`Count honestly`), a round counts only when a complete cycle of contract definition, implementation, local gate pass, three independent reviews (specification, standards, red-team), and owner verification has closed on `main`. Sub-steps, drafts, and unmerged passes never increment the round count.

@@ -240,7 +240,7 @@ jobs:
               ("manifesto", "MANIFESTO.md"),
               ("practice", "PRACTICE.md"),
           ]:
-              raw_md = pathlib.Path(filename).read_text(encoding="utf-8")
+              raw_md = pathlib.Path(filename).read_text(encoding="utf-8").replace("(LICENSE)", "(#license)")
               sections.append(
                   f'<section id="{doc_id}">\n{render_markdown(raw_md, doc_id)}\n</section>'
               )
@@ -261,11 +261,13 @@ jobs:
                 <a href="#overview">Overview</a>
                 <a href="#manifesto">Manifesto</a>
                 <a href="#practice">Practice</a>
+                <a href="#license">License</a>
                 <a href="https://github.com/david-engelmann/impatient-programming">Repository</a>
               </nav>
             </header>
             <main>
           {chr(10).join(sections)}
+          <section id="license"><h2>MIT License</h2><pre><code>{html.escape(pathlib.Path("LICENSE").read_text(encoding="utf-8"))}</code></pre></section>
             </main>
             <footer>
               Impatient Programming ({html.escape(tag)}) by David Engelmann. Licensed under MIT.

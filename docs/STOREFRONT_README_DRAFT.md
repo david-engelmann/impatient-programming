@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/media/lockup-dark.svg" alt="impatient-programming" width="780">
+  <img src="media/lockup-dark.svg" alt="impatient-programming" width="780">
 </p>
 
 # impatient-programming
@@ -9,7 +9,7 @@ Impatient Programming for the agent era. The values and practices of Extreme Pro
 This repo is a method statement, not a tool. It holds three documents that state a working method for one human directing a fleet of agents, and a Rust test suite that guards the documents so their claims cannot drift from what the contract requires. The method is read here and worked across a portfolio of small tools, each built around a single job and listed below with the state its own README reports.
 
 <p align="center">
-  <img src="docs/media/money-shot.gif" alt="impatient-programming guard suite verification" width="880">
+  <img src="media/money-shot.gif" alt="impatient-programming guard suite verification" width="880">
 </p>
 
 ```
@@ -19,7 +19,7 @@ codepoint scan U+2014=0 U+2013=0
 
 ## Install
 
-There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Read [MANIFESTO.md](MANIFESTO.md), [PRACTICE.md](PRACTICE.md), and the companion notes in [docs/README.md](docs/README.md) directly on GitHub, or take a local copy with Git or the GitHub CLI. Running the guard takes a Rust toolchain and Python 3 for the scan.
+There is nothing to install. The repo is three documents and the test suite that guards them, and reading it needs only the files themselves. Read [MANIFESTO.md](../MANIFESTO.md), [PRACTICE.md](../PRACTICE.md), and the companion notes in [docs/README.md](README.md) directly on GitHub, or take a local copy with Git or the GitHub CLI. Running the guard takes a Rust toolchain and Python 3 for the scan.
 
 ```
 gh repo clone david-engelmann/impatient-programming
@@ -43,12 +43,12 @@ codepoint scan U+2014=0 U+2013=0
 
 ## Usage
 
-Read [MANIFESTO.md](MANIFESTO.md) for the argument, principle by principle, in the order the principles bite during a working day. Read [PRACTICE.md](PRACTICE.md) for the same method as mechanisms, what a lane actually does, stated as of the date on its first page. Read [docs/GUIDE.md](docs/GUIDE.md) and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the guard design and portfolio map. Read the principles and the tools record below for the short form, and for the state of the portfolio that works the method.
+Read [MANIFESTO.md](../MANIFESTO.md) for the argument, principle by principle, in the order the principles bite during a working day. Read [PRACTICE.md](../PRACTICE.md) for the same method as mechanisms, what a lane actually does, stated as of the date on its first page. Read [docs/GUIDE.md](GUIDE.md) and [docs/ARCHITECTURE.md](ARCHITECTURE.md) for the guard design and portfolio map. Read the principles and the tools record below for the short form, and for the state of the portfolio that works the method.
 
 Run the guard after any edit to the documents. The documents suite pins the copy bar, the principle names, the tool inventory, and every state the tools record carries. The practice suite pins the practice document's sections, the commands it names, and its claim that it counts nothing. An edit that moves a claim moves the pin with it in the same change, or the suite fails and the edit is not done.
 
 <p align="center">
-  <img src="docs/media/architecture.svg" alt="impatient-programming verification guard architecture" width="900">
+  <img src="media/architecture.svg" alt="impatient-programming verification guard architecture" width="900">
 </p>
 
 ## Principles
@@ -71,7 +71,7 @@ Every repo in the portfolio is built and reviewed against these ten principles, 
 The state under each name is the rounds that repo has closed under this record's counting rule, exactly as its own README reports them.
 
 <p align="center">
-  <img src="docs/media/retrospective-arc.svg" alt="Retrospective Line ten-repository topology" width="900">
+  <img src="media/retrospective-arc.svg" alt="Retrospective Line ten-repository topology" width="900">
 </p>
 
 - **flighttape** ([repository](/david-engelmann/flighttape)) records an agent session, and every run from every harness lands as one flight tape that can be validated, played back, digested, compared, sliced, screened, and rolled up over a whole directory into a set level record. Sixteen of one hundred rounds closed.
@@ -89,7 +89,7 @@ The same method runs across the rest of the portfolio, every repo held to the sa
 
 ## Status
 
-The method is stated in full in this README and in [MANIFESTO.md](MANIFESTO.md) and [PRACTICE.md](PRACTICE.md). The tools that embody it are under construction across the portfolio.
+The method is stated in full in this README and in [MANIFESTO.md](../MANIFESTO.md) and [PRACTICE.md](../PRACTICE.md). The tools that embody it are under construction across the portfolio.
 
 - Closed perfection rounds, 41 of 100. A round counts only when a full cycle of work, audit, review, red team, and approval has closed.
 - Contract, IP-1 to IP-266. The obligations the documents and the guard must meet, each with the test that judges it.
@@ -97,4 +97,4 @@ The method is stated in full in this README and in [MANIFESTO.md](MANIFESTO.md) 
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](../LICENSE).

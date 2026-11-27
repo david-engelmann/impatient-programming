@@ -13,14 +13,15 @@
   <rect x="24" y="130" width="912" height="25" rx="5" fill="#152036"/>
   <text x="34" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#F8FAFC">$ cargo test --quiet</text>
   <text x="34" y="177" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#FB7185">running 13 tests in tests/test_documents.rs</text>
-  <text x="34" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_every_document_passes_the_copy_bar          (zero colons, semicolons, or dashes)</text>
+  <text x="34" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_the_copy_bar_holds_in_both_documents        (zero colons, semicolons, or dashes)</text>
   <text x="34" y="239" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_no_product_code_lives_in_the_repo           (IP-13 tree boundary clean)</text>
-  <text x="34" y="270" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_principles_carry_all_ten_names_in_order     (Speed -&gt; Human judges)</text>
-  <text x="34" y="301" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_the_ten_tools_are_named_with_exact_states   (10 Retrospective Line pins)</text>
+  <text x="34" y="270" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_every_principle_is_named_in_the_readme      (Speed -&gt; Human judges)</text>
+  <text x="34" y="301" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_the_tools_lines_carry_each_repos_own_job    (10 Retrospective Line pins)</text>
   <text x="34" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#FB7185">running 7 tests in tests/test_practice.rs</text>
-  <text x="34" y="363" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_practice_sections_and_gate_commands_match   (local gates = CI gates)</text>
-  <text x="34" y="394" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_practice_counts_nothing_and_dates_front     (single-source honesty pin)</text>
+  <text x="34" y="363" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_one_section_per_principle_in_readme_order   (local gates = CI gates)</text>
+  <text x="34" y="394" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="600" fill="#34D399">ok  test_the_document_states_its_as_of_date_and_claims_no_counts</text>
   <text x="34" y="425" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" fill="#E2E8F0">test result: ok. 20 passed; 0 failed; 0 ignored; 0 doc-tests</text>
   <line x1="12" y1="492" x2="948" y2="492" stroke="#1E293B" stroke-width="1"/>
-  <text x="32" y="514" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#FB7185">EXIT 0  |  3 normative texts  |  IP-1..IP-266 verified in 16754.44 ms  |  scan: 182.93 ms</text>
+  <circle cx="32" cy="510" r="4.5" fill="#10B981"/>
+  <text x="44" y="514" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#FB7185">EXIT 0  |  3 normative texts  |  IP-1..IP-266 verified  |  codepoint scan: 182.93 ms</text>
 </svg>

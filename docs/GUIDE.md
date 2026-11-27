@@ -17,7 +17,7 @@ Unlike its nine sibling repositories in the Retrospective Line, `impatient-progr
 Every local check matches CI command-for-command:
 
 ```sh
-python3 scripts/codepoint_scan.py
+python3 scripts/codepoint_scan.py   # or `python scripts/codepoint_scan.py` on Windows
 cargo fmt --check
 cargo clippy --all-targets -- -D warnings
 cargo test
@@ -31,3 +31,7 @@ Teams adopting Impatient Programming typically apply four mechanisms immediately
 - **Local gates identical to CI**: Never treat hosted CI as a scratchpad; run formatting, lints, codepoint/style scans, and tests locally before every push.
 - **Three independent reviews per round**: Pair a fresh-eyes red-team audit with two orthogonal line-by-line reviews (specification fidelity and engineering standards) plus human verification on real artifacts.
 - **Closed-round accounting**: Count progress only in completed, reviewed, merged rounds rather than partial passes or unverified commits.
+
+## 4. Refreshing Sibling Round Pins
+
+Sibling tool counts under `## The tools` in `README.md` are refreshed in batched rounds: read each sibling repository's `README.md` closed-round count, update the corresponding bullet in `README.md` together with `test_the_tool_states_are_pinned_to_the_repos_reports` in `tests/test_documents.rs`, and run `cargo test`.

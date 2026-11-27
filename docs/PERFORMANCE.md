@@ -1,5 +1,9 @@
 # Verification Gate Performance
 
+<p align="center">
+  <img src="media/benchmark-chart.svg" alt="impatient-programming gate profile" width="920">
+</p>
+
 Measured on **Apple M3 Max** (macOS `14.6`, `rustc 1.99.1 (58cf8f9c3 2026-10-13) (Homebrew)`):
 
 | Gate Step | Target Scope | Measured Time |
