@@ -4,10 +4,13 @@ in the repo. Zero of each is required. Exit 1 when any are found."""
 import pathlib, sys
 root = pathlib.Path(__file__).resolve().parent.parent
 counts = {"U+2014": 0, "U+2013": 0}
-SKIPPED = {".git", "target", ".venv", "venv", "env",
-           "node_modules", "__pycache__"}
+SKIPPED = {".git", "target", ".cargo-home", ".venv", "venv", "env",
+           "node_modules", "__pycache__", "_site"}
 for p in sorted(root.rglob("*")):
-    if SKIPPED.intersection(p.parts) or not p.is_file():
+    if not p.is_file():
+        continue
+    rel_parts = p.relative_to(root).parts
+    if ".git" in rel_parts or (rel_parts and rel_parts[0] in SKIPPED):
         continue
     if p.suffix not in {".md", ".txt", ".rs", ".toml", ".yml", ".py", ".lock"}:
         continue

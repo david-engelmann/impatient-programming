@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Impatient Programming"
+message: "If you cite this method statement, please use the metadata in this file."
+type: software
+authors:
+  - family-names: "Engelmann"
+    given-names: "David"
+repository-code: "https://github.com/david-engelmann/impatient-programming"
+url: "https://github.com/david-engelmann/impatient-programming"
+license: MIT
+version: "0.1.0"
+abstract: "Impatient Programming for the agent era. The values and practices of Extreme Programming, reworked for one human directing a fleet of agents."
+keywords:
+  - software-engineering
+  - extreme-programming
+  - coding-agents
+  - verification
+  - methodology
