@@ -3,12 +3,13 @@ on:
   push:
     branches:
       - main
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,11 +20,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - uses: actions/configure-pages@v5
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Render static HTML edition
+      - name: Render zero-JS static HTML edition
         run: |
           python3 - <<'PY'
           import html
@@ -35,6 +35,10 @@ jobs:
           if out.exists():
               shutil.rmtree(out)
           out.mkdir(parents=True)
+          (out / "media").mkdir(parents=True)
+          for media_file in pathlib.Path("docs/media").glob("*"):
+              if media_file.is_file():
+                  shutil.copy2(media_file, out / "media" / media_file.name)
 
           CSS = """\
           :root {
@@ -43,16 +47,16 @@ jobs:
             --muted: #575653;
             --rule: #dfddd6;
             --code-bg: #f2f0ea;
-            --accent: #1d4ed8;
+            --accent: #be123c;
           }
           @media (prefers-color-scheme: dark) {
             :root {
-              --bg: #141413;
+              --bg: #0f1117;
               --fg: #eae8e1;
-              --muted: #a3a19a;
-              --rule: #2c2b28;
-              --code-bg: #1e1e1c;
-              --accent: #7aa2f7;
+              --muted: #9ca3af;
+              --rule: #262b38;
+              --code-bg: #171b26;
+              --accent: #fb7185;
             }
           }
           * { box-sizing: border-box; }
@@ -65,50 +69,53 @@ jobs:
             line-height: 1.68;
           }
           header, main, footer {
-            max-width: 42rem;
+            max-width: 48rem;
             margin: 0 auto;
             padding: 0 1.5rem;
           }
           header {
-            padding-top: 2.25rem;
+            padding-top: 2rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid var(--rule);
           }
+          .brand { margin-bottom: 1rem; }
+          .brand img { max-width: 100%; height: auto; display: block; }
           nav {
             display: flex;
             flex-wrap: wrap;
-            gap: 1.25rem;
+            gap: 1.15rem;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            font-size: 0.88rem;
+            font-size: 0.86rem;
           }
-          nav a {
-            color: var(--muted);
-            text-decoration: none;
-          }
+          nav a { color: var(--muted); text-decoration: none; }
           nav a:hover, nav a[aria-current="page"] {
             color: var(--fg);
             text-decoration: underline;
             text-underline-offset: 0.22rem;
           }
           main { padding-top: 2rem; padding-bottom: 3rem; }
-          h1, h2 {
+          main img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; }
+          h1, h2, h3 {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             line-height: 1.25;
             letter-spacing: -0.015em;
           }
           h1 { font-size: 2rem; margin: 0 0 1.25rem; }
           h2 {
-            font-size: 1.28rem;
-            margin: 2.4rem 0 0.85rem;
+            font-size: 1.3rem;
+            margin: 2.3rem 0 0.85rem;
             padding-top: 0.5rem;
             border-top: 1px solid var(--rule);
           }
-          p, ul { margin: 0 0 1.15rem; }
-          ul { padding-left: 1.35rem; }
-          li { margin-bottom: 0.65rem; }
+          h3 { font-size: 1.08rem; margin: 1.6rem 0 0.6rem; }
+          p, ul, ol, table { margin: 0 0 1.15rem; }
+          ul, ol { padding-left: 1.35rem; }
+          li { margin-bottom: 0.55rem; }
+          table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+          th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--rule); }
           code, pre {
             font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-            font-size: 0.86rem;
+            font-size: 0.84rem;
           }
           code {
             background: var(--code-bg);
@@ -118,10 +125,9 @@ jobs:
           pre {
             background: var(--code-bg);
             padding: 0.95rem 1.1rem;
-            border-radius: 5px;
+            border-radius: 6px;
             overflow-x: auto;
             line-height: 1.5;
-            margin: 0 0 1.25rem;
           }
           pre code { background: none; padding: 0; }
           a { color: var(--accent); }
@@ -132,13 +138,6 @@ jobs:
             color: var(--muted);
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             font-size: 0.82rem;
-          }
-          @media print {
-            body { background: #fff; color: #000; font-size: 11pt; }
-            header, footer { display: none; }
-            main { max-width: none; padding: 0; }
-            h2 { break-after: avoid; }
-            pre { border: 1px solid #ccc; }
           }
           """
 
@@ -154,6 +153,11 @@ jobs:
                       rendered.append(f"<code>{html.escape(part[1:-1])}</code>")
                       continue
                   escaped = html.escape(part, quote=True)
+                  escaped = re.sub(
+                      r"!\[([^\]]*)\]\(([^)]+)\)",
+                      lambda m: f'<img src="{m.group(2)}" alt="{m.group(1)}">',
+                      escaped,
+                  )
                   escaped = re.sub(
                       r"\[([^\]]+)\]\(([^)]+)\)",
                       lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>',
@@ -180,31 +184,39 @@ jobs:
                           i += 1
                       if i < len(lines):
                           i += 1
-                      blocks.append(
-                          "<pre><code>"
-                          + html.escape("\n".join(code_lines))
-                          + "</code></pre>"
-                      )
+                      blocks.append("<pre><code>" + html.escape("\n".join(code_lines)) + "</code></pre>")
                       continue
                   if line.startswith("# "):
                       blocks.append(f"<h1>{render_inline(line[2:].strip())}</h1>")
                       i += 1
                       continue
                   if line.startswith("## "):
-                      heading = line[3:].strip()
-                      blocks.append(
-                          f'<h2 id="{slugify(heading)}">{render_inline(heading)}</h2>'
-                      )
+                      h = line[3:].strip()
+                      blocks.append(f'<h2 id="{slugify(h)}">{render_inline(h)}</h2>')
                       i += 1
+                      continue
+                  if line.startswith("### "):
+                      h = line[4:].strip()
+                      blocks.append(f'<h3 id="{slugify(h)}">{render_inline(h)}</h3>')
+                      i += 1
+                      continue
+                  if line.startswith("|") and i + 1 < len(lines) and lines[i + 1].startswith("|"):
+                      headers = [c.strip() for c in line.strip("|").split("|")]
+                      i += 2
+                      rows = []
+                      while i < len(lines) and lines[i].startswith("|"):
+                          cols = [c.strip() for c in lines[i].strip("|").split("|")]
+                          rows.append("<tr>" + "".join(f"<td>{render_inline(c)}</td>" for c in cols) + "</tr>")
+                          i += 1
+                      thead = "<thead><tr>" + "".join(f"<th>{render_inline(h)}</th>" for h in headers) + "</tr></thead>"
+                      blocks.append(f"<table>{thead}<tbody>{''.join(rows)}</tbody></table>")
                       continue
                   if line.startswith("- "):
                       items = []
                       while i < len(lines) and lines[i].startswith("- "):
                           item_lines = [lines[i][2:].strip()]
                           i += 1
-                          while i < len(lines) and (
-                              lines[i].startswith("  ") or lines[i].startswith("\t")
-                          ):
+                          while i < len(lines) and (lines[i].startswith("  ") or lines[i].startswith("\t")):
                               item_lines.append(lines[i].strip())
                               i += 1
                           items.append("<li>" + render_inline(" ".join(item_lines)) + "</li>")
@@ -212,11 +224,7 @@ jobs:
                       continue
                   para_lines = [line.strip()]
                   i += 1
-                  while (
-                      i < len(lines)
-                      and lines[i].strip()
-                      and not lines[i].startswith(("# ", "## ", "- ", "```"))
-                  ):
+                  while i < len(lines) and lines[i].strip() and not lines[i].startswith(("# ", "## ", "### ", "- ", "```", "|")):
                       para_lines.append(lines[i].strip())
                       i += 1
                   blocks.append("<p>" + render_inline(" ".join(para_lines)) + "</p>")
@@ -226,6 +234,10 @@ jobs:
               ("README.md", "index.html", "Overview"),
               ("MANIFESTO.md", "manifesto.html", "Manifesto"),
               ("PRACTICE.md", "practice.html", "Practice"),
+              ("docs/GUIDE.md", "guide.html", "Reader Guide"),
+              ("docs/ARCHITECTURE.md", "architecture.html", "Guard Architecture"),
+              ("docs/COMPARISON.md", "comparison.html", "Portfolio Map"),
+              ("docs/FAQ.md", "faq.html", "FAQ"),
           ]
 
           (out / "style.css").write_text(CSS, encoding="utf-8")
@@ -237,27 +249,39 @@ jobs:
 
           for src_name, dest_name, nav_label in pages:
               md_text = pathlib.Path(src_name).read_text(encoding="utf-8")
-              md_text = md_text.replace("MANIFESTO.md", "[MANIFESTO.md](manifesto.html)")
-              md_text = md_text.replace("PRACTICE.md", "[PRACTICE.md](practice.html)")
+              md_text = md_text.replace("docs/media/", "media/")
+              md_text = md_text.replace("(media/", "(media/")
               body_html = render_markdown(md_text)
+              if dest_name == "index.html":
+                  body_html = (
+                      '<p><img src="media/money-shot.gif" alt="Impatient Programming verification guard run"></p>\n'
+                      + body_html
+                      + '\n<p><img src="media/retrospective-arc.svg" alt="Retrospective Line ten-repository architecture"></p>'
+                  )
               nav_items = []
               for _, href, label in pages:
                   current = ' aria-current="page"' if href == dest_name else ""
                   nav_items.append(f'<a href="{href}"{current}>{label}</a>')
-              nav_items.append(
-                  '<a href="https://github.com/david-engelmann/impatient-programming">Repository</a>'
-              )
+              nav_items.append('<a href="https://github.com/david-engelmann/impatient-programming">Repository</a>')
               nav_html = "\n      ".join(nav_items)
               doc = f"""<!DOCTYPE html>
           <html lang="en">
           <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta property="og:title" content="{html.escape(nav_label)} | Impatient Programming">
+            <meta property="og:image" content="media/social-card.png">
             <title>{html.escape(nav_label)} | Impatient Programming</title>
             <link rel="stylesheet" href="style.css">
           </head>
           <body>
             <header>
+              <div class="brand">
+                <picture>
+                  <source media="(prefers-color-scheme: dark)" srcset="media/lockup-dark.svg">
+                  <img src="media/lockup-light.svg" alt="impatient-programming">
+                </picture>
+              </div>
               <nav aria-label="Document navigation">
                 {nav_html}
               </nav>
@@ -266,18 +290,26 @@ jobs:
           {body_html}
             </main>
             <footer>
-              Impatient Programming by David Engelmann. Licensed under MIT (<a href="LICENSE">LICENSE</a>).
+              Impatient Programming by David Engelmann. Zero JavaScript (IP-13). Licensed under MIT (<a href="LICENSE">LICENSE</a>).
             </footer>
           </body>
           </html>
           """
               (out / dest_name).write_text(doc, encoding="utf-8")
+
+          js_files = list(out.rglob("*.js"))
+          assert not js_files, f"IP-13 violation: {js_files}"
           PY
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
       - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:
